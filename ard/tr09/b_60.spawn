@@ -1,0 +1,112 @@
+- Type: 1
+  Flag: 0
+  Id: 57
+  Teleport:
+    Place: 0
+    Door: 0
+    World: 0
+    Unknown: 0
+  Unk20: 0
+  Unk24: 0
+  Entities:
+  - ObjectId: 566
+    PositionX: -98.480766296386719
+    PositionY: -0
+    PositionZ: -2482.635009765625
+    RotationX: 0
+    RotationY: -1.7453292608261108
+    RotationZ: 0
+    SpawnType: 0
+    SpawnArgument: 0
+    Serial: 5
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 0
+    Medal: 0
+  - ObjectId: 567
+    PositionX: 31.875560760498047
+    PositionY: -0
+    PositionZ: -2607.1630859375
+    RotationX: 0
+    RotationY: -1.7453292608261108
+    RotationZ: 0
+    SpawnType: 0
+    SpawnArgument: 0
+    Serial: 6
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 0
+    Medal: 0
+
+
+
+
+
+  - ObjectId: 763
+    PositionX: -1400
+    PositionY: 50
+    PositionZ: -2050
+    RotationX: 0
+    RotationY: 0.92502
+    RotationZ: 0
+    SpawnType: 0
+    SpawnArgument: 0
+    Serial: 181
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 0
+    Medal: 0
+  - ObjectId: 721
+    PositionX: -1400
+    PositionY: 50
+    PositionZ: -2050
+    RotationX: 0
+    RotationY: 0.92502
+    RotationZ: 0
+    SpawnType: 0
+    SpawnArgument: 0
+    Serial: 182
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 0
+    Medal: 0
+
+  - ObjectId: 2298
+    PositionX: -723.19317626953125
+    PositionY: -0
+    PositionZ: -2223.595947265625
+    RotationX: 0
+    RotationY: 1.3962633609771729
+    RotationZ: 0
+    SpawnType: 0
+    SpawnArgument: 0
+    Serial: 31
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 0
+    Medal: 0
+
+  EventActivators: []
+  WalkPath: []
+  ReturnParameters: []
+  Signals: []
