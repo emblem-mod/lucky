@@ -20,6 +20,213 @@ assets:
 
 
 
+
+
+
+
+# DISNEY CASTLE -----------------------------------------------------------------------------
+
+# Escort Minnie
+
+# Audience Chamber Fight
+- name: ard/dc00.ard
+  method: binarc
+  source:
+  - name: b_41
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: ard/dc/dc00_b_41.spawn # Minnie -> Lost Minnie and Dusk
+  - name: b_97
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: ard/dc/dc00_b_97.spawn # Enemies -> Bolt Towers, Crimson Jazzes and Creeper Plants
+  - name: evt
+    type: areadatascript
+    method: areadatascript
+    source:
+    - name: ard/dc/dc00_evt.script # Music Change: Apprehension
+
+# Past Pete
+- name: ard/wi01.ard
+  method: binarc
+  source:
+  - name: b_40
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: ard/wi/wi01_b_40.spawn # Past Pete -> Demyx II, Crimson Jazz, Silver Rocks and Dancers
+- name: msn/jp/WI01_MS101.bar
+  multi:
+  - name: msn/us/WI01_MS101.bar
+  method: copy
+  source:
+  - name: msn/jp/HB04_MS403.bar # Demyx II MSN
+
+# Building Site Fight
+
+# Lilliput Fight
+
+# Scene of the Fire Fight
+- name: ard/wi04.ard
+  method: binarc
+  source:
+  - name: b_40
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: ard/wi/wi06_b_40.spawn # 
+
+# Mickey's House Fight
+
+# Steamboat Pete
+
+# Pete II
+- name: ard/wi03.ard
+  method: binarc
+  source:
+  - name: b_40
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: ard/wi/wi03_b_40.spawn # Pete II -> Final Xemnas and Dying Sora with Riku
+  - name: btl
+    type: areadatascript
+    method: areadatascript
+    source:
+    - name: ard/wi/wi03_btl.script # Remove Pete II Extras (b_41)
+  - name: evt
+    type: areadatascript
+    method: areadatascript
+    source:
+    - name: ard/wi/wi03_evt.script # Enemy Signal and Music Change: Darkness of the Unknown III
+- name: msn/jp/WI03_MS104.bar
+  multi:
+  - name: msn/us/WI03_MS104.bar
+  method: copy
+  source:
+  - name: msn/jp/EH20_MS113.bar # Final Xemnas MSN
+
+
+
+
+
+# PORT ROYAL -----------------------------------------------------------------------------
+
+# Harbor Fight I
+- name: ard/ca01.ard
+  method: binarc
+  source:
+  - name: b_40
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: ca01_b_40.spawn # Enemies I ->
+
+# Harbor Fight II
+  - name: b_41
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: ca01_b_41.spawn # Enemies II -> Shan Yu, Barbossa and Illminator
+
+# Harbor Fight III
+  - name: b_60
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: ca01_b_60.spawn # Enemies III -> BOSS
+
+# Grim Reaper II
+  - name: b_61
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: ca01_b_60.spawn # Grim Reaper II -> BOSS
+  - name: evt
+    type: areadatascript
+    method: areadatascript
+    source:
+    - name: ca01_evt.script # Enemy Signal (b_40), Boss Signal (b_41 and b_60) and Remove Fail Signal
+
+# Replace CA01_MS101.bar with new msn to prevent softlock
+- name: msn/jp/CA01_MS102.bar
+  multi:
+  - name: msn/us/CA01_MS102.bar
+  method: copy
+  source:
+  - name: msn/jp/AL03_MS103.bar # Twin Lords Signal
+- name: msn/jp/CA01_MS201.bar
+  multi:
+  - name: msn/us/CA01_MS201.bar
+  method: copy
+  source:
+  - name: msn/jp/TT05_MS404.bar # Basic Boss MSN
+- name: msn/jp/CA01_MS204.bar
+  multi:
+  - name: msn/us/CA01_MS204.bar
+  method: copy
+  source:
+  - name: msn/jp/TT05_MS404.bar # Basic Boss MSN
+
+# Town Fight
+
+# Isla de Muerta Fight
+
+# Interceptor Fight
+
+# Interceptor Barrels
+
+# Barbossa and Illuminator !!Move FIght to Gambler Fight (Treasure Heap)
+- name: ard/ca10.ard
+  method: binarc
+  source:
+  - name: b_40
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: ard/ca10_b_40.spawn # Barbossa -> Demyx II, Crescendos and Darkness
+- name: msn/jp/CA10_MS107.bar
+  multi:
+  - name: msn/us/CA10_MS107.bar
+  method: copy
+  source:
+  - name: msn/jp/HB04_MS403.bar # Demyx MSN
+
+# Grim Reaper I
+- name: ard/ca18.ard
+  method: binarc
+  source:
+  - name: b_60
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: ard/ca18/b_60.spawn # Grim Reaper -> Hydra
+
+# Gambler Fight (Seadrift Keep I)
+
+# Gambler Fight (Seadrift Keep II)
+
+# Gambler Fight (Seadrift Row)
+
+# Gambler Fight (Cave Mouth)
+
+# Gambler Fight (Powder Store)
+
+# Gambler Fight (Moonlight Nook)
+
+# Gambler Fight (Treasure Heap)
+
+
+
+
+
+
+
+
+
+
 # AGRABAH -----------------------------------------------------------------------------
 
 # Agrabah Fight
@@ -372,6 +579,26 @@ assets:
 
 # Xemnas
 
+# Lingering Will
+- name: ard/dc07.ard
+  method: binarc
+  source:
+  - name: b_80
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: ard/dc/dc07_b_80.spawn # Lingering Will -> Data Final Xemnas with More Clones
+  - name: evt
+    type: areadatascript
+    method: areadatascript
+    source:
+    - name: ard/dc/dc07_evt.script # Music Change
+- name: msn/jp/DC07_FM_NAZO.bar
+  multi:
+  - name: msn/us/DC07_FM_NAZO.bar
+  method: copy
+  source:
+  - name: msn/jp/EH20_MS113_RE.bar # Data Final Xemnas MSN
 
 
 
@@ -381,7 +608,16 @@ assets:
 
 
 
-# DONE --------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+# DONE ################################################################################
+# DONE ################################################################################
 
 # AGRABAH -----------------------------------------------------------------------------
 
@@ -420,12 +656,3 @@ assets:
   method: copy
   source:
   - name: msn/jp/TT20_MS603.bar # Axel II MSN
-
-
-
-
-
-
-
-
-
