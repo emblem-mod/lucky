@@ -6,23 +6,24 @@ assets:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # AGRABAH -----------------------------------------------------------------------------
+
 # Agrabah Fight
 
-# Escort Abu
-- name: ard/al09.ard
-  method: binarc
-  source:
-  - name: m_40
-    type: areadataspawn
-    method: spawnpoint
-    source:
-    - name: ard/al/al09_m_40.spawn # Add Ball-Shooting Walls and Pillars
-  - name: e_50
-    type: areadataspawn
-    method: spawnpoint
-    source:
-    - name: ard/al/al09_e_50.spawn # Remove Party Members
 # Chasm of Challenges
 - name: ard/al13.ard
   method: binarc
@@ -37,27 +38,8 @@ assets:
     method: areadatascript
     source:
     - name: ard/al/al13_evt.script # Boss Signal
-# Treasure Room Fight
-- name: ard/al10.ard
-  method: binarc
-  source:
-  - name: b_40
-    type: areadataspawn
-    method: spawnpoint
-    source:
-    - name: ard/al/al10_b_40.spawn # Axel II and Crimson Jazzes
-  - name: evt
-    type: areadatascript
-    method: areadatascript
-    source:
-    - name: ard/al/al10_evt.script # Boss Signal
-- name: msn/jp/AL10_MS102.bar
-  multi:
-  - name: msn/us/AL10_MS102.bar
-  method: copy
-  source:
-  - name: msn/jp/TT20_MS603.bar # Axel II MSN
-# Volcanic and Blizzard Lords
+    
+# Elemental Lords
 - name: ard/al03.ard
   method: binarc
   source:
@@ -72,6 +54,7 @@ assets:
   method: copy
   source:
   - name: msn/jp/EH15_MS104.bar # Saix MSN
+  
 # Sandswept Ruins Fight
 - name: ard/al14.ard
   method: binarc
@@ -81,12 +64,14 @@ assets:
     method: spawnpoint
     source:
     - name: ard/al/al14_b_64.spawn # Enemies -> !!NO CHANGE
+    
 # Sandswept Tower Fight
   - name: b_64
     type: areadataspawn
     method: spawnpoint
     source:
     - name: ard/al/al14_b_64.spawn # Enemies -> Data Vexen and Ice Spikes
+    
 # Magic Switches
   - name: b_65
     type: areadataspawn
@@ -104,6 +89,9 @@ assets:
   method: copy
   source:
   - name: msn/jp/HB32_FM_VEX.bar # Vexen MSN
+  
+# Carpet Minigame
+
 # Genie Jafar
 - name: ard/eh05.ard
   method: binarc
@@ -132,18 +120,10 @@ assets:
 
 
 
-
-
-
-
-
-
-
-
-
-
 # HALLOWEEN TOWN -----------------------------------------------------------------------------
+
 # Town Square Fight
+
 # Present Collection Fight
   - name: b_99
     type: areadataspawn
@@ -161,6 +141,7 @@ assets:
   method: copy
   source:
   - name: msn/jp/CA01_MS204.bar # Grim Reaper MSN
+  
 # Candy Cane Lane Fight XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX FIX NUMBERS
 - name: ard/nm06.ard
   method: binarc
@@ -170,6 +151,7 @@ assets:
     method: spawnpoint
     source:
     - name: ard/nm/nm06_b_40.spawn # Enemies -> Magic Phantoms, Toy Soldier and Graveyard
+    
 # Prison Keeper
 - name: ard/nm03.ard
   method: binarc
@@ -185,6 +167,7 @@ assets:
   method: copy
   source:
   - name: msn/jp/HE07_MS103.bar # Cerberus MSN
+  
 # Oogie Boogie
 - name: ard/nm09.ard
   method: binarc
@@ -210,7 +193,9 @@ assets:
   method: copy
   source:
   - name: msn/jp/BB11_MS102.bar # Thresholder MSN
+  
 # Lock, Shock and Barrel
+
 # The Experiment
 - name: ard/nm07.ard
   method: binarc
@@ -233,15 +218,8 @@ assets:
 
 
 
-
-
-
-
-
-
-
-
 # PRIDE LANDS -----------------------------------------------------------------------------
+
 # Elephant Graveyard Fight
 - name: ard/lk05.ard
   method: binarc
@@ -256,12 +234,14 @@ assets:
     method: areadatascript
     source:
     - name: ard/lk05_evt.script # Boss Signal
+    
 # Hyena Chase
   - name: b_60
     type: areadataspawn
     method: spawnpoint
     source:
     - name: ard/lk05_b_60.spawn # Hyenas -> 
+    
 # Shenzi, Banzai and Ed
 - name: ard/lk02.ard
   method: binarc
@@ -271,6 +251,7 @@ assets:
     method: spawnpoint
     source:
     - name: ard/lk02_b_40.spawn # Hyenas -> Final Fantasy Crew
+    
 # COMPLETE Scar
 - name: ard/lk14.ard
   method: binarc
@@ -302,8 +283,11 @@ assets:
 
 
 # SPACE PARANOIDS -----------------------------------------------------------------------------
+
 # Dataspace Fight
+
 # Hostile Program
+
 # Game Grid Fight
 - name: ard/tr02.ard
   method: binarc
@@ -324,8 +308,11 @@ assets:
   method: copy
   source:
   - name: msn/jp/EH10_MS102.bar # Xigbar MSN
+  
 # I/0 Tower Fight
+
 # Solar Sailer Fight
+
 # Sark Fight
 - name: ard/tr09.ard
   method: binarc
@@ -335,6 +322,7 @@ assets:
     method: spawnpoint
     source:
     - name: ard/tr09/b_60.spawn # Sark -> Giant Sark, Enemies and Data Walls
+    
 # Master Control Program Fight
   - name: b_61
     type: areadataspawn
@@ -353,14 +341,8 @@ assets:
 
 
 
-
-
-
-
-
-
-
 # THE WORLD THAT NEVER WAS -----------------------------------------------------------------------------
+
 # Roxas
 - name: ard/eh21.ard
   method: binarc
@@ -381,7 +363,69 @@ assets:
   method: copy
   source:
   - name: msn/jp/EH24_MS110.bar # Armoured Xemnas I MSN
+
 # Xigbar
+
 # Luxord
+
 # Saix
+
 # Xemnas
+
+
+
+
+
+
+
+
+
+
+# DONE --------------------------------------------------------------------------------
+
+# AGRABAH -----------------------------------------------------------------------------
+
+# Escort Abu
+- name: ard/al09.ard
+  method: binarc
+  source:
+  - name: m_40
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: ard/al/al09_m_40.spawn # Add Ball-Shooting Wall and CoR Pillars
+  - name: e_50
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: ard/al/al09_e_50.spawn # Remove Party Members
+
+# Treasure Room Fight
+- name: ard/al10.ard
+  method: binarc
+  source:
+  - name: b_40
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: ard/al/al10_b_40.spawn # Axel II, Fiery Globe Swarm, Crimson Jazzes and Lava Pool
+  - name: evt
+    type: areadatascript
+    method: areadatascript
+    source:
+    - name: ard/al/al10_evt.script # Boss Signal
+- name: msn/jp/AL10_MS102.bar
+  multi:
+  - name: msn/us/AL10_MS102.bar
+  method: copy
+  source:
+  - name: msn/jp/TT20_MS603.bar # Axel II MSN
+
+
+
+
+
+
+
+
+
