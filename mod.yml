@@ -8,6 +8,48 @@ assets:
 
 
 
+# DISNEY CASTLE -----------------------------------------------------------------------------
+
+# Escort Minnie
+
+# Audience Chamber Fight
+- name: ard/dc00.ard
+  method: binarc
+  source:
+  - name: b_41
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: ard/dc/dc00_b_41.spawn # Minnie -> Lost Minnie and Dusk
+  - name: b_97
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: ard/dc/dc00_b_97.spawn # Enemies -> Bolt Towers, Crimson Jazzes and Creeper Plants
+  - name: evt
+    type: areadatascript
+    method: areadatascript
+    source:
+    - name: ard/dc/dc00_evt.script # Music Change: Apprehension
+
+# Past Pete
+- name: ard/wi01.ard
+  method: binarc
+  source:
+  - name: b_40
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: ard/wi/wi01_b_40.spawn # Past Pete -> Demyx II, Crimson Jazz, Silver Rocks and Dancers
+- name: msn/jp/WI01_MS101.bar
+  multi:
+  - name: msn/us/WI01_MS101.bar
+  method: copy
+  source:
+  - name: msn/jp/HB04_MS403.bar # Demyx II MSN
+
+
+
 
 
 
