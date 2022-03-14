@@ -56,6 +56,30 @@ assets:
 
 
 
+# Building Site Fight
+
+# Lilliput Fight
+
+# Scene of the Fire Fight
+- name: ard/wi04.ard
+  method: binarc
+  source:
+  - name: b_40
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: ard/wi/wi06_b_40.spawn # 
+
+
+
+
+
+
+
+
+
+
+
 
 
 
