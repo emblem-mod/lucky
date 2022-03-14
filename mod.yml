@@ -1,30 +1,4 @@
 title: Hidden Kings
-originalAuthor: Televo
-description:
-assets:
-
-# Encampment - NOTE: optimise heratless, reposition gambler, add more lava pools to prevent boss air-stun-lock on objects
-- name: ard/mu01.ard
-  method: binarc
-  source:
-  - name: b_42
-    type: areadataspawn
-    method: spawnpoint
-    source:
-    - name: ard/mu01_b_42.spawn # Mission 3 -> Dark Thorn, Chandelier and Spin Pillar
-  - name: evt
-    type: areadatascript
-    method: areadatascript
-    source:
-    - name: ard/mu01_evt.script # Boss Signal
-- name: msn/jp/MU01_MS103C.bar
-  multi:
-  - name: msn/us/MU01_MS103C.bar
-  method: copy
-  source:
-  - name: msn/jp/BB05_MS104B.bar # Dark Thorn MSN
-
-
 
 
 # Isla Pirates Fight
