@@ -3,41 +3,6 @@ originalAuthor: Televo
 description:
 assets:
 
-# 22.5 Degrees 0.39269909262657166
-# 90 Degrees 1.5707963705062866
-# 180 Degrees 3.1415927410125732
-
-
-# Checkpoint
-- name: ard/mu02.ard
-  method: binarc
-  source:
-  - name: b_40
-    type: areadataspawn
-    method: spawnpoint
-    source:
-    - name: ard/mu02_b_40.spawn # Mission 1 -> Yuffie, Driller Moles and Emerald Blues
-  - name: b_45
-    type: areadataspawn
-    method: spawnpoint
-    source:
-    - name: ard/mu02_b_45.spawn # Mission 2 -> 
-  - name: evt
-    type: areadatascript
-    method: areadatascript
-    source:
-    - name: ard/mu02_evt.script # Boss Signal
-  - name: btl
-    type: areadatascript
-    method: areadatascript
-    source:
-    - name: ard/mu02_btl.script # Remove b_41 and b_42
-- name: msn/jp/MU02_MS103A.bar
-  multi:
-  - name: msn/us/MU02_MS103A.bar
-  method: copy
-  source:
-  - name: msn/jp/TT05_MS404.bar # Basic Boss MSN
 # Encampment - NOTE: optimise heratless, reposition gambler, add more lava pools to prevent boss air-stun-lock on objects
 - name: ard/mu01.ard
   method: binarc
