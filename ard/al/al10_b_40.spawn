@@ -60,7 +60,7 @@
   Unk20: 3276800
   Unk24: 0
   Entities:
-  - ObjectId: 71 # Silver Rock
+  - ObjectId: 10 # Silver Rock
     PositionX: 300
     PositionY: -150
     PositionZ: 75
@@ -78,7 +78,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 71 # Silver Rock
+  - ObjectId: 10 # Silver Rock
     PositionX: -300
     PositionY: 0
     PositionZ: -125
@@ -96,7 +96,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 71 # Silver Rock
+  - ObjectId: 10 # Silver Rock
     PositionX: 200
     PositionY: -100
     PositionZ: 275
@@ -114,7 +114,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 71 # Silver Rock
+  - ObjectId: 10 # Silver Rock
     PositionX: -50
     PositionY: -100
     PositionZ: 225
@@ -132,7 +132,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 71 # Silver Rock
+  - ObjectId: 10 # Silver Rock
     PositionX: -100
     PositionY: -100
     PositionZ: -275
@@ -150,7 +150,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 71 # Silver Rock
+  - ObjectId: 10 # Silver Rock
     PositionX: -200
     PositionY: -150
     PositionZ: 125
@@ -168,7 +168,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 71 # Silver Rock
+  - ObjectId: 10 # Silver Rock
     PositionX: 200
     PositionY: -150
     PositionZ: -175
@@ -548,7 +548,7 @@
     Medal: 0
   - ObjectId: 73 # Crimson Jazz
     PositionX: -250
-    PositionY: -100
+    PositionY: -150
     PositionZ: 0
     RotationX: 0
     RotationY: 0
@@ -566,7 +566,7 @@
     Medal: 0
   - ObjectId: 73 # Crimson Jazz
     PositionX: 250
-    PositionY: -100
+    PositionY: -150
     PositionZ: 0
     RotationX: 0
     RotationY: 0
@@ -578,24 +578,6 @@
     Argument2: 0
     ReactionCommand: 0
     SpawnDelay: 40
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  - ObjectId: 2043 # Lava Pool
-    PositionX: 0
-    PositionY: 0
-    PositionZ: 0
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 2
-    SpawnArgument: 0
-    Serial: 52
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 0
     Command: 0
     SpawnRange: 0
     Level: 0
