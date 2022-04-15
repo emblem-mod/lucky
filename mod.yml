@@ -298,6 +298,8 @@ assets:
 # Agrabah Fight
 
 # Chasm of Challenges
+
+# Magically Locked Door
     
 # Elemental Lords
 - name: ard/al03.ard
@@ -377,6 +379,18 @@ assets:
   method: copy
   source:
   - name: msn/jp/EH23_MS112.bar # Armoured Xemnas II MSN
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -668,7 +682,7 @@ assets:
 
 
 
-
+# DONE ################################################################################
 # DONE ################################################################################
 # DONE ################################################################################
 
@@ -682,7 +696,7 @@ assets:
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/al/al09_m_40.spawn # Add Ball-Shooting Wall and CoR Pillars
+    - name: ard/al/al09_m_40.spawn # Ball-Shooting Wall and CoR Pillars
   - name: e_50
     type: areadataspawn
     method: spawnpoint
