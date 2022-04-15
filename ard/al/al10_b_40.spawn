@@ -60,60 +60,6 @@
   Unk20: 3276800
   Unk24: 0
   Entities:
-  - ObjectId: 19 # Shaman
-    PositionX: -250
-    PositionY: -50
-    PositionZ: 150
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 0
-    SpawnArgument: 0
-    Serial: 20
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 0
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  - ObjectId: 19 # Shaman
-    PositionX: 0
-    PositionY: -50
-    PositionZ: 200
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 0
-    SpawnArgument: 0
-    Serial: 21
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 0
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  - ObjectId: 19 # Shaman
-    PositionX: 250
-    PositionY: -50
-    PositionZ: 150
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 0
-    SpawnArgument: 0
-    Serial: 22
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 0
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
   - ObjectId: 1670 # Fiery Globe Swarm
     PositionX: 300
     PositionY: -150
@@ -123,7 +69,7 @@
     RotationZ: 0
     SpawnType: 3
     SpawnArgument: 0
-    Serial: 23
+    Serial: 20
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -141,7 +87,7 @@
     RotationZ: 0
     SpawnType: 3
     SpawnArgument: 0
-    Serial: 24
+    Serial: 21
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
