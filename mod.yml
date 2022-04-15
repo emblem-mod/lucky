@@ -6,6 +6,87 @@ assets:
 
 
 
+# BEAST'S CASTLE -----------------------------------------------------------------------------
+# Parlor Fight
+
+# Thresholder & Possessor Fight
+- name: ard/bb11.ard
+  method: binarc
+  source:
+  - name: b_40
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: bb11_b_40.spawn # Thresholder & Possessor -> Marluxia, Hoot Bats and Emerald Blues
+- name: msn/jp/BB11_MS102.bar
+  multi:
+  - name: msn/us/BB11_MS102.bar
+  method: copy
+  source:
+  - name: msn/jp/HB38_FM_MAR.bar # Marluxia MSN
+  
+  
+  
+
+
+
+
+# OLYMPUS COLISEUM -----------------------------------------------------------------------------
+
+# Invincible Hades Fight
+- name: ard/he06.ard
+  method: binarc
+  source:
+  - name: b_40
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: ard/he/he06_b_40.spawn # Invincible Hades -> Invincible Sephiroth
+  - name: evt
+    type: areadatascript
+    method: areadatascript
+    source:
+    - name: ard/he/he06_evt.script # Enemy Signal and Music Change: One Winged Angel
+- name: msn/jp/HE06_MS101.bar
+  multi:
+  - name: msn/us/HE06_MS101.bar
+  method: copy
+  source:
+  - name: msn/jp/CA09_MS104.bar # Survive Timer MSN
+  
+# Valley of the Dead Escape
+
+# Cerberus Fight
+- name: ard/he07.ard
+  method: binarc
+  source:
+  - name: b_40
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: ard/he/he07_b_40.spawn # Cerberus -> Lexaeus, Gargoyle Knights and Gargoyle Warriors
+  - name: b_50
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: ard/he/he07_b_50.spawn # Falling Boulders -> Double Falling Boulders
+- name: msn/jp/HE07_MS103.bar
+  multi:
+  - name: msn/us/HE07_MS103.bar
+  method: copy
+  source:
+  - name: msn/jp/HB33_FM_LEX.bar # Lexaeus MSN
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
 
 
 # DISNEY CASTLE -----------------------------------------------------------------------------
@@ -217,19 +298,6 @@ assets:
 # Agrabah Fight
 
 # Chasm of Challenges
-- name: ard/al13.ard
-  method: binarc
-  source:
-  - name: b_40
-    type: areadataspawn
-    method: spawnpoint
-    source:
-    - name: ard/al/al13_b_40.spawn # Enemies -> Hades, Hercules and Bomb Pirates !! INCREASE TIME
-  - name: evt
-    type: areadatascript
-    method: areadatascript
-    source:
-    - name: ard/al/al13_evt.script # Boss Signal
     
 # Elemental Lords
 - name: ard/al03.ard
