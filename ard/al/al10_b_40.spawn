@@ -105,7 +105,7 @@
     RotationZ: 0
     SpawnType: 3
     SpawnArgument: 0
-    Serial: 25
+    Serial: 22
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -123,7 +123,7 @@
     RotationZ: 0
     SpawnType: 3
     SpawnArgument: 0
-    Serial: 26
+    Serial: 23
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -141,7 +141,7 @@
     RotationZ: 0
     SpawnType: 3
     SpawnArgument: 0
-    Serial: 27
+    Serial: 24
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -159,7 +159,7 @@
     RotationZ: 0
     SpawnType: 3
     SpawnArgument: 0
-    Serial: 28
+    Serial: 25
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -177,7 +177,7 @@
     RotationZ: 0
     SpawnType: 3
     SpawnArgument: 0
-    Serial: 29
+    Serial: 26
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -195,7 +195,7 @@
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
-    Serial: 30
+    Serial: 27
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -213,7 +213,7 @@
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
-    Serial: 31
+    Serial: 28
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -231,7 +231,7 @@
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
-    Serial: 32
+    Serial: 29
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -249,7 +249,7 @@
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
-    Serial: 33
+    Serial: 30
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -267,7 +267,7 @@
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
-    Serial: 34
+    Serial: 31
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -285,7 +285,7 @@
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
-    Serial: 35
+    Serial: 32
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -303,7 +303,7 @@
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
-    Serial: 36
+    Serial: 33
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -321,7 +321,7 @@
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
-    Serial: 37
+    Serial: 34
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -339,7 +339,7 @@
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
-    Serial: 38
+    Serial: 35
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -357,7 +357,7 @@
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
-    Serial: 39
+    Serial: 36
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -375,7 +375,7 @@
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
-    Serial: 40
+    Serial: 37
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -393,7 +393,7 @@
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
-    Serial: 41
+    Serial: 38
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -411,133 +411,7 @@
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
-    Serial: 42
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 40
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  - ObjectId: 1670 # Fiery Globe Swarm
-    PositionX: -350
-    PositionY: 0
-    PositionZ: 175
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 2
-    SpawnArgument: 0
-    Serial: 43
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 40
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0  
-  - ObjectId: 1670 # Fiery Globe Swarm
-    PositionX: -200
-    PositionY: 0
-    PositionZ: -325
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 2
-    SpawnArgument: 0
-    Serial: 44
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 40
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  - ObjectId: 1670 # Fiery Globe Swarm
-    PositionX: 0
-    PositionY: 0
-    PositionZ: -325
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 2
-    SpawnArgument: 0
-    Serial: 45
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 40
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  - ObjectId: 1670 # Fiery Globe Swarm
-    PositionX: 350
-    PositionY: 0
-    PositionZ: -175
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 2
-    SpawnArgument: 0
-    Serial: 46
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 40
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  - ObjectId: 1670 # Fiery Globe Swarm
-    PositionX: 150
-    PositionY: 0
-    PositionZ: 350
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 2
-    SpawnArgument: 0
-    Serial: 47
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 40
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  - ObjectId: 1670 # Fiery Globe Swarm
-    PositionX: 350
-    PositionY: 0
-    PositionZ: 175
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 2
-    SpawnArgument: 0
-    Serial: 48
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 40
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0 
-  - ObjectId: 1670 # Fiery Globe Swarm
-    PositionX: -150
-    PositionY: 0
-    PositionZ: 325
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 2
-    SpawnArgument: 0
-    Serial: 49
+    Serial: 39
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -555,7 +429,7 @@
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
-    Serial: 50
+    Serial: 40
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -573,7 +447,7 @@
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
-    Serial: 51
+    Serial: 41
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -621,7 +495,7 @@
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
-    Serial: 60
+    Serial: 50
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -639,7 +513,7 @@
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
-    Serial: 61
+    Serial: 60
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -648,16 +522,142 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 73 # Crimson Jazz
+  - ObjectId: 14 # Cannon Gun
     PositionX: 0
-    PositionY: -80000
+    PositionY: 0
+    PositionZ: 800
+    RotationX: 0
+    RotationY: 0
+    RotationZ: 0
+    SpawnType: 0
+    SpawnArgument: 0
+    Serial: 12
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 0
+    Medal: 0
+  - ObjectId: 14 # Cannon Gun
+    PositionX: 550
+    PositionY: 0
+    PositionZ: 550
+    RotationX: 0
+    RotationY: 0
+    RotationZ: 0
+    SpawnType: 0
+    SpawnArgument: 0
+    Serial: 13
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 0
+    Medal: 0
+  - ObjectId: 14 # Cannon Gun
+    PositionX: 800
+    PositionY: 0
     PositionZ: 0
     RotationX: 0
     RotationY: 0
     RotationZ: 0
-    SpawnType: 2
+    SpawnType: 0
     SpawnArgument: 0
-    Serial: 62
+    Serial: 14
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 0
+    Medal: 0
+  - ObjectId: 14 # Cannon Gun
+    PositionX: 550
+    PositionY: 0
+    PositionZ: -550
+    RotationX: 0
+    RotationY: 0
+    RotationZ: 0
+    SpawnType: 0
+    SpawnArgument: 0
+    Serial: 15
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 0
+    Medal: 0
+  - ObjectId: 14 # Cannon Gun
+    PositionX: 0
+    PositionY: 0
+    PositionZ: -800
+    RotationX: 0
+    RotationY: 0
+    RotationZ: 0
+    SpawnType: 0
+    SpawnArgument: 0
+    Serial: 16
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 0
+    Medal: 0
+  - ObjectId: 14 # Cannon Gun
+    PositionX: -550
+    PositionY: 0
+    PositionZ: -550
+    RotationX: 0
+    RotationY: 0
+    RotationZ: 0
+    SpawnType: 0
+    SpawnArgument: 0
+    Serial: 17
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 0
+    Medal: 0
+  - ObjectId: 14 # Cannon Gun
+    PositionX: -800
+    PositionY: 0
+    PositionZ: 0
+    RotationX: 0
+    RotationY: 0
+    RotationZ: 0
+    SpawnType: 0
+    SpawnArgument: 0
+    Serial: 18
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 0
+    Medal: 0
+  - ObjectId: 14 # Cannon Gun
+    PositionX: -550
+    PositionY: 0
+    PositionZ: 550
+    RotationX: 0
+    RotationY: 0
+    RotationZ: 0
+    SpawnType: 0
+    SpawnArgument: 0
+    Serial: 19
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
