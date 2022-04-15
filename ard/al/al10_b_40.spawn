@@ -48,7 +48,7 @@
   - ObjectId: 721 # Storm Rider Barrier
     PositionX: 0
     PositionY: 0
-    PositionZ: 400
+    PositionZ: 1100
     RotationX: 0
     RotationY: 0
     RotationZ: 0
@@ -64,7 +64,7 @@
     Level: 0
     Medal: 0
   - ObjectId: 721 # Storm Rider Barrier
-    PositionX: 1000
+    PositionX: 1100
     PositionY: 0
     PositionZ: 0
     RotationX: 0
@@ -84,7 +84,7 @@
   - ObjectId: 721 # Storm Rider Barrier
     PositionX: 0
     PositionY: 0
-    PositionZ: -400
+    PositionZ: -1100
     RotationX: 0
     RotationY: 3.1415927410125732
     RotationZ: 0
@@ -100,7 +100,7 @@
     Level: 0
     Medal: 0
   - ObjectId: 721 # Storm Rider Barrier
-    PositionX: -1000
+    PositionX: -1100
     PositionY: 0
     PositionZ: 0
     RotationX: 0
@@ -135,7 +135,7 @@
   - ObjectId: 14 # Cannon Gun
     PositionX: 0
     PositionY: 0
-    PositionZ: 900
+    PositionZ: 1000
     RotationX: 0
     RotationY: 0
     RotationZ: 0
@@ -151,9 +151,9 @@
     Level: 0
     Medal: 0
   - ObjectId: 1670 # Fiery Globe Swarm
-    PositionX: 650
+    PositionX: 700
     PositionY: 0
-    PositionZ: 650
+    PositionZ: 700
     RotationX: 0
     RotationY: 0
     RotationZ: 0
@@ -169,7 +169,7 @@
     Level: 0
     Medal: 0
   - ObjectId: 14 # Cannon Gun
-    PositionX: 900
+    PositionX: 1000
     PositionY: 0
     PositionZ: 0
     RotationX: 0
@@ -187,9 +187,9 @@
     Level: 0
     Medal: 0
   - ObjectId: 1670 # Fiery Globe Swarm
-    PositionX: 650
+    PositionX: 700
     PositionY: 0
-    PositionZ: -650
+    PositionZ: -700
     RotationX: 0
     RotationY: 0
     RotationZ: 0
@@ -207,7 +207,7 @@
   - ObjectId: 14 # Cannon Gun
     PositionX: 0
     PositionY: 0
-    PositionZ: -900
+    PositionZ: -1000
     RotationX: 0
     RotationY: 0
     RotationZ: 0
@@ -223,9 +223,9 @@
     Level: 0
     Medal: 0
   - ObjectId: 1670 # Fiery Globe Swarm
-    PositionX: -650
+    PositionX: -700
     PositionY: 0
-    PositionZ: -650
+    PositionZ: -700
     RotationX: 0
     RotationY: 0
     RotationZ: 0
@@ -241,7 +241,7 @@
     Level: 0
     Medal: 0
   - ObjectId: 14 # Cannon Gun
-    PositionX: -900
+    PositionX: -1000
     PositionY: 0
     PositionZ: 0
     RotationX: 0
@@ -259,9 +259,9 @@
     Level: 0
     Medal: 0
   - ObjectId: 1670 # Fiery Globe Swarm
-    PositionX: -650
+    PositionX: -700
     PositionY: 0
-    PositionZ: 650
+    PositionZ: 700
     RotationX: 0
     RotationY: 0
     RotationZ: 0
