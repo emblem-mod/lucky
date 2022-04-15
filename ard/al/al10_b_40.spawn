@@ -52,7 +52,7 @@
     RotationX: 0
     RotationY: 0
     RotationZ: 0
-    SpawnType: 2
+    SpawnType: 3
     SpawnArgument: 0
     Serial: 12
     Argument1: 0
@@ -70,7 +70,7 @@
     RotationX: 0
     RotationY: 0
     RotationZ: 0
-    SpawnType: 2
+    SpawnType: 3
     SpawnArgument: 0
     Serial: 13
     Argument1: 0
@@ -88,7 +88,7 @@
     RotationX: 0
     RotationY: 0
     RotationZ: 0
-    SpawnType: 2
+    SpawnType: 3
     SpawnArgument: 0
     Serial: 14
     Argument1: 0
@@ -106,7 +106,7 @@
     RotationX: 0
     RotationY: 0
     RotationZ: 0
-    SpawnType: 2
+    SpawnType: 3
     SpawnArgument: 0
     Serial: 15
     Argument1: 0
@@ -124,7 +124,7 @@
     RotationX: 0
     RotationY: 0
     RotationZ: 0
-    SpawnType: 2
+    SpawnType: 3
     SpawnArgument: 0
     Serial: 16
     Argument1: 0
@@ -142,7 +142,7 @@
     RotationX: 0
     RotationY: 0
     RotationZ: 0
-    SpawnType: 2
+    SpawnType: 3
     SpawnArgument: 0
     Serial: 17
     Argument1: 0
@@ -160,7 +160,7 @@
     RotationX: 0
     RotationY: 0
     RotationZ: 0
-    SpawnType: 2
+    SpawnType: 0
     SpawnArgument: 0
     Serial: 18
     Argument1: 0
@@ -178,7 +178,7 @@
     RotationX: 0
     RotationY: 0
     RotationZ: 0
-    SpawnType: 2
+    SpawnType: 0
     SpawnArgument: 0
     Serial: 19
     Argument1: 0
