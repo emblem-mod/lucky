@@ -69,7 +69,7 @@
     RotationZ: 0
     SpawnType: 3
     SpawnArgument: 0
-    Serial: 12
+    Serial: 20
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -87,7 +87,7 @@
     RotationZ: 0
     SpawnType: 3
     SpawnArgument: 0
-    Serial: 13
+    Serial: 21
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -105,7 +105,7 @@
     RotationZ: 0
     SpawnType: 3
     SpawnArgument: 0
-    Serial: 14
+    Serial: 22
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -123,7 +123,7 @@
     RotationZ: 0
     SpawnType: 3
     SpawnArgument: 0
-    Serial: 15
+    Serial: 23
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -141,7 +141,7 @@
     RotationZ: 0
     SpawnType: 3
     SpawnArgument: 0
-    Serial: 16
+    Serial: 24
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -159,7 +159,7 @@
     RotationZ: 0
     SpawnType: 3
     SpawnArgument: 0
-    Serial: 17
+    Serial: 25
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -177,7 +177,7 @@
     RotationZ: 0
     SpawnType: 3
     SpawnArgument: 0
-    Serial: 18
+    Serial: 26
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -195,7 +195,7 @@
     RotationZ: 0
     SpawnType: 3
     SpawnArgument: 0
-    Serial: 19
+    Serial: 27
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -211,9 +211,9 @@
     RotationX: 0
     RotationY: 0
     RotationZ: 0
-    SpawnType: 3
+    SpawnType: 2
     SpawnArgument: 0
-    Serial: 20
+    Serial: 28
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -229,9 +229,9 @@
     RotationX: 0
     RotationY: 0
     RotationZ: 0
-    SpawnType: 3
+    SpawnType: 2
     SpawnArgument: 0
-    Serial: 21
+    Serial: 29
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -247,9 +247,9 @@
     RotationX: 0
     RotationY: 0
     RotationZ: 0
-    SpawnType: 3
+    SpawnType: 2
     SpawnArgument: 0
-    Serial: 22
+    Serial: 30
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -265,9 +265,9 @@
     RotationX: 0
     RotationY: 0
     RotationZ: 0
-    SpawnType: 3
+    SpawnType: 2
     SpawnArgument: 0
-    Serial: 23
+    Serial: 31
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -283,9 +283,9 @@
     RotationX: 0
     RotationY: 0
     RotationZ: 0
-    SpawnType: 3
+    SpawnType: 2
     SpawnArgument: 0
-    Serial: 24
+    Serial: 32
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -301,9 +301,9 @@
     RotationX: 0
     RotationY: 0
     RotationZ: 0
-    SpawnType: 3
+    SpawnType: 2
     SpawnArgument: 0
-    Serial: 25
+    Serial: 33
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -319,9 +319,9 @@
     RotationX: 0
     RotationY: 0
     RotationZ: 0
-    SpawnType: 3
+    SpawnType: 2
     SpawnArgument: 0
-    Serial: 26
+    Serial: 34
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -339,7 +339,7 @@
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
-    Serial: 27
+    Serial: 35
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -357,7 +357,7 @@
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
-    Serial: 28
+    Serial: 36
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -375,7 +375,7 @@
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
-    Serial: 29
+    Serial: 37
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -393,7 +393,7 @@
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
-    Serial: 30
+    Serial: 38
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -411,79 +411,7 @@
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
-    Serial: 31
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 40
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  - ObjectId: 1670 # Fiery Globe Swarm
-    PositionX: 350
-    PositionY: 0
-    PositionZ: 175
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 2
-    SpawnArgument: 0
-    Serial: 32
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 40
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  - ObjectId: 1670 # Fiery Globe Swarm
-    PositionX: -200
-    PositionY: 0
-    PositionZ: 325
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 2
-    SpawnArgument: 0
-    Serial: 33
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 40
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  - ObjectId: 1670 # Fiery Globe Swarm
-    PositionX: -300
-    PositionY: 0
-    PositionZ: -225
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 2
-    SpawnArgument: 0
-    Serial: 34
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 40
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  - ObjectId: 1670 # Fiery Globe Swarm
-    PositionX: -400
-    PositionY: 0
-    PositionZ: -25
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 2
-    SpawnArgument: 0
-    Serial: 35
+    Serial: 39
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -619,3 +547,4 @@
     Padding05: 0
     Padding06: 0
     Padding07: 0
+    
