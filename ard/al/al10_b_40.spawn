@@ -60,14 +60,14 @@
   Unk20: 3276800
   Unk24: 0
   Entities:
-  - ObjectId: 10 # Silver Rock
-    PositionX: 300
-    PositionY: -150
-    PositionZ: 75
+  - ObjectId: 19 # Shaman
+    PositionX: -250
+    PositionY: -50
+    PositionZ: 150
     RotationX: 0
     RotationY: 0
     RotationZ: 0
-    SpawnType: 3
+    SpawnType: 0
     SpawnArgument: 0
     Serial: 20
     Argument1: 0
@@ -78,14 +78,14 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 10 # Silver Rock
-    PositionX: -300
-    PositionY: 0
-    PositionZ: -125
+  - ObjectId: 19 # Shaman
+    PositionX: 0
+    PositionY: -50
+    PositionZ: 200
     RotationX: 0
     RotationY: 0
     RotationZ: 0
-    SpawnType: 3
+    SpawnType: 0
     SpawnArgument: 0
     Serial: 21
     Argument1: 0
@@ -96,14 +96,14 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 10 # Silver Rock
-    PositionX: 200
-    PositionY: -100
-    PositionZ: 275
+  - ObjectId: 19 # Shaman
+    PositionX: 250
+    PositionY: -50
+    PositionZ: 150
     RotationX: 0
     RotationY: 0
     RotationZ: 0
-    SpawnType: 3
+    SpawnType: 0
     SpawnArgument: 0
     Serial: 22
     Argument1: 0
@@ -114,10 +114,10 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 10 # Silver Rock
-    PositionX: -50
-    PositionY: -100
-    PositionZ: 225
+  - ObjectId: 1670 # Fiery Globe Swarm
+    PositionX: 300
+    PositionY: -150
+    PositionZ: 75
     RotationX: 0
     RotationY: 0
     RotationZ: 0
@@ -132,7 +132,61 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 10 # Silver Rock
+  - ObjectId: 1670 # Fiery Globe Swarm
+    PositionX: -300
+    PositionY: 0
+    PositionZ: -125
+    RotationX: 0
+    RotationY: 0
+    RotationZ: 0
+    SpawnType: 3
+    SpawnArgument: 0
+    Serial: 24
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 0
+    Medal: 0
+  - ObjectId: 1670 # Fiery Globe Swarm
+    PositionX: 200
+    PositionY: -100
+    PositionZ: 275
+    RotationX: 0
+    RotationY: 0
+    RotationZ: 0
+    SpawnType: 3
+    SpawnArgument: 0
+    Serial: 25
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 0
+    Medal: 0
+  - ObjectId: 1670 # Fiery Globe Swarm
+    PositionX: -50
+    PositionY: -100
+    PositionZ: 225
+    RotationX: 0
+    RotationY: 0
+    RotationZ: 0
+    SpawnType: 3
+    SpawnArgument: 0
+    Serial: 26
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 0
+    Medal: 0
+  - ObjectId: 1670 # Fiery Globe Swarm
     PositionX: -100
     PositionY: -100
     PositionZ: -275
@@ -141,7 +195,7 @@
     RotationZ: 0
     SpawnType: 3
     SpawnArgument: 0
-    Serial: 24
+    Serial: 27
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -159,7 +213,7 @@
     RotationZ: 0
     SpawnType: 3
     SpawnArgument: 0
-    Serial: 25
+    Serial: 28
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -177,7 +231,7 @@
     RotationZ: 0
     SpawnType: 3
     SpawnArgument: 0
-    Serial: 26
+    Serial: 29
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -640,6 +694,24 @@
     SpawnType: 2
     SpawnArgument: 0
     Serial: 61
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 0
+    Medal: 0
+  - ObjectId: 73 # Crimson Jazz
+    PositionX: 0
+    PositionY: -80000
+    PositionZ: 0
+    RotationX: 0
+    RotationY: 0
+    RotationZ: 0
+    SpawnType: 2
+    SpawnArgument: 0
+    Serial: 62
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
