@@ -193,7 +193,7 @@
   WalkPath: []
   ReturnParameters: []
   Signals: []
-- Type: 2
+- Type: 2 # Staggered Spawn
   Flag: 0
   Id: 41
   Teleport:
@@ -204,14 +204,14 @@
   Unk20: 3276800
   Unk24: 0
   Entities:
-  - ObjectId: 1835 # SP Bookmaster
-    PositionX: -300
-    PositionY: -150
-    PositionZ: 500
+  - ObjectId: 2414 # Runemaster
+    PositionX: -500
+    PositionY: 0
+    PositionZ: -2300
     RotationX: 0
-    RotationY: 0.5235987756000000
+    RotationY: 0
     RotationZ: 0
-    SpawnType: 2
+    SpawnType: 0
     SpawnArgument: 0
     Serial: 20
     Argument1: 0
@@ -222,14 +222,14 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 1835 # SP Bookmaster
-    PositionX: 600
-    PositionY: -150
-    PositionZ: 0
+  - ObjectId: 2414 # Runemaster
+    PositionX: 500
+    PositionY: 0
+    PositionZ: -2300
     RotationX: 0
-    RotationY: -1.5707963705062866
+    RotationY: 0
     RotationZ: 0
-    SpawnType: 2
+    SpawnType: 0
     SpawnArgument: 0
     Serial: 21
     Argument1: 0
@@ -241,13 +241,13 @@
     Level: 0
     Medal: 0
   - ObjectId: 1835 # SP Bookmaster
-    PositionX: -300
-    PositionY: -150
-    PositionZ: -500
+    PositionX: 0
+    PositionY: 20000
+    PositionZ: 0
     RotationX: 0
-    RotationY: 2.6179938780000000
+    RotationY: 0
     RotationZ: 0
-    SpawnType: 2
+    SpawnType: 0
     SpawnArgument: 0
     Serial: 22
     Argument1: 0
@@ -288,7 +288,7 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 2414 # Runemaster
+  - ObjectId: 1835 # SP Bookmaster
     PositionX: -300
     PositionY: -150
     PositionZ: 500
@@ -324,7 +324,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 2414 # Runemaster
+  - ObjectId: 1835 # SP Bookmaster
     PositionX: -300
     PositionY: -150
     PositionZ: -500
