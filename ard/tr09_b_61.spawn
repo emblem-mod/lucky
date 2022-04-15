@@ -66,7 +66,7 @@
   - ObjectId: 2427 # Data Zexion
     PositionX: 0
     PositionY: 0
-    PositionZ: -1500
+    PositionZ: -1400
     RotationX: 0
     RotationY: 0
     RotationZ: 0
@@ -205,15 +205,15 @@
   Unk24: 0
   Entities:
   - ObjectId: 2414 # Runemaster
-    PositionX: -500
+    PositionX: -300
     PositionY: 0
-    PositionZ: -2300
+    PositionZ: -1600
     RotationX: 0
     RotationY: 0
     RotationZ: 0
     SpawnType: 0
     SpawnArgument: 0
-    Serial: 20
+    Serial: 22
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -223,15 +223,15 @@
     Level: 0
     Medal: 0
   - ObjectId: 2414 # Runemaster
-    PositionX: 500
+    PositionX: 300
     PositionY: 0
-    PositionZ: -2300
+    PositionZ: -1600
     RotationX: 0
     RotationY: 0
     RotationZ: 0
     SpawnType: 0
     SpawnArgument: 0
-    Serial: 21
+    Serial: 22
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -240,7 +240,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 1835 # SP Bookmaster
+  - ObjectId: 2414 # Runemaster
     PositionX: 0
     PositionY: 20000
     PositionZ: 0
@@ -288,7 +288,7 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 1835 # SP Bookmaster
+  - ObjectId: 2414 # Runemaster
     PositionX: -300
     PositionY: -150
     PositionZ: 500
@@ -324,7 +324,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 1835 # SP Bookmaster
+  - ObjectId: 2414 # Runemaster
     PositionX: -300
     PositionY: -150
     PositionZ: -500
