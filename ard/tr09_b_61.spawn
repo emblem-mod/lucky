@@ -9,7 +9,7 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 566
+  - ObjectId: 566 # Sora
     PositionX: 0
     PositionY: 0
     PositionZ: -2500
@@ -27,7 +27,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 567
+  - ObjectId: 567 # Party Member 1
     PositionX: -100
     PositionY: 0
     PositionZ: -2600
@@ -45,7 +45,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 568
+  - ObjectId: 568 # Party Member 2
     PositionX: 100
     PositionY: 0
     PositionZ: -2600
@@ -63,7 +63,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 2427
+  - ObjectId: 2427 X Data Zexion
     PositionX: 0
     PositionY: 0
     PositionZ: -1500
@@ -81,7 +81,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 924
+  - ObjectId: 924 # Elevator Platform
     PositionX: -300
     PositionY: 50
     PositionZ: 500
@@ -99,7 +99,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 924
+  - ObjectId: 924 # Elevator Platform
     PositionX: 600
     PositionY: 50
     PositionZ: 0
@@ -117,7 +117,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 924
+  - ObjectId: 924 # Elevator Platform
     PositionX: -300
     PositionY: 50
     PositionZ: -500
@@ -135,7 +135,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 925
+  - ObjectId: 925 # Cube Terminal
     PositionX: -300
     PositionY: 1110
     PositionZ: 500
@@ -153,7 +153,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 925
+  - ObjectId: 925 # Cube Terminal
     PositionX: 600
     PositionY: 1110
     PositionZ: 0
@@ -171,7 +171,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 925
+  - ObjectId: 925 # Cube Terminal
     PositionX: -300
     PositionY: 1110
     PositionZ: -500
@@ -204,7 +204,7 @@
   Unk20: 3276800
   Unk24: 0
   Entities:
-  - ObjectId: 2414
+  - ObjectId: 2429 # Zexion's Book
     PositionX: 0
     PositionY: -30000
     PositionZ: 0
@@ -252,12 +252,12 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 2414
-    PositionX: 0
-    PositionY: -60000
-    PositionZ: 0
+  - ObjectId: 2414 # Runemaster
+    PositionX: -300
+    PositionY: -150
+    PositionZ: 500
     RotationX: 0
-    RotationY: 0
+    RotationY: 0.5235987756000000
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
@@ -270,12 +270,12 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 2414
-    PositionX: 0
-    PositionY: -80000
+  - ObjectId: 2414 # Runemaster
+    PositionX: 600
+    PositionY: -150
     PositionZ: 0
     RotationX: 0
-    RotationY: 0
+    RotationY: -1.5707963705062866
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
@@ -288,12 +288,12 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 2414
-    PositionX: 0
-    PositionY: -90000
-    PositionZ: 0
+  - ObjectId: 2414 # Runemaster
+    PositionX: -300
+    PositionY: -150
+    PositionZ: -500
     RotationX: 0
-    RotationY: 0
+    RotationY: 2.6179938780000000
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
