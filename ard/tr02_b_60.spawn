@@ -133,9 +133,9 @@
   Unk24: 0
   Entities:
   - ObjectId: 121 # Magnum Loader
-    PositionX: 13000
-    PositionY: 0
-    PositionZ: -6000
+    PositionX: 15500
+    PositionY: -10000
+    PositionZ: -40000
     RotationX: 0
     RotationY: 0
     RotationZ: 0
@@ -151,9 +151,9 @@
     Level: 100
     Medal: 0
   - ObjectId: 121 # Magnum Loader
-    PositionX: 5000
-    PositionY: 0
-    PositionZ: -12000
+    PositionX: 0
+    PositionY: -10000
+    PositionZ: -40000
     RotationX: 0
     RotationY: 0
     RotationZ: 0
@@ -169,9 +169,9 @@
     Level: 100
     Medal: 0
   - ObjectId: 121 # Magnum Loader
-    PositionX: -5000
-    PositionY: 0
-    PositionZ: -12000
+    PositionX: -15500
+    PositionY: -10000
+    PositionZ: -40000
     RotationX: 0
     RotationY: 0
     RotationZ: 0
@@ -186,10 +186,10 @@
     SpawnRange: 600
     Level: 100
     Medal: 0
-  - ObjectId: 121 # Magnum Loader
-    PositionX: -13000
-    PositionY: 0
-    PositionZ: -6000
+  - ObjectId: 311 # Sniper
+    PositionX: 0
+    PositionY: -200
+    PositionZ: -20000
     RotationX: 0
     RotationY: 0
     RotationZ: 0
