@@ -649,7 +649,7 @@ assets:
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/mu01_b_42.spawn # Dark Thorn, Dusks, Samurais, Assassin, Berserker, Cursed Chandelier and Spin Pillar
+    - name: ard/mu01_b_42.spawn # Dark Thorn, Dusk, Samurai, Assassin, Berserker, Gambler, Cursed Chandelier and Spin Pillar
   - name: evt
     type: areadatascript
     method: areadatascript
