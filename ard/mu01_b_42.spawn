@@ -9,7 +9,7 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 566
+  - ObjectId: 566 # Sora
     PositionX: -100
     PositionY: 0
     PositionZ: -550
@@ -27,7 +27,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 799
+  - ObjectId: 799 # Dark Ballroom Pillar
     PositionX: -225
     PositionY: -325
     PositionZ: -1800
@@ -45,145 +45,11 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 644
-    PositionX: 0
-    PositionY: -1500
-    PositionZ: 0
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 0
-    SpawnArgument: 0
-    Serial: 11
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 0
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-
-
-
-
-
-
-  - ObjectId: 7
-    PositionX: 100
-    PositionY: 0
-    PositionZ: -1500
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 2
-    SpawnArgument: 0
-    Serial: 12
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 100
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  - ObjectId: 7
-    PositionX: 100
-    PositionY: 0
-    PositionZ: -1500
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 2
-    SpawnArgument: 0
-    Serial: 13
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 125
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-
-
-  - ObjectId: 2043
-    PositionX: 100
-    PositionY: 0
-    PositionZ: -1500
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 0
-    SpawnArgument: 0
-    Serial: 20
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 150
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  - ObjectId: 2043
-    PositionX: 800
-    PositionY: 0
-    PositionZ: 400
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 0
-    SpawnArgument: 0
-    Serial: 21
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 175
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  - ObjectId: 2043
-    PositionX: -550
-    PositionY: 0
-    PositionZ: 850
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 3
-    SpawnArgument: 0
-    Serial: 22
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 200
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  - ObjectId: 2043
-    PositionX: -1250
-    PositionY: 0
-    PositionZ: -750
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 3
-    SpawnArgument: 0
-    Serial: 23
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 225
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
   EventActivators: []
   WalkPath: []
   ReturnParameters: []
   Signals: []
-- Type: 2
+- Type: 2 # Staggered Spawn
   Flag: 0
   Id: 41
   Teleport:
@@ -194,7 +60,7 @@
   Unk20: 3276800
   Unk24: 0
   Entities:
-  - ObjectId: 120
+  - ObjectId: 17 # Lance
     PositionX: 100
     PositionY: 0
     PositionZ: -1500
@@ -212,7 +78,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 120
+  - ObjectId: 17 # Lance
     PositionX: 800
     PositionY: 0
     PositionZ: 400
@@ -230,7 +96,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 120
+  - ObjectId: 120 # Neoshadow
     PositionX: -550
     PositionY: 0
     PositionZ: 850
@@ -248,7 +114,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 120
+  - ObjectId: 120 # Neoshadow
     PositionX: -1250
     PositionY: 0
     PositionZ: -750
@@ -266,7 +132,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 314
+  - ObjectId: 314 # Darkness Gambler
     PositionX: -1500
     PositionY: -5000
     PositionZ: 0
@@ -314,7 +180,7 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 354
+  - ObjectId: 354 # Dark Thorn
     PositionX: -2500
     PositionY: 0
     PositionZ: 0
@@ -328,6 +194,96 @@
     Argument2: 0
     ReactionCommand: 0
     SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 0
+    Medal: 0
+  - ObjectId: 644 # Dark Ballroom Chandelier
+    PositionX: 0
+    PositionY: -1500
+    PositionZ: 0
+    RotationX: 0
+    RotationY: 0
+    RotationZ: 0
+    SpawnType: 0
+    SpawnArgument: 0
+    Serial: 11
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 0
+    Medal: 0
+  - ObjectId: 2043 # Lava Pool
+    PositionX: 100
+    PositionY: 0
+    PositionZ: -1500
+    RotationX: 0
+    RotationY: 0
+    RotationZ: 0
+    SpawnType: 2
+    SpawnArgument: 0
+    Serial: 20
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 50
+    Command: 0
+    SpawnRange: 0
+    Level: 0
+    Medal: 0
+  - ObjectId: 2043 # Lava Pool
+    PositionX: 800
+    PositionY: 0
+    PositionZ: 400
+    RotationX: 0
+    RotationY: 0
+    RotationZ: 0
+    SpawnType: 2
+    SpawnArgument: 0
+    Serial: 21
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 100
+    Command: 0
+    SpawnRange: 0
+    Level: 0
+    Medal: 0
+  - ObjectId: 2043 # Lava Pool
+    PositionX: -550
+    PositionY: 0
+    PositionZ: 850
+    RotationX: 0
+    RotationY: 0
+    RotationZ: 0
+    SpawnType: 2
+    SpawnArgument: 0
+    Serial: 22
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 150
+    Command: 0
+    SpawnRange: 0
+    Level: 0
+    Medal: 0
+  - ObjectId: 2043 # Lava Pool
+    PositionX: -1250
+    PositionY: 0
+    PositionZ: -750
+    RotationX: 0
+    RotationY: 0
+    RotationZ: 0
+    SpawnType: 2
+    SpawnArgument: 0
+    Serial: 23
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 200
     Command: 0
     SpawnRange: 0
     Level: 0
