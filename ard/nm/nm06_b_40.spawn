@@ -10,9 +10,9 @@
   Unk24: 0
   Entities:
   - ObjectId: 566 # Sora
-    PositionX: -209.84559631347656
+    PositionX: -210
     PositionY: 0
-    PositionZ: -74.42828369140625
+    PositionZ: -75
     RotationX: 0
     RotationY: 0
     RotationZ: 0
@@ -28,9 +28,9 @@
     Level: 0
     Medal: 0
   - ObjectId: 567 # Party Member 1
-    PositionX: -120.83429718017578
+    PositionX: -120
     PositionY: 0
-    PositionZ: 35.46697998046875
+    PositionZ: 35
     RotationX: 0
     RotationY: 0
     RotationZ: 0
@@ -46,9 +46,9 @@
     Level: 0
     Medal: 0
   - ObjectId: 568 # Party Member 2
-    PositionX: -319.74090576171875
+    PositionX: -320
     PositionY: 0
-    PositionZ: 14.583089828491211
+    PositionZ: 15
     RotationX: 0
     RotationY: 0
     RotationZ: 0
@@ -79,9 +79,9 @@
   Unk24: 0
   Entities:
   - ObjectId: 2403 # Magic Phantom
-    PositionX: -244.30360412597656
-    PositionY: 3.00394606590271
-    PositionZ: -556.04681396484375
+    PositionX: -250
+    PositionY: 0
+    PositionZ: -550
     RotationX: 0
     RotationY: -3.015578031539917
     RotationZ: 0
@@ -97,9 +97,9 @@
     Level: 0
     Medal: 0
   - ObjectId: 2403 # Magic Phantom
-    PositionX: 59.601680755615234
-    PositionY: -1.156952977180481
-    PositionZ: -567.94580078125
+    PositionX: 50
+    PositionY: 0
+    PositionZ: -575
     RotationX: 0
     RotationY: -3.015578031539917
     RotationZ: 0
@@ -115,9 +115,9 @@
     Level: 0
     Medal: 0
   - ObjectId: 2403 # Magic Phantom
-    PositionX: -473.468994140625
-    PositionY: 3.1077990531921387
-    PositionZ: -736.27777099609375
+    PositionX: -475
+    PositionY: 0
+    PositionZ: -725
     RotationX: 0
     RotationY: -3.015578031539917
     RotationZ: 0
@@ -133,9 +133,9 @@
     Level: 0
     Medal: 0
   - ObjectId: 1775 # Graveyard
-    PositionX: 706.83367919921875
+    PositionX: 700
     PositionY: -300
-    PositionZ: -1320.050048828125
+    PositionZ: -1325
     RotationX: 0
     RotationY: -3.015578031539917
     RotationZ: 0
