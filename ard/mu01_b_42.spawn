@@ -78,7 +78,7 @@
   Unk20: 3276800
   Unk24: 0
   Entities:
-  - ObjectId: 120 # Dusk
+  - ObjectId: 120 # Neoshadow
     PositionX: -900
     PositionY: 0
     PositionZ: 700
@@ -87,7 +87,7 @@
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
-    Serial: 30
+    Serial: 20
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -96,7 +96,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 120 # Samurai
+  - ObjectId: 120 # Neoshadow
     PositionX: 475
     PositionY: -550
     PositionZ: 1200
@@ -105,7 +105,7 @@
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
-    Serial: 31
+    Serial: 21
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -114,7 +114,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 120 # Samurai
+  - ObjectId: 120 # Neoshadow
     PositionX: 850
     PositionY: -550
     PositionZ: -1600
@@ -123,7 +123,7 @@
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
-    Serial: 32
+    Serial: 22
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -132,7 +132,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 120 # Samurai
+  - ObjectId: 120 # Neoshadow
     PositionX: -2475
     PositionY: -550
     PositionZ: -400
@@ -141,7 +141,7 @@
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
-    Serial: 33
+    Serial: 23
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -200,7 +200,7 @@
     Medal: 0
   - ObjectId: 120 # Dark Thorn
     PositionX: 200
-    PositionY: 0
+    PositionY: -1000
     PositionZ: 0
     RotationX: 0
     RotationY: 0
@@ -211,12 +211,12 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 200
+    SpawnDelay: 0
     Command: 0
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 2407 # Dusk
+  - ObjectId: 120 # Neoshadow
     PositionX: 300
     PositionY: 0
     PositionZ: -300
@@ -234,7 +234,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 2407 # Dusk
+  - ObjectId: 120 # Neoshadow
     PositionX: 300
     PositionY: 0
     PositionZ: 300
