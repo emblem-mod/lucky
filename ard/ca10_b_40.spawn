@@ -9,7 +9,7 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 566
+  - ObjectId: 566 # Sora
     PositionX: -125
     PositionY: -50
     PositionZ: -1300
@@ -27,7 +27,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 2295
+  - ObjectId: 2295 # Demyx
     PositionX: -125
     PositionY: 0
     PositionZ: -400
@@ -49,7 +49,7 @@
   WalkPath: []
   ReturnParameters: []
   Signals: []
-- Type: 2
+- Type: 2 # Staggered Spawn
   Flag: 0
   Id: 56
   Teleport:
@@ -60,7 +60,7 @@
   Unk20: 4259840
   Unk24: 0
   Entities:
-  - ObjectId: 124
+  - ObjectId: 124 # Crescendo
     PositionX: 0
     PositionY: -50000
     PositionZ: 0
@@ -78,7 +78,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 124
+  - ObjectId: 124 # Crescendo
     PositionX: 0
     PositionY: -70000
     PositionZ: 0
@@ -96,7 +96,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 124
+  - ObjectId: 124 # Crescendo
     PositionX: 0
     PositionY: -72500
     PositionZ: 0
@@ -165,7 +165,7 @@
   Unk20: 1310720
   Unk24: 0
   Entities:
-  - ObjectId: 124
+  - ObjectId: 124 # Crescendo
     PositionX: -1000
     PositionY: -200
     PositionZ: -300
@@ -183,7 +183,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 124
+  - ObjectId: 124 # Crescendo
     PositionX: -850
     PositionY: -300
     PositionZ: 800
@@ -201,7 +201,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 124
+  - ObjectId: 124 # Crescendo
     PositionX: -100
     PositionY: -200
     PositionZ: 1350
@@ -219,7 +219,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 124
+  - ObjectId: 124 # Crescendo
     PositionX: 850
     PositionY: -200
     PositionZ: 900
@@ -237,7 +237,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 124
+  - ObjectId: 124 # Crescendo
     PositionX: 1100
     PositionY: -150
     PositionZ: -100
@@ -255,7 +255,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 124
+  - ObjectId: 124 # Crescendo
     PositionX: 500
     PositionY: -150
     PositionZ: -850
@@ -273,7 +273,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 314
+  - ObjectId: 314 # Darkness Gambler
     PositionX: 0
     PositionY: 500
     PositionZ: 0
