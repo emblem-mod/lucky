@@ -150,6 +150,42 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
+  - ObjectId: 310 # Samurai
+    PositionX: 200
+    PositionY: 0
+    PositionZ: -300
+    RotationX: 0
+    RotationY: 0
+    RotationZ: 0
+    SpawnType: 2
+    SpawnArgument: 0
+    Serial: 24
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 0
+    Medal: 0
+  - ObjectId: 310 # Samurai
+    PositionX: 200
+    PositionY: 0
+    PositionZ: 300
+    RotationX: 0
+    RotationY: 0
+    RotationZ: 0
+    SpawnType: 2
+    SpawnArgument: 0
+    Serial: 25
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 0
+    Medal: 0
   EventActivators:
   - Shape: 2
     Option: 0
@@ -180,9 +216,27 @@
   Unk20: 0
   Unk24: 0
   Entities:
+  - ObjectId: 354 # Dark Thorn
+    PositionX: 200
+    PositionY: 0
+    PositionZ: 0
+    RotationX: 0
+    RotationY: 0
+    RotationZ: 0
+    SpawnType: 2
+    SpawnArgument: 0
+    Serial: 30
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 0
+    Medal: 0
   - ObjectId: 314 # Darkness Gambler
     PositionX: 0
-    PositionY: 3000
+    PositionY: 2000
     PositionZ: 0
     RotationX: 0
     RotationY: 1.5707963705062866
@@ -191,60 +245,6 @@
     SpawnArgument: 0
     Serial: 40
     Argument1: 1
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 0
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  - ObjectId: 354 # Dark Thorn
-    PositionX: 200
-    PositionY: -1000
-    PositionZ: 0
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 2
-    SpawnArgument: 0
-    Serial: 50
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 0
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  - ObjectId: 318 # Dusk
-    PositionX: 300
-    PositionY: -2000
-    PositionZ: -300
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 2
-    SpawnArgument: 0
-    Serial: 51
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 0
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  - ObjectId: 318 # Dusk
-    PositionX: 300
-    PositionY: -2000
-    PositionZ: 300
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 2
-    SpawnArgument: 0
-    Serial: 52
-    Argument1: 0
     Argument2: 0
     ReactionCommand: 0
     SpawnDelay: 0
@@ -261,7 +261,7 @@
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
-    Serial: 60
+    Serial: 41
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -279,7 +279,7 @@
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
-    Serial: 61
+    Serial: 42
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -297,7 +297,7 @@
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
-    Serial: 62
+    Serial: 43
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -315,7 +315,7 @@
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
-    Serial: 63
+    Serial: 44
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
