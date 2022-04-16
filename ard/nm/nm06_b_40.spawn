@@ -87,7 +87,7 @@
     RotationZ: 0
     SpawnType: 3
     SpawnArgument: 0
-    Serial: 7
+    Serial: 10
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -105,7 +105,7 @@
     RotationZ: 0
     SpawnType: 3
     SpawnArgument: 0
-    Serial: 56
+    Serial: 11
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -123,7 +123,7 @@
     RotationZ: 0
     SpawnType: 3
     SpawnArgument: 0
-    Serial: 59
+    Serial: 12
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -141,7 +141,7 @@
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
-    Serial: 294
+    Serial: 13
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -151,15 +151,15 @@
     Level: 1
     Medal: 0
   - ObjectId: 1777 # Toy Soldier
-    PositionX: -682.065185546875
+    PositionX: -675
     PositionY: -300
-    PositionZ: -1496.0050048828125
+    PositionZ: -1500
     RotationX: 0
     RotationY: -3.015578031539917
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
-    Serial: 295
+    Serial: 14
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
