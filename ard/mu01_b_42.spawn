@@ -27,6 +27,24 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
+  - ObjectId: 644 # Dark Ballroom Chandelier
+    PositionX: 0
+    PositionY: -1500
+    PositionZ: 0
+    RotationX: 0
+    RotationY: 0
+    RotationZ: 0
+    SpawnType: 0
+    SpawnArgument: 0
+    Serial: 10
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 0
+    Medal: 0
   - ObjectId: 799 # Dark Ballroom Pillar
     PositionX: -225
     PositionY: -325
@@ -36,7 +54,43 @@
     RotationZ: 0
     SpawnType: 0
     SpawnArgument: 0
-    Serial: 10
+    Serial: 11
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 0
+    Medal: 0
+  - ObjectId: 799 # Dark Ballroom Floor
+    PositionX: 0
+    PositionY: 0
+    PositionZ: 0
+    RotationX: 0
+    RotationY: 0
+    RotationZ: 0
+    SpawnType: 0
+    SpawnArgument: 0
+    Serial: 12
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 0
+    Medal: 0
+  - ObjectId: 799 # Dark Ballroom Windows
+    PositionX: 0
+    PositionY: 0
+    PositionZ: 1200
+    RotationX: 0
+    RotationY: 0
+    RotationZ: 0
+    SpawnType: 0
+    SpawnArgument: 0
+    Serial: 13
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -60,7 +114,7 @@
   Unk20: 3276800
   Unk24: 0
   Entities:
-  - ObjectId: 17 # Lance
+  - ObjectId: 310 # Samurai
     PositionX: 100
     PositionY: 0
     PositionZ: -1500
@@ -78,7 +132,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 17 # Lance
+  - ObjectId: 310 # Samurai
     PositionX: 800
     PositionY: 0
     PositionZ: 400
@@ -96,7 +150,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 120 # Neoshadow
+  - ObjectId: 309 # Assassin
     PositionX: -550
     PositionY: 0
     PositionZ: 850
@@ -114,7 +168,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 120 # Neoshadow
+  - ObjectId: 309 # Assassin
     PositionX: -1250
     PositionY: 0
     PositionZ: -750
@@ -181,11 +235,11 @@
   Unk24: 0
   Entities:
   - ObjectId: 354 # Dark Thorn
-    PositionX: -2500
+    PositionX: 500
     PositionY: 0
     PositionZ: 0
     RotationX: 0
-    RotationY: 1.5707963705062866
+    RotationY: 0
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
@@ -198,16 +252,16 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 644 # Dark Ballroom Chandelier
-    PositionX: 0
-    PositionY: -1500
+  - ObjectId: 355 # Possessor
+    PositionX: -1000
+    PositionY: 0
     PositionZ: 0
     RotationX: 0
     RotationY: 0
     RotationZ: 0
-    SpawnType: 0
+    SpawnType: 2
     SpawnArgument: 0
-    Serial: 11
+    Serial: 51
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -225,7 +279,7 @@
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
-    Serial: 20
+    Serial: 60
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -243,7 +297,7 @@
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
-    Serial: 21
+    Serial: 61
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -261,7 +315,7 @@
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
-    Serial: 22
+    Serial: 62
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -279,7 +333,7 @@
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
-    Serial: 23
+    Serial: 63
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
