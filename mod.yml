@@ -662,7 +662,7 @@ assets:
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/mu01_b_42.spawn # Dusk, Samurais, Assassin and Gambler then Dark Thorn, Cursed Chandelier and Spin Pillar
+    - name: ard/mu01_b_42.spawn # Dusk, Assassins and Gambler then Dark Thorn, Cursed Chandelier and Spin Pillar
   - name: evt
     type: areadatascript
     method: areadatascript
