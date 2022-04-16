@@ -1,5 +1,5 @@
 Program 0x35
-Bgm 136 136
+Bgm 185 185
 AreaSettings 16 -1
 	SetProgressFlag 0x4418
 	SetUnk05 0x3
