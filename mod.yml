@@ -6,6 +6,53 @@ assets:
 
 
 
+
+
+# Encampment - NOTE: optimise heratless, reposition gambler, add more lava pools to prevent boss air-stun-lock on objects
+- name: ard/mu01.ard
+  method: binarc
+  source:
+  - name: b_42
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: ard/mu01_b_42.spawn # Mission 3 -> Dark Thorn, Chandelier and Spin Pillar
+  - name: evt
+    type: areadatascript
+    method: areadatascript
+    source:
+    - name: ard/mu01_evt.script # Boss Signal
+- name: msn/jp/MU01_MS103C.bar
+  multi:
+  - name: msn/us/MU01_MS103C.bar
+  method: copy
+  source:
+  - name: msn/jp/BB05_MS104B.bar # Dark Thorn MSN
+
+# Shan Yu
+- name: ard/mu09.ard
+  method: binarc
+  source:
+  - name: b_40
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: ard/mu09/b_40.spawn # Shan Yu -> Vexen and Camo Cannons
+  - name: b_41
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: ard/mu09/b_41.spawn # Enemies -> Nothing
+- name: msn/jp/MU09_MS108.bar
+  multi:
+  - name: msn/us/MU09_MS108.bar
+  method: copy
+  source:
+  - name: msn/jp/HB32_FM_VEX.bar # Vexen MSN
+
+
+
+
 # BEAST'S CASTLE -----------------------------------------------------------------------------
 # Parlor Fight
 
@@ -32,30 +79,8 @@ assets:
 
 
 # OLYMPUS COLISEUM -----------------------------------------------------------------------------
-
-# Invincible Hades Fight
-- name: ard/he06.ard
-  method: binarc
-  source:
-  - name: b_40
-    type: areadataspawn
-    method: spawnpoint
-    source:
-    - name: ard/he/he06_b_40.spawn # Invincible Hades -> Invincible Sephiroth
-  - name: evt
-    type: areadatascript
-    method: areadatascript
-    source:
-    - name: ard/he/he06_evt.script # Enemy Signal and Music Change: One Winged Angel
-- name: msn/jp/HE06_MS101.bar
-  multi:
-  - name: msn/us/HE06_MS101.bar
-  method: copy
-  source:
-  - name: msn/jp/CA09_MS104.bar # Survive Timer MSN
   
 # Valley of the Dead Escape
-
 # Cerberus Fight
 - name: ard/he07.ard
   method: binarc
@@ -78,41 +103,55 @@ assets:
   - name: msn/jp/HB33_FM_LEX.bar # Lexaeus MSN
   
   
+# Phil's Training
+- name: ard/he00.ard
+  method: binarc
+  source:
+  - name: b_40
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: ard/he/he00_b_40.spawn # Practice -> Practice Remix !!EDIT TIME LIMIT!!
+  - name: b_41
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: ard/he/he00_b_41.spawn # Maniac -> Maniac Remix and Invincible Cloud
+  - name: btl
+    type: areadatascript
+    method: areadatascript
+    source:
+    - name: ard/he/he00_btl.script # Replace b_4a, b_4b, b_4d and b_4e with b_40 and b_41
   
-  
-  
-  
-  
-  
-  
-  
+# Hydra Fight
+- name: ard/he18.ard
+  method: binarc
+  source:
+  - name: b_40
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: ard/he/he18_b_40.spawn # Hydra -> Sephiroth, Samurais and Soldiers with Cloud
+  - name: evt
+    type: areadatascript
+    method: areadatascript
+    source:
+    - name: ard/he/he18_evt.script # OST: One Winged Angel
+- name: msn/jp/HE18_MS108.bar
+  multi:
+  - name: msn/us/HE18_MS108.bar
+  method: copy
+  source:
+  - name: msn/jp/HB01_MS601.bar # Sephiroth MSN
+
+
+
 
 
 
 # DISNEY CASTLE -----------------------------------------------------------------------------
 
 # Escort Minnie
-
-# Audience Chamber Fight
-- name: ard/dc00.ard
-  method: binarc
-  source:
-  - name: b_41
-    type: areadataspawn
-    method: spawnpoint
-    source:
-    - name: ard/dc/dc00_b_41.spawn # Minnie -> Lost Minnie and Dusk
-  - name: b_97
-    type: areadataspawn
-    method: spawnpoint
-    source:
-    - name: ard/dc/dc00_b_97.spawn # Enemies -> Bolt Towers, Crimson Jazzes and Creeper Plants
-  - name: evt
-    type: areadatascript
-    method: areadatascript
-    source:
-    - name: ard/dc/dc00_evt.script # Music Change: Apprehension
-
 # Past Pete
 - name: ard/wi01.ard
   method: binarc
@@ -128,11 +167,8 @@ assets:
   method: copy
   source:
   - name: msn/jp/HB04_MS403.bar # Demyx II MSN
-
 # Building Site Fight
-
 # Lilliput Fight
-
 # Scene of the Fire Fight
 - name: ard/wi04.ard
   method: binarc
@@ -142,11 +178,8 @@ assets:
     method: spawnpoint
     source:
     - name: ard/wi/wi06_b_40.spawn # 
-
 # Mickey's House Fight
-
 # Steamboat Pete
-
 # Pete II
 - name: ard/wi03.ard
   method: binarc
@@ -175,9 +208,6 @@ assets:
 
 
 
-
-
-
 # PORT ROYAL -----------------------------------------------------------------------------
 
 # Harbor Fight I
@@ -189,21 +219,18 @@ assets:
     method: spawnpoint
     source:
     - name: ca01_b_40.spawn # Enemies I ->
-
 # Harbor Fight II
   - name: b_41
     type: areadataspawn
     method: spawnpoint
     source:
     - name: ca01_b_41.spawn # Enemies II -> Shan Yu, Barbossa and Illminator
-
 # Harbor Fight III
   - name: b_60
     type: areadataspawn
     method: spawnpoint
     source:
     - name: ca01_b_60.spawn # Enemies III -> BOSS
-
 # Grim Reaper II
   - name: b_61
     type: areadataspawn
@@ -215,7 +242,6 @@ assets:
     method: areadatascript
     source:
     - name: ca01_evt.script # Enemy Signal (b_40), Boss Signal (b_41 and b_60) and Remove Fail Signal
-
 # Replace CA01_MS101.bar with new msn to prevent softlock
 - name: msn/jp/CA01_MS102.bar
   multi:
@@ -235,15 +261,10 @@ assets:
   method: copy
   source:
   - name: msn/jp/TT05_MS404.bar # Basic Boss MSN
-
 # Town Fight
-
 # Isla de Muerta Fight
-
 # Interceptor Fight
-
 # Interceptor Barrels
-
 # Barbossa and Illuminator !!Move FIght to Gambler Fight (Treasure Heap)
 - name: ard/ca10.ard
   method: binarc
@@ -259,7 +280,6 @@ assets:
   method: copy
   source:
   - name: msn/jp/HB04_MS403.bar # Demyx MSN
-
 # Grim Reaper I
 - name: ard/ca18.ard
   method: binarc
@@ -269,24 +289,13 @@ assets:
     method: spawnpoint
     source:
     - name: ard/ca18/b_60.spawn # Grim Reaper -> Hydra
-
 # Gambler Fight (Seadrift Keep I)
-
 # Gambler Fight (Seadrift Keep II)
-
 # Gambler Fight (Seadrift Row)
-
 # Gambler Fight (Cave Mouth)
-
 # Gambler Fight (Powder Store)
-
 # Gambler Fight (Moonlight Nook)
-
 # Gambler Fight (Treasure Heap)
-
-
-
-
 
 
 
@@ -296,11 +305,8 @@ assets:
 # AGRABAH -----------------------------------------------------------------------------
 
 # Agrabah Fight
-
 # Chasm of Challenges
-
 # Magically Locked Door
-    
 # Elemental Lords
 - name: ard/al03.ard
   method: binarc
@@ -316,7 +322,6 @@ assets:
   method: copy
   source:
   - name: msn/jp/EH15_MS104.bar # Saix MSN
-  
 # Sandswept Ruins Fight
 - name: ard/al14.ard
   method: binarc
@@ -326,14 +331,12 @@ assets:
     method: spawnpoint
     source:
     - name: ard/al/al14_b_64.spawn # Enemies -> !!NO CHANGE
-    
 # Sandswept Tower Fight
   - name: b_64
     type: areadataspawn
     method: spawnpoint
     source:
     - name: ard/al/al14_b_64.spawn # Enemies -> Data Vexen and Ice Spikes
-    
 # Magic Switches
   - name: b_65
     type: areadataspawn
@@ -351,9 +354,7 @@ assets:
   method: copy
   source:
   - name: msn/jp/HB32_FM_VEX.bar # Vexen MSN
-  
 # Carpet Minigame
-
 # Genie Jafar
 - name: ard/eh05.ard
   method: binarc
@@ -386,17 +387,29 @@ assets:
 
 
 
-
-
-
-
-
-
-
-
 # HALLOWEEN TOWN -----------------------------------------------------------------------------
 
 # Town Square Fight
+- name: ard/nm00.ard
+  method: binarc
+  source:
+  - name: b_40
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: ard/nm00_b_40.spawn # Enemies -> Tifa, Aerial Champs, Trick Ghosts and Wight Knights
+  - name: evt
+    type: areadatascript
+    method: areadatascript
+    source:
+    - name: ard/nm00_evt.script # Boss Signal and Remove Fail Signal
+- name: msn/jp/NM00_MS101.bar
+  multi:
+  - name: msn/us/NM00_MS101.bar
+  method: copy
+  source:
+  - name: msn/jp/TT05_MS404.bar # Basic Boss MSN
+
 
 # Present Collection Fight
   - name: b_99
@@ -415,17 +428,6 @@ assets:
   method: copy
   source:
   - name: msn/jp/CA01_MS204.bar # Grim Reaper MSN
-  
-# Candy Cane Lane Fight XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX FIX NUMBERS
-- name: ard/nm06.ard
-  method: binarc
-  source:
-  - name: b_40
-    type: areadataspawn
-    method: spawnpoint
-    source:
-    - name: ard/nm/nm06_b_40.spawn # Enemies -> Magic Phantoms, Toy Soldier and Graveyard
-    
 # Prison Keeper
 - name: ard/nm03.ard
   method: binarc
@@ -434,14 +436,13 @@ assets:
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/nm/nm03_b_40.spawn # Prison Keeper -> Cerberus, Living Bones and Rabid Dogs
+    - name: ard/nm/nm03_b_40.spawn # Cerberus, Living Bones and Rabid Dogs
 - name: msn/jp/NM03_MS103.bar
   multi:
   - name: msn/us/NM03_MS103.bar
   method: copy
   source:
   - name: msn/jp/HE07_MS103.bar # Cerberus MSN
-  
 # Oogie Boogie
 - name: ard/nm09.ard
   method: binarc
@@ -467,9 +468,7 @@ assets:
   method: copy
   source:
   - name: msn/jp/BB11_MS102.bar # Thresholder MSN
-  
 # Lock, Shock and Barrel
-
 # The Experiment
 - name: ard/nm07.ard
   method: binarc
@@ -485,7 +484,6 @@ assets:
   method: copy
   source:
   - name: msn/jp/HB33_FM_LAR.bar # Data Larxene MSN
-
 
 
 
@@ -508,14 +506,12 @@ assets:
     method: areadatascript
     source:
     - name: ard/lk05_evt.script # Boss Signal
-    
 # Hyena Chase
   - name: b_60
     type: areadataspawn
     method: spawnpoint
     source:
     - name: ard/lk05_b_60.spawn # Hyenas -> 
-    
 # Shenzi, Banzai and Ed
 - name: ard/lk02.ard
   method: binarc
@@ -525,7 +521,6 @@ assets:
     method: spawnpoint
     source:
     - name: ard/lk02_b_40.spawn # Hyenas -> Final Fantasy Crew
-    
 # COMPLETE Scar
 - name: ard/lk14.ard
   method: binarc
@@ -548,45 +543,21 @@ assets:
 
 
 
-
-
-
-
-
-
-
-
 # SPACE PARANOIDS -----------------------------------------------------------------------------
 
 # Dataspace Fight
-
-# Hostile Program
-
-# Game Grid Fight
-- name: ard/tr02.ard
+- name: ard/tr03.ard
   method: binarc
   source:
-  - name: b_60
+  - name: b_40
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/tr02_b_60.spawn # Enemies -> Xigbar, Snipers and Magnum Loaders
-  - name: evt
-    type: areadatascript
-    method: areadatascript
-    source:
-    - name: ard/tr02_evt.script # Boss Signal
-- name: msn/jp/TR02_MS210.bar
-  multi:
-  - name: msn/us/TR02_MS210.bar
-  method: copy
-  source:
-  - name: msn/jp/EH10_MS102.bar # Xigbar MSN
-  
+    - name: ard/tr03_b_40.spawn # Enemies -> Emerald Blues, Bookmasters, Soldiers, Strafers and Hostile Program
+
+# Hostile Program
 # I/0 Tower Fight
-
 # Solar Sailer Fight
-
 # Sark Fight
 - name: ard/tr09.ard
   method: binarc
@@ -596,7 +567,6 @@ assets:
     method: spawnpoint
     source:
     - name: ard/tr09/b_60.spawn # Sark -> Giant Sark, Enemies and Data Walls
-    
 # Master Control Program Fight
   - name: b_61
     type: areadataspawn
@@ -637,15 +607,10 @@ assets:
   method: copy
   source:
   - name: msn/jp/EH24_MS110.bar # Armoured Xemnas I MSN
-
 # Xigbar
-
 # Luxord
-
 # Saix
-
 # Xemnas
-
 # Lingering Will
 - name: ard/dc07.ard
   method: binarc
@@ -674,6 +639,9 @@ assets:
 
 
 
+# HALFWAY ################################################################################################################
+# HALFWAY ################################################################################################################
+# HALFWAY ################################################################################################################
 
 
 
@@ -682,11 +650,64 @@ assets:
 
 
 
-# DONE ################################################################################
-# DONE ################################################################################
-# DONE ################################################################################
 
-# AGRABAH -----------------------------------------------------------------------------
+
+# DONE ################################################################################################################
+# DONE ################################################################################################################
+# DONE ################################################################################################################
+
+
+
+# DISNEY CASTLE ====================================================================================================
+
+# Audience Chamber Fight
+- name: ard/dc00.ard
+  method: binarc
+  source:
+  - name: b_41
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: ard/dc/dc00_b_41.spawn # Lost Minnie and Dusk
+  - name: b_97
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: ard/dc/dc00_b_97.spawn # Bolt Towers, Crimson Jazzes and Creeper Plants
+  - name: evt
+    type: areadatascript
+    method: areadatascript
+    source:
+    - name: ard/dc/dc00_evt.script # OST: Apprehension
+
+
+
+# OLYMPUS COLISEUM ====================================================================================================
+
+# Invincible Hades Fight
+- name: ard/he06.ard
+  method: binarc
+  source:
+  - name: b_40
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: ard/he/he06_b_40.spawn # Invincible Hades -> Invincible Sephiroth
+  - name: evt
+    type: areadatascript
+    method: areadatascript
+    source:
+    - name: ard/he/he06_evt.script # Enemy Signal and OST: One Winged Angel
+- name: msn/jp/HE06_MS101.bar
+  multi:
+  - name: msn/us/HE06_MS101.bar
+  method: copy
+  source:
+  - name: msn/jp/CA09_MS104.bar # Survive Timer MSN
+
+
+
+# AGRABAH ====================================================================================================
 
 # Escort Abu
 - name: ard/al09.ard
@@ -711,7 +732,7 @@ assets:
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/al/al10_b_40.spawn # Axel II, Fiery Globe Swarm, Crimson Jazzes and Lava Pool
+    - name: ard/al/al10_b_40.spawn # Cannon Guns, Fiery Globe Swarm and Crimson Jazzes then Axel II and Lava Pool
   - name: evt
     type: areadatascript
     method: areadatascript
@@ -723,3 +744,47 @@ assets:
   method: copy
   source:
   - name: msn/jp/TT20_MS603.bar # Axel II MSN
+
+
+
+# HALLOWEEN TOWN ====================================================================================================
+
+# Candy Cane Lane Fight
+- name: ard/nm06.ard
+  method: binarc
+  source:
+  - name: b_40
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: ard/nm/nm06_b_40.spawn # Magic Phantoms, Toy Soldier and Graveyard
+
+
+
+# SPACE PARANOIDS ====================================================================================================
+
+# Game Grid Fight
+- name: ard/tr02.ard
+  method: binarc
+  source:
+  - name: b_60
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: ard/tr/tr02_b_60.spawn # Xigbar, Snipers and Magnum Loaders
+  - name: evt
+    type: areadatascript
+    method: areadatascript
+    source:
+    - name: ard/tr/tr02_evt.script # Boss Signal and OST: 13th Dilemma
+- name: msn/jp/TR02_MS210.bar
+  multi:
+  - name: msn/us/TR02_MS210.bar
+  method: copy
+  source:
+  - name: msn/jp/EH10_MS102.bar # Xigbar MSN
+
+
+
+  
+  
