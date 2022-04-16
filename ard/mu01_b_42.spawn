@@ -27,7 +27,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 644 # Dark Ballroom Chandelier
+  - ObjectId: 644 # Cursed Chandelier
     PositionX: 0
     PositionY: -1500
     PositionZ: -150
@@ -45,7 +45,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 799 # Dark Ballroom Pillar
+  - ObjectId: 799 # Spin Pillar
     PositionX: -225
     PositionY: -325
     PositionZ: -1800
