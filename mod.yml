@@ -673,11 +673,11 @@ assets:
     method: spawnpoint
     source:
     - name: ard/mu/mu09_b_40.spawn # Shan Yu -> Vexen and Camo Cannons
-  - name: btl
-    type: areadatascript
-    method: areadatascript
+  - name: b_41
+    type: areadataspawn
+    method: spawnpoint
     source:
-    - name: ard/mu/mu09_btl.script # Remove Shan Yu Enemies
+    - name: ard/mu/mu09_b_41.spawn # Remove Shan Yu Enemies ! NOTE: Does removing via btl.script make the game run better?
 - name: msn/jp/MU09_MS108.bar
   multi:
   - name: msn/us/MU09_MS108.bar
