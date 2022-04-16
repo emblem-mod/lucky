@@ -29,7 +29,7 @@
     Medal: 0
   - ObjectId: 644 # Dark Ballroom Chandelier
     PositionX: 0
-    PositionY: -1500
+    PositionY: -2500
     PositionZ: 0
     RotationX: 0
     RotationY: 0
@@ -48,49 +48,13 @@
   - ObjectId: 799 # Dark Ballroom Pillar
     PositionX: -225
     PositionY: -325
-    PositionZ: -1800
+    PositionZ: -1600
     RotationX: 0
     RotationY: -3.1415927410125732
     RotationZ: 0
     SpawnType: 0
     SpawnArgument: 0
     Serial: 11
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 0
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  - ObjectId: 799 # Dark Ballroom Floor
-    PositionX: 0
-    PositionY: 0
-    PositionZ: 0
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 0
-    SpawnArgument: 0
-    Serial: 12
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 0
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  - ObjectId: 799 # Dark Ballroom Windows
-    PositionX: 0
-    PositionY: 0
-    PositionZ: 1200
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 0
-    SpawnArgument: 0
-    Serial: 13
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -114,6 +78,42 @@
   Unk20: 3276800
   Unk24: 0
   Entities:
+  - ObjectId: 318 # Dusk
+    PositionX: -550
+    PositionY: 0
+    PositionZ: 850
+    RotationX: 0
+    RotationY: 0
+    RotationZ: 0
+    SpawnType: 2
+    SpawnArgument: 0
+    Serial: 30
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 0
+    Medal: 0
+  - ObjectId: 318 # Dusk
+    PositionX: -1250
+    PositionY: 0
+    PositionZ: -750
+    RotationX: 0
+    RotationY: 0
+    RotationZ: 0
+    SpawnType: 2
+    SpawnArgument: 0
+    Serial: 31
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 0
+    Medal: 0
   - ObjectId: 310 # Samurai
     PositionX: 100
     PositionY: 0
@@ -123,7 +123,7 @@
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
-    Serial: 30
+    Serial: 32
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -141,47 +141,11 @@
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
-    Serial: 31
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 50
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  - ObjectId: 309 # Assassin
-    PositionX: -550
-    PositionY: 0
-    PositionZ: 850
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 2
-    SpawnArgument: 0
-    Serial: 32
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 100
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  - ObjectId: 309 # Assassin
-    PositionX: -1250
-    PositionY: 0
-    PositionZ: -750
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 2
-    SpawnArgument: 0
     Serial: 33
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 150
+    SpawnDelay: 0
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -199,7 +163,7 @@
     Argument1: 1
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 200
+    SpawnDelay: 0
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -235,7 +199,7 @@
   Unk24: 0
   Entities:
   - ObjectId: 354 # Dark Thorn
-    PositionX: 500
+    PositionX: 600
     PositionY: 0
     PositionZ: 0
     RotationX: 0
@@ -252,16 +216,34 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 355 # Possessor
-    PositionX: -1000
+  - ObjectId: 310 # Samurai
+    PositionX: 800
     PositionY: 0
-    PositionZ: 0
+    PositionZ: -400
     RotationX: 0
     RotationY: 0
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
     Serial: 51
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 0
+    Medal: 0
+  - ObjectId: 310 # Samurai
+    PositionX: 800
+    PositionY: 0
+    PositionZ: 400
+    RotationX: 0
+    RotationY: 0
+    RotationZ: 0
+    SpawnType: 2
+    SpawnArgument: 0
+    Serial: 52
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
