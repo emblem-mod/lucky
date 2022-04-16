@@ -549,24 +549,6 @@ assets:
 
 
 
-# PORT ROYAL ====================================================================================================
-
-# Barbossa and Illuminator
-- name: ard/ca10.ard
-  method: binarc
-  source:
-  - name: b_40
-    type: areadataspawn
-    method: spawnpoint
-    source:
-    - name: ard/ca10_b_40.spawn # Barbossa -> Demyx II, Crescendos and Darkness ! Maybe move fight to Treasure Heap Gambler?
-- name: msn/jp/CA10_MS107.bar
-  multi:
-  - name: msn/us/CA10_MS107.bar
-  method: copy
-  source:
-  - name: msn/jp/HB04_MS403.bar # Demyx MSN
-
 
 
 # HALLOWEEN TOWN ====================================================================================================
@@ -748,6 +730,26 @@ assets:
   method: copy
   source:
   - name: msn/jp/CA09_MS104.bar # Survive Timer MSN
+
+
+
+# PORT ROYAL ====================================================================================================
+
+# Barbossa and Illuminator
+- name: ard/ca10.ard
+  method: binarc
+  source:
+  - name: b_40
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: ard/ca/ca10_b_40.spawn # Barbossa -> Demyx II, Crescendos and Darkness
+- name: msn/jp/CA10_MS107.bar
+  multi:
+  - name: msn/us/CA10_MS107.bar
+  method: copy
+  source:
+  - name: msn/jp/HB04_MS403.bar # Demyx MSN
 
 
 
