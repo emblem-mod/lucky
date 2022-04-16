@@ -134,7 +134,7 @@
   Entities:
   - ObjectId: 121 # Magnum Loader
     PositionX: 15500
-    PositionY: -10000
+    PositionY: -30000
     PositionZ: -40000
     RotationX: 0
     RotationY: 0
@@ -148,11 +148,11 @@
     SpawnDelay: 150
     Command: 0
     SpawnRange: 600
-    Level: 100
+    Level: 0
     Medal: 0
-  - ObjectId: 121 # Magnum Loader
+  - ObjectId: 322 # Sniper
     PositionX: 0
-    PositionY: -10000
+    PositionY: -20000
     PositionZ: -40000
     RotationX: 0
     RotationY: 0
@@ -166,11 +166,11 @@
     SpawnDelay: 250
     Command: 0
     SpawnRange: 200
-    Level: 100
+    Level: 0
     Medal: 0
   - ObjectId: 121 # Magnum Loader
     PositionX: -15500
-    PositionY: -10000
+    PositionY: -30000
     PositionZ: -40000
     RotationX: 0
     RotationY: 0
@@ -184,25 +184,7 @@
     SpawnDelay: 150
     Command: 0
     SpawnRange: 600
-    Level: 100
-    Medal: 0
-  - ObjectId: 311 # Sniper
-    PositionX: 0
-    PositionY: -200
-    PositionZ: -20000
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 2
-    SpawnArgument: 2
-    Serial: 33
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 250
-    Command: 0
-    SpawnRange: 200
-    Level: 100
+    Level: 0
     Medal: 0
   EventActivators:
   - Shape: 2
