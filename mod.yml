@@ -8,26 +8,6 @@ assets:
 
 
 
-# Encampment
-- name: ard/mu01.ard
-  method: binarc
-  source:
-  - name: b_42
-    type: areadataspawn
-    method: spawnpoint
-    source:
-    - name: ard/mu01_b_42.spawn # Dark Thorn, Dusks, Samurais, Assassin, Berserker, Ballroom Chandelier and Spin Pillar
-  - name: evt
-    type: areadatascript
-    method: areadatascript
-    source:
-    - name: ard/mu01_evt.script # Boss Signal and OST: Desire for All That is Lost
-- name: msn/jp/MU01_MS103C.bar
-  multi:
-  - name: msn/us/MU01_MS103C.bar
-  method: copy
-  source:
-  - name: msn/jp/BB05_MS104B.bar # Dark Thorn MSN
 
 # Shan Yu
 - name: ard/mu09.ard
@@ -42,7 +22,7 @@ assets:
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/mu09/b_41.spawn # Enemies -> Nothing
+    - name: ard/mu09/b_41.spawn # Remove Shan Yu Enemies
 - name: msn/jp/MU09_MS108.bar
   multi:
   - name: msn/us/MU09_MS108.bar
@@ -64,7 +44,7 @@ assets:
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: bb11_b_40.spawn # Thresholder & Possessor -> Marluxia, Hoot Bats and Emerald Blues
+    - name: bb11_b_40.spawn # Marluxia, Hoot Bats and Emerald Blues
 - name: msn/jp/BB11_MS102.bar
   multi:
   - name: msn/us/BB11_MS102.bar
@@ -655,6 +635,32 @@ assets:
 # DONE ################################################################################################################
 # DONE ################################################################################################################
 # DONE ################################################################################################################
+
+
+
+
+# LAND OF DRAGONS ====================================================================================================
+
+# Encampment
+- name: ard/mu01.ard
+  method: binarc
+  source:
+  - name: b_42
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: ard/mu01_b_42.spawn # Dark Thorn, Dusks, Samurais, Assassin, Berserker, Cursed Chandelier and Spin Pillar
+  - name: evt
+    type: areadatascript
+    method: areadatascript
+    source:
+    - name: ard/mu01_evt.script # Boss Signal and OST: Desire for All That is Lost
+- name: msn/jp/MU01_MS103C.bar
+  multi:
+  - name: msn/us/MU01_MS103C.bar
+  method: copy
+  source:
+  - name: msn/jp/BB05_MS104B.bar # Dark Thorn MSN
 
 
 
