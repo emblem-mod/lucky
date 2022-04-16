@@ -49,7 +49,7 @@
   WalkPath: []
   ReturnParameters: []
   Signals: []
-- Type: 2
+- Type: 2 # Staggered Spawn
   Flag: 0
   Id: 41
   Teleport:
@@ -60,7 +60,7 @@
   Unk20: 3276800
   Unk24: 0
   Entities:
-  - ObjectId: 3
+  - ObjectId: 318 # Dusk
     PositionX: -150
     PositionY: 0
     PositionZ: 200
@@ -78,7 +78,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 0
+  - ObjectId: 318 # Dusk
     PositionX: 150
     PositionY: 0
     PositionZ: 100
@@ -96,7 +96,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 0
+  - ObjectId: 318 # Dusk
     PositionX: 450
     PositionY: 0
     PositionZ: 200
@@ -114,8 +114,6 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-
-
   EventActivators:
   - Shape: 2
     Option: 0
