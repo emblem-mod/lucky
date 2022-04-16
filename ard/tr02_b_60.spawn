@@ -9,7 +9,7 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 566
+  - ObjectId: 566 # Sora
     PositionX: 0
     PositionY: 0
     PositionZ: -50
@@ -27,7 +27,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 567
+  - ObjectId: 567 # Party Member 1
     PositionX: 100
     PositionY: 0
     PositionZ: 50
@@ -45,7 +45,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 568
+  - ObjectId: 568 # Party Member 2
     PositionX: -100
     PositionY: 0
     PositionZ: 50
@@ -63,99 +63,12 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 1570
+  - ObjectId: 1570 # Xigbar
     PositionX: 0
     PositionY: 0
     PositionZ: -500
     RotationX: 0
     RotationY: 3.1415927410125732
-    RotationZ: 0
-    SpawnType: 3
-    SpawnArgument: 0
-    Serial: 14
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 0
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  EventActivators: []
-  WalkPath: []
-  ReturnParameters: []
-  Signals: []
-- Type: 2
-  Flag: 0
-  Id: 56
-  Teleport:
-    Place: 0
-    Door: 0
-    World: 0
-    Unknown: 0
-  Unk20: 0
-  Unk24: 0
-  Entities:
-  - ObjectId: 1807
-    PositionX: 0
-    PositionY: -250
-    PositionZ: -2000
-    RotationX: 0
-    RotationY: 3.1415927410125732
-    RotationZ: 0
-    SpawnType: 2
-    SpawnArgument: 0
-    Serial: 15
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 0
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  - ObjectId: 311
-    PositionX: 200
-    PositionY: 0
-    PositionZ: -700
-    RotationX: 0
-    RotationY: 3.1415927410125732
-    RotationZ: 0
-    SpawnType: 3
-    SpawnArgument: 0
-    Serial: 16
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 0
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  - ObjectId: 311
-    PositionX: -200
-    PositionY: 0
-    PositionZ: -700
-    RotationX: 0
-    RotationY: 3.1415927410125732
-    RotationZ: 0
-    SpawnType: 3
-    SpawnArgument: 0
-    Serial: 17
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 0
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  - ObjectId: 121
-    PositionX: -100
-    PositionY: -70000
-    PositionZ: 4500
-    RotationX: 0
-    RotationY: 0
     RotationZ: 0
     SpawnType: 3
     SpawnArgument: 0
@@ -168,12 +81,12 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 121
-    PositionX: 0
-    PositionY: -70000
-    PositionZ: 4300
+  - ObjectId: 311 # Sniper
+    PositionX: 200
+    PositionY: 0
+    PositionZ: -700
     RotationX: 0
-    RotationY: 0
+    RotationY: 3.1415927410125732
     RotationZ: 0
     SpawnType: 3
     SpawnArgument: 0
@@ -186,12 +99,12 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 121
-    PositionX: 100
-    PositionY: -70000
-    PositionZ: 4500
+  - ObjectId: 311 # Sniper
+    PositionX: -200
+    PositionY: 0
+    PositionZ: -700
     RotationX: 0
-    RotationY: 0
+    RotationY: 3.1415927410125732
     RotationZ: 0
     SpawnType: 3
     SpawnArgument: 0
@@ -204,187 +117,109 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 121
-    PositionX: -50
-    PositionY: -130000
-    PositionZ: 4500
+  EventActivators: []
+  WalkPath: []
+  ReturnParameters: []
+  Signals: []
+- Type: 2 # Infinite Spawn
+  Flag: 0
+  Id: 187
+  Teleport:
+    Place: 0
+    Door: 0
+    World: 0
+    Unknown: 0
+  Unk20: 0
+  Unk24: 0
+  Entities:
+  - ObjectId: 121 # Magnum Loader
+    PositionX: 13000
+    PositionY: 0
+    PositionZ: -6000
     RotationX: 0
     RotationY: 0
     RotationZ: 0
-    SpawnType: 3
-    SpawnArgument: 0
-    Serial: 23
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 0
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  - ObjectId: 121
-    PositionX: 50
-    PositionY: -130000
-    PositionZ: 4500
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 3
-    SpawnArgument: 0
-    Serial: 24
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 0
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  - ObjectId: 121
-    PositionX: -100
-    PositionY: -200000
-    PositionZ: 4500
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 3
-    SpawnArgument: 0
-    Serial: 25
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 0
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  - ObjectId: 121
-    PositionX: -50
-    PositionY: -200000
-    PositionZ: 4700
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 3
-    SpawnArgument: 0
-    Serial: 26
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 0
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  - ObjectId: 121
-    PositionX: 0
-    PositionY: -200000
-    PositionZ: 4300
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 3
-    SpawnArgument: 0
-    Serial: 27
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 0
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  - ObjectId: 121
-    PositionX: 50
-    PositionY: -200000
-    PositionZ: 4700
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 3
-    SpawnArgument: 0
-    Serial: 28
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 0
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  - ObjectId: 121
-    PositionX: 100
-    PositionY: -200000
-    PositionZ: 4500
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 3
-    SpawnArgument: 0
-    Serial: 29
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 0
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  - ObjectId: 311
-    PositionX: 0
-    PositionY: -70000
-    PositionZ: 0
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 3
-    SpawnArgument: 0
+    SpawnType: 2
+    SpawnArgument: 2
     Serial: 30
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 0
+    SpawnDelay: 150
     Command: 0
-    SpawnRange: 0
-    Level: 0
+    SpawnRange: 600
+    Level: 100
+    Medal: 0
+  - ObjectId: 121 # Magnum Loader
+    PositionX: 5000
+    PositionY: 0
+    PositionZ: -12000
+    RotationX: 0
+    RotationY: 0
+    RotationZ: 0
+    SpawnType: 2
+    SpawnArgument: 2
+    Serial: 31
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 250
+    Command: 0
+    SpawnRange: 200
+    Level: 100
+    Medal: 0
+  - ObjectId: 121 # Magnum Loader
+    PositionX: -5000
+    PositionY: 0
+    PositionZ: -12000
+    RotationX: 0
+    RotationY: 0
+    RotationZ: 0
+    SpawnType: 2
+    SpawnArgument: 2
+    Serial: 32
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 150
+    Command: 0
+    SpawnRange: 600
+    Level: 100
+    Medal: 0
+  - ObjectId: 121 # Magnum Loader
+    PositionX: -13000
+    PositionY: 0
+    PositionZ: -6000
+    RotationX: 0
+    RotationY: 0
+    RotationZ: 0
+    SpawnType: 2
+    SpawnArgument: 2
+    Serial: 33
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 250
+    Command: 0
+    SpawnRange: 200
+    Level: 100
     Medal: 0
   EventActivators:
   - Shape: 2
     Option: 0
-    PositionX: 1020.072021484375
-    PositionY: -100
-    PositionZ: -129.37890625
-    ScaleX: 82.709999084472656
+    PositionX: 0
+    PositionY: 0
+    PositionZ: 0
+    ScaleX: 100
     ScaleY: 100
-    ScaleZ: 104.19699859619141
+    ScaleZ: 100
     RotationX: 0
-    RotationY: -2.9468138217926025
+    RotationY: 0
     RotationZ: 0
     Flags: 0
     Type: 0
     OnBgGroup: 0
     OffBgGroup: 0
   WalkPath: []
-  ReturnParameters:
-  - Id: 0
-    Type: 0
-    Rate: 0
-    EntryType: 0
-    Argument04: 0
-    Argument08: 0
-    Argument0c: 0
-  - Id: 0
-    Type: 0
-    Rate: 0
-    EntryType: 0
-    Argument04: 0
-    Argument08: 0
-    Argument0c: 0
-  - Id: 0
-    Type: 0
-    Rate: 0
-    EntryType: 0
-    Argument04: 0
-    Argument08: 0
-    Argument0c: 0
+  ReturnParameters: []
   Signals: []
