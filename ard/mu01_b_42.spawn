@@ -29,7 +29,7 @@
     Medal: 0
   - ObjectId: 644 # Dark Ballroom Chandelier
     PositionX: 0
-    PositionY: -2500
+    PositionY: -2000
     PositionZ: 0
     RotationX: 0
     RotationY: 0
@@ -199,7 +199,7 @@
   Unk24: 0
   Entities:
   - ObjectId: 354 # Dark Thorn
-    PositionX: 600
+    PositionX: 200
     PositionY: 0
     PositionZ: 0
     RotationX: 0
@@ -216,8 +216,8 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 310 # Samurai
-    PositionX: 800
+  - ObjectId: 318 # Dusk
+    PositionX: 500
     PositionY: 0
     PositionZ: -400
     RotationX: 0
@@ -234,8 +234,8 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 310 # Samurai
-    PositionX: 800
+  - ObjectId: 318 # Dusk
+    PositionX: 500
     PositionY: 0
     PositionZ: 400
     RotationX: 0
