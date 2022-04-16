@@ -78,7 +78,7 @@
   Unk20: 3276800
   Unk24: 0
   Entities:
-  - ObjectId: 318 # Dusk
+  - ObjectId: 120 # Dusk
     PositionX: -900
     PositionY: 0
     PositionZ: 700
@@ -96,7 +96,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 310 # Samurai
+  - ObjectId: 120 # Samurai
     PositionX: 475
     PositionY: -550
     PositionZ: 1200
@@ -114,7 +114,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 310 # Samurai
+  - ObjectId: 120 # Samurai
     PositionX: 850
     PositionY: -550
     PositionZ: -1600
@@ -132,7 +132,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 310 # Samurai
+  - ObjectId: 120 # Samurai
     PositionX: -2475
     PositionY: -550
     PositionZ: -400
@@ -143,24 +143,6 @@
     SpawnArgument: 0
     Serial: 33
     Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 0
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  - ObjectId: 314 # Darkness Gambler
-    PositionX: -1500
-    PositionY: 0
-    PositionZ: 0
-    RotationX: 0
-    RotationY: 1.5707963705062866
-    RotationZ: 0
-    SpawnType: 2
-    SpawnArgument: 0
-    Serial: 40
-    Argument1: 1
     Argument2: 0
     ReactionCommand: 0
     SpawnDelay: 0
@@ -198,7 +180,25 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 354 # Dark Thorn
+  - ObjectId: 314 # Darkness Gambler
+    PositionX: -1500
+    PositionY: 5000
+    PositionZ: 0
+    RotationX: 0
+    RotationY: 1.5707963705062866
+    RotationZ: 0
+    SpawnType: 2
+    SpawnArgument: 0
+    Serial: 40
+    Argument1: 1
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 0
+    Medal: 0
+  - ObjectId: 120 # Dark Thorn
     PositionX: 200
     PositionY: 0
     PositionZ: 0
@@ -211,12 +211,12 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 0
+    SpawnDelay: 200
     Command: 0
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 318 # Dusk
+  - ObjectId: 2407 # Dusk
     PositionX: 300
     PositionY: 0
     PositionZ: -300
@@ -234,7 +234,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 318 # Dusk
+  - ObjectId: 2407 # Dusk
     PositionX: 300
     PositionY: 0
     PositionZ: 300
