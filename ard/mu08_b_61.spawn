@@ -267,7 +267,7 @@
     RotationZ: 0
     SpawnType: 3
     SpawnArgument: 0
-    Serial: 40
+    Serial: 50
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -285,7 +285,7 @@
     RotationZ: 0
     SpawnType: 3
     SpawnArgument: 0
-    Serial: 41
+    Serial: 51
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -333,7 +333,7 @@
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 2
-    Serial: 70
+    Serial: 52
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
