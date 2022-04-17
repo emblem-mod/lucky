@@ -78,7 +78,7 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 25 # Bomb Bell
+  - ObjectId: 25 # Mist Sphere
     PositionX: -19400
     PositionY: 3000
     PositionZ: 7300
@@ -87,7 +87,7 @@
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 2
-    Serial: 63
+    Serial: 70
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -96,16 +96,16 @@
     SpawnRange: 600
     Level: 100
     Medal: 0
-  - ObjectId: 25 # Bomb Bell
-    PositionX: -9100
-    PositionY: -1000
-    PositionZ: -14400
+  - ObjectId: 25 # Mist Sphere
+    PositionX: -19400
+    PositionY: 3000
+    PositionZ: 7300
     RotationX: 0
     RotationY: 0
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 2
-    Serial: 64
+    Serial: 71
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -114,7 +114,79 @@
     SpawnRange: 200
     Level: 100
     Medal: 0
-  - ObjectId: 25 # Bomb Bell
+  - ObjectId: 25 # Mist Sphere
+    PositionX: -19400
+    PositionY: 3000
+    PositionZ: 7300
+    RotationX: 0
+    RotationY: 0
+    RotationZ: 0
+    SpawnType: 2
+    SpawnArgument: 2
+    Serial: 72
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 150
+    Command: 0
+    SpawnRange: 600
+    Level: 100
+    Medal: 0
+  - ObjectId: 25 # Mist Sphere
+    PositionX: -9100
+    PositionY: -1000
+    PositionZ: -14400
+    RotationX: 0
+    RotationY: 0
+    RotationZ: 0
+    SpawnType: 2
+    SpawnArgument: 2
+    Serial: 73
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 250
+    Command: 0
+    SpawnRange: 200
+    Level: 100
+    Medal: 0
+  - ObjectId: 25 # Mist Sphere
+    PositionX: -9100
+    PositionY: -1000
+    PositionZ: -14400
+    RotationX: 0
+    RotationY: 0
+    RotationZ: 0
+    SpawnType: 2
+    SpawnArgument: 2
+    Serial: 74
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 150
+    Command: 0
+    SpawnRange: 600
+    Level: 100
+    Medal: 0
+  - ObjectId: 25 # Mist Sphere
+    PositionX: -9100
+    PositionY: -1000
+    PositionZ: -14400
+    RotationX: 0
+    RotationY: 0
+    RotationZ: 0
+    SpawnType: 2
+    SpawnArgument: 2
+    Serial: 75
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 250
+    Command: 0
+    SpawnRange: 200
+    Level: 100
+    Medal: 0
+  - ObjectId: 25 # Mist Sphere
     PositionX: 11000
     PositionY: -7500
     PositionZ: -9000
@@ -123,7 +195,43 @@
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 2
-    Serial: 65
+    Serial: 76
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 150
+    Command: 0
+    SpawnRange: 600
+    Level: 100
+    Medal: 0
+  - ObjectId: 25 # Mist Sphere
+    PositionX: 11000
+    PositionY: -7500
+    PositionZ: -9000
+    RotationX: 0
+    RotationY: 0
+    RotationZ: 0
+    SpawnType: 2
+    SpawnArgument: 2
+    Serial: 77
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 250
+    Command: 0
+    SpawnRange: 200
+    Level: 100
+    Medal: 0
+  - ObjectId: 25 # Mist Sphere
+    PositionX: 11000
+    PositionY: -7500
+    PositionZ: -9000
+    RotationX: 0
+    RotationY: 0
+    RotationZ: 0
+    SpawnType: 2
+    SpawnArgument: 2
+    Serial: 78
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
