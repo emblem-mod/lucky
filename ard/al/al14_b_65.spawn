@@ -63,4 +63,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-
+  EventActivators: []
+  WalkPath: []
+  ReturnParameters: []
+  Signals: []
