@@ -127,6 +127,51 @@ assets:
   - name: msn/jp/EH14_MS103.bar # Luxord MSN
 
 
+# THE LAND OF DRAGONS ====================================================================================================
+
+# Imperial Square Fight I
+- name: ard/mu08.ard
+  method: binarc
+  source:
+  - name: b_40
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: mu08_b_40.spawn # Enemies -> Hydra, Phil, Pegasus, Large Urns and Meg
+# Imperial Square Fight II
+  - name: b_60
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: mu08_b_40.spawn # BLANK
+# Storm Rider
+  - name: b_61
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: ard/mu08_b_61.spawn # Storm Rider -> Data Xaldin, Spring Metals and Dragoons
+  - name: evt
+    type: areadatascript
+    method: areadatascript
+    source:
+    - name: mu08_evt.script # Boss Signal (b_40)
+- name: msn/jp/MU08_MS107.bar
+  multi:
+  - name: msn/us/MU08_MS107.bar
+  method: copy
+  source:
+  - name: msn/jp/HE18_MS108.bar # Hydra MSN
+- name: msn/jp/MU08_MS204.bar
+  multi:
+  - name: msn/us/MU08_MS204.bar
+  method: copy
+  source:
+  - name: msn/jp/BB15_MS203.bar # Xaldin MSN
+
+
+
+
+
 
 # BEAST'S CASTLE ====================================================================================================
 
@@ -164,7 +209,7 @@ assets:
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/bb/bb04_b_60.spawn # Demyx I, Dancers and Tornado Steps
+    - name: ard/bb/bb04_b_60.spawn # Demyx I, Tornado Steps and Dancer
   - name: evt
     type: areadatascript
     method: areadatascript
