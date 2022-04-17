@@ -319,7 +319,7 @@
   WalkPath: []
   ReturnParameters: []
   Signals: []
-- Type: 2
+- Type: 2 # Second Phase Spawn
   Flag: 1
   Id: 26
   Teleport:
@@ -402,24 +402,6 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 2356 # Vexen's Anti Sora
-    PositionX: 0
-    PositionY: -100
-    PositionZ: -700
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 1
-    SpawnArgument: 0
-    Serial: 40
-    Argument1: 5
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 0
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
   EventActivators:
   - Shape: 2
     Option: 0
@@ -439,7 +421,7 @@
   WalkPath: []
   ReturnParameters: []
   Signals: []
-- Type: 2
+- Type: 2 # Proximity Spawn
   Flag: 0
   Id: 96
   Teleport:
