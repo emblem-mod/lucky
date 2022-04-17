@@ -48,7 +48,7 @@
   - ObjectId: 721 # Storm Rider Barrier
     PositionX: 0
     PositionY: 0
-    PositionZ: 1200
+    PositionZ: 1100
     RotationX: 0
     RotationY: 0
     RotationZ: 0
@@ -66,7 +66,7 @@
   - ObjectId: 721 # Storm Rider Barrier
     PositionX: 0
     PositionY: 0
-    PositionZ: -1200
+    PositionZ: -1100
     RotationX: 0
     RotationY: 3.1415927410125732
     RotationZ: 0
@@ -84,7 +84,7 @@
   - ObjectId: 795 # Demyx I
     PositionX: 0
     PositionY: 0
-    PositionZ: -1200
+    PositionZ: -1100
     RotationX: 0
     RotationY: 3.1415927410125732
     RotationZ: 0
@@ -238,6 +238,24 @@
     SpawnDelay: 250
     Command: 0
     SpawnRange: 200
+    Level: 100
+    Medal: 0
+  - ObjectId: 312 # Dancer
+    PositionX: 0
+    PositionY: 0
+    PositionZ: 2000
+    RotationX: 0
+    RotationY: 0
+    RotationZ: 0
+    SpawnType: 2
+    SpawnArgument: 2
+    Serial: 34
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 150
+    Command: 0
+    SpawnRange: 600
     Level: 100
     Medal: 0
   EventActivators:
