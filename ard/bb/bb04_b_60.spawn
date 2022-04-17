@@ -36,7 +36,7 @@
     RotationZ: 0
     SpawnType: 0
     SpawnArgument: 0
-    Serial: 5
+    Serial: 3
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -54,6 +54,42 @@
     RotationZ: 0
     SpawnType: 0
     SpawnArgument: 0
+    Serial: 4
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 0
+    Medal: 0
+  - ObjectId: 721 # Storm Rider Barrier
+    PositionX: 600
+    PositionY: 0
+    PositionZ: 0
+    RotationX: 0
+    RotationY: -1.5707963705062866
+    RotationZ: 0
+    SpawnType: 0
+    SpawnArgument: 0
+    Serial: 5
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 0
+    Medal: 0 
+  - ObjectId: 721 # Storm Rider Barrier
+    PositionX: 0
+    PositionY: 0
+    PositionZ: -1100
+    RotationX: 0
+    RotationY: 3.1415927410125732
+    RotationZ: 0
+    SpawnType: 0
+    SpawnArgument: 0
     Serial: 6
     Argument1: 0
     Argument2: 0
@@ -64,11 +100,11 @@
     Level: 0
     Medal: 0
   - ObjectId: 721 # Storm Rider Barrier
-    PositionX: 0
+    PositionX: 800
     PositionY: 0
-    PositionZ: -1100
+    PositionZ: 0
     RotationX: 0
-    RotationY: 3.1415927410125732
+    RotationY: 1.5707963705062866
     RotationZ: 0
     SpawnType: 0
     SpawnArgument: 0
@@ -80,7 +116,7 @@
     Command: 0
     SpawnRange: 0
     Level: 0
-    Medal: 0
+    Medal: 0 
   - ObjectId: 795 # Demyx I
     PositionX: 0
     PositionY: 0
@@ -118,24 +154,6 @@
     Level: 0
     Medal: 0
   - ObjectId: 312 # Dancer
-    PositionX: 0
-    PositionY: 0
-    PositionZ: 1000
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 3
-    SpawnArgument: 0
-    Serial: 12
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 0
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  - ObjectId: 312 # Dancer
     PositionX: 1000
     PositionY: 0
     PositionZ: 0
@@ -144,7 +162,7 @@
     RotationZ: 0
     SpawnType: 3
     SpawnArgument: 0
-    Serial: 13
+    Serial: 12
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -243,7 +261,7 @@
   - ObjectId: 312 # Dancer
     PositionX: 0
     PositionY: 0
-    PositionZ: 2000
+    PositionZ: -1600
     RotationX: 0
     RotationY: 0
     RotationZ: 0
