@@ -116,231 +116,12 @@ assets:
 
 
 
-# AGRABAH -----------------------------------------------------------------------------
-
-# Agrabah Fight
-# Chasm of Challenges
-# Magically Locked Door
-
-# Sandswept Ruins Fight
-- name: ard/al14.ard
-  method: binarc
-  source:
-  - name: b_61
-    type: areadataspawn
-    method: spawnpoint
-    source:
-    - name: ard/al/al14_b_64.spawn # ! NO CHANGE
-# Sandswept Tower Fight
-  - name: b_64
-    type: areadataspawn
-    method: spawnpoint
-    source:
-    - name: ard/al/al14_b_64.spawn # Data Vexen and Ice Spikes
-# Magic Switches
-  - name: b_65
-    type: areadataspawn
-    method: spawnpoint
-    source:
-    - name: ard/al/al14_b_65.spawn # Magic Switches Remix and Bees
-  - name: evt
-    type: areadatascript
-    method: areadatascript
-    source:
-    - name: ard/al/al14_evt.script # Boss Signal and OST: Encounter
-- name: msn/jp/AL14_MS201B.bar
-  multi:
-  - name: msn/us/AL14_MS201B.bar
-  method: copy
-  source:
-  - name: msn/jp/HB32_FM_VEX.bar # Vexen MSN
-# Carpet Minigame
-# Genie Jafar
-- name: ard/eh05.ard
-  method: binarc
-  source:
-  - name: b_60
-    type: areadataspawn
-    method: spawnpoint
-    source:
-    - name: ard/al/al05_b_60.spawn # Armoured Xemnas II, Dragon and Riku ! NOT ENOUGH MEMORY TO WORK
-  - name: b_61
-    type: areadataspawn
-    method: spawnpoint
-    source:
-    - name: ard/al/al05_b_61.spawn # Buildings
-  - name: btl
-    type: areadatascript
-    method: areadatascript
-    source:
-    - name: ard/al/al05_btl.script # Add b_61
-- name: msn/jp/AL05_MS203.bar
-  multi:
-  - name: msn/us/AL05_MS203.bar
-  method: copy
-  source:
-  - name: msn/jp/EH23_MS112.bar # Armoured Xemnas II MSN
 
 
 
-# HALLOWEEN TOWN -----------------------------------------------------------------------------
-
-
-# Town Square Fight
-- name: ard/nm00.ard
-  method: binarc
-  source:
-  - name: b_40
-    type: areadataspawn
-    method: spawnpoint
-    source:
-    - name: ard/nm/nm00_b_40.spawn # Aerial Champs and Wight Knights then Tifa and Aerial Knockers
-  - name: evt
-    type: areadatascript
-    method: areadatascript
-    source:
-    - name: ard/nm/nm00_evt.script # Boss Signals and Remove Fail-State
-- name: msn/jp/NM00_MS101.bar
-  multi:
-  - name: msn/us/NM00_MS101.bar
-  method: copy
-  source:
-  - name: msn/jp/TT05_MS404.bar # Axel I MSN
-
-# Present Collection Fight
-- name: ard/nm00.ard
-  method: binarc
-  source:
-  - name: b_99
-    type: areadataspawn
-    method: spawnpoint
-    source:
-    - name: ard/nm00/b_99.spawn # Saix
-- name: msn/jp/NM00_MS202.bar
-  multi:
-  - name: msn/us/NM00_MS202.bar
-  method: copy
-  source:
-  - name: msn/jp/CA01_MS204.bar # Grim Reaper MSN
-
-# Oogie Boogie
-- name: ard/nm09.ard
-  method: binarc
-  source:
-  - name: b_40
-    type: areadataspawn
-    method: spawnpoint
-    source:
-    - name: ard/nm/nm09_b_40.spawn # Thresholder and Possessor with Oogie Boogie
-  - name: m_40
-    type: areadataspawn
-    method: spawnpoint
-    source:
-    - name: ard/nm/nm09_m_40.spawn # Spikes and Reposition Oogie's Platform
-  - name: m_50
-    type: areadataspawn
-    method: spawnpoint
-    source:
-    - name: ard/nm/nm09_m_50.spawn # Punching Glove and Remove Conveyor Warp
-- name: msn/jp/NM09_MS104.bar
-  multi:
-  - name: msn/us/NM09_MS104.bar
-  method: copy
-  source:
-  - name: msn/jp/BB11_MS102.bar # Thresholder MSN
-# Lock, Shock and Barrel
 
 
 
-# PRIDE LANDS -----------------------------------------------------------------------------
-
-# Elephant Graveyard Fight
-- name: ard/lk05.ard
-  method: binarc
-  source:
-  - name: b_40
-    type: areadataspawn
-    method: spawnpoint
-    source:
-    - name: ard/lk05_b_40.spawn 
-  - name: evt
-    type: areadatascript
-    method: areadatascript
-    source:
-    - name: ard/lk05_evt.script # Boss Signal
-# Hyena Chase
-  - name: b_60
-    type: areadataspawn
-    method: spawnpoint
-    source:
-    - name: ard/lk05_b_60.spawn
-
-
-# SPACE PARANOIDS -----------------------------------------------------------------------------
-
-# Dataspace Fight
-- name: ard/tr03.ard
-  method: binarc
-  source:
-  - name: b_40
-    type: areadataspawn
-    method: spawnpoint
-    source:
-    - name: ard/tr03_b_40.spawn # Emerald Blues, Bookmasters, Soldiers, Strafers and Hostile Program
-
-# Hostile Program
-# I/0 Tower Fight
-# Solar Sailer Fight
-# Sark Fight
-- name: ard/tr09.ard
-  method: binarc
-  source:
-  - name: b_60
-    type: areadataspawn
-    method: spawnpoint
-    source:
-    - name: ard/tr09/b_60.spawn # Giant Sark, Enemies and Data Walls
-# Master Control Program Fight
-  - name: b_61
-    type: areadataspawn
-    method: spawnpoint
-    source:
-    - name: ard/tr09_b_61.spawn # Data Zexion, Runemasters and Platforms
-- name: msn/jp/TR09_MS205.bar
-  multi:
-  - name: msn/us/TR09_MS205.bar
-  method: copy
-  source:
-  - name: msn/jp/HB34_FM_ZEX.bar # Zexion MSN
-
-
-# THE WORLD THAT NEVER WAS -----------------------------------------------------------------------------
-
-# Roxas
-# Xigbar
-# Luxord
-# Saix
-# Xemnas
-# Lingering Will
-- name: ard/dc07.ard
-  method: binarc
-  source:
-  - name: b_80
-    type: areadataspawn
-    method: spawnpoint
-    source:
-    - name: ard/dc/dc07_b_80.spawn # Data Final Xemnas with More Clones
-  - name: evt
-    type: areadatascript
-    method: areadatascript
-    source:
-    - name: ard/dc/dc07_evt.script # Music Change
-- name: msn/jp/DC07_FM_NAZO.bar
-  multi:
-  - name: msn/us/DC07_FM_NAZO.bar
-  method: copy
-  source:
-  - name: msn/jp/EH20_MS113_RE.bar # Data Final Xemnas MSN
 
 
 
@@ -357,6 +138,8 @@ assets:
 # IDEA ################################################################################################################
 # IDEA ################################################################################################################
 # IDEA ################################################################################################################
+
+
 
 # HOLLOW BASTION ====================================================================================================
 
@@ -396,52 +179,6 @@ assets:
   source:
   - name: msn/jp/HB38_FM_MAR.bar # Marluxia MSN
 
-
-
-# TIMELESS RIVER ====================================================================================================
-
-# Pete II
-- name: ard/wi03.ard
-  method: binarc
-  source:
-  - name: b_40
-    type: areadataspawn
-    method: spawnpoint
-    source:
-    - name: ard/wi/wi03_b_40.spawn # Final Xemnas, Riku and Paralysed Sora
-  - name: evt
-    type: areadatascript
-    method: areadatascript
-    source:
-    - name: ard/wi/wi03_evt.script # Enemy Signal and OST: Darkness of the Unknown III
-- name: msn/jp/WI03_MS104.bar
-  multi:
-  - name: msn/us/WI03_MS104.bar
-  method: copy
-  source:
-  - name: msn/jp/EH20_MS113.bar # Final Xemnas MSN
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# HALFWAY ################################################################################################################
-# HALFWAY ################################################################################################################
-# HALFWAY ################################################################################################################
 
 
 # OLYMPUS COLISEUM ====================================================================================================
@@ -492,6 +229,30 @@ assets:
 
 
 
+# TIMELESS RIVER ====================================================================================================
+
+# Pete II
+- name: ard/wi03.ard
+  method: binarc
+  source:
+  - name: b_40
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: ard/wi/wi03_b_40.spawn # Final Xemnas, Riku and Paralysed Sora
+  - name: evt
+    type: areadatascript
+    method: areadatascript
+    source:
+    - name: ard/wi/wi03_evt.script # Enemy Signal and OST: Darkness of the Unknown III
+- name: msn/jp/WI03_MS104.bar
+  multi:
+  - name: msn/us/WI03_MS104.bar
+  method: copy
+  source:
+  - name: msn/jp/EH20_MS113.bar # Final Xemnas MSN
+
+
 
 # AGRABAH ====================================================================================================
 
@@ -510,6 +271,74 @@ assets:
   method: copy
   source:
   - name: msn/jp/EH15_MS104.bar # Saix MSN
+
+
+
+# Agrabah Fight
+# Chasm of Challenges
+# Magically Locked Door
+
+# Sandswept Ruins Fight
+- name: ard/al14.ard
+  method: binarc
+  source:
+  - name: b_61
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: ard/al/al14_b_64.spawn # ! NO CHANGE
+    
+# Sandswept Tower Fight
+- name: ard/al14.ard
+  method: binarc
+  source:
+  - name: b_64
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: ard/al/al14_b_64.spawn # Data Vexen and Ice Spikes
+  - name: evt
+    type: areadatascript
+    method: areadatascript
+    source:
+    - name: ard/al/al14_evt.script # Boss Signal and OST: Encounter
+- name: msn/jp/AL14_MS201B.bar
+  multi:
+  - name: msn/us/AL14_MS201B.bar
+  method: copy
+  source:
+  - name: msn/jp/HB32_FM_VEX.bar # Vexen MSN
+
+  
+# Carpet Minigame
+
+# Genie Jafar
+- name: ard/eh05.ard
+  method: binarc
+  source:
+  - name: b_60
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: ard/al/al05_b_60.spawn # Armoured Xemnas II, Dragon and Riku ! NOT ENOUGH MEMORY TO WORK
+  - name: b_61
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: ard/al/al05_b_61.spawn # Buildings
+  - name: btl
+    type: areadatascript
+    method: areadatascript
+    source:
+    - name: ard/al/al05_btl.script # Add b_61
+- name: msn/jp/AL05_MS203.bar
+  multi:
+  - name: msn/us/AL05_MS203.bar
+  method: copy
+  source:
+  - name: msn/jp/EH23_MS112.bar # Armoured Xemnas II MSN
+
+
 
 # HALLOWEEN TOWN ====================================================================================================
 
@@ -530,6 +359,52 @@ assets:
   source:
   - name: msn/jp/HE07_MS103.bar # Cerberus MSN
 
+# Oogie Boogie
+- name: ard/nm09.ard
+  method: binarc
+  source:
+  - name: b_40
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: ard/nm/nm09_b_40.spawn # Thresholder and Possessor with Oogie Boogie
+  - name: m_40
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: ard/nm/nm09_m_40.spawn # Spikes and Reposition Oogie's Platform
+  - name: m_50
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: ard/nm/nm09_m_50.spawn # Punching Glove and Remove Conveyor Warp
+- name: msn/jp/NM09_MS104.bar
+  multi:
+  - name: msn/us/NM09_MS104.bar
+  method: copy
+  source:
+  - name: msn/jp/BB11_MS102.bar # Thresholder MSN
+
+# Lock, Shock and Barrel
+
+# Present Collection Fight
+- name: ard/nm00.ard
+  method: binarc
+  source:
+  - name: b_99
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: ard/nm00/b_99.spawn # Grim Reaper II
+    #! Medallions do not function correctly, ask Thundrio to see if fix is possible.
+    #! Boss Signal is set in nm00.evt in DONE section.
+- name: msn/jp/NM00_MS202.bar
+  multi:
+  - name: msn/us/NM00_MS202.bar
+  method: copy
+  source:
+  - name: msn/jp/CA01_MS204.bar # Grim Reaper MSN
+
 # The Experiment
 - name: ard/nm07.ard
   method: binarc
@@ -539,7 +414,7 @@ assets:
     method: spawnpoint
     source:
     - name: ard/nm/nm07_b_60.spawn # Data Larxene, Bolt Towers and Reckless
-    #! I should remove enemies to simplify fight. Keep Reckless over Bolt Towers
+    #! Too much going on. I should remove enemies to simplify fight. Keep Reckless over Bolt Towers.
 - name: msn/jp/NM07_MS204.bar
   multi:
   - name: msn/us/NM07_MS204.bar
@@ -551,6 +426,21 @@ assets:
 
 # PRIDE LANDS ====================================================================================================
 
+# Elephant Graveyard Fight
+- name: ard/lk05.ard
+  method: binarc
+  source:
+  - name: b_40
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: ard/lk05_b_40.spawn 
+  - name: evt
+    type: areadatascript
+    method: areadatascript
+    source:
+    - name: ard/lk05_evt.script # Boss Signal
+
 # Scar
 - name: ard/lk14.ard
   method: binarc
@@ -560,13 +450,101 @@ assets:
     method: spawnpoint
     source:
     - name: ard/lk14_b_40.spawn # Data Lexaeus, Driller Moles and Sandstorm Pillars
-    #! Sometimes crashes when entering Limit Form. Perhaps keep Sora as a Lion and add Simba
+    #! Sometimes crashes when entering Limit Form. Perhaps keep Sora as a Lion and add Simba.
 - name: msn/jp/LK14_MS103.bar
   multi:
   - name: msn/us/LK14_MS103.bar
   method: copy
   source:
   - name: msn/jp/HB33_FM_LEX.bar # Data Lexaeus MSN
+
+# Hyena Chase
+- name: ard/lk05.ard
+  method: binarc
+  source:
+  - name: b_60
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: ard/lk05_b_60.spawn
+
+# Groundshaker
+
+
+
+# SPACE PARANOIDS ====================================================================================================
+
+# Cube Terminal Minigame
+
+# Light Cycle
+
+# Dataspace Fight
+- name: ard/tr03.ard
+  method: binarc
+  source:
+  - name: b_40
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: ard/tr03_b_40.spawn # Emerald Blues, Bookmasters, Soldiers, Strafers and Hostile Program
+
+# Hostile Program
+
+# I/0 Tower Fight
+
+# Solar Sailer Fight
+
+# Sark
+- name: ard/tr09.ard
+  method: binarc
+  source:
+  - name: b_60
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: ard/tr09/b_60.spawn # Giant Sark, Enemies and Data Walls
+
+
+
+# THE WORLD THAT NEVER WAS ====================================================================================================
+
+# Xigbar
+# Luxord
+# Saix
+# Xemnas
+# World of Nothing Engine Fight
+# World of Nothing Core Fight
+# Armoured Xemnas I
+# Armoured Xemnas II
+# Final Xemnas
+
+
+
+# KEYBLADE GRAVEYARD ====================================================================================================
+
+# Lingering Will
+- name: ard/dc07.ard
+  method: binarc
+  source:
+  - name: b_80
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: ard/dc/dc07_b_80.spawn # Data Final Xemnas with More Clones
+  - name: evt
+    type: areadatascript
+    method: areadatascript
+    source:
+    - name: ard/dc/dc07_evt.script # Music Change
+- name: msn/jp/DC07_FM_NAZO.bar
+  multi:
+  - name: msn/us/DC07_FM_NAZO.bar
+  method: copy
+  source:
+  - name: msn/jp/EH20_MS113_RE.bar # Data Final Xemnas MSN
+
+
+
 
 
 
@@ -772,9 +750,43 @@ assets:
   source:
   - name: msn/jp/TT20_MS603.bar # Axel II MSN
 
+# Magic Switches
+- name: ard/al14.ard
+  method: binarc
+  source:
+  - name: b_65
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: ard/al/al14_b_65.spawn # Magic Switches Remix and Bees
+    #! After all the switches are activated Sora spawns in the wrong locations. Find and edit them to be the nex versions
+    #! Shorten the "enter the door" timer to 7 seconds (long enough to make it from the blizzard/thunder switches but not the fire switch)
+
 
 
 # HALLOWEEN TOWN ====================================================================================================
+
+# Town Square Fight
+- name: ard/nm00.ard
+  method: binarc
+  source:
+  - name: b_40
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: ard/nm/nm00_b_40.spawn # Aerial Champs and Wight Knights then Tifa and Aerial Knockers
+  - name: evt
+    type: areadatascript
+    method: areadatascript
+    source:
+    - name: ard/nm/nm00_evt.script # Boss Signals
+    #! Note has Boss Signal for Presents Fight as well (Grim Reaper II)
+- name: msn/jp/NM00_MS101.bar
+  multi:
+  - name: msn/us/NM00_MS101.bar
+  method: copy
+  source:
+  - name: msn/jp/TT05_MS404.bar # Axel I MSN
 
 # Candy Cane Lane Fight
 - name: ard/nm06.ard
@@ -825,6 +837,22 @@ assets:
   method: copy
   source:
   - name: msn/jp/EH10_MS102.bar # Xigbar MSN
+  
+# Master Control Program
+- name: ard/tr09.ard
+  method: binarc
+  source:
+  - name: b_61
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: ard/tr09_b_61.spawn # Data Zexion, Runemasters and Platforms
+- name: msn/jp/TR09_MS205.bar
+  multi:
+  - name: msn/us/TR09_MS205.bar
+  method: copy
+  source:
+  - name: msn/jp/HB34_FM_ZEX.bar # Zexion MSN
 
 
 
@@ -838,7 +866,7 @@ assets:
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/eh/eh21_b_40.spawn # Armoured Xemnas I x2, Sorcerer and Addtional Weapons
+    - name: ard/eh/eh21_b_40.spawn # Armoured Xemnas I, Armoured Xemnas I, Sorcerer and Addtional Weapons
   - name: evt
     type: areadatascript
     method: areadatascript
