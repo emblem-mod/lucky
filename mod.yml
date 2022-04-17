@@ -6,63 +6,6 @@ assets:
 
 
 
-
-
-
-# BEAST'S CASTLE -----------------------------------------------------------------------------
-# Parlor Fight
-
-# Thresholder & Possessor Fight
-- name: ard/bb11.ard
-  method: binarc
-  source:
-  - name: b_40
-    type: areadataspawn
-    method: spawnpoint
-    source:
-    - name: bb11_b_40.spawn # Marluxia, Hoot Bats and Emerald Blues
-- name: msn/jp/BB11_MS102.bar
-  multi:
-  - name: msn/us/BB11_MS102.bar
-  method: copy
-  source:
-  - name: msn/jp/HB38_FM_MAR.bar # Marluxia MSN
-  
-  
-  
-
-
-
-
-# OLYMPUS COLISEUM -----------------------------------------------------------------------------
-  
-# Valley of the Dead Escape
-# Cerberus Fight
-- name: ard/he07.ard
-  method: binarc
-  source:
-  - name: b_40
-    type: areadataspawn
-    method: spawnpoint
-    source:
-    - name: ard/he/he07_b_40.spawn # Cerberus -> Lexaeus, Gargoyle Knights and Gargoyle Warriors
-  - name: b_50
-    type: areadataspawn
-    method: spawnpoint
-    source:
-    - name: ard/he/he07_b_50.spawn # Falling Boulders -> Double Falling Boulders
-- name: msn/jp/HE07_MS103.bar
-  multi:
-  - name: msn/us/HE07_MS103.bar
-  method: copy
-  source:
-  - name: msn/jp/HB33_FM_LEX.bar # Lexaeus MSN
-  
-
-
-
-
-
 # DISNEY CASTLE -----------------------------------------------------------------------------
 
 # Escort Minnie
@@ -178,21 +121,7 @@ assets:
 # Agrabah Fight
 # Chasm of Challenges
 # Magically Locked Door
-# Elemental Lords
-- name: ard/al03.ard
-  method: binarc
-  source:
-  - name: b_40
-    type: areadataspawn
-    method: spawnpoint
-    source:
-    - name: ard/al/al03_b_40.spawn # Volcanic and Blizzard Lords -> Saix, Shamans and Bomb Bells
-- name: msn/jp/AL03_MS103.bar
-  multi:
-  - name: msn/us/AL03_MS103.bar
-  method: copy
-  source:
-  - name: msn/jp/EH15_MS104.bar # Saix MSN
+
 # Sandswept Ruins Fight
 - name: ard/al14.ard
   method: binarc
@@ -264,7 +193,7 @@ assets:
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/nm00_b_40.spawn # Enemies -> Tifa, Aerial Champs, Trick Ghosts and Wight Knights
+    - name: ard/nm00_b_40.spawn # Tifa, Aerial Champs, Trick Ghosts and Wight Knights
   - name: evt
     type: areadatascript
     method: areadatascript
@@ -347,15 +276,6 @@ assets:
     method: spawnpoint
     source:
     - name: ard/lk05_b_60.spawn # Hyenas -> 
-# Shenzi, Banzai and Ed
-- name: ard/lk02.ard
-  method: binarc
-  source:
-  - name: b_40
-    type: areadataspawn
-    method: spawnpoint
-    source:
-    - name: ard/lk02_b_40.spawn # Hyenas -> Final Fantasy Crew
 
 
 # SPACE PARANOIDS -----------------------------------------------------------------------------
@@ -399,25 +319,6 @@ assets:
 # THE WORLD THAT NEVER WAS -----------------------------------------------------------------------------
 
 # Roxas
-- name: ard/eh21.ard
-  method: binarc
-  source:
-  - name: b_40
-    type: areadataspawn
-    method: spawnpoint
-    source:
-    - name: ard/eh21_b_40.spawn # Roxas -> Armoured Xemnas I
-  - name: evt
-    type: areadatascript
-    method: areadatascript
-    source:
-    - name: ard/eh21_evt.script # Music Change: Darkness of the Unknown I
-- name: msn/jp/EH21_MS101.bar
-  multi:
-  - name: msn/us/EH21_MS101.bar
-  method: copy
-  source:
-  - name: msn/jp/EH24_MS110.bar # Armoured Xemnas I MSN
 # Xigbar
 # Luxord
 # Saix
@@ -430,7 +331,7 @@ assets:
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/dc/dc07_b_80.spawn # Lingering Will -> Data Final Xemnas with More Clones
+    - name: ard/dc/dc07_b_80.spawn # Data Final Xemnas with More Clones
   - name: evt
     type: areadatascript
     method: areadatascript
@@ -479,48 +380,23 @@ assets:
 
 
 
-# OLYMPUS COLISEUM ====================================================================================================
-  
-# Phil's Training
-- name: ard/he00.ard
+# BEAST'S CASTLE ====================================================================================================
+
+# Thresholder & Possessor Fight
+- name: ard/bb11.ard
   method: binarc
   source:
   - name: b_40
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/he/he00_b_40.spawn # Practice Remix !!EDIT TIME LIMIT!!
-  - name: b_41
-    type: areadataspawn
-    method: spawnpoint
-    source:
-    - name: ard/he/he00_b_41.spawn # Maniac Remix and Invincible Cloud
-  - name: btl
-    type: areadatascript
-    method: areadatascript
-    source:
-    - name: ard/he/he00_btl.script # Replace b_4a, b_4b, b_4d and b_4e with b_40 and b_41
-  
-# Hydra Fight
-- name: ard/he18.ard
-  method: binarc
-  source:
-  - name: b_40
-    type: areadataspawn
-    method: spawnpoint
-    source:
-    - name: ard/he/he18_b_40.spawn # Sephiroth, Samurais, Soldiers and Partner Cloud
-  - name: evt
-    type: areadatascript
-    method: areadatascript
-    source:
-    - name: ard/he/he18_evt.script # OST: One Winged Angel
-- name: msn/jp/HE18_MS108.bar
+    - name: bb11_b_40.spawn # Marluxia, Hoot Bats and Emerald Blues
+- name: msn/jp/BB11_MS102.bar
   multi:
-  - name: msn/us/HE18_MS108.bar
+  - name: msn/us/BB11_MS102.bar
   method: copy
   source:
-  - name: msn/jp/HB01_MS601.bar # Sephiroth MSN
+  - name: msn/jp/HB38_FM_MAR.bar # Marluxia MSN
 
 
 
@@ -549,7 +425,115 @@ assets:
 
 
 
+# THE WORLD THAT NEVER WAS ====================================================================================================
 
+# Roxas
+- name: ard/eh21.ard
+  method: binarc
+  source:
+  - name: b_40
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: ard/eh21_b_40.spawn # Roxas -> Armoured Xemnas I
+  - name: evt
+    type: areadatascript
+    method: areadatascript
+    source:
+    - name: ard/eh21_evt.script # Music Change: Darkness of the Unknown I
+- name: msn/jp/EH21_MS101.bar
+  multi:
+  - name: msn/us/EH21_MS101.bar
+  method: copy
+  source:
+  - name: msn/jp/EH24_MS110.bar # Armoured Xemnas I MSN
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# HALFWAY ################################################################################################################
+# HALFWAY ################################################################################################################
+# HALFWAY ################################################################################################################
+
+
+# OLYMPUS COLISEUM ====================================================================================================
+
+# Cerberus Fight
+- name: ard/he07.ard
+  method: binarc
+  source:
+  - name: b_40
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: ard/he/he07_b_40.spawn # Cerberus -> Lexaeus, Gargoyle Knights and Gargoyle Warriors
+  - name: b_50
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: ard/he/he07_b_50.spawn # Falling Boulders -> Double Falling Boulders
+    #! Improve Arena Walls, Improve Boulders Idea, Fix Lexaeus' Grab Attack
+- name: msn/jp/HE07_MS103.bar
+  multi:
+  - name: msn/us/HE07_MS103.bar
+  method: copy
+  source:
+  - name: msn/jp/HB33_FM_LEX.bar # Lexaeus MSN
+
+# Phil's Training
+- name: ard/he00.ard
+  method: binarc
+  source:
+  - name: b_40
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: ard/he/he00_b_40.spawn # Practice Remix
+    #! Edit the Time Limit
+  - name: b_41
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: ard/he/he00_b_41.spawn # Maniac Remix and Cloud
+    #! Edit the Time Limit
+  - name: btl
+    type: areadatascript
+    method: areadatascript
+    source:
+    - name: ard/he/he00_btl.script # Replace b_4a, b_4b, b_4d and b_4e with b_40 and b_41
+
+
+
+
+# AGRABAH ====================================================================================================
+
+# Elemental Lords
+- name: ard/al03.ard
+  method: binarc
+  source:
+  - name: b_40
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: ard/al/al03_b_40.spawn # Volcanic and Blizzard Lords -> Saix, Shamans and Bomb Bells
+- name: msn/jp/AL03_MS103.bar
+  multi:
+  - name: msn/us/AL03_MS103.bar
+  method: copy
+  source:
+  - name: msn/jp/EH15_MS104.bar # Saix MSN
 
 # HALLOWEEN TOWN ====================================================================================================
 
@@ -561,7 +545,8 @@ assets:
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/nm/nm03_b_40.spawn # Cerberus, Living Bones and Rabid Dogs ! Add Jack Sparrow?
+    - name: ard/nm/nm03_b_40.spawn # Cerberus, Living Bones and Rabid Dogs
+    #! Add Jack Sparrow?
 - name: msn/jp/NM03_MS103.bar
   multi:
   - name: msn/us/NM03_MS103.bar
@@ -577,7 +562,8 @@ assets:
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/nm/nm07_b_60.spawn # Experiment -> Data Larxene, Bolt Towers and Reckless ! Shouls remove enemies to simplify fight
+    - name: ard/nm/nm07_b_60.spawn # Experiment -> Data Larxene, Bolt Towers and Reckless
+    #! Should remove enemies to simplify fight
 - name: msn/jp/NM07_MS204.bar
   multi:
   - name: msn/us/NM07_MS204.bar
@@ -589,6 +575,16 @@ assets:
 
 # PRIDE LANDS ====================================================================================================
 
+# Shenzi, Banzai and Ed
+- name: ard/lk02.ard
+  method: binarc
+  source:
+  - name: b_40
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: ard/lk02_b_40.spawn # Hyenas -> Final Fantasy Crew
+
 # Scar
 - name: ard/lk14.ard
   method: binarc
@@ -597,7 +593,8 @@ assets:
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/lk14_b_40.spawn # Data Lexaeus, Driller Moles and Sandstorm Pillars ! Crashes when Limit Form
+    - name: ard/lk14_b_40.spawn # Data Lexaeus, Driller Moles and Sandstorm Pillars
+    #! Crashes when Limit Form
 - name: msn/jp/LK14_MS103.bar
   multi:
   - name: msn/us/LK14_MS103.bar
@@ -616,10 +613,6 @@ assets:
 
 
 
-
-# HALFWAY ################################################################################################################
-# HALFWAY ################################################################################################################
-# HALFWAY ################################################################################################################
 
 
 
@@ -668,12 +661,13 @@ assets:
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/mu/mu09_b_40.spawn # Shan Yu -> Vexen and Camo Cannons
+    - name: ard/mu/mu09_b_40.spawn # Shan Yu -> Vexen and Infinite Camo Cannons
   - name: b_41
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/mu/mu09_b_41.spawn # Remove Shan Yu Enemies ! NOTE: Does removing b_41 via btl.script make the game run better?
+    - name: ard/mu/mu09_b_41.spawn # Remove Shan Yu Enemies
+    #! NOTE: Does removing b_41 via btl.script make the game run better?
 - name: msn/jp/MU09_MS108.bar
   multi:
   - name: msn/us/MU09_MS108.bar
@@ -681,6 +675,52 @@ assets:
   source:
   - name: msn/jp/HB32_FM_VEX.bar # Vexen MSN
 
+
+
+# OLYMPUS COLISEUM ====================================================================================================
+
+# Invincible Hades Fight
+- name: ard/he06.ard
+  method: binarc
+  source:
+  - name: b_40
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: ard/he/he06_b_40.spawn # Invincible Sephiroth
+  - name: evt
+    type: areadatascript
+    method: areadatascript
+    source:
+    - name: ard/he/he06_evt.script # Enemy Signal and OST: One Winged Angel
+- name: msn/jp/HE06_MS101.bar
+  multi:
+  - name: msn/us/HE06_MS101.bar
+  method: copy
+  source:
+  - name: msn/jp/CA09_MS104.bar # Survive Timer MSN
+
+# Hydra Fight
+- name: ard/he18.ard
+  method: binarc
+  source:
+  - name: b_40
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: ard/he/he18_b_40.spawn # Sephiroth, Samurais, Soldiers, Big White Fires and Partner Cloud
+  - name: evt
+    type: areadatascript
+    method: areadatascript
+    source:
+    - name: ard/he/he18_evt.script # OST: One Winged Angel
+    #! Move fight to Dark Coliseum and add OST: FF7R One Winged Angel Mix by Televo
+- name: msn/jp/HE18_MS108.bar
+  multi:
+  - name: msn/us/HE18_MS108.bar
+  method: copy
+  source:
+  - name: msn/jp/HB01_MS601.bar # Sephiroth MSN
 
 
 
@@ -708,31 +748,6 @@ assets:
 
 
 
-# OLYMPUS COLISEUM ====================================================================================================
-
-# Invincible Hades Fight
-- name: ard/he06.ard
-  method: binarc
-  source:
-  - name: b_40
-    type: areadataspawn
-    method: spawnpoint
-    source:
-    - name: ard/he/he06_b_40.spawn # Invincible Hades -> Invincible Sephiroth
-  - name: evt
-    type: areadatascript
-    method: areadatascript
-    source:
-    - name: ard/he/he06_evt.script # Enemy Signal and OST: One Winged Angel
-- name: msn/jp/HE06_MS101.bar
-  multi:
-  - name: msn/us/HE06_MS101.bar
-  method: copy
-  source:
-  - name: msn/jp/CA09_MS104.bar # Survive Timer MSN
-
-
-
 # PORT ROYAL ====================================================================================================
 
 # Barbossa and Illuminator
@@ -743,7 +758,7 @@ assets:
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/ca/ca10_b_40.spawn # Barbossa -> Demyx II, Crescendos and Darkness
+    - name: ard/ca/ca10_b_40.spawn # Barbossa -> Demyx, Crescendos and Darkness
 - name: msn/jp/CA10_MS107.bar
   multi:
   - name: msn/us/CA10_MS107.bar
@@ -817,7 +832,7 @@ assets:
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/tr/tr02_b_60.spawn # Xigbar, Snipers and Magnum Loaders
+    - name: ard/tr/tr02_b_60.spawn # Xigbar, Snipers and Infinite Magnum Loaders
   - name: evt
     type: areadatascript
     method: areadatascript
@@ -831,6 +846,3 @@ assets:
   - name: msn/jp/EH10_MS102.bar # Xigbar MSN
 
 
-
-  
-  
