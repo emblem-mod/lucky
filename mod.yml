@@ -6,9 +6,8 @@ assets:
 
 
 
-# DISNEY CASTLE -----------------------------------------------------------------------------
+# TIMELESS RIVER -----------------------------------------------------------------------------
 
-# Escort Minnie
 # Past Pete
 - name: ard/wi01.ard
   method: binarc
@@ -425,28 +424,6 @@ assets:
 
 
 
-# THE WORLD THAT NEVER WAS ====================================================================================================
-
-# Roxas
-- name: ard/eh21.ard
-  method: binarc
-  source:
-  - name: b_40
-    type: areadataspawn
-    method: spawnpoint
-    source:
-    - name: ard/eh21_b_40.spawn # Roxas -> Armoured Xemnas I
-  - name: evt
-    type: areadatascript
-    method: areadatascript
-    source:
-    - name: ard/eh21_evt.script # Music Change: Darkness of the Unknown I
-- name: msn/jp/EH21_MS101.bar
-  multi:
-  - name: msn/us/EH21_MS101.bar
-  method: copy
-  source:
-  - name: msn/jp/EH24_MS110.bar # Armoured Xemnas I MSN
 
 
 
@@ -563,7 +540,7 @@ assets:
     method: spawnpoint
     source:
     - name: ard/nm/nm07_b_60.spawn # Experiment -> Data Larxene, Bolt Towers and Reckless
-    #! Should remove enemies to simplify fight
+    #! I should remove enemies to simplify fight. Keep Reckless over Bolt Towers
 - name: msn/jp/NM07_MS204.bar
   multi:
   - name: msn/us/NM07_MS204.bar
@@ -594,7 +571,7 @@ assets:
     method: spawnpoint
     source:
     - name: ard/lk14_b_40.spawn # Data Lexaeus, Driller Moles and Sandstorm Pillars
-    #! Crashes when Limit Form
+    #! Sometimes crashes when entering Limit Form. Perhaps keep Sora as a Lion and add Simba
 - name: msn/jp/LK14_MS103.bar
   multi:
   - name: msn/us/LK14_MS103.bar
@@ -714,7 +691,7 @@ assets:
     method: areadatascript
     source:
     - name: ard/he/he18_evt.script # OST: One Winged Angel
-    #! Move fight to Dark Coliseum and add OST: FF7R One Winged Angel Mix by Televo
+    #! Move fight to Dark Coliseum and add OST: FF7R One Winged Angel Mix
 - name: msn/jp/HE18_MS108.bar
   multi:
   - name: msn/us/HE18_MS108.bar
@@ -844,5 +821,31 @@ assets:
   method: copy
   source:
   - name: msn/jp/EH10_MS102.bar # Xigbar MSN
+
+
+
+# THE WORLD THAT NEVER WAS ====================================================================================================
+
+# Roxas
+- name: ard/eh21.ard
+  method: binarc
+  source:
+  - name: b_40
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: ard/eh/eh21_b_40.spawn # Armoured Xemnas I x2 and Additional Weapons
+  - name: evt
+    type: areadatascript
+    method: areadatascript
+    source:
+    - name: ard/eh/eh21_evt.script # OST: Darkness of the Unknown I
+    #! I can't clean up or push the mechanics of this fight further without boss modding.
+- name: msn/jp/EH21_MS101.bar
+  multi:
+  - name: msn/us/EH21_MS101.bar
+  method: copy
+  source:
+  - name: msn/jp/EH24_MS110.bar # Armoured Xemnas I MSN
 
 
