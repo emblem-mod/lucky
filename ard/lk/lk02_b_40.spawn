@@ -9,10 +9,10 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 566
-    PositionX: 1455.532958984375
-    PositionY: -124.69319915771484
-    PositionZ: 487.50698852539062
+  - ObjectId: 566 # Sora
+    PositionX: 1450
+    PositionY: -125
+    PositionZ: 475
     RotationX: 0
     RotationY: -2.6179938316345215
     RotationZ: 0
@@ -27,10 +27,10 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 97
-    PositionX: 1418.9300537109375
-    PositionY: -123.37220001220703
-    PositionZ: 350.90451049804688
+  - ObjectId: 97 # Simba
+    PositionX: 1420
+    PositionY: -125
+    PositionZ: 350
     RotationX: 0
     RotationY: -2.6179938316345215
     RotationZ: 0
@@ -45,7 +45,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 2296
+  - ObjectId: 2296 # Leon
     PositionX: 1200
     PositionY: -130
     PositionZ: 1600
@@ -55,7 +55,7 @@
     SpawnType: 0
     SpawnArgument: 0
     Serial: 12
-    Argument1: 0
+    Argument1: 4
     Argument2: 0
     ReactionCommand: 0
     SpawnDelay: 0
@@ -63,7 +63,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 2297
+  - ObjectId: 2297 # Cloud
     PositionX: 800
     PositionY: -130
     PositionZ: 1200
@@ -73,7 +73,7 @@
     SpawnType: 0
     SpawnArgument: 0
     Serial: 13
-    Argument1: 0
+    Argument1: 4
     Argument2: 0
     ReactionCommand: 0
     SpawnDelay: 0
@@ -81,7 +81,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 2298
+  - ObjectId: 2298 # Tifa
     PositionX: 400
     PositionY: -130
     PositionZ: 1600
@@ -91,7 +91,7 @@
     SpawnType: 0
     SpawnArgument: 0
     Serial: 14
-    Argument1: 0
+    Argument1: 4
     Argument2: 0
     ReactionCommand: 0
     SpawnDelay: 0
@@ -99,7 +99,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 2299
+  - ObjectId: 2299 # Yuffie
     PositionX: 800
     PositionY: -130
     PositionZ: 2000
@@ -109,7 +109,7 @@
     SpawnType: 0
     SpawnArgument: 0
     Serial: 15
-    Argument1: 0
+    Argument1: 4
     Argument2: 0
     ReactionCommand: 0
     SpawnDelay: 0
@@ -117,9 +117,9 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 1362
+  - ObjectId: 1362 # Timon and Pumba
     PositionX: 800
-    PositionY: -122.28160095214844
+    PositionY: -125
     PositionZ: 1600
     RotationX: 0
     RotationY: 0.52359879016876221
