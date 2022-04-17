@@ -78,7 +78,7 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 2139 # Mist Sphere
+  - ObjectId: 2044 # Floating Ice Spike
     PositionX: -19400
     PositionY: 3000
     PositionZ: 7300
@@ -87,52 +87,16 @@
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 2
-    Serial: 70
-    Argument1: 0
+    Serial: 35
+    Argument1: 1
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 150
+    SpawnDelay: 0
     Command: 0
-    SpawnRange: 600
-    Level: 100
+    SpawnRange: 0
+    Level: 0
     Medal: 0
-  - ObjectId: 2139 # Mist Sphere
-    PositionX: -19400
-    PositionY: 3000
-    PositionZ: 7300
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 2
-    SpawnArgument: 2
-    Serial: 71
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 250
-    Command: 0
-    SpawnRange: 200
-    Level: 100
-    Medal: 0
-  - ObjectId: 2139 # Mist Sphere
-    PositionX: -19400
-    PositionY: 3000
-    PositionZ: 7300
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 2
-    SpawnArgument: 2
-    Serial: 72
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 150
-    Command: 0
-    SpawnRange: 600
-    Level: 100
-    Medal: 0
-  - ObjectId: 2139 # Mist Sphere
+  - ObjectId: 2044 # Floating Ice Spike
     PositionX: -9100
     PositionY: -1000
     PositionZ: -14400
@@ -141,52 +105,16 @@
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 2
-    Serial: 73
-    Argument1: 0
+    Serial: 36
+    Argument1: 1
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 250
+    SpawnDelay: 0
     Command: 0
-    SpawnRange: 200
-    Level: 100
+    SpawnRange: 0
+    Level: 0
     Medal: 0
-  - ObjectId: 2139 # Mist Sphere
-    PositionX: -9100
-    PositionY: -1000
-    PositionZ: -14400
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 2
-    SpawnArgument: 2
-    Serial: 74
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 150
-    Command: 0
-    SpawnRange: 600
-    Level: 100
-    Medal: 0
-  - ObjectId: 2139 # Mist Sphere
-    PositionX: -9100
-    PositionY: -1000
-    PositionZ: -14400
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 2
-    SpawnArgument: 2
-    Serial: 75
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 250
-    Command: 0
-    SpawnRange: 200
-    Level: 100
-    Medal: 0
-  - ObjectId: 2139 # Mist Sphere
+  - ObjectId: 2044 # Floating Ice Spike
     PositionX: 11000
     PositionY: -7500
     PositionZ: -9000
@@ -195,50 +123,14 @@
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 2
-    Serial: 76
-    Argument1: 0
+    Serial: 37
+    Argument1: 1
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 150
+    SpawnDelay: 0
     Command: 0
-    SpawnRange: 600
-    Level: 100
-    Medal: 0
-  - ObjectId: 2139 # Mist Sphere
-    PositionX: 11000
-    PositionY: -7500
-    PositionZ: -9000
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 2
-    SpawnArgument: 2
-    Serial: 77
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 250
-    Command: 0
-    SpawnRange: 200
-    Level: 100
-    Medal: 0
-  - ObjectId: 2139 # Mist Sphere
-    PositionX: 11000
-    PositionY: -7500
-    PositionZ: -9000
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 2
-    SpawnArgument: 2
-    Serial: 78
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 150
-    Command: 0
-    SpawnRange: 600
-    Level: 100
+    SpawnRange: 0
+    Level: 0
     Medal: 0
   EventActivators:
   - Shape: 2
