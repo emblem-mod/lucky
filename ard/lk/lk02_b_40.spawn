@@ -45,7 +45,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 2296 # Paradox Leon
+  - ObjectId: 2296 # Leon
     PositionX: 1200
     PositionY: -130
     PositionZ: 1600
@@ -55,7 +55,7 @@
     SpawnType: 0
     SpawnArgument: 0
     Serial: 12
-    Argument1: 4
+    Argument1: 0
     Argument2: 0
     ReactionCommand: 0
     SpawnDelay: 0
@@ -63,7 +63,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 2297 # Paradox Cloud
+  - ObjectId: 2297 # Cloud
     PositionX: 800
     PositionY: -130
     PositionZ: 1200
@@ -73,7 +73,7 @@
     SpawnType: 0
     SpawnArgument: 0
     Serial: 13
-    Argument1: 3
+    Argument1: 0
     Argument2: 0
     ReactionCommand: 0
     SpawnDelay: 0
@@ -81,7 +81,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 2298 # Paradox Tifa
+  - ObjectId: 2298 # Tifa
     PositionX: 400
     PositionY: -130
     PositionZ: 1600
@@ -91,7 +91,7 @@
     SpawnType: 0
     SpawnArgument: 0
     Serial: 14
-    Argument1: 3
+    Argument1: 0
     Argument2: 0
     ReactionCommand: 0
     SpawnDelay: 0
@@ -99,7 +99,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 2299 # Paradox Yuffie
+  - ObjectId: 2299 # Yuffie
     PositionX: 800
     PositionY: -130
     PositionZ: 2000
@@ -109,7 +109,7 @@
     SpawnType: 0
     SpawnArgument: 0
     Serial: 15
-    Argument1: 4
+    Argument1: 0
     Argument2: 0
     ReactionCommand: 0
     SpawnDelay: 0
