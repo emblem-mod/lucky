@@ -78,7 +78,7 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 25 # Mist Sphere
+  - ObjectId: 2138 # Mist Sphere
     PositionX: -19400
     PositionY: 3000
     PositionZ: 7300
@@ -96,7 +96,7 @@
     SpawnRange: 600
     Level: 100
     Medal: 0
-  - ObjectId: 25 # Mist Sphere
+  - ObjectId: 2138 # Mist Sphere
     PositionX: -19400
     PositionY: 3000
     PositionZ: 7300
@@ -114,7 +114,7 @@
     SpawnRange: 200
     Level: 100
     Medal: 0
-  - ObjectId: 25 # Mist Sphere
+  - ObjectId: 2138 # Mist Sphere
     PositionX: -19400
     PositionY: 3000
     PositionZ: 7300
@@ -132,7 +132,7 @@
     SpawnRange: 600
     Level: 100
     Medal: 0
-  - ObjectId: 25 # Mist Sphere
+  - ObjectId: 2138 # Mist Sphere
     PositionX: -9100
     PositionY: -1000
     PositionZ: -14400
@@ -150,7 +150,7 @@
     SpawnRange: 200
     Level: 100
     Medal: 0
-  - ObjectId: 25 # Mist Sphere
+  - ObjectId: 2138 # Mist Sphere
     PositionX: -9100
     PositionY: -1000
     PositionZ: -14400
@@ -168,7 +168,7 @@
     SpawnRange: 600
     Level: 100
     Medal: 0
-  - ObjectId: 25 # Mist Sphere
+  - ObjectId: 2138 # Mist Sphere
     PositionX: -9100
     PositionY: -1000
     PositionZ: -14400
@@ -186,7 +186,7 @@
     SpawnRange: 200
     Level: 100
     Medal: 0
-  - ObjectId: 25 # Mist Sphere
+  - ObjectId: 2138 # Mist Sphere
     PositionX: 11000
     PositionY: -7500
     PositionZ: -9000
@@ -204,7 +204,7 @@
     SpawnRange: 600
     Level: 100
     Medal: 0
-  - ObjectId: 25 # Mist Sphere
+  - ObjectId: 2138 # Mist Sphere
     PositionX: 11000
     PositionY: -7500
     PositionZ: -9000
@@ -222,7 +222,7 @@
     SpawnRange: 200
     Level: 100
     Medal: 0
-  - ObjectId: 25 # Mist Sphere
+  - ObjectId: 2138 # Mist Sphere
     PositionX: 11000
     PositionY: -7500
     PositionZ: -9000
