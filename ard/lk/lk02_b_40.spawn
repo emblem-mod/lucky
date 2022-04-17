@@ -55,7 +55,7 @@
     SpawnType: 0
     SpawnArgument: 0
     Serial: 12
-    Argument1: 1
+    Argument1: 0
     Argument2: 0
     ReactionCommand: 0
     SpawnDelay: 0
@@ -109,7 +109,7 @@
     SpawnType: 0
     SpawnArgument: 0
     Serial: 15
-    Argument1: 1
+    Argument1: 0
     Argument2: 0
     ReactionCommand: 0
     SpawnDelay: 0
