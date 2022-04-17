@@ -99,10 +99,6 @@
     
     
     
-    
-    
-    
-    
   - ObjectId: 123 # Tornado Step
     PositionX: 600
     PositionY: 0
@@ -234,7 +230,7 @@
 
 
 
-- ObjectId: 123 # Tornado Step
+  - ObjectId: 123 # Tornado Step
     PositionX: -1100
     PositionY: 0
     PositionZ: 2000
