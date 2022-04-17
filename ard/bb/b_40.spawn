@@ -36,7 +36,7 @@
     RotationZ: 0
     SpawnType: 0
     SpawnArgument: 0
-    Serial: 14
+    Serial: 6
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -54,7 +54,7 @@
     RotationZ: 0
     SpawnType: 0
     SpawnArgument: 0
-    Serial: 15
+    Serial: 7
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -63,7 +63,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 2427
+  - ObjectId: 2427 # Zexion
     PositionX: 0
     PositionY: -300
     PositionZ: -600
@@ -72,25 +72,7 @@
     RotationZ: 0
     SpawnType: 3
     SpawnArgument: 0
-    Serial: 16
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 0
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  - ObjectId: 2414
-    PositionX: -100
-    PositionY: -200
-    PositionZ: -700
-    RotationX: 0
-    RotationY: -3.1415927410125732
-    RotationZ: 0
-    SpawnType: 0
-    SpawnArgument: 0
-    Serial: 45
+    Serial: 10
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
