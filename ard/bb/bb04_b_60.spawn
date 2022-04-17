@@ -14,7 +14,7 @@
     PositionY: 0
     PositionZ: 0
     RotationX: 0
-    RotationY: 0
+    RotationY: 3.1415927410125732
     RotationZ: 0
     SpawnType: 0
     SpawnArgument: 0
@@ -30,9 +30,9 @@
   - ObjectId: 1481 # Big Stage Clams
     PositionX: 0
     PositionY: 0
-    PositionZ: -1500
+    PositionZ: 1500
     RotationX: 0
-    RotationY: 0
+    RotationY: 3.1415927410125732
     RotationZ: 0
     SpawnType: 0
     SpawnArgument: 0
@@ -120,9 +120,9 @@
   - ObjectId: 795 # Demyx I
     PositionX: 0
     PositionY: 0
-    PositionZ: -1100
+    PositionZ: 1100
     RotationX: 0
-    RotationY: 3.1415927410125732
+    RotationY: 0
     RotationZ: 0
     SpawnType: 3
     SpawnArgument: 0
@@ -225,9 +225,9 @@
   - ObjectId: 312 # Dancer
     PositionX: 0
     PositionY: 0
-    PositionZ: -1100
+    PositionZ: 1100
     RotationX: 0
-    RotationY: 0
+    RotationY: 3.1415927410125732
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 2
