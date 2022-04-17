@@ -63,21 +63,6 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  EventActivators: []
-  WalkPath: []
-  ReturnParameters: []
-  Signals: []
-- Type: 2 # Infinite Spawn
-  Flag: 0
-  Id: 187
-  Teleport:
-    Place: 0
-    Door: 0
-    World: 0
-    Unknown: 0
-  Unk20: 0
-  Unk24: 0
-  Entities:
   - ObjectId: 2202 # Bomb Bell
     PositionX: -19400
     PositionY: 3000
@@ -130,24 +115,9 @@
     SpawnDelay: 150
     Command: 0
     SpawnRange: 600
-    Level: 100
+    Level: 0
     Medal: 0
-  EventActivators:
-  - Shape: 2
-    Option: 0
-    PositionX: 0
-    PositionY: 0
-    PositionZ: 0
-    ScaleX: 100
-    ScaleY: 100
-    ScaleZ: 100
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    Flags: 0
-    Type: 0
-    OnBgGroup: 0
-    OffBgGroup: 0
+  EventActivators: []
   WalkPath: []
   ReturnParameters: []
   Signals: []
