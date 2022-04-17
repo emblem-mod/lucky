@@ -9,7 +9,7 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 566
+  - ObjectId: 566 # Sora
     PositionX: 0
     PositionY: 0
     PositionZ: 50
@@ -27,7 +27,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 99
+  - ObjectId: 99 # Mulan
     PositionX: -100
     PositionY: 0
     PositionZ: -50
@@ -45,7 +45,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 2507
+  - ObjectId: 2507 # Data Xaldin
     PositionX: 0
     PositionY: 0
     PositionZ: 500
@@ -63,7 +63,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 2412
+  - ObjectId: 2412 # Spring Metal
     PositionX: -1000
     PositionY: -300
     PositionZ: 1300
@@ -81,7 +81,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 2412
+  - ObjectId: 2412 # Spring Metal
     PositionX: 1000
     PositionY: -300
     PositionZ: 1300
@@ -99,7 +99,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 721
+  - ObjectId: 721 # Storm Rider Barrier
     PositionX: -650
     PositionY: 0
     PositionZ: 0
@@ -117,7 +117,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 721
+  - ObjectId: 721 # Storm Rider Barrier
     PositionX: 650
     PositionY: 0
     PositionZ: 0
@@ -135,7 +135,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 294
+  - ObjectId: 294 # Palace Gate
     PositionX: -650
     PositionY: 1090
     PositionZ: 1710
@@ -153,7 +153,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 294
+  - ObjectId: 294 # Palace Gate
     PositionX: -650
     PositionY: 1090
     PositionZ: 645
@@ -171,7 +171,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 294
+  - ObjectId: 294 # Palace Gate
     PositionX: -650
     PositionY: 1090
     PositionZ: -425
@@ -189,7 +189,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 294
+  - ObjectId: 294 # Palace Gate
     PositionX: -650
     PositionY: 1090
     PositionZ: -1490
@@ -207,7 +207,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 294
+  - ObjectId: 294 # Palace Gate
     PositionX: 650
     PositionY: 1090
     PositionZ: 1710
@@ -225,7 +225,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 294
+  - ObjectId: 294 # Palace Gate
     PositionX: 650
     PositionY: 1090
     PositionZ: 645
@@ -243,7 +243,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 294
+  - ObjectId: 294 # Palace Gate
     PositionX: 650
     PositionY: 1090
     PositionZ: -425
@@ -261,7 +261,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 294
+  - ObjectId: 294 # Palace Gate
     PositionX: 650
     PositionY: 1090
     PositionZ: -1490
@@ -294,7 +294,7 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 2412
+  - ObjectId: 72 # Emerald Blues
     PositionX: 0
     PositionY: -300
     PositionZ: -3000
@@ -304,7 +304,7 @@
     SpawnType: 2
     SpawnArgument: 2
     Serial: 70
-    Argument1: 1
+    Argument1: 0
     Argument2: 0
     ReactionCommand: 0
     SpawnDelay: 250
