@@ -287,11 +287,17 @@ assets:
     method: spawnpoint
     source:
     - name: ard/al/al14_b_64.spawn # ! NO CHANGE
-    
+ 
+# Magic Switches
+  - name: b_65
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: ard/al/al14_b_65.spawn # Magic Switches Remix and Bees
+    #! After all the switches are activated Sora spawns in the wrong locations. Find and edit them to be the nex versions
+    #! Shorten the "enter the door" timer to 7 seconds (long enough to make it from the blizzard/thunder switches but not the fire switch)
+
 # Sandswept Tower Fight
-- name: ard/al14.ard
-  method: binarc
-  source:
   - name: b_64
     type: areadataspawn
     method: spawnpoint
@@ -749,18 +755,6 @@ assets:
   method: copy
   source:
   - name: msn/jp/TT20_MS603.bar # Axel II MSN
-
-# Magic Switches
-- name: ard/al14.ard
-  method: binarc
-  source:
-  - name: b_65
-    type: areadataspawn
-    method: spawnpoint
-    source:
-    - name: ard/al/al14_b_65.spawn # Magic Switches Remix and Bees
-    #! After all the switches are activated Sora spawns in the wrong locations. Find and edit them to be the nex versions
-    #! Shorten the "enter the door" timer to 7 seconds (long enough to make it from the blizzard/thunder switches but not the fire switch)
 
 
 
