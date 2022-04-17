@@ -62,7 +62,7 @@ Program 0x11
 Bgm Default Default
 
 Program 0x4A
-Bgm 114 114
+Bgm 131 131
 AreaSettings 16 -1
 	SetProgressFlag 0x144F
 	SetMember 1
