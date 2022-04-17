@@ -16,7 +16,7 @@ assets:
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/wi/wi01_b_40.spawn # Past Pete -> Demyx II, Crimson Jazz, Silver Rocks and Dancers
+    - name: ard/wi/wi01_b_40.spawn # Demyx II, Crimson Jazz, Silver Rocks and Dancers
 - name: msn/jp/WI01_MS101.bar
   multi:
   - name: msn/us/WI01_MS101.bar
@@ -49,7 +49,7 @@ assets:
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ca01_b_40.spawn # Enemies I ->
+    - name: ca01_b_40.spawn
 # Harbor Fight II
   - name: b_41
     type: areadataspawn
@@ -104,7 +104,7 @@ assets:
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/ca18/b_60.spawn # Grim Reaper -> Hydra
+    - name: ard/ca18/b_60.spawn # Hydra
 # Gambler Fight (Seadrift Keep I)
 # Gambler Fight (Seadrift Keep II)
 # Gambler Fight (Seadrift Row)
@@ -129,24 +129,24 @@ assets:
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/al/al14_b_64.spawn # Enemies -> !!NO CHANGE
+    - name: ard/al/al14_b_64.spawn # ! NO CHANGE
 # Sandswept Tower Fight
   - name: b_64
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/al/al14_b_64.spawn # Enemies -> Data Vexen and Ice Spikes
+    - name: ard/al/al14_b_64.spawn # Data Vexen and Ice Spikes
 # Magic Switches
   - name: b_65
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/al/al14_b_65.spawn # Magic Switches -> Magic Switches Remix and Bees
+    - name: ard/al/al14_b_65.spawn # Magic Switches Remix and Bees
   - name: evt
     type: areadatascript
     method: areadatascript
     source:
-    - name: ard/al/al14_evt.script # Boss Signal
+    - name: ard/al/al14_evt.script # Boss Signal and OST: Encounter
 - name: msn/jp/AL14_MS201B.bar
   multi:
   - name: msn/us/AL14_MS201B.bar
@@ -162,7 +162,7 @@ assets:
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/al/al05_b_60.spawn # Genie Jafar -> Armoured Xemnas II, Dragon and Riku ! NOT ENOUGH MEMORY TO WORK
+    - name: ard/al/al05_b_60.spawn # Armoured Xemnas II, Dragon and Riku ! NOT ENOUGH MEMORY TO WORK
   - name: b_61
     type: areadataspawn
     method: spawnpoint
@@ -211,7 +211,7 @@ assets:
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/nm00/b_99.spawn # Enemies -> Saix
+    - name: ard/nm00/b_99.spawn # Saix
   - name: evt
     type: areadatascript
     method: areadatascript
@@ -232,7 +232,7 @@ assets:
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/nm/nm09_b_40.spawn # Oogie Boogie -> Thresholder and Possessor with Oogie Boogie
+    - name: ard/nm/nm09_b_40.spawn # Thresholder and Possessor with Oogie Boogie
   - name: m_40
     type: areadataspawn
     method: spawnpoint
@@ -263,7 +263,7 @@ assets:
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/lk05_b_40.spawn # Enemies -> 
+    - name: ard/lk05_b_40.spawn 
   - name: evt
     type: areadatascript
     method: areadatascript
@@ -274,7 +274,7 @@ assets:
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/lk05_b_60.spawn # Hyenas -> 
+    - name: ard/lk05_b_60.spawn
 
 
 # SPACE PARANOIDS -----------------------------------------------------------------------------
@@ -287,7 +287,7 @@ assets:
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/tr03_b_40.spawn # Enemies -> Emerald Blues, Bookmasters, Soldiers, Strafers and Hostile Program
+    - name: ard/tr03_b_40.spawn # Emerald Blues, Bookmasters, Soldiers, Strafers and Hostile Program
 
 # Hostile Program
 # I/0 Tower Fight
@@ -300,13 +300,13 @@ assets:
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/tr09/b_60.spawn # Sark -> Giant Sark, Enemies and Data Walls
+    - name: ard/tr09/b_60.spawn # Giant Sark, Enemies and Data Walls
 # Master Control Program Fight
   - name: b_61
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/tr09_b_61.spawn # Master Control Program -> Data Zexion, Runemasters and Platforms
+    - name: ard/tr09_b_61.spawn # Data Zexion, Runemasters and Platforms
 - name: msn/jp/TR09_MS205.bar
   multi:
   - name: msn/us/TR09_MS205.bar
@@ -455,12 +455,12 @@ assets:
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/he/he07_b_40.spawn # Cerberus -> Lexaeus, Gargoyle Knights and Gargoyle Warriors
+    - name: ard/he/he07_b_40.spawn # Lexaeus, Gargoyle Knights and Gargoyle Warriors
   - name: b_50
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/he/he07_b_50.spawn # Falling Boulders -> Double Falling Boulders
+    - name: ard/he/he07_b_50.spawn # More Falling Boulders
     #! Improve Arena Walls, Improve Boulders Idea, Fix Lexaeus' Grab Attack
 - name: msn/jp/HE07_MS103.bar
   multi:
@@ -496,7 +496,7 @@ assets:
 
 # AGRABAH ====================================================================================================
 
-# Elemental Lords
+# Volcanic and Blizzard Lords
 - name: ard/al03.ard
   method: binarc
   source:
@@ -504,7 +504,7 @@ assets:
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/al/al03_b_40.spawn # Volcanic and Blizzard Lords -> Saix, Shamans and Bomb Bells
+    - name: ard/al/al03_b_40.spawn # Saix, Shamans and Bomb Bells
 - name: msn/jp/AL03_MS103.bar
   multi:
   - name: msn/us/AL03_MS103.bar
@@ -539,7 +539,7 @@ assets:
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/nm/nm07_b_60.spawn # Experiment -> Data Larxene, Bolt Towers and Reckless
+    - name: ard/nm/nm07_b_60.spawn # Data Larxene, Bolt Towers and Reckless
     #! I should remove enemies to simplify fight. Keep Reckless over Bolt Towers
 - name: msn/jp/NM07_MS204.bar
   multi:
@@ -551,16 +551,6 @@ assets:
 
 
 # PRIDE LANDS ====================================================================================================
-
-# Shenzi, Banzai and Ed
-- name: ard/lk02.ard
-  method: binarc
-  source:
-  - name: b_40
-    type: areadataspawn
-    method: spawnpoint
-    source:
-    - name: ard/lk/lk02_b_40.spawn # Leon, Cloud, Tifa and Yuffie
 
 # Scar
 - name: ard/lk14.ard
@@ -638,7 +628,7 @@ assets:
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/mu/mu09_b_40.spawn # Shan Yu -> Vexen and Infinite Camo Cannons
+    - name: ard/mu/mu09_b_40.spawn # Vexen and Infinite Camo Cannons
   - name: b_41
     type: areadataspawn
     method: spawnpoint
@@ -735,7 +725,7 @@ assets:
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/ca/ca10_b_40.spawn # Barbossa -> Demyx, Crescendos and Darkness
+    - name: ard/ca/ca10_b_40.spawn # Demyx, Crescendos and Darkness
 - name: msn/jp/CA10_MS107.bar
   multi:
   - name: msn/us/CA10_MS107.bar
@@ -796,6 +786,21 @@ assets:
     method: spawnpoint
     source:
     - name: ard/nm/nm06_b_40.spawn # Magic Phantoms, Toy Soldier and Graveyard
+
+
+
+# PRIDE LANDS ====================================================================================================
+
+# Shenzi, Banzai and Ed
+- name: ard/lk02.ard
+  method: binarc
+  source:
+  - name: b_40
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: ard/lk/lk02_b_40.spawn # Leon, Cloud, Tifa and Yuffie
+    #! Might need to upgrade them to their Underdrome versions for balance
 
 
 
