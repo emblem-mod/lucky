@@ -63,7 +63,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 2139 # Bees
+  - ObjectId: 2202 # Bees
     PositionX: -19400
     PositionY: 3000
     PositionZ: 7300
@@ -81,10 +81,10 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 2139 # Bees
-    PositionX: -19400
-    PositionY: 3000
-    PositionZ: 7300
+  - ObjectId: 2202 # Bees
+    PositionX: -9100
+    PositionY: -1000
+    PositionZ: -14400
     RotationX: 0
     RotationY: 0
     RotationZ: 0
@@ -99,124 +99,16 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 2139 # Bees
-    PositionX: -19400
-    PositionY: 3000
-    PositionZ: 7300
+  - ObjectId: 2202 # Bees
+    PositionX: 11000
+    PositionY: -7500
+    PositionZ: -9000
     RotationX: 0
     RotationY: 0
     RotationZ: 0
     SpawnType: 3
     SpawnArgument: 0
     Serial: 65
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 0
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  - ObjectId: 2139 # Bees
-    PositionX: -9100
-    PositionY: -1000
-    PositionZ: -14400
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 3
-    SpawnArgument: 0
-    Serial: 66
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 0
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  - ObjectId: 2139 # Bees
-    PositionX: -9100
-    PositionY: -1000
-    PositionZ: -14400
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 3
-    SpawnArgument: 0
-    Serial: 67
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 0
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  - ObjectId: 2139 # Bees
-    PositionX: -9100
-    PositionY: -1000
-    PositionZ: -14400
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 3
-    SpawnArgument: 0
-    Serial: 68
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 0
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  - ObjectId: 2139 # Bees
-    PositionX: 11000
-    PositionY: -7500
-    PositionZ: -9000
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 3
-    SpawnArgument: 0
-    Serial: 69
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 0
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  - ObjectId: 2139 # Bees
-    PositionX: 11000
-    PositionY: -7500
-    PositionZ: -9000
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 3
-    SpawnArgument: 0
-    Serial: 70
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 0
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  - ObjectId: 2139 # Bees
-    PositionX: 11000
-    PositionY: -7500
-    PositionZ: -9000
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 3
-    SpawnArgument: 0
-    Serial: 71
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
