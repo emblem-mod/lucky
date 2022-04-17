@@ -170,6 +170,12 @@ assets:
     method: areadatascript
     source:
     - name: ard/bb/bb04_evt.script # Boss Signal and OST: Dance of the Daring
+- name: msn/jp/BB04_MS201.bar
+  multi:
+  - name: msn/us/BB04_MS201.bar
+  method: copy
+  source:
+  - name: msn/jp/HE17_MS105.bar # Demyx I MSN
 
 
 # OLYMPUS COLISEUM ====================================================================================================
