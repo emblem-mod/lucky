@@ -138,18 +138,6 @@ assets:
     method: spawnpoint
     source:
     - name: mu08_b_40.spawn # Enemies -> Hydra, Phil, Pegasus, Large Urns and Meg
-# Imperial Square Fight II
-  - name: b_60
-    type: areadataspawn
-    method: spawnpoint
-    source:
-    - name: mu08_b_40.spawn # BLANK
-# Storm Rider
-  - name: b_61
-    type: areadataspawn
-    method: spawnpoint
-    source:
-    - name: ard/mu08_b_61.spawn # Storm Rider -> Data Xaldin, Spring Metals and Dragoons
   - name: evt
     type: areadatascript
     method: areadatascript
@@ -161,14 +149,27 @@ assets:
   method: copy
   source:
   - name: msn/jp/HE18_MS108.bar # Hydra MSN
+  
+# Imperial Square Fight II
+  - name: b_60
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: mu08_b_40.spawn # BLANK
+
+# Storm Rider
+  - name: b_61
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: ard/mu/mu08_b_61.spawn # Data Xaldin and Spring Metals
 - name: msn/jp/MU08_MS204.bar
   multi:
   - name: msn/us/MU08_MS204.bar
   method: copy
   source:
   - name: msn/jp/BB15_MS203.bar # Xaldin MSN
-
-
+  #! This is DONE. Move to DONE when other mu08 fights are finished.
 
 
 
@@ -434,7 +435,6 @@ assets:
 
 # Lock, Shock and Barrel
 
-
 # Town Square Fight
 - name: ard/nm00.ard
   method: binarc
@@ -448,8 +448,7 @@ assets:
     type: areadatascript
     method: areadatascript
     source:
-    - name: ard/nm/nm00_evt.script # Boss Signals
-    #! Note has Boss Signal for Presents Fight (Grim Reaper II) in IDEAS section.
+    - name: ard/nm/nm00_evt.script # Boss Signal (b_40, b_99)
 - name: msn/jp/NM00_MS101.bar
   multi:
   - name: msn/us/NM00_MS101.bar
@@ -464,7 +463,6 @@ assets:
     source:
     - name: ard/nm00/b_99.spawn # Grim Reaper II
     #! Medallions do not function correctly, ask Thundrio to see if fix is possible.
-    #! Boss Signal is set in nm00.evt in DONE section.
 - name: msn/jp/NM00_MS202.bar
   multi:
   - name: msn/us/NM00_MS202.bar
@@ -842,6 +840,7 @@ assets:
   method: copy
   source:
   - name: msn/jp/HB32_FM_VEX.bar # Vexen MSN
+
 # Magic Switches
   - name: b_65
     type: areadataspawn
