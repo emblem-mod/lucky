@@ -103,10 +103,10 @@
     RotationX: 0
     RotationY: -2.256688117980957
     RotationZ: 0
-    SpawnType: 0
+    SpawnType: 3
     SpawnArgument: 0
     Serial: 11
-    Argument1: 3
+    Argument1: 0
     Argument2: 0
     ReactionCommand: 0
     SpawnDelay: 0
@@ -134,7 +134,7 @@
     Medal: 0
   - ObjectId: 119 # Wight Knight
     PositionX: 900
-    PositionY: -150
+    PositionY: -1500
     PositionZ: -100
     RotationX: 0
     RotationY: 0
