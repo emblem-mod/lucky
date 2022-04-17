@@ -9,7 +9,7 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 1554 # Magic Switch Fire
+  - ObjectId: 1554 # Fire Switch
     PositionX: -1050
     PositionY: -900
     PositionZ: -23050
@@ -27,7 +27,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 1555 # Magic Switch Blizzard
+  - ObjectId: 1555 # Blizzard Switch
     PositionX: -4700
     PositionY: -2900
     PositionZ: 400
@@ -45,7 +45,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 1556 # Magic Switch Thunder
+  - ObjectId: 1556 # Thunder Switch
     PositionX: -18500
     PositionY: -2500
     PositionZ: 21000
@@ -63,7 +63,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 2139 # Bees
+  - ObjectId: 1593 # Bees
     PositionX: -19400
     PositionY: 3000
     PositionZ: 7300
@@ -81,7 +81,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 2139 # Bees
+  - ObjectId: 1593 # Bees
     PositionX: -9100
     PositionY: -1000
     PositionZ: -14400
@@ -99,14 +99,14 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 2139 # Bees
+  - ObjectId: 1593 # Bees
     PositionX: 11000
     PositionY: -7500
     PositionZ: -9000
     RotationX: 0
     RotationY: 0
     RotationZ: 0
-    SpawnType: 3
+    SpawnType: 2
     SpawnArgument: 0
     Serial: 60
     Argument1: 0
