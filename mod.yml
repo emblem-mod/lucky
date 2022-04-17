@@ -560,7 +560,7 @@ assets:
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/lk02_b_40.spawn # Hyenas -> Final Fantasy Crew
+    - name: ard/lk/lk02_b_40.spawn # Leon, Cloud, Tifa and Yuffie
 
 # Scar
 - name: ard/lk14.ard
@@ -834,7 +834,7 @@ assets:
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/eh/eh21_b_40.spawn # Armoured Xemnas I x2 and Additional Weapons
+    - name: ard/eh/eh21_b_40.spawn # Armoured Xemnas I x2, Sorcerer and Addtional Weapons
   - name: evt
     type: areadatascript
     method: areadatascript
