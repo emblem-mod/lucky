@@ -132,54 +132,6 @@
   Unk20: 3276800
   Unk24: 0
   Entities:
-  - ObjectId: 73 # Crimson Jazz
-    PositionX: 0
-    PositionY: -30000
-    PositionZ: 0
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 0
-    SpawnArgument: 0
-    Serial: 40
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 0
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  EventActivators:
-  - Shape: 2
-    Option: 0
-    PositionX: 0
-    PositionY: 0
-    PositionZ: 0
-    ScaleX: 100
-    ScaleY: 100
-    ScaleZ: 100
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    Flags: 0
-    Type: 0
-    OnBgGroup: 0
-    OffBgGroup: 0
-  WalkPath: []
-  ReturnParameters: []
-  Signals: []
-- Type: 2 # Staggered Spawn
-  Flag: 1
-  Id: 42
-  Teleport:
-    Place: 0
-    Door: 0
-    World: 0
-    Unknown: 0
-  Unk20: 0
-  Unk24: 0
-  Entities:
   - ObjectId: 312 # Dancer
     PositionX: 0
     PositionY: -30000
@@ -262,6 +214,54 @@
     SpawnType: 2
     SpawnArgument: 0
     Serial: 45
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 0
+    Medal: 0
+  EventActivators:
+  - Shape: 2
+    Option: 0
+    PositionX: 0
+    PositionY: 0
+    PositionZ: 0
+    ScaleX: 100
+    ScaleY: 100
+    ScaleZ: 100
+    RotationX: 0
+    RotationY: 0
+    RotationZ: 0
+    Flags: 0
+    Type: 0
+    OnBgGroup: 0
+    OffBgGroup: 0
+  WalkPath: []
+  ReturnParameters: []
+  Signals: []
+- Type: 2 # Staggered Spawn
+  Flag: 1
+  Id: 42
+  Teleport:
+    Place: 0
+    Door: 0
+    World: 0
+    Unknown: 0
+  Unk20: 0
+  Unk24: 0
+  Entities:
+  - ObjectId: 73 # Crimson Jazz
+    PositionX: 0
+    PositionY: -30000
+    PositionZ: 0
+    RotationX: 0
+    RotationY: 0
+    RotationZ: 0
+    SpawnType: 0
+    SpawnArgument: 0
+    Serial: 40
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
