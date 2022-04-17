@@ -186,9 +186,30 @@ assets:
 # HALLOWEEN TOWN -----------------------------------------------------------------------------
 
 
+# Town Square Fight
 - name: ard/nm00.ard
   method: binarc
   source:
+  - name: b_40
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: ard/nm/nm00_b_40.spawn # Aerial Champs and Wight Knights then Tifa and Aerial Knockers
+  - name: evt
+    type: areadatascript
+    method: areadatascript
+    source:
+    - name: ard/nm/nm00_evt.script # Boss Signal and Remove Fail-State
+- name: msn/jp/NM00_MS101.bar
+  multi:
+  - name: msn/us/NM00_MS101.bar
+  method: copy
+  source:
+  - name: msn/jp/TT05_MS404.bar # Axel I MSN
+- name: ard/nm00.ard
+  method: binarc
+  source:
+  
 # Present Collection Fight
   - name: b_99
     type: areadataspawn
@@ -759,27 +780,6 @@ assets:
 
 
 # HALLOWEEN TOWN ====================================================================================================
-
-# Town Square Fight
-- name: ard/nm00.ard
-  method: binarc
-  source:
-  - name: b_40
-    type: areadataspawn
-    method: spawnpoint
-    source:
-    - name: ard/nm/nm00_b_40.spawn # Aerial Champs and Wight Knights then Tifa and Aerial Knockers
-  - name: evt
-    type: areadatascript
-    method: areadatascript
-    source:
-    - name: ard/nm/nm00_evt.script # Boss Signal and Remove Fail-State
-- name: msn/jp/NM00_MS101.bar
-  multi:
-  - name: msn/us/NM00_MS101.bar
-  method: copy
-  source:
-  - name: msn/jp/TT05_MS404.bar # Axel I MSN
 
 # Candy Cane Lane Fight
 - name: ard/nm06.ard
