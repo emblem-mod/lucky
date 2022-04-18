@@ -9,10 +9,10 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 566
-    PositionX: 2737.985107421875
-    PositionY: 7.0249938289634883E-05
-    PositionZ: 1323.248046875
+  - ObjectId: 566 # Sora
+    PositionX: 2725
+    PositionY: 0
+    PositionZ: 1325
     RotationX: 0
     RotationY: -0.65462309122085571
     RotationZ: 0
@@ -27,10 +27,10 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 567
-    PositionX: 2878.198974609375
-    PositionY: 4.1253730159951374E-05
-    PositionZ: 1341.68994140625
+  - ObjectId: 567 # Party Member 1
+    PositionX: 2875
+    PositionY: 0
+    PositionZ: 1350
     RotationX: 0
     RotationY: -0.65462309122085571
     RotationZ: 0
@@ -45,9 +45,9 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 568
-    PositionX: 2719.5439453125
-    PositionY: -7.5493757321964949E-05
+  - ObjectId: 568 # Party Member 2
+    PositionX: 2725
+    PositionY: 0
     PositionZ: 1463.4620361328125
     RotationX: 0
     RotationY: -0.65462309122085571
