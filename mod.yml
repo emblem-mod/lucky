@@ -599,50 +599,6 @@ assets:
 
 
 
-# PRIDE LANDS ====================================================================================================
-
-# Elephant Graveyard Fight
-- name: ard/lk05.ard
-  method: binarc
-  source:
-  - name: b_40
-    type: areadataspawn
-    method: spawnpoint
-    source:
-    - name: ard/lk/lk05_b_40.spawn 
-  - name: evt
-    type: areadatascript
-    method: areadatascript
-    source:
-    - name: ard/lk/lk05_evt.script # Boss Signal
-
-# Hyena Chase
-  - name: b_60
-    type: areadataspawn
-    method: spawnpoint
-    source:
-    - name: ard/lk/lk05_b_60.spawn
-
-# Scar
-- name: ard/lk14.ard
-  method: binarc
-  source:
-  - name: b_40
-    type: areadataspawn
-    method: spawnpoint
-    source:
-    - name: ard/lk/lk14_b_40.spawn # Data Lexaeus, Driller Moles and Sandstorm Pillars
-    #! Sometimes crashes when entering Limit Form. Perhaps keep Sora as a Lion and add Simba.
-    #! Add OST: The Deep End (Rock Titan KH3 Ver)
-- name: msn/jp/LK14_MS103.bar
-  multi:
-  - name: msn/us/LK14_MS103.bar
-  method: copy
-  source:
-  - name: msn/jp/HB33_FM_LEX.bar # Data Lexaeus MSN
-
-# Groundshaker
-
 
 
 
@@ -964,6 +920,31 @@ assets:
 
 # PRIDE LANDS =========================================================================================================
 
+
+# PRIDE LANDS ====================================================================================================
+
+# Elephant Graveyard Fight
+- name: ard/lk05.ard
+  method: binarc
+  source:
+  - name: b_40
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: ard/lk/lk05_b_40.spawn 
+  - name: evt
+    type: areadatascript
+    method: areadatascript
+    source:
+    - name: ard/lk/lk05_evt.script # Boss Signal
+
+# Hyena Chase
+  - name: b_60
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: ard/lk/lk05_b_60.spawn
+
 # Shenzi, Banzai and Ed
 - name: ard/lk02.ard
   method: binarc
@@ -974,6 +955,26 @@ assets:
     source:
     - name: ard/lk/lk02_b_40.spawn # Leon, Cloud, Tifa and Yuffie
     #! Might need to upgrade them to their Underdrome versions for balance.
+
+# Scar
+- name: ard/lk14.ard
+  method: binarc
+  source:
+  - name: b_40
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: ard/lk/lk14_b_40.spawn # Data Lexaeus, Driller Moles and Sandstorm Pillars
+    #! Sometimes crashes when entering Limit Form. Perhaps keep Sora as a Lion and add Simba.
+    #! Add OST: The Deep End (Rock Titan KH3 Ver)
+- name: msn/jp/LK14_MS103.bar
+  multi:
+  - name: msn/us/LK14_MS103.bar
+  method: copy
+  source:
+  - name: msn/jp/HB33_FM_LEX.bar # Data Lexaeus MSN
+
+# Groundshaker
 
 
 
