@@ -148,7 +148,7 @@ AreaSettings 0 -1
 Spawn "e_50"
 
 Program 0x50
-Bgm 121 121
+Bgm 151 151
 AreaSettings 16 -1
 	SetProgressFlag 0x8B4
 	SetUnk05 0x3
