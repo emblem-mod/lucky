@@ -71,7 +71,7 @@ assets:
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/hb/hb17_b_99.spawn # 1000 Heartless and Rapid Thruster Swarms
+    - name: ard/hb/hb17_b_99.spawn # 1000 Heartless and Summit Heartless
   - name: evt
     type: areadatascript
     method: areadatascript
