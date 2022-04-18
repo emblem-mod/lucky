@@ -95,55 +95,7 @@
     Unknown: 0
   Unk20: 3276800
   Unk24: 0
-  Entities:
-  - ObjectId: 2043 # Lava Pool
-    PositionX: 0
-    PositionY: 0
-    PositionZ: 1000
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 2
-    SpawnArgument: 0
-    Serial: 20
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 0
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  EventActivators:
-  - Shape: 2
-    Option: 0
-    PositionX: 0
-    PositionY: 0
-    PositionZ: 0
-    ScaleX: 100
-    ScaleY: 100
-    ScaleZ: 100
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    Flags: 0
-    Type: 0
-    OnBgGroup: 0
-    OffBgGroup: 0
-  WalkPath: []
-  ReturnParameters: []
-  Signals: []
-- Type: 2 # Staggered Spawn
-  Flag: 1
-  Id: 42
-  Teleport:
-    Place: 0
-    Door: 0
-    World: 0
-    Unknown: 0
-  Unk20: 0
-  Unk24: 0
-  Entities:
+Entities:
   - ObjectId: 2043 # Lava Pool
     PositionX: 0
     PositionY: 0
@@ -175,7 +127,7 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 50
+    SpawnDelay: 100
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -193,7 +145,7 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 100
+    SpawnDelay: 150
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -211,7 +163,7 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 150
+    SpawnDelay: 175
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -247,7 +199,7 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 50
+    SpawnDelay: 100
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -265,7 +217,7 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 100
+    SpawnDelay: 150
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -283,7 +235,7 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 150
+    SpawnDelay: 175
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -306,10 +258,5 @@
     OffBgGroup: 0
   WalkPath: []
   ReturnParameters: []
-  Signals:
-  - SignalId: 3
-    Argument: 41
-    Action: 0
-    Padding05: 0
-    Padding06: 0
-    Padding07: 0
+  Signals: []
+ 
