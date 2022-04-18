@@ -282,7 +282,7 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 1759
+  - ObjectId: 1759 # Pete's Construction Platform
     PositionX: -73
     PositionY: -13873.400390625
     PositionZ: 148.10000610351562
@@ -300,7 +300,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 1612
+  - ObjectId: 1612 # Pete's Burning House
     PositionX: -75
     PositionY: -20
     PositionZ: 1910
@@ -318,7 +318,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 758
+  - ObjectId: 758 # Black Hole
     PositionX: 0
     PositionY: 10
     PositionZ: -350
