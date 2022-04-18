@@ -96,7 +96,7 @@
   Unk20: 3276800
   Unk24: 0
   Entities:
-  - ObjectId: 2406 # Mad Ride
+  - ObjectId: 87 # Mad Ride
     PositionX: -200
     PositionY: 0
     PositionZ: 200
@@ -114,7 +114,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 2406 # Mad Ride
+  - ObjectId: 87 # Mad Ride
     PositionX: 200
     PositionY: 0
     PositionZ: 200
@@ -193,7 +193,7 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 0
+    SpawnDelay: 50
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -211,7 +211,7 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 0
+    SpawnDelay: 100
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -229,7 +229,7 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 0
+    SpawnDelay: 150
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -265,7 +265,7 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 0
+    SpawnDelay: 50
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -283,7 +283,7 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 0
+    SpawnDelay: 100
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -301,7 +301,7 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 0
+    SpawnDelay: 150
     Command: 0
     SpawnRange: 0
     Level: 0
