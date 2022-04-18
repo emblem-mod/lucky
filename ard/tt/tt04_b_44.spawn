@@ -109,7 +109,7 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 50
+    SpawnDelay: 150
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -127,7 +127,7 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 50
+    SpawnDelay: 150
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -145,7 +145,7 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 50
+    SpawnDelay: 150
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -163,7 +163,7 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 50
+    SpawnDelay: 150
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -181,7 +181,7 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 50
+    SpawnDelay: 150
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -199,7 +199,7 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 50
+    SpawnDelay: 150
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -217,7 +217,7 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 50
+    SpawnDelay: 150
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -235,7 +235,7 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 50
+    SpawnDelay: 150
     Command: 0
     SpawnRange: 0
     Level: 0
