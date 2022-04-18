@@ -9,7 +9,7 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 566
+  - ObjectId: 566 # Sora
     PositionX: 0
     PositionY: 0
     PositionZ: -1500
@@ -27,7 +27,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 567
+  - ObjectId: 567 # Party Member 1
     PositionX: -100
     PositionY: 0
     PositionZ: -1600
@@ -45,7 +45,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 568
+  - ObjectId: 568 # Party Member 2
     PositionX: 100
     PositionY: 0
     PositionZ: -1600
@@ -63,7 +63,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 364
+  - ObjectId: 364 # Phil
     PositionX: 0
     PositionY: 0
     PositionZ: -2400
@@ -81,7 +81,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 363
+  - ObjectId: 363 # Pegasus
     PositionX: 0
     PositionY: 0
     PositionZ: 0
@@ -99,7 +99,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 352
+  - ObjectId: 352 # Hydra
     PositionX: 0
     PositionY: 0
     PositionZ: 750
@@ -117,12 +117,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-
-
-
-
-
-  - ObjectId: 721
+  - ObjectId: 721 # Storm Rider Barrier
     PositionX: -1300
     PositionY: 0
     PositionZ: -1600
@@ -140,7 +135,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 721
+  - ObjectId: 721 # Storm Rider Barrier
     PositionX: -2200
     PositionY: 0
     PositionZ: -1000
@@ -158,7 +153,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 721
+  - ObjectId: 721 # Storm Rider Barrier
     PositionX: 0
     PositionY: 0
     PositionZ: 1000
@@ -176,7 +171,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 721
+  - ObjectId: 721 # Storm Rider Barrier
     PositionX: 2200
     PositionY: 0
     PositionZ: -1000
@@ -194,7 +189,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 721
+  - ObjectId: 721 # Storm Rider Barrier
     PositionX: 1300
     PositionY: 0
     PositionZ: -1600
@@ -212,30 +207,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  
-
-
-
-  
-  - ObjectId: 2424
-    PositionX: -2200
-    PositionY: 3800
-    PositionZ: 500
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 0
-    SpawnArgument: 0
-    Serial: 50
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 0
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  - ObjectId: 2424
+  - ObjectId: 2424 # CoR Spiral Pillar
     PositionX: -800
     PositionY: 3475
     PositionZ: 1650
@@ -244,7 +216,7 @@
     RotationZ: 0
     SpawnType: 0
     SpawnArgument: 0
-    Serial: 51
+    Serial: 45
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -253,7 +225,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 2424
+  - ObjectId: 2424 # CoR Spiral Pillar
     PositionX: 800
     PositionY: 3475
     PositionZ: 1650
@@ -262,25 +234,7 @@
     RotationZ: 0
     SpawnType: 0
     SpawnArgument: 0
-    Serial: 52
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 0
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  - ObjectId: 2424
-    PositionX: 2200
-    PositionY: 3800
-    PositionZ: 500
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 0
-    SpawnArgument: 0
-    Serial: 53
+    Serial: 46
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -293,7 +247,7 @@
   WalkPath: []
   ReturnParameters: []
   Signals: []
-- Type: 2
+- Type: 2 # Large Urn Spawn
   Flag: 0
   Id: 42
   Teleport:
@@ -304,7 +258,7 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 801
+  - ObjectId: 801 # Large Urn
     PositionX: 0
     PositionY: 0
     PositionZ: 0
@@ -313,7 +267,7 @@
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
-    Serial: 15
+    Serial: 50
     Argument1: 99
     Argument2: 0
     ReactionCommand: 0
@@ -341,7 +295,7 @@
   WalkPath: []
   ReturnParameters: []
   Signals: []
-- Type: 5
+- Type: 5 # Hydra's Head Spawn
   Flag: 1
   Id: 52
   Teleport:
@@ -352,7 +306,7 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 922
+  - ObjectId: 922 # Hydra's Head
     PositionX: 0
     PositionY: 0
     PositionZ: 0
@@ -361,7 +315,7 @@
     RotationZ: 0
     SpawnType: 0
     SpawnArgument: 0
-    Serial: 22
+    Serial: 60
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
