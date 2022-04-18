@@ -309,7 +309,7 @@ AreaSettings 0 -1
 
 
 Program 0x4F
-Bgm 119 119
+Bgm 151 151
 AreaSettings 15 -1
 	SetProgressFlag 0x846
 	SetUnk05 0x3
