@@ -9,7 +9,7 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 566
+  - ObjectId: 566 # Sora
     PositionX: 1000
     PositionY: 60
     PositionZ: 0
@@ -27,7 +27,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 567
+  - ObjectId: 567 # Party Member 1
     PositionX: 1100
     PositionY: 60
     PositionZ: -100
@@ -45,7 +45,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 568
+  - ObjectId: 568 # Party Member 2
     PositionX: 1100
     PositionY: 60
     PositionZ: 100
@@ -63,7 +63,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 1867
+  - ObjectId: 1867 # Data Orb Prizes
     PositionX: 0
     PositionY: 0
     PositionZ: 0
@@ -81,10 +81,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-
-
-
-  - ObjectId: 1852
+  - ObjectId: 1852 # Emerald Blues SP
     PositionX: 250
     PositionY: -200
     PositionZ: -750
@@ -102,7 +99,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 1852
+  - ObjectId: 1852 # Emerald Blues SP
     PositionX: 250
     PositionY: -200
     PositionZ: 750
@@ -120,7 +117,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 1835
+  - ObjectId: 1835 # Bookmaster SP
     PositionX: 1400
     PositionY: 50
     PositionZ: 0
@@ -153,7 +150,7 @@
   Unk20: 16777216
   Unk24: 0
   Entities:
-  - ObjectId: 1839
+  - ObjectId: 1839 # Soldier SP
     PositionX: 250
     PositionY: -200
     PositionZ: -750
@@ -222,7 +219,7 @@
   Unk20: 16777216
   Unk24: 0
   Entities:
-  - ObjectId: 1875
+  - ObjectId: 1875 # Strafer Swarm
     PositionX: 250
     PositionY: -200
     PositionZ: 750
@@ -291,7 +288,7 @@
   Unk20: 16777216
   Unk24: 0
   Entities:
-  - ObjectId: 1875
+  - ObjectId: 1875 # Strafer Swarm
     PositionX: 1400
     PositionY: 50
     PositionZ: -200
@@ -309,8 +306,8 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 1835
-    PositionX: 1340.1800537109375
+  - ObjectId: 1835 # Bookmaster SP
+    PositionX: 1340
     PositionY: 50
     PositionZ: 0
     RotationX: 0
@@ -327,7 +324,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 1839
+  - ObjectId: 1839 # Soldier SP
     PositionX: 1400
     PositionY: 50
     PositionZ: 200
@@ -396,8 +393,8 @@
   Unk20: 16777216
   Unk24: 0
   Entities:
-  - ObjectId: 1875
-    PositionX: 1272.677001953125
+  - ObjectId: 1875 # Strafer Swarm
+    PositionX: 1275
     PositionY: 50
     PositionZ: 0
     RotationX: 0
@@ -414,8 +411,8 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 1875
-    PositionX: 1222.677001953125
+  - ObjectId: 1875 # Strafer Swarm
+    PositionX: 1225
     PositionY: 50
     PositionZ: -150
     RotationX: 0
@@ -432,8 +429,8 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 1875
-    PositionX: 1222.677001953125
+  - ObjectId: 1875 # Strafer Swarm
+    PositionX: 1225
     PositionY: 50
     PositionZ: -350
     RotationX: 0
@@ -450,8 +447,8 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 1875
-    PositionX: 1222.677001953125
+  - ObjectId: 1875 # Strafer Swarm
+    PositionX: 1225
     PositionY: 50
     PositionZ: 500
     RotationX: 0
@@ -468,8 +465,8 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 1875
-    PositionX: 1172.677001953125
+  - ObjectId: 1875 # Strafer Swarm
+    PositionX: 1175
     PositionY: 50
     PositionZ: 350
     RotationX: 0
@@ -486,8 +483,8 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 1875
-    PositionX: 1222.677001953125
+  - ObjectId: 1875 # Strafer Swarm
+    PositionX: 1225
     PositionY: 50
     PositionZ: 150
     RotationX: 0
@@ -555,7 +552,7 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 1839
+  - ObjectId: 1839 # Soldier SP
     PositionX: 1800
     PositionY: 50
     PositionZ: 500
@@ -573,7 +570,7 @@
     SpawnRange: 0
     Level: 100
     Medal: 0
-  - ObjectId: 1839
+  - ObjectId: 1839 # Soldier SP
     PositionX: 1750
     PositionY: 50
     PositionZ: 350
@@ -591,7 +588,7 @@
     SpawnRange: 0
     Level: 100
     Medal: 0
-  - ObjectId: 1839
+  - ObjectId: 1839 # Soldier SP
     PositionX: 1750
     PositionY: 50
     PositionZ: 150
@@ -609,7 +606,7 @@
     SpawnRange: 0
     Level: 100
     Medal: 0
-  - ObjectId: 1839
+  - ObjectId: 1839 # Soldier SP
     PositionX: 1700
     PositionY: 50
     PositionZ: 850
@@ -627,7 +624,7 @@
     SpawnRange: 0
     Level: 100
     Medal: 0
-  - ObjectId: 1839
+  - ObjectId: 1839 # Soldier SP
     PositionX: 1750
     PositionY: 50
     PositionZ: 650
@@ -645,7 +642,7 @@
     SpawnRange: 0
     Level: 100
     Medal: 0
-  - ObjectId: 1839
+  - ObjectId: 1839 # Soldier SP
     PositionX: 1950
     PositionY: 50
     PositionZ: 550
@@ -663,7 +660,7 @@
     SpawnRange: 0
     Level: 100
     Medal: 0
-  - ObjectId: 1839
+  - ObjectId: 1839 # Soldier SP
     PositionX: 1900
     PositionY: 50
     PositionZ: 400
@@ -681,7 +678,7 @@
     SpawnRange: 0
     Level: 100
     Medal: 0
-  - ObjectId: 1839
+  - ObjectId: 1839 # Soldier SP
     PositionX: 1900
     PositionY: 50
     PositionZ: 200
@@ -699,7 +696,7 @@
     SpawnRange: 0
     Level: 100
     Medal: 0
-  - ObjectId: 1839
+  - ObjectId: 1839 # Soldier SP
     PositionX: 1850
     PositionY: 50
     PositionZ: 900
@@ -717,7 +714,7 @@
     SpawnRange: 0
     Level: 100
     Medal: 0
-  - ObjectId: 1208
+  - ObjectId: 1208 # Hostile Program
     PositionX: 1000
     PositionY: -200
     PositionZ: 0
