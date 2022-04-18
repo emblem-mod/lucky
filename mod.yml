@@ -621,7 +621,7 @@ assets:
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/lk05_b_60.spawn
+    - name: ard/lk/lk05_b_60.spawn
 
 # Scar
 - name: ard/lk14.ard
