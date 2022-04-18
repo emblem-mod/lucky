@@ -213,28 +213,6 @@ assets:
 
 # OLYMPUS COLISEUM ====================================================================================================
 
-# Cerberus Fight
-- name: ard/he07.ard
-  method: binarc
-  source:
-  - name: b_40
-    type: areadataspawn
-    method: spawnpoint
-    source:
-    - name: ard/he/he07_b_40.spawn # Lexaeus, Gargoyle Knights and Gargoyle Warriors
-  - name: b_50
-    type: areadataspawn
-    method: spawnpoint
-    source:
-    - name: ard/he/he07_b_50.spawn # More Falling Boulders
-    #! Improve Arena Walls, Improve Boulders Idea, Fix Lexaeus' Grab Attack
-- name: msn/jp/HE07_MS103.bar
-  multi:
-  - name: msn/us/HE07_MS103.bar
-  method: copy
-  source:
-  - name: msn/jp/HB33_FM_LEX.bar # Lexaeus MSN
-
 # Phil's Training
 - name: ard/he00.ard
   method: binarc
@@ -446,162 +424,6 @@ assets:
 # Gambler Fight (Treasure Heap)
 
 
-
-# AGRABAH ====================================================================================================
-
-# Agrabah Fight
-# Chasm of Challenges
-# Magically Locked Door
-# Volcanic and Blizzard Lords
-- name: ard/al03.ard
-  method: binarc
-  source:
-  - name: b_40
-    type: areadataspawn
-    method: spawnpoint
-    source:
-    - name: ard/al/al03_b_40.spawn # Saix, Shamans and Bomb Bells
-- name: msn/jp/AL03_MS103.bar
-  multi:
-  - name: msn/us/AL03_MS103.bar
-  method: copy
-  source:
-  - name: msn/jp/EH15_MS104.bar # Saix MSN
-  
-# Sandswept Ruins Fight
-# Carpet Minigame
-# Genie Jafar
-- name: ard/eh05.ard
-  method: binarc
-  source:
-  - name: b_60
-    type: areadataspawn
-    method: spawnpoint
-    source:
-    - name: ard/al/al05_b_60.spawn # Armoured Xemnas II, Dragon and Riku ! NOT ENOUGH MEMORY TO WORK
-  - name: b_61
-    type: areadataspawn
-    method: spawnpoint
-    source:
-    - name: ard/al/al05_b_61.spawn # Buildings
-  - name: btl
-    type: areadatascript
-    method: areadatascript
-    source:
-    - name: ard/al/al05_btl.script # Add b_61
-- name: msn/jp/AL05_MS203.bar
-  multi:
-  - name: msn/us/AL05_MS203.bar
-  method: copy
-  source:
-  - name: msn/jp/EH23_MS112.bar # Armoured Xemnas II MSN
-
-
-
-# HALLOWEEN TOWN ====================================================================================================
-
-# Prison Keeper
-- name: ard/nm03.ard
-  method: binarc
-  source:
-  - name: b_40
-    type: areadataspawn
-    method: spawnpoint
-    source:
-    - name: ard/nm/nm03_b_40.spawn # Cerberus, Living Bones and Rabid Dogs
-    #! Add Jack Sparrow?
-- name: msn/jp/NM03_MS103.bar
-  multi:
-  - name: msn/us/NM03_MS103.bar
-  method: copy
-  source:
-  - name: msn/jp/HE07_MS103.bar # Cerberus MSN
-
-# Oogie Boogie
-- name: ard/nm09.ard
-  method: binarc
-  source:
-  - name: b_40
-    type: areadataspawn
-    method: spawnpoint
-    source:
-    - name: ard/nm/nm09_b_40.spawn # Thresholder and Possessor with Oogie Boogie
-  - name: m_40
-    type: areadataspawn
-    method: spawnpoint
-    source:
-    - name: ard/nm/nm09_m_40.spawn # Spikes and Reposition Oogie's Platform
-  - name: m_50
-    type: areadataspawn
-    method: spawnpoint
-    source:
-    - name: ard/nm/nm09_m_50.spawn # Punching Glove and Remove Conveyor Warp
-- name: msn/jp/NM09_MS104.bar
-  multi:
-  - name: msn/us/NM09_MS104.bar
-  method: copy
-  source:
-  - name: msn/jp/BB11_MS102.bar # Thresholder MSN
-
-# Lock, Shock and Barrel
-
-# Town Square Fight
-- name: ard/nm00.ard
-  method: binarc
-  source:
-  - name: b_40
-    type: areadataspawn
-    method: spawnpoint
-    source:
-    - name: ard/nm/nm00_b_40.spawn # Aerial Champs and Wight Knights then Tifa and Aerial Knockers
-  - name: evt
-    type: areadatascript
-    method: areadatascript
-    source:
-    - name: ard/nm/nm00_evt.script # Boss Signal (b_40, b_99)
-- name: msn/jp/NM00_MS101.bar
-  multi:
-  - name: msn/us/NM00_MS101.bar
-  method: copy
-  source:
-  - name: msn/jp/TT05_MS404.bar # Axel I MSN
-
-# Present Collection Fight
-  - name: b_99
-    type: areadataspawn
-    method: spawnpoint
-    source:
-    - name: ard/nm00/b_99.spawn # Grim Reaper II
-    #! Medallions do not function correctly, ask Thundrio to see if fix is possible.
-- name: msn/jp/NM00_MS202.bar
-  multi:
-  - name: msn/us/NM00_MS202.bar
-  method: copy
-  source:
-  - name: msn/jp/CA01_MS204.bar # Grim Reaper MSN
-
-# The Experiment
-- name: ard/nm07.ard
-  method: binarc
-  source:
-  - name: b_60
-    type: areadataspawn
-    method: spawnpoint
-    source:
-    - name: ard/nm/nm07_b_60.spawn # Data Larxene, Bolt Towers and Reckless
-    #! Too much going on. I should remove enemies to simplify fight. Keep Reckless over Bolt Towers.
-- name: msn/jp/NM07_MS204.bar
-  multi:
-  - name: msn/us/NM07_MS204.bar
-  method: copy
-  source:
-  - name: msn/jp/HB33_FM_LAR.bar # Data Larxene MSN
-
-
-
-
-
-
 # THE WORLD THAT NEVER WAS ====================================================================================================
 
 # Xigbar
@@ -629,7 +451,6 @@ assets:
 # Armoured Xemnas I
 # Armoured Xemnas II
 # Final Xemnas
-
 
 
 # KEYBLADE GRAVEYARD ====================================================================================================
@@ -678,21 +499,11 @@ assets:
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 # DONE ################################################################################################################
 # DONE ################################################################################################################
 # DONE ################################################################################################################
+
+
 
 
 
@@ -743,6 +554,8 @@ assets:
 
 
 
+
+
 # OLYMPUS COLISEUM ====================================================================================================
 
 # Invincible Hades Fight
@@ -766,6 +579,28 @@ assets:
   source:
   - name: msn/jp/CA09_MS104.bar # Survive Timer MSN
 
+# Cerberus Fight
+- name: ard/he07.ard
+  method: binarc
+  source:
+  - name: b_40
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: ard/he/he07_b_40.spawn # Lexaeus, Gargoyle Knights and Gargoyle Warriors
+  - name: b_50
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: ard/he/he07_b_50.spawn # More Falling Boulders
+    #! Improve Arena Walls, Improve Boulders Idea, Fix Lexaeus' Grab Attack
+- name: msn/jp/HE07_MS103.bar
+  multi:
+  - name: msn/us/HE07_MS103.bar
+  method: copy
+  source:
+  - name: msn/jp/HB33_FM_LEX.bar # Lexaeus MSN
+
 # Hydra Fight
 - name: ard/he18.ard
   method: binarc
@@ -787,6 +622,8 @@ assets:
   method: copy
   source:
   - name: msn/jp/HB01_MS601.bar # Sephiroth MSN
+
+
 
 
 
@@ -814,6 +651,8 @@ assets:
 
 
 
+
+
 # PORT ROYAL ==========================================================================================================
 
 # Barbossa and Illuminator
@@ -834,8 +673,11 @@ assets:
 
 
 
+
+
 # AGRABAH =============================================================================================================
 
+# Agrabah Fight
 # Escort Abu
 - name: ard/al09.ard
   method: binarc
@@ -851,6 +693,8 @@ assets:
     source:
     - name: ard/al/al09_e_50.spawn # Remove Party Members
 
+# Chasm of Challenges
+# Magically Locked Door
 # Treasure Room Fight
 - name: ard/al10.ard
   method: binarc
@@ -872,6 +716,23 @@ assets:
   source:
   - name: msn/jp/TT20_MS603.bar # Axel II MSN
 
+# Volcanic and Blizzard Lords
+- name: ard/al03.ard
+  method: binarc
+  source:
+  - name: b_40
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: ard/al/al03_b_40.spawn # Saix, Shamans and Bomb Bells
+- name: msn/jp/AL03_MS103.bar
+  multi:
+  - name: msn/us/AL03_MS103.bar
+  method: copy
+  source:
+  - name: msn/jp/EH15_MS104.bar # Saix MSN
+
+# Sandswept Ruins Fight
 # Sandswept Tower Fight
 - name: ard/al14.ard
   method: binarc
@@ -902,9 +763,73 @@ assets:
     #! After all the switches are activated Sora spawns in the wrong locations. Find and edit them.
     #! Shorten the "enter the door" timer to 7 seconds (enough to enter when starting from the blizzard or thunder switches)
 
+# Carpet Minigame
+# Genie Jafar
+- name: ard/eh05.ard
+  method: binarc
+  source:
+  - name: b_60
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: ard/al/al05_b_60.spawn # Armoured Xemnas II, Dragon and Riku ! NOT ENOUGH MEMORY TO WORK
+  - name: b_61
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: ard/al/al05_b_61.spawn # Buildings
+  - name: btl
+    type: areadatascript
+    method: areadatascript
+    source:
+    - name: ard/al/al05_btl.script # Add b_61
+- name: msn/jp/AL05_MS203.bar
+  multi:
+  - name: msn/us/AL05_MS203.bar
+  method: copy
+  source:
+  - name: msn/jp/EH23_MS112.bar # Armoured Xemnas II MSN
+
+
+
 
 
 # HALLOWEEN TOWN ======================================================================================================
+
+# Town Square Fight
+- name: ard/nm00.ard
+  method: binarc
+  source:
+  - name: b_40
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: ard/nm/nm00_b_40.spawn # Aerial Champs and Wight Knights then Tifa and Aerial Knockers
+  - name: evt
+    type: areadatascript
+    method: areadatascript
+    source:
+    - name: ard/nm/nm00_evt.script # Boss Signal (b_40, b_99)
+- name: msn/jp/NM00_MS101.bar
+  multi:
+  - name: msn/us/NM00_MS101.bar
+  method: copy
+  source:
+  - name: msn/jp/TT05_MS404.bar # Axel I MSN
+
+# Present Collection Fight
+  - name: b_99
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: ard/nm/nm00_b_99.spawn # Grim Reaper II
+    #! Medallions do not function correctly, ask Thundrio to see if fix is possible.
+- name: msn/jp/NM00_MS202.bar
+  multi:
+  - name: msn/us/NM00_MS202.bar
+  method: copy
+  source:
+  - name: msn/jp/CA01_MS204.bar # Grim Reaper MSN
 
 # Candy Cane Lane Fight
 - name: ard/nm06.ard
@@ -916,9 +841,69 @@ assets:
     source:
     - name: ard/nm/nm06_b_40.spawn # Magic Phantoms, Toy Soldier and Graveyard
 
+# Prison Keeper
+- name: ard/nm03.ard
+  method: binarc
+  source:
+  - name: b_40
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: ard/nm/nm03_b_40.spawn # Cerberus, Living Bones and Rabid Dogs
+    #! Add Jack Sparrow?
+- name: msn/jp/NM03_MS103.bar
+  multi:
+  - name: msn/us/NM03_MS103.bar
+  method: copy
+  source:
+  - name: msn/jp/HE07_MS103.bar # Cerberus MSN
+
+# Oogie Boogie
+- name: ard/nm09.ard
+  method: binarc
+  source:
+  - name: b_40
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: ard/nm/nm09_b_40.spawn # Thresholder and Possessor with Oogie Boogie
+  - name: m_40
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: ard/nm/nm09_m_40.spawn # Spikes and Reposition Oogie's Platform
+  - name: m_50
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: ard/nm/nm09_m_50.spawn # Punching Glove and Remove Conveyor Warp
+- name: msn/jp/NM09_MS104.bar
+  multi:
+  - name: msn/us/NM09_MS104.bar
+  method: copy
+  source:
+  - name: msn/jp/BB11_MS102.bar # Thresholder MSN
+
+# Lock, Shock and Barrel
+# The Experiment
+- name: ard/nm07.ard
+  method: binarc
+  source:
+  - name: b_60
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: ard/nm/nm07_b_60.spawn # Data Larxene, Bolt Towers and Reckless
+    #! Too much going on. I should remove enemies to simplify fight. Keep Reckless over Bolt Towers.
+- name: msn/jp/NM07_MS204.bar
+  multi:
+  - name: msn/us/NM07_MS204.bar
+  method: copy
+  source:
+  - name: msn/jp/HB33_FM_LAR.bar # Data Larxene MSN
 
 
-# PRIDE LANDS =========================================================================================================
+
 
 
 # PRIDE LANDS ====================================================================================================
@@ -978,6 +963,8 @@ assets:
 
 
 
+
+
 # SPACE PARANOIDS =====================================================================================================
 
 # Cube Minigame
@@ -1032,6 +1019,8 @@ assets:
   method: copy
   source:
   - name: msn/jp/HB34_FM_ZEX.bar # Zexion MSN
+
+
 
 
 
