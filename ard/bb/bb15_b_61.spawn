@@ -12,14 +12,14 @@
   EventActivators:
   - Shape: 1
     Option: 0
-    PositionX: -508.90249633789062
+    PositionX: -510
     PositionY: -300
-    PositionZ: 525.50341796875
-    ScaleX: 286.08859252929688
+    PositionZ: 525
+    ScaleX: 285
     ScaleY: 400
-    ScaleZ: 273.35345458984375
+    ScaleZ: 275
     RotationX: 0
-    RotationY: -0.18849574029445648
+    RotationY: 0
     RotationZ: 0
     Flags: 0
     Type: 0
@@ -63,14 +63,14 @@
   EventActivators:
   - Shape: 1
     Option: 0
-    PositionX: 690.76788330078125
+    PositionX: 690
     PositionY: -300
-    PositionZ: 72.229660034179688
-    ScaleX: 269.2049560546875
+    PositionZ: 75
+    ScaleX: 270
     ScaleY: 400
-    ScaleZ: 459.30096435546875
+    ScaleZ: 460
     RotationX: 0
-    RotationY: 0.36696508526802063
+    RotationY: 0
     RotationZ: 0
     Flags: 0
     Type: 0
@@ -114,14 +114,14 @@
   EventActivators:
   - Shape: 1
     Option: 0
-    PositionX: -300.2421875
+    PositionX: -300
     PositionY: -300
-    PositionZ: -590.82379150390625
+    PositionZ: -600
     ScaleX: 261.31048583984375
     ScaleY: 400
     ScaleZ: 266.0386962890625
     RotationX: 0
-    RotationY: -0.18849574029445648
+    RotationY: 0
     RotationZ: 0
     Flags: 0
     Type: 0
@@ -162,7 +162,7 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 1758
+  - ObjectId: 1758 # Lilliput Tower (Pete)
     PositionX: -300
     PositionY: 10
     PositionZ: -600
@@ -180,7 +180,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 1758
+  - ObjectId: 1758 # Lilliput Tower (Pete)
     PositionX: -510
     PositionY: 10
     PositionZ: 540
@@ -198,7 +198,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 1758
+  - ObjectId: 1758 # Lilliput Tower (Pete)
     PositionX: 690
     PositionY: 10
     PositionZ: 150
@@ -219,14 +219,14 @@
   EventActivators:
   - Shape: 2
     Option: 0
-    PositionX: 1242.9849853515625
+    PositionX: 1240
     PositionY: -300
-    PositionZ: 1462.8909912109375
-    ScaleX: 398.71649169921875
+    PositionZ: 1460
+    ScaleX: 400
     ScaleY: 400
-    ScaleZ: 599.67999267578125
+    ScaleZ: 600
     RotationX: 0
-    RotationY: 0.1808859258890152
+    RotationY: 0
     RotationZ: 0
     Flags: 0
     Type: 0
@@ -246,10 +246,10 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 1759
+  - ObjectId: 1759 # Construction Platform (Pete)
     PositionX: -73
-    PositionY: -13873.400390625
-    PositionZ: 148.10000610351562
+    PositionY: -13875
+    PositionZ: 150
     RotationX: 0
     RotationY: 0
     RotationZ: 0
@@ -264,7 +264,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 1612
+  - ObjectId: 1612 # Burning House (Pete)
     PositionX: -75
     PositionY: -20
     PositionZ: 1910
@@ -282,7 +282,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 758
+  - ObjectId: 758 # Black Hole
     PositionX: 0
     PositionY: 10
     PositionZ: -350
