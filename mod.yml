@@ -133,125 +133,12 @@ assets:
 
 
 
-# BEAST'S CASTLE ====================================================================================================
-
-# Thresholder & Possessor Fight
-- name: ard/bb11.ard
-  method: binarc
-  source:
-  - name: b_40
-    type: areadataspawn
-    method: spawnpoint
-    source:
-    - name: bb11_b_40.spawn # Marluxia, Hoot Bats and Emerald Blues
-- name: msn/jp/BB11_MS102.bar
-  multi:
-  - name: msn/us/BB11_MS102.bar
-  method: copy
-  source:
-  - name: msn/jp/HB38_FM_MAR.bar # Marluxia MSN
-
-# Beast
-- name: ard/bb03.ard
-  method: binarc
-  source:
-  - name: b_40
-    type: areadataspawn
-    method: spawnpoint
-    source:
-    - name: ard/bb/bb03_b_40.spawn # Zexion
-
-# Ballroom Fight
-- name: ard/bb04.ard
-  method: binarc
-  source:
-  - name: b_60
-    type: areadataspawn
-    method: spawnpoint
-    source:
-    - name: ard/bb/bb04_b_60.spawn # Demyx I, Tornado Steps and Dancer
-  - name: evt
-    type: areadatascript
-    method: areadatascript
-    source:
-    - name: ard/bb/bb04_evt.script # Boss Signal and OST: Dance of the Daring
-- name: msn/jp/BB04_MS201.bar
-  multi:
-  - name: msn/us/BB04_MS201.bar
-  method: copy
-  source:
-  - name: msn/jp/HE17_MS105.bar # Demyx I MSN
-  
-# Xaldin
-- name: ard/bb15.ard
-  method: binarc
-  source:
-  - name: b_60
-    type: areadataspawn
-    method: spawnpoint
-    source:
-    - name: ard/bb/bb15_b_60.spawn # Pete II, Past Pete and Lion Pete (Scar)
-    #! Add Lion Pete Model over Scar
-  - name: b_61
-    type: areadataspawn
-    method: spawnpoint
-    source:
-    - name: ard/bb/bb15_b_61.spawn # Pete II Extras
-  - name: btl
-    type: areadatascript
-    method: areadatascript
-    source:
-    - name: ard/bb/bb15_btl.script # Add b_61
-- name: msn/jp/BB15_MS203.bar
-  multi:
-  - name: msn/us/BB15_MS203.bar
-  method: copy
-  source:
-  - name: msn/jp/WI03_MS104.bar # Pete II MSN
-
 
 
 # OLYMPUS COLISEUM ====================================================================================================
 
-# Phil's Training
-- name: ard/he00.ard
-  method: binarc
-  source:
-  - name: b_40
-    type: areadataspawn
-    method: spawnpoint
-    source:
-    - name: ard/he/he00_b_40.spawn # Practice Remix
-    #! Edit the Time Limit
-  - name: b_41
-    type: areadataspawn
-    method: spawnpoint
-    source:
-    - name: ard/he/he00_b_41.spawn # Maniac Remix and Cloud
-    #! Edit the Time Limit
-  - name: btl
-    type: areadatascript
-    method: areadatascript
-    source:
-    - name: ard/he/he00_btl.script # Replace b_4a, b_4b, b_4d and b_4e with b_40 and b_41
 
-# Pete I Fight
-- name: ard/he08.ard
-  method: binarc
-  source:
-  - name: b_41
-    type: areadataspawn
-    method: spawnpoint
-    source:
-    - name: ard/he/he08_b_41.spawn # Pete I -> Prison Keeper, Invincible Grim Reaper II and Whirlwind
-- name: msn/jp/HE08_MS107.bar
-  multi:
-  - name: msn/us/HE08_MS107.bar
-  method: copy
-  source:
-  - name: msn/jp/NM03_MS103.bar # Prison Keeper MSN
-
-# Round I: Spin Strike
+# Round I Spin Strike
 - name: ard/he09.ard
   method: binarc
   source:
@@ -259,19 +146,21 @@ assets:
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/boss_marluxia.spawn # Spin Strike -> Marluxia, Creeper Plants and Lava Pools
+    - name: ard/boss_marluxia.spawn # Marluxia, Creeper Plants and Lava Pools
 
-# Round II: Bad Alert (!!SWAP FIGHT WITH HADES FIGHT!!)
+# Round II Bad Alert
   - name: b_61
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/he/he09_b_61.spawn # Bad Alert -> Data Xigbar and Platforms
+    - name: ard/he/he09_b_61.spawn # Data Xigbar and Platforms
   - name: evt
     type: areadatascript
     method: areadatascript
     source:
     - name: ard/he/he09_evt.script # Boss Signal
+    #! Make this fight happen when fighting final Hades and vice versa.
+
 - name: msn/jp/HE09_MS201.bar
   multi:
   - name: msn/us/HE09_MS201.bar
@@ -298,7 +187,7 @@ assets:
     method: spawnpoint
     source:
     - name: ard/wi/wi01_b_40.spawn # Demyx II, Crimson Jazz, Silver Rocks and Dancers
-    #! Perhaps Demyx just doesn't go here. I don't like this fight very much.
+    #! I don't like this fight. Too messy. Perhaps Demyx just doesn't go here.
 - name: msn/jp/WI01_MS101.bar
   multi:
   - name: msn/us/WI01_MS101.bar
@@ -342,115 +231,6 @@ assets:
   - name: msn/jp/EH20_MS113.bar # Final Xemnas MSN
 
 
-
-# PORT ROYAL ====================================================================================================
-
-# Harbor Fight I
-- name: ard/ca01.ard
-  method: binarc
-  source:
-  - name: b_40
-    type: areadataspawn
-    method: spawnpoint
-    source:
-    - name: ca01_b_40.spawn
-
-# Harbor Fight II
-  - name: b_41
-    type: areadataspawn
-    method: spawnpoint
-    source:
-    - name: ca01_b_41.spawn # Shan Yu, Barbossa and Illminator
-
-# Harbor Fight III
-  - name: b_60
-    type: areadataspawn
-    method: spawnpoint
-    source:
-    - name: ca01_b_60.spawn # BOSS
-
-# Grim Reaper II
-  - name: b_61
-    type: areadataspawn
-    method: spawnpoint
-    source:
-    - name: ca01_b_60.spawn # BOSS
-  - name: evt
-    type: areadatascript
-    method: areadatascript
-    source:
-    - name: ca01_evt.script # Enemy Signal (b_40), Boss Signal (b_41 and b_60) and Remove Fail Signal
-    #! Replace CA01_MS101.bar with new msn to prevent softlock
-- name: msn/jp/CA01_MS102.bar
-  multi:
-  - name: msn/us/CA01_MS102.bar
-  method: copy
-  source:
-  - name: msn/jp/AL03_MS103.bar # Twin Lords Signal
-- name: msn/jp/CA01_MS201.bar
-  multi:
-  - name: msn/us/CA01_MS201.bar
-  method: copy
-  source:
-  - name: msn/jp/TT05_MS404.bar # Axel I  MSN
-- name: msn/jp/CA01_MS204.bar
-  multi:
-  - name: msn/us/CA01_MS204.bar
-  method: copy
-  source:
-  - name: msn/jp/TT05_MS404.bar # Axel I  MSN
-
-# Town Fight
-# Isla de Muerta Fight
-# Interceptor Fight
-# Interceptor Barrels
-# Grim Reaper I
-- name: ard/ca18.ard
-  method: binarc
-  source:
-  - name: b_60
-    type: areadataspawn
-    method: spawnpoint
-    source:
-    - name: ard/ca18/b_60.spawn # Hydra
-    #! Either use this room for Hydra or mu08
-
-# Gambler Fight (Seadrift Keep I)
-# Gambler Fight (Seadrift Keep II)
-# Gambler Fight (Seadrift Row)
-# Gambler Fight (Cave Mouth)
-# Gambler Fight (Powder Store)
-# Gambler Fight (Moonlight Nook)
-# Gambler Fight (Treasure Heap)
-
-
-# THE WORLD THAT NEVER WAS ====================================================================================================
-
-# Xigbar
-# Luxord
-- name: ard/eh14.ard
-  method: binarc
-  source:
-  - name: b_40
-    type: areadataspawn
-    method: spawnpoint
-    source:
-    - name: ard/bb/bb15_b_60.spawn # Pete II, Past Pete and Lion Pete (Scar)
-    #! If Pete II is used here don't use bb15 as the base, use eh14 AND add Pete II Extras.
-- name: msn/jp/EH14_MS103.bar
-  multi:
-  - name: msn/us/EH14_MS103.bar
-  method: copy
-  source:
-  - name: msn/jp/WI03_MS104.bar # Pete II MSN
-
-# Saix
-# Xemnas
-# World of Nothing Engine Fight
-# World of Nothing Core Fight
-# Armoured Xemnas I
-# Armoured Xemnas II
-# Final Xemnas
 
 
 # KEYBLADE GRAVEYARD ====================================================================================================
@@ -499,11 +279,12 @@ assets:
 
 
 
-# DONE ################################################################################################################
-# DONE ################################################################################################################
-# DONE ################################################################################################################
 
 
+
+# DONE ################################################################################################################
+# DONE ################################################################################################################
+# DONE ################################################################################################################
 
 
 
@@ -556,6 +337,93 @@ assets:
 
 
 
+# BEAST'S CASTLE ====================================================================================================
+
+# Parlor Fight
+# Thresholder & Possessor Fight
+- name: ard/bb11.ard
+  method: binarc
+  source:
+  - name: b_40
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: ard/bb/bb11_b_40.spawn # Marluxia, Hoot Bats and Emerald Blues
+- name: msn/jp/BB11_MS102.bar
+  multi:
+  - name: msn/us/BB11_MS102.bar
+  method: copy
+  source:
+  - name: msn/jp/HB38_FM_MAR.bar # Marluxia MSN
+
+# Beast
+- name: ard/bb03.ard
+  method: binarc
+  source:
+  - name: b_40
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: ard/bb/bb03_b_40.spawn # Zexion
+
+
+
+
+
+
+# Ballroom Fight
+- name: ard/bb04.ard
+  method: binarc
+  source:
+  - name: b_60
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: ard/bb/bb04_b_60.spawn # Demyx I, Tornado Steps and Dancer
+  - name: evt
+    type: areadatascript
+    method: areadatascript
+    source:
+    - name: ard/bb/bb04_evt.script # Boss Signal and OST: Dance of the Daring
+- name: msn/jp/BB04_MS201.bar
+  multi:
+  - name: msn/us/BB04_MS201.bar
+  method: copy
+  source:
+  - name: msn/jp/HE17_MS105.bar # Demyx I MSN
+
+# Entrance Hall Fight
+# Xaldin
+- name: ard/bb15.ard
+  method: binarc
+  source:
+  - name: b_60
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: ard/bb/bb15_b_60.spawn # Pete II, Past Pete and Lion Pete (Scar)
+    #! Continue to work on cleaning up the fight and add Lion Pete model over Scar.
+  - name: b_61
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: ard/bb/bb15_b_61.spawn # Pete II Extras
+  - name: btl
+    type: areadatascript
+    method: areadatascript
+    source:
+    - name: ard/bb/bb15_btl.script # Add b_61
+- name: msn/jp/BB15_MS203.bar
+  multi:
+  - name: msn/us/BB15_MS203.bar
+  method: copy
+  source:
+  - name: msn/jp/WI03_MS104.bar # Pete II MSN
+
+
+
+
+
 # OLYMPUS COLISEUM ====================================================================================================
 
 # Invincible Hades Fight
@@ -579,7 +447,8 @@ assets:
   source:
   - name: msn/jp/CA09_MS104.bar # Survive Timer MSN
 
-# Cerberus Fight
+# Valley of the Dead Escape
+# Cerberus
 - name: ard/he07.ard
   method: binarc
   source:
@@ -601,7 +470,46 @@ assets:
   source:
   - name: msn/jp/HB33_FM_LEX.bar # Lexaeus MSN
 
-# Hydra Fight
+# Phil's Training
+- name: ard/he00.ard
+  method: binarc
+  source:
+  - name: b_40
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: ard/he/he00_b_40.spawn # Practice Remix
+    #! Edit the Time Limit
+  - name: b_41
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: ard/he/he00_b_41.spawn # Maniac Remix and Cloud
+  - name: btl
+    type: areadatascript
+    method: areadatascript
+    source:
+    - name: ard/he/he00_btl.script # Replace b_4a, b_4b, b_4d and b_4e with b_40 and b_41
+
+# Water Clones Fight
+# Pete I
+- name: ard/he08.ard
+  method: binarc
+  source:
+  - name: b_41
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: ard/he/he08_b_41.spawn # Prison Keeper, Invincible Grim Reaper II and Whirlwind
+    #! The room could be slightly bigger. Is their another good option somewhere?
+- name: msn/jp/HE08_MS107.bar
+  multi:
+  - name: msn/us/HE08_MS107.bar
+  method: copy
+  source:
+  - name: msn/jp/NM03_MS103.bar # Prison Keeper MSN
+
+# Hydra
 - name: ard/he18.ard
   method: binarc
   source:
@@ -622,6 +530,13 @@ assets:
   method: copy
   source:
   - name: msn/jp/HB01_MS601.bar # Sephiroth MSN
+
+
+
+
+# Hades' Chamber Fight
+# Invincible Hades
+# Hades
 
 
 
@@ -655,6 +570,12 @@ assets:
 
 # PORT ROYAL ==========================================================================================================
 
+# Harbor Fight I # ard/ca/ca01_b_40.spawn # msn/jp/CA01_MS101.bar
+# Harbor Fight II # name: ard/ca/ca01_b_41.spawn # msn/jp/CA01_MS102.bar
+# Town Fight
+# Isla de Muerta Fight
+# Interceptor Fight
+# Interceptor Barrels
 # Barbossa and Illuminator
 - name: ard/ca10.ard
   method: binarc
@@ -670,6 +591,13 @@ assets:
   method: copy
   source:
   - name: msn/jp/HB04_MS403.bar # Demyx MSN
+
+# Harbor Fight III # ard/ca/ca01_b_60.spawn # msn/jp/CA01_MS201.bar
+# Grim Reaper I
+# Gambler Fight (Seadrift Keep I)
+# Gambler Fight (Seadrift Keep II)
+# Gambler Search (Seadrift Row) (Cave Mouth) (Powder Store) (Moonlight Nook) (Treasure Heap # ard/ca/ca10_b70.spawn)
+# Grim Reaper II # ard/ca/ca01_b_60.spawn # msn/jp/CA01_MS204.bar
 
 
 
@@ -747,12 +675,6 @@ assets:
     method: areadatascript
     source:
     - name: ard/al/al14_evt.script # Boss Signal and OST: Encounter
-- name: msn/jp/AL14_MS201B.bar
-  multi:
-  - name: msn/us/AL14_MS201B.bar
-  method: copy
-  source:
-  - name: msn/jp/HB32_FM_VEX.bar # Vexen MSN
 
 # Magic Switches
   - name: b_65
@@ -762,6 +684,13 @@ assets:
     - name: ard/al/al14_b_65.spawn # Magic Switches Remix and Ice Spikes
     #! After all the switches are activated Sora spawns in the wrong locations. Find and edit them.
     #! Shorten the "enter the door" timer to 7 seconds (enough to enter when starting from the blizzard or thunder switches)
+
+- name: msn/jp/AL14_MS201B.bar
+  multi:
+  - name: msn/us/AL14_MS201B.bar
+  method: copy
+  source:
+  - name: msn/jp/HB32_FM_VEX.bar # Vexen MSN
 
 # Carpet Minigame
 # Genie Jafar
@@ -809,21 +738,22 @@ assets:
     type: areadatascript
     method: areadatascript
     source:
-    - name: ard/nm/nm00_evt.script # Boss Signal (b_40, b_99)
+    - name: ard/nm/nm00_evt.script # Boss Signal (b_40 and b_99)
+
+# Present Collection Fight
   - name: b_99
     type: areadataspawn
     method: spawnpoint
     source:
     - name: ard/nm/nm00_b_99.spawn # Grim Reaper II
     #! Medallions do not function correctly, ask Thundrio to see if fix is possible.
+
 - name: msn/jp/NM00_MS101.bar
   multi:
   - name: msn/us/NM00_MS101.bar
   method: copy
   source:
   - name: msn/jp/TT05_MS404.bar # Axel I MSN
-
-# Present Collection Fight
 - name: msn/jp/NM00_MS202.bar
   multi:
   - name: msn/us/NM00_MS202.bar
@@ -1048,5 +978,33 @@ assets:
   method: copy
   source:
   - name: msn/jp/EH24_MS110.bar # Armoured Xemnas I MSN
+
+# Xigbar
+# Luxord
+- name: ard/eh14.ard
+  method: binarc
+  source:
+  - name: b_40
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: ard/bb/bb15_b_60.spawn # Pete II, Past Pete and Lion Pete (Scar)
+    #! If Pete II is used here don't use bb15 as the base, use eh14 AND add Pete II Extras.
+- name: msn/jp/EH14_MS103.bar
+  multi:
+  - name: msn/us/EH14_MS103.bar
+  method: copy
+  source:
+  - name: msn/jp/WI03_MS104.bar # Pete II MSN
+
+# Saix
+# Xemnas
+# World of Nothing Engine Fight
+# World of Nothing Core Fight
+# Armoured Xemnas I
+# Armoured Xemnas II
+# Final Xemnas
+
+
 
 
