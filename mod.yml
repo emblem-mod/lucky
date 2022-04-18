@@ -687,7 +687,8 @@ assets:
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/eh/eh14_b_40.spawn # Data Roxas but it should be Pete II, Past Pete and Lion Pete (Scar)
+    - name: ard/bb/bb15_b_60.spawn # Pete II, Past Pete and Lion Pete (Scar)
+    #! If Pete II is used here don't use bb15, use eh14.
   - name: b_41
     type: areadataspawn
     method: spawnpoint
