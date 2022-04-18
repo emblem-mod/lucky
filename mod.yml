@@ -693,11 +693,6 @@ assets:
     method: spawnpoint
     source:
     - name: ard/eh/eh14_b_41.spawn # Pete II Extras
-  - name: btl
-    type: areadatascript
-    method: areadatascript
-    source:
-    - name: ard/eh/eh14_btl.script # Add b_41
 - name: msn/jp/EH14_MS103.bar
   multi:
   - name: msn/us/EH14_MS103.bar
