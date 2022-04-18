@@ -31,12 +31,12 @@ assets:
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/tt/tt04_b_44.spawn # Data Axel
+    - name: ard/tt/tt04_b_44.spawn # Data Axel and Lava Pools
   - name: evt
     type: areadatascript
     method: areadatascript
     source:
-    - name: ard/tt/tt04_evt.script # Boss Signal
+    - name: ard/tt/tt04_evt.script # Boss Signal and OST: 13th Struggle
 - name: msn/jp/TT04_MS901.bar
   multi:
   - name: msn/us/TT04_MS901.bar
@@ -49,6 +49,26 @@ assets:
 # Betwixt and Between Fight I
 
 # Betwixt and Between Fight II
+# Betwixt and Between Fight II
+- name: ard/tt40.ard
+  method: binarc
+  source:
+  - name: b_41
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: ard/tt/tt40_b_41.spawn # Xigbar and Xigbar
+  - name: evt
+    type: areadatascript
+    method: areadatascript
+    source:
+    - name: ard/tt/tt40_evt.script # Boss Signal and OST: Music Change
+- name: msn/jp/TT40_MS003.bar
+  multi:
+  - name: msn/us/TT40_MS003.bar
+  method: copy
+  source:
+  - name: msn/jp/EH10_MS102.bar # Xigbar MSN
 
 
 
