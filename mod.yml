@@ -810,6 +810,12 @@ assets:
     method: areadatascript
     source:
     - name: ard/nm/nm00_evt.script # Boss Signal (b_40, b_99)
+  - name: b_99
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: ard/nm/nm00_b_99.spawn # Grim Reaper II
+    #! Medallions do not function correctly, ask Thundrio to see if fix is possible.
 - name: msn/jp/NM00_MS101.bar
   multi:
   - name: msn/us/NM00_MS101.bar
@@ -818,12 +824,6 @@ assets:
   - name: msn/jp/TT05_MS404.bar # Axel I MSN
 
 # Present Collection Fight
-  - name: b_99
-    type: areadataspawn
-    method: spawnpoint
-    source:
-    - name: ard/nm/nm00_b_99.spawn # Grim Reaper II
-    #! Medallions do not function correctly, ask Thundrio to see if fix is possible.
 - name: msn/jp/NM00_MS202.bar
   multi:
   - name: msn/us/NM00_MS202.bar
