@@ -659,20 +659,12 @@ assets:
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/tr03_b_40.spawn # Emerald Blues, Bookmasters, Soldiers, Strafers and Hostile Program
+    - name: ard/tr/tr03_b_40.spawn # Emerald Blues, Bookmasters, Soldiers, Strafers and Hostile Program
 
 # Hostile Program
 # I/0 Tower Fight
 # Solar Sailer Fight
 # Sark
-- name: ard/tr09.ard
-  method: binarc
-  source:
-  - name: b_60
-    type: areadataspawn
-    method: spawnpoint
-    source:
-    - name: ard/tr09/b_60.spawn # Giant Sark, Enemies and Data Walls
 
 
 
@@ -688,12 +680,7 @@ assets:
     method: spawnpoint
     source:
     - name: ard/bb/bb15_b_60.spawn # Pete II, Past Pete and Lion Pete (Scar)
-    #! If Pete II is used here don't use bb15, use eh14.
-  - name: b_41
-    type: areadataspawn
-    method: spawnpoint
-    source:
-    - name: ard/eh/eh14_b_41.spawn # Pete II Extras
+    #! If Pete II is used here don't use bb15 as the base, use eh14 AND add Pete II Extras.
 - name: msn/jp/EH14_MS103.bar
   multi:
   - name: msn/us/EH14_MS103.bar
@@ -1043,7 +1030,7 @@ assets:
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/tr09_b_61.spawn # Data Zexion, Runemasters and Platforms
+    - name: ard/tr/tr09_b_61.spawn # Data Zexion, Runemasters, Elevator Platforms and Cube Terminals
 - name: msn/jp/TR09_MS205.bar
   multi:
   - name: msn/us/TR09_MS205.bar
