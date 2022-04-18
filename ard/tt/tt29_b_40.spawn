@@ -9,10 +9,10 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 566
-    PositionX: -44.147380828857422
-    PositionY: -0
-    PositionZ: 23.473579406738281
+  - ObjectId: 566 # Sora
+    PositionX: -50
+    PositionY: 0
+    PositionZ: 25
     RotationX: 0
     RotationY: -2.0594885349273682
     RotationZ: 0
@@ -27,10 +27,10 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 567
-    PositionX: -2.7997820377349854
-    PositionY: -0
-    PositionZ: -111.76830291748047
+  - ObjectId: 567 # Party Member 1
+    PositionX: 0
+    PositionY: 0
+    PositionZ: -100
     RotationX: 0
     RotationY: -2.0594885349273682
     RotationZ: 0
@@ -45,10 +45,10 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 568
-    PositionX: 91.09454345703125
+  - ObjectId: 568 # Party Member 2
+    PositionX: 100
     PositionY: -0
-    PositionZ: 64.8211669921875
+    PositionZ: 50
     RotationX: 0
     RotationY: -2.0594885349273682
     RotationZ: 0
@@ -78,10 +78,10 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 302
-    PositionX: -533.53997802734375
-    PositionY: -0.20234750211238861
-    PositionZ: 471.09860229492188
+  - ObjectId: 122 # Morning Star
+    PositionX: -525
+    PositionY: 0
+    PositionZ: 475
     RotationX: 0
     RotationY: 1.0605405569076538
     RotationZ: 0
@@ -96,10 +96,10 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 302
-    PositionX: -563.16912841796875
-    PositionY: -0.20234750211238861
-    PositionZ: 315.78561401367188
+  - ObjectId: 309 # Assassin
+    PositionX: -575
+    PositionY: 0
+    PositionZ: 325
     RotationX: 0
     RotationY: 1.0605405569076538
     RotationZ: 0
@@ -115,9 +115,9 @@
     Level: 0
     Medal: 0
   - ObjectId: 302
-    PositionX: -655.64007568359375
-    PositionY: -0.20234750211238861
-    PositionZ: 252.94369506835938
+    PositionX: -650
+    PositionY: 0
+    PositionZ: 250
     RotationX: 0
     RotationY: 1.0605405569076538
     RotationZ: 0
@@ -133,11 +133,11 @@
     Level: 0
     Medal: 0
   - ObjectId: 302
-    PositionX: -151.29989624023438
-    PositionY: -0.20234750211238861
-    PositionZ: 386.88040161132812
+    PositionX: -150
+    PositionY: 0
+    PositionZ: 375
     RotationX: 0
-    RotationY: 0.9732242226600647
+    RotationY: 0
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
@@ -151,11 +151,11 @@
     Level: 0
     Medal: 0
   - ObjectId: 302
-    PositionX: -363.15130615234375
-    PositionY: -0.20234750211238861
-    PositionZ: -13.268250465393066
+    PositionX: -350
+    PositionY: 0
+    PositionZ: 25
     RotationX: 0
-    RotationY: 0.9732242226600647
+    RotationY: 0
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
@@ -169,9 +169,9 @@
     Level: 0
     Medal: 0
   - ObjectId: 302
-    PositionX: -264.50189208984375
-    PositionY: -0.20234750211238861
-    PositionZ: -566.4464111328125
+    PositionX: -250
+    PositionY: 0
+    PositionZ: -575
     RotationX: 0
     RotationY: 3.1415927410125732
     RotationZ: 0
@@ -184,12 +184,12 @@
     SpawnDelay: 0
     Command: 0
     SpawnRange: 0
-    Level: 1
+    Level: 0
     Medal: 0
   - ObjectId: 302
-    PositionX: -564.50189208984375
-    PositionY: -0.20234750211238861
-    PositionZ: -166.44650268554688
+    PositionX: -575
+    PositionY: 0
+    PositionZ: -175
     RotationX: 0
     RotationY: 3.1415927410125732
     RotationZ: 0
@@ -202,12 +202,12 @@
     SpawnDelay: 0
     Command: 0
     SpawnRange: 0
-    Level: 1
+    Level: 0
     Medal: 0
   - ObjectId: 302
-    PositionX: -564.50201416015625
-    PositionY: -0.20234750211238861
-    PositionZ: 333.55349731445312
+    PositionX: -575
+    PositionY: 0
+    PositionZ: 325
     RotationX: 0
     RotationY: 3.1415927410125732
     RotationZ: 0
@@ -220,12 +220,12 @@
     SpawnDelay: 0
     Command: 0
     SpawnRange: 0
-    Level: 1
+    Level: 0
     Medal: 0
   - ObjectId: 302
-    PositionX: -114.50199890136719
-    PositionY: -0.20234750211238861
-    PositionZ: 583.5535888671875
+    PositionX: -125
+    PositionY: 0
+    PositionZ: 575
     RotationX: 0
     RotationY: 3.1415927410125732
     RotationZ: 0
@@ -238,12 +238,12 @@
     SpawnDelay: 0
     Command: 0
     SpawnRange: 0
-    Level: 1
+    Level: 0
     Medal: 0
   - ObjectId: 302
-    PositionX: 435.49798583984375
-    PositionY: -0.20234750211238861
-    PositionZ: 433.5535888671875
+    PositionX: 425
+    PositionY: 0
+    PositionZ: 425
     RotationX: 0
     RotationY: 3.1415927410125732
     RotationZ: 0
@@ -256,55 +256,19 @@
     SpawnDelay: 0
     Command: 0
     SpawnRange: 0
-    Level: 1
-    Medal: 0
-  - ObjectId: 302
-    PositionX: 635.49810791015625
-    PositionY: -0.20234750211238861
-    PositionZ: -66.446357727050781
-    RotationX: 0
-    RotationY: 3.1415927410125732
-    RotationZ: 0
-    SpawnType: 2
-    SpawnArgument: 0
-    Serial: 31
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 0
-    Command: 0
-    SpawnRange: 0
-    Level: 1
-    Medal: 0
-  - ObjectId: 302
-    PositionX: 285.49810791015625
-    PositionY: -0.20234750211238861
-    PositionZ: -566.4464111328125
-    RotationX: 0
-    RotationY: 3.1415927410125732
-    RotationZ: 0
-    SpawnType: 2
-    SpawnArgument: 0
-    Serial: 32
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 0
-    Command: 0
-    SpawnRange: 0
-    Level: 1
+    Level: 0
     Medal: 0
   EventActivators:
   - Shape: 2
     Option: 0
-    PositionX: 513.43798828125
-    PositionY: -300
-    PositionZ: -7.8386797904968262
-    ScaleX: 79.086502075195312
+    PositionX: 0
+    PositionY: 0
+    PositionZ: 0
+    ScaleX: 100
     ScaleY: 100
-    ScaleZ: 110.79199981689453
+    ScaleZ: 100
     RotationX: 0
-    RotationY: 2.9719448089599609
+    RotationY: 0
     RotationZ: 0
     Flags: 0
     Type: 0
