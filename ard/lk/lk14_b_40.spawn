@@ -9,7 +9,7 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 84
+  - ObjectId: 84 # Sora
     PositionX: -100
     PositionY: 0
     PositionZ: 250
@@ -27,7 +27,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 2357
+  - ObjectId: 2357 # Data Lexaeus
     PositionX: 400
     PositionY: 0
     PositionZ: 250
@@ -49,7 +49,7 @@
   WalkPath: []
   ReturnParameters: []
   Signals: []
-- Type: 2
+- Type: 2 # Staggered Spawn
   Flag: 0
   Id: 41
   Teleport:
@@ -60,7 +60,7 @@
   Unk20: 3276800
   Unk24: 0
   Entities:
-  - ObjectId: 18
+  - ObjectId: 18 # Driller Mole
     PositionX: 1100
     PositionY: 0
     PositionZ: 0
@@ -78,7 +78,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 18
+  - ObjectId: 18 # Driller Mole
     PositionX: 200
     PositionY: 0
     PositionZ: -1150
@@ -96,7 +96,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 18
+  - ObjectId: 18 # Driller Mole
     PositionX: -1100
     PositionY: 0
     PositionZ: -650
@@ -114,7 +114,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 18
+  - ObjectId: 18 # Driller Mole
     PositionX: -1100
     PositionY: 0
     PositionZ: 650
@@ -132,7 +132,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 18
+  - ObjectId: 18 # Driller Mole
     PositionX: 200
     PositionY: 0
     PositionZ: 1150
@@ -169,7 +169,7 @@
   WalkPath: []
   ReturnParameters: []
   Signals: []
-- Type: 2
+- Type: 2 # Staggered Spawn
   Flag: 1
   Id: 42
   Teleport:
@@ -180,7 +180,7 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 1571
+  - ObjectId: 1571 # Sandstorm Pillar
     PositionX: 1100
     PositionY: 0
     PositionZ: 0
@@ -193,12 +193,12 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 25
+    SpawnDelay: 0
     Command: 0
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 1571
+  - ObjectId: 1571 # Sandstorm Pillar
     PositionX: 200
     PositionY: 0
     PositionZ: -1150
@@ -216,7 +216,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 1571
+  - ObjectId: 1571 # Sandstorm Pillar
     PositionX: -1100
     PositionY: 0
     PositionZ: -650
@@ -229,12 +229,12 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 75
+    SpawnDelay: 100
     Command: 0
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 1571
+  - ObjectId: 1571 # Sandstorm Pillar
     PositionX: -1100
     PositionY: 0
     PositionZ: 650
@@ -247,12 +247,12 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 100
+    SpawnDelay: 150
     Command: 0
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 1571
+  - ObjectId: 1571 # Sandstorm Pillar
     PositionX: 200
     PositionY: 0
     PositionZ: 1150
@@ -265,7 +265,7 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 125
+    SpawnDelay: 200
     Command: 0
     SpawnRange: 0
     Level: 0
