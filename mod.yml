@@ -609,12 +609,19 @@ assets:
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/lk05_b_40.spawn 
+    - name: ard/lk/lk05_b_40.spawn 
   - name: evt
     type: areadatascript
     method: areadatascript
     source:
-    - name: ard/lk05_evt.script # Boss Signal
+    - name: ard/lk/lk05_evt.script # Boss Signal
+
+# Hyena Chase
+  - name: b_60
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: ard/lk05_b_60.spawn
 
 # Scar
 - name: ard/lk14.ard
@@ -624,8 +631,9 @@ assets:
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/lk14_b_40.spawn # Data Lexaeus, Driller Moles and Sandstorm Pillars
+    - name: ard/lk/lk14_b_40.spawn # Data Lexaeus, Driller Moles and Sandstorm Pillars
     #! Sometimes crashes when entering Limit Form. Perhaps keep Sora as a Lion and add Simba.
+    #! Add OST: The Deep End (Rock Titan KH3 Ver)
 - name: msn/jp/LK14_MS103.bar
   multi:
   - name: msn/us/LK14_MS103.bar
@@ -633,38 +641,8 @@ assets:
   source:
   - name: msn/jp/HB33_FM_LEX.bar # Data Lexaeus MSN
 
-# Hyena Chase
-- name: ard/lk05.ard
-  method: binarc
-  source:
-  - name: b_60
-    type: areadataspawn
-    method: spawnpoint
-    source:
-    - name: ard/lk05_b_60.spawn
-
 # Groundshaker
 
-
-
-# SPACE PARANOIDS ====================================================================================================
-
-# Cube Terminal Minigame
-# Light Cycle
-# Dataspace Fight
-- name: ard/tr03.ard
-  method: binarc
-  source:
-  - name: b_40
-    type: areadataspawn
-    method: spawnpoint
-    source:
-    - name: ard/tr/tr03_b_40.spawn # Emerald Blues, Bookmasters, Soldiers, Strafers and Hostile Program
-
-# Hostile Program
-# I/0 Tower Fight
-# Solar Sailer Fight
-# Sark
 
 
 
@@ -762,9 +740,9 @@ assets:
 
 
 
-# LAND OF DRAGONS ====================================================================================================
+# LAND OF DRAGONS =====================================================================================================
 
-# Encampment
+# Mission III Search
 - name: ard/mu01.ard
   method: binarc
   source:
@@ -856,7 +834,7 @@ assets:
 
 
 
-# DISNEY CASTLE ====================================================================================================
+# DISNEY CASTLE =======================================================================================================
 
 # Audience Chamber Fight
 - name: ard/dc00.ard
@@ -880,7 +858,7 @@ assets:
 
 
 
-# PORT ROYAL ====================================================================================================
+# PORT ROYAL ==========================================================================================================
 
 # Barbossa and Illuminator
 - name: ard/ca10.ard
@@ -900,7 +878,7 @@ assets:
 
 
 
-# AGRABAH ====================================================================================================
+# AGRABAH =============================================================================================================
 
 # Escort Abu
 - name: ard/al09.ard
@@ -966,11 +944,11 @@ assets:
     source:
     - name: ard/al/al14_b_65.spawn # Magic Switches Remix and Ice Spikes
     #! After all the switches are activated Sora spawns in the wrong locations. Find and edit them.
-    #! Shorten the "enter the door" timer to 7 seconds (long enough to make it from the blizzard/thunder switches but not the fire switch)
+    #! Shorten the "enter the door" timer to 7 seconds (enough to enter when starting from the blizzard or thunder switches)
 
 
 
-# HALLOWEEN TOWN ====================================================================================================
+# HALLOWEEN TOWN ======================================================================================================
 
 # Candy Cane Lane Fight
 - name: ard/nm06.ard
@@ -984,7 +962,7 @@ assets:
 
 
 
-# PRIDE LANDS ====================================================================================================
+# PRIDE LANDS =========================================================================================================
 
 # Shenzi, Banzai and Ed
 - name: ard/lk02.ard
@@ -999,8 +977,21 @@ assets:
 
 
 
-# SPACE PARANOIDS ====================================================================================================
+# SPACE PARANOIDS =====================================================================================================
 
+# Cube Minigame
+# Light Cycle
+# Dataspace Fight
+- name: ard/tr03.ard
+  method: binarc
+  source:
+  - name: b_40
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: ard/tr/tr03_b_40.spawn # Emerald Blues, Bookmasters, Soldiers and Strafers then Hostile Program
+
+# Hostile Program
 # Game Grid Fight
 - name: ard/tr02.ard
   method: binarc
@@ -1021,7 +1012,10 @@ assets:
   method: copy
   source:
   - name: msn/jp/EH10_MS102.bar # Xigbar MSN
-  
+
+# I/0 Tower Fight
+# Solar Sailer Fight
+# Sark
 # Master Control Program
 - name: ard/tr09.ard
   method: binarc
@@ -1040,7 +1034,7 @@ assets:
 
 
 
-# THE WORLD THAT NEVER WAS ====================================================================================================
+# THE WORLD THAT NEVER WAS ============================================================================================
 
 # Roxas
 - name: ard/eh21.ard
