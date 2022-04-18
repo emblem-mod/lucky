@@ -20,8 +20,24 @@ assets:
 # Tower Fight
 
 # Star Chamber Fight
+- name: ard/tt29.ard
+  method: binarc
+  source:
+  - name: b_40
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: ard/tt/tt29_b_40.spawn # Morning Stars and Assassins
 
 # Moon Chamber Fight
+- name: ard/tt30.ard
+  method: binarc
+  source:
+  - name: b_40
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: ard/tt/tt30_b_40.spawn # Luna Bandits and Snipers
 
 # Sandlot Fight
 - name: ard/tt04.ard
@@ -49,7 +65,6 @@ assets:
 # Betwixt and Between Fight I
 
 # Betwixt and Between Fight II
-# Betwixt and Between Fight II
 - name: ard/tt40.ard
   method: binarc
   source:
@@ -62,7 +77,7 @@ assets:
     type: areadatascript
     method: areadatascript
     source:
-    - name: ard/tt/tt40_evt.script # Boss Signal and OST: Music Change
+    - name: ard/tt/tt40_evt.script # Boss Signal and OST: Darkness of the Unknown I
 - name: msn/jp/TT40_MS003.bar
   multi:
   - name: msn/us/TT40_MS003.bar
