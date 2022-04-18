@@ -96,34 +96,16 @@
   Unk20: 3276800
   Unk24: 0
   Entities:
-  - ObjectId: 7 # Assassin
-    PositionX: -200
+  - ObjectId: 2043 # Lava Pool
+    PositionX: 0
     PositionY: 0
-    PositionZ: 200
+    PositionZ: 1000
     RotationX: 0
     RotationY: 0
     RotationZ: 0
-    SpawnType: 3
+    SpawnType: 2
     SpawnArgument: 0
     Serial: 20
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 0
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  - ObjectId: 7 # Assassin
-    PositionX: 200
-    PositionY: 0
-    PositionZ: 200
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 3
-    SpawnArgument: 0
-    Serial: 21
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
