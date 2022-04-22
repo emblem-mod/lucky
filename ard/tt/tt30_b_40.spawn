@@ -10,7 +10,7 @@
   Unk24: 0
   Entities:
   - ObjectId: 566
-    PositionX: 15.4
+    PositionX: 15
     PositionY: 0
     PositionZ: 50
     RotationX: 0
@@ -28,9 +28,9 @@
     Level: 0
     Medal: 0
   - ObjectId: 567
-    PositionX: -110.5
+    PositionX: -110
     PositionY: 0
-    PositionZ: -16.6
+    PositionZ: -15
     RotationX: 0
     RotationY: 2.8274333477020264
     RotationZ: 0
@@ -78,8 +78,8 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 4
-    PositionX: 348
+  - ObjectId: 12
+    PositionX: 350
     PositionY: 0
     PositionZ: 780
     RotationX: 0
@@ -114,7 +114,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 4
+  - ObjectId: 12
     PositionX: 157
     PositionY: 0
     PositionZ: 839
@@ -132,7 +132,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 4
+  - ObjectId: 12
     PositionX: 44
     PositionY: -0
     PositionZ: 979
@@ -150,7 +150,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 4
+  - ObjectId: 12
     PositionX: 521
     PositionY: 0
     PositionZ: 831
