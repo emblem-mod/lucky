@@ -18,7 +18,7 @@
     RotationZ: 0
     SpawnType: 0
     SpawnArgument: 0
-    Serial: 8
+    Serial: 7
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -35,6 +35,24 @@
     RotationY: 0
     RotationZ: 0
     SpawnType: 3
+    SpawnArgument: 0
+    Serial: 8
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 0
+    Medal: 0
+  - ObjectId: 2224 # Luxord's DM Cards
+    PositionX: 0
+    PositionY: 0
+    PositionZ: 0
+    RotationX: 0
+    RotationY: 0
+    RotationZ: 0
+    SpawnType: 0
     SpawnArgument: 0
     Serial: 9
     Argument1: 0
@@ -60,7 +78,7 @@
   Unk20: 3276800
   Unk24: 0
   Entities:
-  - ObjectId: 318 # Dusk
+  - ObjectId: 314 # Dusk
     PositionX: -150
     PositionY: 0
     PositionZ: 200
@@ -78,7 +96,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 318 # Dusk
+  - ObjectId: 314 # Dusk
     PositionX: 150
     PositionY: 0
     PositionZ: 100
@@ -96,7 +114,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 318 # Dusk
+  - ObjectId: 314 # Dusk
     PositionX: 450
     PositionY: 0
     PositionZ: 200
@@ -133,7 +151,7 @@
   WalkPath: []
   ReturnParameters: []
   Signals: []
-- Type: 2
+- Type: 2 # Staggered Spawn
   Flag: 1
   Id: 42
   Teleport:
@@ -290,7 +308,7 @@
     Medal: 0
   - ObjectId: 314 # Darkness Gambler
     PositionX: 0
-    PositionY: 300
+    PositionY: 1000
     PositionZ: 0
     RotationX: 0
     RotationY: 0
