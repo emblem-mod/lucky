@@ -9,10 +9,10 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 314
-    PositionX: -205.02290344238281
-    PositionY: 33.020328521728516
-    PositionZ: 37.413749694824219
+  - ObjectId: 314 # Gambler
+    PositionX: -200
+    PositionY: 50
+    PositionZ: 50
     RotationX: 0
     RotationY: 0
     RotationZ: 0
@@ -27,10 +27,10 @@
     SpawnRange: 0
     Level: 0
     Medal: 1
-  - ObjectId: 1522
-    PositionX: 244.97709655761719
-    PositionY: 33.020328521728516
-    PositionZ: -662.586181640625
+  - ObjectId: 1522 # Medallion
+    PositionX: 250
+    PositionY: 50
+    PositionZ: -650
     RotationX: 0
     RotationY: 0
     RotationZ: 0
