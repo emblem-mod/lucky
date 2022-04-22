@@ -10,9 +10,9 @@
   Unk24: 0
   Entities:
   - ObjectId: 2416
-    PositionX: -229.60000610351562
+    PositionX: -225
     PositionY: -2250
-    PositionZ: -1649.699951171875
+    PositionZ: -1650
     RotationX: 0
     RotationY: 1.8325957059860229
     RotationZ: 0
@@ -30,7 +30,7 @@
   - ObjectId: 2417
     PositionX: 700
     PositionY: 280
-    PositionZ: -1096.4000244140625
+    PositionZ: -1100
     RotationX: 0
     RotationY: 1.8325957059860229
     RotationZ: 0
@@ -46,9 +46,9 @@
     Level: 0
     Medal: 0
   - ObjectId: 2416
-    PositionX: 954.70001220703125
+    PositionX: 950
     PositionY: -1050
-    PositionZ: 2368.800048828125
+    PositionZ: 2375
     RotationX: 0
     RotationY: -2.3561944961547852
     RotationZ: 0
@@ -64,9 +64,9 @@
     Level: 0
     Medal: 0
   - ObjectId: 2417
-    PositionX: 70.699996948242188
-    PositionY: -1070
-    PositionZ: -3818.199951171875
+    PositionX: 75
+    PositionY: -1075
+    PositionZ: -3825
     RotationX: 0
     RotationY: 0.78539818525314331
     RotationZ: 0
@@ -82,9 +82,9 @@
     Level: 0
     Medal: 0
   - ObjectId: 2416
-    PositionX: 1528
+    PositionX: 1525
     PositionY: -3050
-    PositionZ: -1301.0999755859375
+    PositionZ: -1300
     RotationX: 0
     RotationY: -1.2915436029434204
     RotationZ: 0
@@ -100,9 +100,9 @@
     Level: 0
     Medal: 0
   - ObjectId: 2416
-    PositionX: 1307.800048828125
+    PositionX: 1300
     PositionY: -3050
-    PositionZ: -601.4000244140625
+    PositionZ: -600
     RotationX: 0
     RotationY: -1.2915436029434204
     RotationZ: 0
