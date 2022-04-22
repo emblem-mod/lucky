@@ -224,7 +224,7 @@
     Medal: 0
   - ObjectId: 313
     PositionX: 0
-    PositionY: -300
+    PositionY: -1000
     PositionZ: 0
     RotationX: 0
     RotationY: 3.1415927410125732
@@ -238,17 +238,17 @@
     SpawnDelay: 0
     Command: 0
     SpawnRange: 0
-    Level: 1
+    Level: 2
     Medal: 0
   EventActivators:
   - Shape: 2
     Option: 0
-    PositionX: 614.706298828125
-    PositionY: -100
-    PositionZ: -509.27621459960938
-    ScaleX: 80.931999206542969
+    PositionX: 0
+    PositionY: 0
+    PositionZ: 0
+    ScaleX: 100
     ScaleY: 100
-    ScaleZ: 97.653999328613281
+    ScaleZ: 100
     RotationX: 0
     RotationY: -3.1353094577789307
     RotationZ: 0
