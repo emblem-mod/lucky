@@ -32,7 +32,7 @@ assets:
   - name: msn/us/TT25_MS801.bar
   method: copy
   source:
-  - name: msn/jp/HE_COL_8TI_BOSS.bar # Pete Underdrome MSN
+  - name: msn/jp/HE08_MS107.bar # Pete I MSN
 
 # Star Chamber Fight
 - name: ard/tt29.ard
