@@ -14,6 +14,14 @@ assets:
 # Station Plaza Fight
 
 # Tower Fight
+- name: ard/tt25.ard
+  method: binarc
+  source:
+  - name: b_40
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: ard/tt/tt25_b_40.spawn # Pete I and Neoshadows
 
 # Star Chamber Fight
 - name: ard/tt29.ard
@@ -23,7 +31,7 @@ assets:
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/tt/tt29_b_40.spawn # Morning Stars and Assassins
+    - name: ard/tt/tt29_b_40.spawn # Morning Stars, Assassins and Snipers
 
 # Moon Chamber Fight
 - name: ard/tt30.ard
@@ -33,7 +41,7 @@ assets:
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/tt/tt30_b_40.spawn # Luna Bandits and Snipers
+    - name: ard/tt/tt30_b_40.spawn # Luna Bandits, Nightwalkers, Berserkers and Dancers
 
 # Sandlot Fight
 - name: ard/tt04.ard
