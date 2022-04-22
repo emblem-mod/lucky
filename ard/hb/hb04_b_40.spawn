@@ -78,7 +78,7 @@
   Unk20: 3276800
   Unk24: 0
   Entities:
-  - ObjectId: 7 # Dusk
+  - ObjectId: 1535 # Luxord's Card
     PositionX: -150
     PositionY: 0
     PositionZ: 200
@@ -88,7 +88,7 @@
     SpawnType: 3
     SpawnArgument: 0
     Serial: 10
-    Argument1: 0
+    Argument1: 1
     Argument2: 0
     ReactionCommand: 0
     SpawnDelay: 0
@@ -96,7 +96,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 7 # Dusk
+  - ObjectId: 1535 # Luxord's Card
     PositionX: 150
     PositionY: 0
     PositionZ: 100
@@ -106,7 +106,7 @@
     SpawnType: 3
     SpawnArgument: 0
     Serial: 11
-    Argument1: 0
+    Argument1: 2
     Argument2: 0
     ReactionCommand: 0
     SpawnDelay: 0
@@ -114,7 +114,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 7 # Dusk
+  - ObjectId: 1535 # Luxord's Card
     PositionX: 450
     PositionY: 0
     PositionZ: 200
@@ -124,7 +124,7 @@
     SpawnType: 3
     SpawnArgument: 0
     Serial: 12
-    Argument1: 0
+    Argument1: 3
     Argument2: 0
     ReactionCommand: 0
     SpawnDelay: 0
