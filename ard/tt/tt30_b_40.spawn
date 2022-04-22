@@ -222,10 +222,10 @@
     SpawnRange: 0
     Level: 1
     Medal: 0
-  - ObjectId: 10
-    PositionX: -863.643310546875
-    PositionY: -0.00011052610352635384
-    PositionZ: 163.8583984375
+  - ObjectId: 313
+    PositionX: 0
+    PositionY: -100
+    PositionZ: 0
     RotationX: 0
     RotationY: 3.1415927410125732
     RotationZ: 0
