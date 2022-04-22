@@ -27,7 +27,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 12 # Party Member 1
+  - ObjectId: 0 # Party Member 1
     PositionX: -100
     PositionY: 0
     PositionZ: -25
@@ -45,7 +45,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 12 # Party Member 2
+  - ObjectId: 0 # Party Member 2
     PositionX: 75
     PositionY: 0
     PositionZ: -75
@@ -78,7 +78,7 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 12
+  - ObjectId: 10
     PositionX: 350
     PositionY: 0
     PositionZ: 775
@@ -96,7 +96,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 12
+  - ObjectId: 10
     PositionX: 275
     PositionY: 0
     PositionZ: 900
@@ -168,7 +168,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 13
+  - ObjectId: 10
     PositionX: 50
     PositionY: 0
     PositionZ: 1025
@@ -186,7 +186,7 @@
     SpawnRange: 0
     Level: 1
     Medal: 0
-  - ObjectId: 13
+  - ObjectId: 10
     PositionX: 75
     PositionY: 0
     PositionZ: -775
@@ -204,7 +204,7 @@
     SpawnRange: 0
     Level: 1
     Medal: 0
-  - ObjectId: 13
+  - ObjectId: 10
     PositionX: 875
     PositionY: 0
     PositionZ: 275
@@ -222,7 +222,7 @@
     SpawnRange: 0
     Level: 1
     Medal: 0
-  - ObjectId: 13
+  - ObjectId: 10
     PositionX: -850
     PositionY: 0
     PositionZ: 150
