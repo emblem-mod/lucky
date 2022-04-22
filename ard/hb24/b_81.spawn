@@ -12,12 +12,12 @@
   EventActivators:
   - Shape: 0
     Option: 0
-    PositionX: 612.7921142578125
+    PositionX: 612
     PositionY: 1650
-    PositionZ: 567.10308837890625
-    ScaleX: 778.03997802734375
+    PositionZ: 567
+    ScaleX: 775
     ScaleY: 400
-    ScaleZ: 296.50750732421875
+    ScaleZ: 300
     RotationX: 0
     RotationY: -1.5739227533340454
     RotationZ: 0
@@ -61,9 +61,9 @@
   Unk24: 0
   Entities:
   - ObjectId: 2404
-    PositionX: 865.21319580078125
-    PositionY: 2000.0579833984375
-    PositionZ: 481.4248046875
+    PositionX: 865
+    PositionY: 2000
+    PositionZ: 481
     RotationX: 0
     RotationY: -1.5707963705062866
     RotationZ: 0
@@ -79,9 +79,9 @@
     Level: 0
     Medal: 0
   - ObjectId: 2404
-    PositionX: 1065.2130126953125
-    PositionY: 1850.0579833984375
-    PositionZ: 631.4246826171875
+    PositionX: 1065
+    PositionY: 1850
+    PositionZ: 631
     RotationX: 0
     RotationY: -1.5707963705062866
     RotationZ: 0
@@ -97,9 +97,9 @@
     Level: 0
     Medal: 0
   - ObjectId: 2404
-    PositionX: 1065.2130126953125
-    PositionY: 1850.0579833984375
-    PositionZ: 331.4248046875
+    PositionX: 1065
+    PositionY: 1850
+    PositionZ: 331
     RotationX: 0
     RotationY: -1.5707963705062866
     RotationZ: 0
@@ -115,9 +115,9 @@
     Level: 0
     Medal: 0
   - ObjectId: 2403
-    PositionX: 1315.2130126953125
-    PositionY: 1700.0579833984375
-    PositionZ: 681.4246826171875
+    PositionX: 1315
+    PositionY: 1700
+    PositionZ: 681
     RotationX: 0
     RotationY: -1.5707963705062866
     RotationZ: 0
@@ -133,9 +133,9 @@
     Level: 0
     Medal: 0
   - ObjectId: 2403
-    PositionX: 1315.2130126953125
-    PositionY: 1700.0579833984375
-    PositionZ: 281.4248046875
+    PositionX: 1315
+    PositionY: 1700
+    PositionZ: 281
     RotationX: 0
     RotationY: -1.5707963705062866
     RotationZ: 0
@@ -153,12 +153,12 @@
   EventActivators:
   - Shape: 2
     Option: 0
-    PositionX: 588.53302001953125
+    PositionX: 575
     PositionY: 1650
-    PositionZ: -646.6195068359375
-    ScaleX: 260.31201171875
+    PositionZ: -650
+    ScaleX: 250
     ScaleY: 400
-    ScaleZ: 248.57049560546875
+    ScaleZ: 250
     RotationX: 0
     RotationY: -1.5739227533340454
     RotationZ: 0
@@ -209,7 +209,7 @@
   Entities:
   - ObjectId: 2411
     PositionX: 368.635009765625
-    PositionY: 2000.0560302734375
+    PositionY: 2000
     PositionZ: 477.51199340820312
     RotationX: 0
     RotationY: 1.5707963705062866
