@@ -9,7 +9,7 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 566
+  - ObjectId: 566 # Sora
     PositionX: 0
     PositionY: 0
     PositionZ: -200
@@ -42,7 +42,7 @@
   Unk20: 3276800
   Unk24: 0
   Entities:
-  - ObjectId: 2356
+  - ObjectId: 318 # Dusk
     PositionX: 0
     PositionY: 0
     PositionZ: 0
@@ -51,7 +51,7 @@
     RotationZ: 0
     SpawnType: 3
     SpawnArgument: 0
-    Serial: 5
+    Serial: 10
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -90,7 +90,61 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 2356
+  - ObjectId: 318 # Dusk
+    PositionX: -300
+    PositionY: 0
+    PositionZ: 0
+    RotationX: 0
+    RotationY: 0
+    RotationZ: 0
+    SpawnType: 2
+    SpawnArgument: 0
+    Serial: 20
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 0
+    Medal: 0
+  - ObjectId: 318 # Dusk
+    PositionX: 300
+    PositionY: 0
+    PositionZ: 0
+    RotationX: 0
+    RotationY: 0
+    RotationZ: 0
+    SpawnType: 2
+    SpawnArgument: 0
+    Serial: 21
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 0
+    Medal: 0
+  - ObjectId: 318 # Dusk
+    PositionX: -500
+    PositionY: 0
+    PositionZ: 0
+    RotationX: 0
+    RotationY: 0
+    RotationZ: 0
+    SpawnType: 2
+    SpawnArgument: 0
+    Serial: 30
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 1
+    Medal: 0
+  - ObjectId: 318 # Dusk
     PositionX: 0
     PositionY: 0
     PositionZ: 0
@@ -99,14 +153,32 @@
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
-    Serial: 67
+    Serial: 31
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
     SpawnDelay: 0
     Command: 0
     SpawnRange: 0
-    Level: 0
+    Level: 1
+    Medal: 0
+  - ObjectId: 318 # Dusk
+    PositionX: 500
+    PositionY: 0
+    PositionZ: 0
+    RotationX: 0
+    RotationY: 0
+    RotationZ: 0
+    SpawnType: 2
+    SpawnArgument: 0
+    Serial: 32
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 1
     Medal: 0
   EventActivators:
   - Shape: 2
