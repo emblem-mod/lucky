@@ -88,8 +88,8 @@
     SpawnType: 3
     SpawnArgument: 0
     Serial: 10
-    Argument1: 1
-    Argument2: 0
+    Argument1: 0
+    Argument2: 1
     ReactionCommand: 0
     SpawnDelay: 0
     Command: 0
@@ -106,7 +106,7 @@
     SpawnType: 3
     SpawnArgument: 0
     Serial: 11
-    Argument1: 2
+    Argument1: 4
     Argument2: 0
     ReactionCommand: 0
     SpawnDelay: 0
@@ -167,12 +167,12 @@
     PositionY: 0
     PositionZ: 800
     RotationX: 0
-    RotationY: 0
+    RotationY: 3.1415927410125732
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
     Serial: 20
-    Argument1: 1
+    Argument1: 2
     Argument2: 0
     ReactionCommand: 0
     SpawnDelay: 0
@@ -185,12 +185,12 @@
     PositionY: 0
     PositionZ: 575
     RotationX: 0
-    RotationY: -0.7853981634000000
+    RotationY: 2.3561944902000000
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
     Serial: 21
-    Argument1: 1
+    Argument1: 2
     Argument2: 0
     ReactionCommand: 0
     SpawnDelay: 0
@@ -203,12 +203,12 @@
     PositionY: 0
     PositionZ: 100
     RotationX: 0
-    RotationY: -1.5707963705062866
+    RotationY: 1.5707963705062866
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
     Serial: 22
-    Argument1: 1
+    Argument1: 2
     Argument2: 0
     ReactionCommand: 0
     SpawnDelay: 0
@@ -221,7 +221,7 @@
     PositionY: 0
     PositionZ: -375
     RotationX: 0
-    RotationY: -2.3561944902000000
+    RotationY: 0.7853981634000000
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
@@ -239,7 +239,7 @@
     PositionY: 0
     PositionZ: -600
     RotationX: 0
-    RotationY: 3.1415927410125732
+    RotationY: 0
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
@@ -257,12 +257,12 @@
     PositionY: 0
     PositionZ: -375
     RotationX: 0
-    RotationY: 2.3561944902000000
+    RotationY: -0.7853981634000000
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
     Serial: 25
-    Argument1: 0
+    Argument1: 2
     Argument2: 0
     ReactionCommand: 0
     SpawnDelay: 0
@@ -275,12 +275,12 @@
     PositionY: 0
     PositionZ: 100
     RotationX: 0
-    RotationY: 1.5707963705062866
+    RotationY: -1.5707963705062866
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
     Serial: 26
-    Argument1: 0
+    Argument1: 2
     Argument2: 0
     ReactionCommand: 0
     SpawnDelay: 0
@@ -293,12 +293,12 @@
     PositionY: 0
     PositionZ: 575
     RotationX: 0
-    RotationY: 0.7853981634000000
+    RotationY: -2.3561944902000000
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
     Serial: 27
-    Argument1: 0
+    Argument1: 2
     Argument2: 0
     ReactionCommand: 0
     SpawnDelay: 0
