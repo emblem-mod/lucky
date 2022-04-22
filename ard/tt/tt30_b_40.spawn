@@ -27,7 +27,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 0
+  - ObjectId: 567
     PositionX: -110.5
     PositionY: 0
     PositionZ: -16.6
@@ -45,7 +45,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 0
+  - ObjectId: 568
     PositionX: 75
     PositionY: 0
     PositionZ: -75
@@ -79,9 +79,9 @@
   Unk24: 0
   Entities:
   - ObjectId: 4
-    PositionX: 348.78469848632812
+    PositionX: 348
     PositionY: 0
-    PositionZ: 780.4619140625
+    PositionZ: 780
     RotationX: 0
     RotationY: -0.30179885029792786
     RotationZ: 0
@@ -97,7 +97,7 @@
     Level: 0
     Medal: 0
   - ObjectId: 10
-    PositionX: 283.0281982421875
+    PositionX: 283
     PositionY: 0
     PositionZ: 900
     RotationX: 0
@@ -115,9 +115,9 @@
     Level: 0
     Medal: 0
   - ObjectId: 4
-    PositionX: 157.82400512695312
-    PositionY: -0.00011052610352635384
-    PositionZ: 839.90948486328125
+    PositionX: 157
+    PositionY: 0
+    PositionZ: 839
     RotationX: 0
     RotationY: -0.30179885029792786
     RotationZ: 0
@@ -133,9 +133,9 @@
     Level: 0
     Medal: 0
   - ObjectId: 4
-    PositionX: 44.327339172363281
-    PositionY: -0.00011052610352635384
-    PositionZ: 979.9755859375
+    PositionX: 44
+    PositionY: -0
+    PositionZ: 979
     RotationX: 0
     RotationY: -0.30179885029792786
     RotationZ: 0
@@ -151,9 +151,9 @@
     Level: 0
     Medal: 0
   - ObjectId: 4
-    PositionX: 521.72900390625
-    PositionY: -0.00011052610352635384
-    PositionZ: 831.35650634765625
+    PositionX: 521
+    PositionY: 0
+    PositionZ: 831
     RotationX: 0
     RotationY: -0.30179885029792786
     RotationZ: 0
@@ -169,9 +169,9 @@
     Level: 0
     Medal: 0
   - ObjectId: 10
-    PositionX: 36.356590270996094
-    PositionY: -0.00011052610352635384
-    PositionZ: 1013.8590087890625
+    PositionX: 36
+    PositionY: -0
+    PositionZ: 1013
     RotationX: 0
     RotationY: 3.1415927410125732
     RotationZ: 0
@@ -187,9 +187,9 @@
     Level: 1
     Medal: 0
   - ObjectId: 10
-    PositionX: 86.35675048828125
-    PositionY: -0.00011052610352635384
-    PositionZ: -786.1414794921875
+    PositionX: 86.3
+    PositionY: -0.000
+    PositionZ: -786.14
     RotationX: 0
     RotationY: 3.1415927410125732
     RotationZ: 0
@@ -205,9 +205,9 @@
     Level: 1
     Medal: 0
   - ObjectId: 10
-    PositionX: 886.356689453125
-    PositionY: -0.00011052610352635384
-    PositionZ: 263.85861206054688
+    PositionX: 886
+    PositionY: 0
+    PositionZ: 263
     RotationX: 0
     RotationY: 3.1415927410125732
     RotationZ: 0
@@ -224,7 +224,7 @@
     Medal: 0
   - ObjectId: 313
     PositionX: 0
-    PositionY: -100
+    PositionY: -300
     PositionZ: 0
     RotationX: 0
     RotationY: 3.1415927410125732
