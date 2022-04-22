@@ -27,6 +27,12 @@ assets:
     method: areadatascript
     source:
     - name: ard/tt/tt25_evt.script # Boss Signal and OST: Apprehension
+- name: msn/jp/TT25_MS801.bar
+  multi:
+  - name: msn/us/TT25_MS801.bar
+  method: copy
+  source:
+  - name: msn/jp/HE_COL_8TI_BOSS.bar # Pete Underdrome MSN
 
 # Star Chamber Fight
 - name: ard/tt29.ard
