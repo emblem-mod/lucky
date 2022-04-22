@@ -1,4 +1,4 @@
-  - ObjectId: 721
+  - ObjectId: 721 # Storm Rider Barrier
     PositionX: 0
     PositionY: 0
     PositionZ: 1300
@@ -16,7 +16,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 721
+  - ObjectId: 721 # Storm Rider Barrier
     PositionX: 500
     PositionY: 0
     PositionZ: 1200
@@ -34,7 +34,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 721
+  - ObjectId: 721 # Storm Rider Barrier
     PositionX: 900
     PositionY: 0
     PositionZ: 900
@@ -52,7 +52,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 721
+  - ObjectId: 721 # Storm Rider Barrier
     PositionX: 1200
     PositionY: 0
     PositionZ: 500
@@ -70,7 +70,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 721
+  - ObjectId: 721 # Storm Rider Barrier
     PositionX: 1300
     PositionY: 0
     PositionZ: 0
@@ -88,7 +88,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 721
+  - ObjectId: 721 # Storm Rider Barrier
     PositionX: 1200
     PositionY: 0
     PositionZ: -500
@@ -106,7 +106,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 721
+  - ObjectId: 721 # Storm Rider Barrier
     PositionX: 900
     PositionY: 0
     PositionZ: -900
@@ -124,7 +124,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 721
+  - ObjectId: 721 # Storm Rider Barrier
     PositionX: 500
     PositionY: 0
     PositionZ: -1200
@@ -142,7 +142,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 721
+  - ObjectId: 721 # Storm Rider Barrier
     PositionX: 0
     PositionY: 0
     PositionZ: -1300
@@ -160,7 +160,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 721
+  - ObjectId: 721 # Storm Rider Barrier
     PositionX: -500
     PositionY: 0
     PositionZ: -1200
@@ -178,7 +178,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 721
+  - ObjectId: 721 # Storm Rider Barrier
     PositionX: -900
     PositionY: 0
     PositionZ: -900
@@ -196,7 +196,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 721
+  - ObjectId: 721 # Storm Rider Barrier
     PositionX: -1200
     PositionY: 0
     PositionZ: -500
@@ -214,7 +214,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 721
+  - ObjectId: 721 # Storm Rider Barrier
     PositionX: -1300
     PositionY: 0
     PositionZ: 0
@@ -232,7 +232,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 721
+  - ObjectId: 721 # Storm Rider Barrier
     PositionX: -1200
     PositionY: 0
     PositionZ: 500
@@ -250,7 +250,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 721
+  - ObjectId: 721 # Storm Rider Barrier
     PositionX: -900
     PositionY: 0
     PositionZ: 900
@@ -268,7 +268,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 721
+  - ObjectId: 721 # Storm Rider Barrier
     PositionX: -500
     PositionY: 0
     PositionZ: 1200
@@ -286,7 +286,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 23
+  - ObjectId: 23 # Underworld Torch
     PositionX: 0
     PositionY: 0
     PositionZ: 1600
@@ -304,7 +304,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 23
+  - ObjectId: 23 # Underworld Torch
     PositionX: 1100
     PositionY: 0
     PositionZ: 1100
@@ -322,7 +322,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 23
+  - ObjectId: 23 # Underworld Torch
     PositionX: 1600
     PositionY: 0
     PositionZ: 0
@@ -340,7 +340,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 23
+  - ObjectId: 23 # Underworld Torch
     PositionX: 1100
     PositionY: 0
     PositionZ: -1100
@@ -358,7 +358,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 23
+  - ObjectId: 23 # Underworld Torch
     PositionX: 0
     PositionY: 0
     PositionZ: -1600
@@ -376,7 +376,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 23
+  - ObjectId: 23 # Underworld Torch
     PositionX: -1100
     PositionY: 0
     PositionZ: -1100
@@ -394,7 +394,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 23
+  - ObjectId: 23 # Underworld Torch
     PositionX: -1600
     PositionY: 0
     PositionZ: 0
@@ -412,7 +412,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 23
+  - ObjectId: 23 # Underworld Torch
     PositionX: -1100
     PositionY: 0
     PositionZ: 1100
