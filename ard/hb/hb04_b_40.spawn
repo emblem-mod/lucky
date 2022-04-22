@@ -27,7 +27,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 2504 # Luxord
+  - ObjectId: 2504 # Data Luxord
     PositionX: 150
     PositionY: 0
     PositionZ: 300
@@ -52,7 +52,7 @@
     RotationX: 0
     RotationY: 0
     RotationZ: 0
-    SpawnType: 0
+    SpawnType: 2
     SpawnArgument: 0
     Serial: 9
     Argument1: 0
@@ -78,7 +78,7 @@
   Unk20: 3276800
   Unk24: 0
   Entities:
-  - ObjectId: 1535 # Luxord's Card
+  - ObjectId: 7 # Luxord's Card
     PositionX: -150
     PositionY: 0
     PositionZ: 200
@@ -96,7 +96,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 1535 # Luxord's Card
+  - ObjectId: 7 # Luxord's Card
     PositionX: 150
     PositionY: 0
     PositionZ: 100
@@ -114,7 +114,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 1535 # Luxord's Card
+  - ObjectId: 7 # Luxord's Card
     PositionX: 450
     PositionY: 0
     PositionZ: 200
@@ -172,10 +172,10 @@
     SpawnType: 2
     SpawnArgument: 0
     Serial: 20
-    Argument1: 3
+    Argument1: 4
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 50
+    SpawnDelay: 0
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -190,10 +190,10 @@
     SpawnType: 2
     SpawnArgument: 0
     Serial: 21
-    Argument1: 3
+    Argument1: 4
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 50
+    SpawnDelay: 0
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -208,10 +208,10 @@
     SpawnType: 2
     SpawnArgument: 0
     Serial: 22
-    Argument1: 3
+    Argument1: 4
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 50
+    SpawnDelay: 0
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -226,10 +226,10 @@
     SpawnType: 2
     SpawnArgument: 0
     Serial: 23
-    Argument1: 3
+    Argument1: 4
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 50
+    SpawnDelay: 0
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -247,7 +247,7 @@
     Argument1: 4
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 50
+    SpawnDelay: 0
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -265,7 +265,7 @@
     Argument1: 4
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 50
+    SpawnDelay: 0
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -283,7 +283,7 @@
     Argument1: 4
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 50
+    SpawnDelay: 0
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -298,10 +298,10 @@
     SpawnType: 2
     SpawnArgument: 0
     Serial: 27
-    Argument1: 5
+    Argument1: 4
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 50
+    SpawnDelay: 0
     Command: 0
     SpawnRange: 0
     Level: 0
