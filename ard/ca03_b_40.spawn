@@ -9,10 +9,10 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 566
-    PositionX: -185.99929809570312
-    PositionY: -362.3302001953125
-    PositionZ: -335.33370971679688
+  - ObjectId: 566 # Sora
+    PositionX: -185
+    PositionY: -362
+    PositionZ: -335
     RotationX: 0
     RotationY: 3.0087258815765381
     RotationZ: 0
@@ -28,9 +28,9 @@
     Level: 0
     Medal: 0
   - ObjectId: 567
-    PositionX: -298.36550903320312
-    PositionY: -362.3302001953125
-    PositionZ: -421.2047119140625
+    PositionX: -300
+    PositionY: -362
+    PositionZ: -425
     RotationX: 0
     RotationY: 3.0087258815765381
     RotationZ: 0
@@ -46,9 +46,9 @@
     Level: 0
     Medal: 0
   - ObjectId: 568
-    PositionX: -100.12830352783203
-    PositionY: -362.3302001953125
-    PositionZ: -447.69989013671875
+    PositionX: -100
+    PositionY: -362
+    PositionZ: -450
     RotationX: 0
     RotationY: 3.0087258815765381
     RotationZ: 0
@@ -78,7 +78,7 @@
   Unk20: 3276800
   Unk24: 0
   Entities:
-  - ObjectId: 1059
+  - ObjectId: 1059 # Present Box (Battle)
     PositionX: 0
     PositionY: -1500
     PositionZ: 500
@@ -96,10 +96,10 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 1059
-    PositionX: 142.49710083007812
-    PositionY: -472.88668823242188
-    PositionZ: 845.15582275390625
+  - ObjectId: 1059 # Present Box (Battle)
+    PositionX: 150
+    PositionY: -475
+    PositionZ: 850
     RotationX: 0
     RotationY: -2.1598448753356934
     RotationZ: 0
@@ -114,10 +114,10 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 1059
-    PositionX: -257.50289916992188
-    PositionY: -622.88671875
-    PositionZ: 895.15582275390625
+  - ObjectId: 1059 # Present Box (Battle)
+    PositionX: -250
+    PositionY: -625
+    PositionZ: 900
     RotationX: 0
     RotationY: 1.3744467496871948
     RotationZ: 0
@@ -132,10 +132,10 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 1059
-    PositionX: -107.50289916992188
-    PositionY: -372.88668823242188
-    PositionZ: 445.15579223632812
+  - ObjectId: 1059 # Present Box (Battle)
+    PositionX: -100
+    PositionY: -375
+    PositionZ: 450
     RotationX: 0
     RotationY: 0
     RotationZ: 0
@@ -150,9 +150,9 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 1059
+  - ObjectId: 1059 # Present Box (Battle)
     PositionX: -250
-    PositionY: -370
+    PositionY: -375
     PositionZ: 300
     RotationX: 0
     RotationY: 0
@@ -170,7 +170,7 @@
     Medal: 0
   - ObjectId: 14
     PositionX: 300
-    PositionY: -370
+    PositionY: -375
     PositionZ: -50
     RotationX: 0
     RotationY: 0
@@ -187,9 +187,9 @@
     Level: 0
     Medal: 0
   - ObjectId: 14
-    PositionX: -254.20350646972656
-    PositionY: -620
-    PositionZ: -1059.6529541015625
+    PositionX: -250
+    PositionY: -625
+    PositionZ: -1050
     RotationX: 0
     RotationY: 0
     RotationZ: 0
@@ -207,14 +207,14 @@
   EventActivators:
   - Shape: 2
     Option: 0
-    PositionX: -246.11700439453125
-    PositionY: -100.70015716552734
-    PositionZ: -687.33502197265625
-    ScaleX: 107.36750030517578
+    PositionX: 0
+    PositionY: 0
+    PositionZ: 0
+    ScaleX: 100
     ScaleY: 100
-    ScaleZ: 72.344001770019531
+    ScaleZ: 100
     RotationX: 0
-    RotationY: 1.8912352323532104
+    RotationY: 0
     RotationZ: 0
     Flags: 0
     Type: 0
