@@ -27,25 +27,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 567 # Party Member 1
-    PositionX: -125
-    PositionY: 0
-    PositionZ: 0
-    RotationX: 0
-    RotationY: 2.8274333477020264
-    RotationZ: 0
-    SpawnType: 0
-    SpawnArgument: 0
-    Serial: 8
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 0
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  - ObjectId: 568 # Party Member 1
+  - ObjectId: 93 # Goofy
     PositionX: 75
     PositionY: 0
     PositionZ: -75
@@ -223,8 +205,8 @@
     Level: 1
     Medal: 0
   - ObjectId: 313 # Berserker
-    PositionX: 0
-    PositionY: -1500
+    PositionX: -500
+    PositionY: 0
     PositionZ: 0
     RotationX: 0
     RotationY: 3.1415927410125732
@@ -241,8 +223,8 @@
     Level: 1
     Medal: 0
   - ObjectId: 313 # Berserker
-    PositionX: 0
-    PositionY: -1500
+    PositionX: 500
+    PositionY: 0
     PositionZ: 0
     RotationX: 0
     RotationY: 3.1415927410125732
@@ -258,9 +240,9 @@
     SpawnRange: 0
     Level: 1
     Medal: 0
-  - ObjectId: 313 # Berserker
+  - ObjectId: 312 # Dancer
     PositionX: 0
-    PositionY: -1500
+    PositionY: 0
     PositionZ: 0
     RotationX: 0
     RotationY: 3.1415927410125732
