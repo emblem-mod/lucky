@@ -197,6 +197,25 @@ assets:
 # Mountain Trail Fight
 
 # Village Cave Fight
+- name: ard/mu05.ard
+  method: binarc
+  source:
+  - name: b_40
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: ard/mu/mu05_b_40.spawn # Blizzard Lord
+  - name: evt
+    type: areadatascript
+    method: areadatascript
+    source:
+    - name: ard/mu/mu05_evt.script # Boss Signal
+- name: msn/jp/MU05_MS105.bar
+  multi:
+  - name: msn/us/MU05_MS105.bar
+  method: copy
+  source:
+  - name: msn/jp/TT05_MS404.bar # Axel I MSN
 
 # Summit Fight
 
