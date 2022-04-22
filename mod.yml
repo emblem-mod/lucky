@@ -1078,8 +1078,20 @@ assets:
 # Hyena Chase (See Elephant Graveyard Fight)
 
 # Groundshaker
-
-
+- name: ard/lk15.ard
+  method: binarc
+  source:
+  - name: b_60
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: ard/lk/lk15_b_60.spawn 
+- name: msn/jp/LK15_MS202.bar
+  multi:
+  - name: msn/us/LK15_MS202.bar
+  method: copy
+  source:
+  - name: msn/jp/AL05_MS203.bar # Genie Jafar MSN
 
 
 
