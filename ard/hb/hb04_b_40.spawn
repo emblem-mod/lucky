@@ -88,7 +88,7 @@
     SpawnType: 3
     SpawnArgument: 0
     Serial: 10
-    Argument1: 3
+    Argument1: 4
     Argument2: 0
     ReactionCommand: 0
     SpawnDelay: 0
@@ -124,7 +124,7 @@
     SpawnType: 3
     SpawnArgument: 0
     Serial: 12
-    Argument1: 5
+    Argument1: 2
     Argument2: 0
     ReactionCommand: 0
     SpawnDelay: 0
@@ -172,7 +172,7 @@
     SpawnType: 2
     SpawnArgument: 0
     Serial: 20
-    Argument1: 2
+    Argument1: 3
     Argument2: 0
     ReactionCommand: 0
     SpawnDelay: 0
@@ -190,7 +190,7 @@
     SpawnType: 2
     SpawnArgument: 0
     Serial: 21
-    Argument1: 2
+    Argument1: 3
     Argument2: 0
     ReactionCommand: 0
     SpawnDelay: 0
@@ -208,7 +208,7 @@
     SpawnType: 2
     SpawnArgument: 0
     Serial: 22
-    Argument1: 2
+    Argument1: 3
     Argument2: 0
     ReactionCommand: 0
     SpawnDelay: 0
@@ -226,7 +226,7 @@
     SpawnType: 2
     SpawnArgument: 0
     Serial: 23
-    Argument1: 2
+    Argument1: 3
     Argument2: 0
     ReactionCommand: 0
     SpawnDelay: 0
@@ -244,7 +244,7 @@
     SpawnType: 2
     SpawnArgument: 0
     Serial: 24
-    Argument1: 2
+    Argument1: 4
     Argument2: 0
     ReactionCommand: 0
     SpawnDelay: 0
@@ -262,7 +262,7 @@
     SpawnType: 2
     SpawnArgument: 0
     Serial: 25
-    Argument1: 2
+    Argument1: 4
     Argument2: 0
     ReactionCommand: 0
     SpawnDelay: 0
@@ -280,7 +280,7 @@
     SpawnType: 2
     SpawnArgument: 0
     Serial: 26
-    Argument1: 2
+    Argument1: 4
     Argument2: 0
     ReactionCommand: 0
     SpawnDelay: 0
@@ -298,7 +298,7 @@
     SpawnType: 2
     SpawnArgument: 0
     Serial: 27
-    Argument1: 2
+    Argument1: 5
     Argument2: 0
     ReactionCommand: 0
     SpawnDelay: 0
