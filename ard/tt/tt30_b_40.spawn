@@ -78,46 +78,10 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 10
+  - ObjectId: 10 # Nightwalker
     PositionX: 350
     PositionY: 0
     PositionZ: 925
-    RotationX: 0
-    RotationY: -0.30179885029792786
-    RotationZ: 0
-    SpawnType: 3
-    SpawnArgument: 0
-    Serial: 11
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 0
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  - ObjectId: 12
-    PositionX: 150
-    PositionY: 0
-    PositionZ: 850
-    RotationX: 0
-    RotationY: -0.30179885029792786
-    RotationZ: 0
-    SpawnType: 3
-    SpawnArgument: 0
-    Serial: 12
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 0
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  - ObjectId: 12
-    PositionX: 450
-    PositionY: 0
-    PositionZ: 725
     RotationX: 0
     RotationY: -0.30179885029792786
     RotationZ: 0
@@ -132,12 +96,156 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 12
+  - ObjectId: 12 # Luna Bandit
+    PositionX: 150
+    PositionY: 0
+    PositionZ: 850
+    RotationX: 0
+    RotationY: -0.30179885029792786
+    RotationZ: 0
+    SpawnType: 3
+    SpawnArgument: 0
+    Serial: 11
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 0
+    Medal: 0
+  - ObjectId: 12 # Luna Bandit
+    PositionX: 450
+    PositionY: 0
+    PositionZ: 725
+    RotationX: 0
+    RotationY: -0.30179885029792786
+    RotationZ: 0
+    SpawnType: 3
+    SpawnArgument: 0
+    Serial: 12
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 0
+    Medal: 0
+  - ObjectId: 12 # Luna Bandit
     PositionX: -50
     PositionY: 0
     PositionZ: 1000
     RotationX: 0
     RotationY: -0.30179885029792786
+    RotationZ: 0
+    SpawnType: 2
+    SpawnArgument: 0
+    Serial: 13
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 0
+    Medal: 0
+  - ObjectId: 12 # Luna Bandit
+    PositionX: 725
+    PositionY: 0
+    PositionZ: 750
+    RotationX: 0
+    RotationY: -0.30179885029792786
+    RotationZ: 0
+    SpawnType: 2
+    SpawnArgument: 0
+    Serial: 14
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 0
+    Medal: 0
+  - ObjectId: 10 # Nightwalker
+    PositionX: -775
+    PositionY: 0
+    PositionZ: -200
+    RotationX: 0
+    RotationY: 3.1415927410125732
+    RotationZ: 0
+    SpawnType: 2
+    SpawnArgument: 0
+    Serial: 20
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 1
+    Medal: 0
+  - ObjectId: 10 # Nightwalker
+    PositionX: -225
+    PositionY: 0
+    PositionZ: -675
+    RotationX: 0
+    RotationY: 3.1415927410125732
+    RotationZ: 0
+    SpawnType: 2
+    SpawnArgument: 0
+    Serial: 21
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 1
+    Medal: 0
+  - ObjectId: 10 # Nightwalker
+    PositionX: 475
+    PositionY: 0
+    PositionZ: -500
+    RotationX: 0
+    RotationY: 3.1415927410125732
+    RotationZ: 0
+    SpawnType: 2
+    SpawnArgument: 0
+    Serial: 22
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 1
+    Medal: 0
+  - ObjectId: 313 # Berserker
+    PositionX: 0
+    PositionY: -1500
+    PositionZ: 0
+    RotationX: 0
+    RotationY: 3.1415927410125732
+    RotationZ: 0
+    SpawnType: 2
+    SpawnArgument: 0
+    Serial: 23
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 1
+    Medal: 0
+  - ObjectId: 313 # Berserker
+    PositionX: 0
+    PositionY: -1500
+    PositionZ: 0
+    RotationX: 0
+    RotationY: 3.1415927410125732
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
@@ -148,81 +256,9 @@
     SpawnDelay: 0
     Command: 0
     SpawnRange: 0
-    Level: 0
-    Medal: 0
-  - ObjectId: 12
-    PositionX: 725
-    PositionY: 0
-    PositionZ: 750
-    RotationX: 0
-    RotationY: -0.30179885029792786
-    RotationZ: 0
-    SpawnType: 2
-    SpawnArgument: 0
-    Serial: 25
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 0
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  - ObjectId: 10
-    PositionX: -775
-    PositionY: 0
-    PositionZ: -200
-    RotationX: 0
-    RotationY: 3.1415927410125732
-    RotationZ: 0
-    SpawnType: 2
-    SpawnArgument: 0
-    Serial: 26
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 0
-    Command: 0
-    SpawnRange: 0
     Level: 1
     Medal: 0
-  - ObjectId: 10
-    PositionX: -225
-    PositionY: 0
-    PositionZ: -675
-    RotationX: 0
-    RotationY: 3.1415927410125732
-    RotationZ: 0
-    SpawnType: 2
-    SpawnArgument: 0
-    Serial: 27
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 0
-    Command: 0
-    SpawnRange: 0
-    Level: 1
-    Medal: 0
-  - ObjectId: 10
-    PositionX: 475
-    PositionY: 0
-    PositionZ: -500
-    RotationX: 0
-    RotationY: 3.1415927410125732
-    RotationZ: 0
-    SpawnType: 2
-    SpawnArgument: 0
-    Serial: 28
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 0
-    Command: 0
-    SpawnRange: 0
-    Level: 1
-    Medal: 0
-  - ObjectId: 313
+  - ObjectId: 313 # Berserker
     PositionX: 0
     PositionY: -1500
     PositionZ: 0
@@ -231,7 +267,7 @@
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
-    Serial: 29
+    Serial: 25
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
