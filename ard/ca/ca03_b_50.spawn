@@ -9,10 +9,28 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 1222
+  - ObjectId: 1222 # Burning Barrel
     PositionX: 200
     PositionY: -370
     PositionZ: 650
+    RotationX: 0
+    RotationY: 0
+    RotationZ: 0
+    SpawnType: 0
+    SpawnArgument: 0
+    Serial: 90
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 0
+    Medal: 0
+  - ObjectId: 1222 # Burning Barrel
+    PositionX: 325
+    PositionY: -620
+    PositionZ: -1300
     RotationX: 0
     RotationY: 0
     RotationZ: 0
@@ -27,10 +45,10 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 1222
-    PositionX: 325
-    PositionY: -620
-    PositionZ: -1300
+  - ObjectId: 1222 # Burning Barrel
+    PositionX: -250
+    PositionY: -30000
+    PositionZ: -1700
     RotationX: 0
     RotationY: 0
     RotationZ: 0
@@ -45,10 +63,10 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 1222
-    PositionX: -250
-    PositionY: -30000
-    PositionZ: -1700
+  - ObjectId: 1222 # Burning Barrel
+    PositionX: -200
+    PositionY: -35000
+    PositionZ: 650
     RotationX: 0
     RotationY: 0
     RotationZ: 0
@@ -63,25 +81,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 1222
-    PositionX: -200
-    PositionY: -35000
-    PositionZ: 650
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 0
-    SpawnArgument: 0
-    Serial: 94
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 0
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  - ObjectId: 1222
+  - ObjectId: 1222 # Burning Barrel
     PositionX: -425
     PositionY: -50000
     PositionZ: -450
@@ -90,7 +90,7 @@
     RotationZ: 0
     SpawnType: 0
     SpawnArgument: 0
-    Serial: 95
+    Serial: 94
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
