@@ -12,12 +12,12 @@
   EventActivators:
   - Shape: 0
     Option: 0
-    PositionX: 1596.14599609375
-    PositionY: -1519.3399658203125
-    PositionZ: -1093.8759765625
-    ScaleX: 191.156494140625
+    PositionX: 1600
+    PositionY: -1525
+    PositionZ: -1100
+    ScaleX: 200
     ScaleY: 500
-    ScaleZ: 491.49099731445312
+    ScaleZ: 500
     RotationX: 0
     RotationY: 1.5707963705062866
     RotationZ: 0
@@ -209,7 +209,7 @@
     Medal: 0
   - ObjectId: 2414
     PositionX: 881.11102294921875
-    PositionY: -1100.001953125
+    PositionY: -1100
     PositionZ: -762.88397216796875
     RotationX: 0
     RotationY: 0
@@ -226,8 +226,8 @@
     Level: 1
     Medal: 0
   - ObjectId: 2412
-    PositionX: 881.11102294921875
-    PositionY: -1100.001953125
+    PositionX: 875
+    PositionY: -1100
     PositionZ: -862.88397216796875
     RotationX: 0
     RotationY: 0
@@ -244,8 +244,8 @@
     Level: 2
     Medal: 0
   - ObjectId: 2414
-    PositionX: 781.11102294921875
-    PositionY: -1100.001953125
+    PositionX: 775
+    PositionY: -1100
     PositionZ: -862.88397216796875
     RotationX: 0
     RotationY: 0
@@ -262,8 +262,8 @@
     Level: 3
     Medal: 0
   - ObjectId: 2412
-    PositionX: 681.11102294921875
-    PositionY: -1100.001953125
+    PositionX: 675
+    PositionY: -1100
     PositionZ: -862.88397216796875
     RotationX: 0
     RotationY: 0
@@ -280,8 +280,8 @@
     Level: 4
     Medal: 0
   - ObjectId: 2414
-    PositionX: 581.11102294921875
-    PositionY: -1100.001953125
+    PositionX: 575
+    PositionY: -1100
     PositionZ: -862.88397216796875
     RotationX: 0
     RotationY: 0
@@ -298,8 +298,8 @@
     Level: 5
     Medal: 0
   - ObjectId: 2412
-    PositionX: 981.11102294921875
-    PositionY: -1100.001953125
+    PositionX: 975
+    PositionY: -1100
     PositionZ: -762.88397216796875
     RotationX: 0
     RotationY: 0
@@ -318,12 +318,12 @@
   EventActivators:
   - Shape: 2
     Option: 0
-    PositionX: 2668.925048828125
-    PositionY: -1119.3399658203125
-    PositionZ: -1318.406982421875
-    ScaleX: 220.62249755859375
+    PositionX: 2675
+    PositionY: -1100
+    PositionZ: -1318
+    ScaleX: 225
     ScaleY: 100
-    ScaleZ: 263.64898681640625
+    ScaleZ: 250
     RotationX: 0
     RotationY: -1.2878035306930542
     RotationZ: 0
@@ -373,8 +373,8 @@
   Unk24: 0
   Entities:
   - ObjectId: 2414
-    PositionX: 1873.1510009765625
-    PositionY: -1450.001953125
+    PositionX: 1875
+    PositionY: -1450
     PositionZ: -1918.593994140625
     RotationX: 0
     RotationY: -2.3563201427459717
@@ -391,9 +391,9 @@
     Level: 0
     Medal: 0
   - ObjectId: 2409
-    PositionX: 1767.0989990234375
-    PositionY: -1300.001953125
-    PositionZ: -1812.5150146484375
+    PositionX: 1775
+    PositionY: -1300
+    PositionZ: -1812
     RotationX: 0
     RotationY: -2.3563201427459717
     RotationZ: 0
@@ -409,8 +409,8 @@
     Level: 0
     Medal: 0
   - ObjectId: 2409
-    PositionX: 1661.1080322265625
-    PositionY: -1300.001953125
+    PositionX: 1650
+    PositionY: -1300
     PositionZ: -1211.4610595703125
     RotationX: 0
     RotationY: -2.3563201427459717
@@ -427,9 +427,9 @@
     Level: 0
     Medal: 0
   - ObjectId: 2409
-    PositionX: 1130.7110595703125
-    PositionY: -1300.001953125
-    PositionZ: -1741.7239990234375
+    PositionX: 1125
+    PositionY: -1300
+    PositionZ: -1750
     RotationX: 0
     RotationY: -2.3563201427459717
     RotationZ: 0
@@ -447,14 +447,14 @@
   EventActivators:
   - Shape: 2
     Option: 0
-    PositionX: 2814.6708984375
-    PositionY: -1119.3399658203125
-    PositionZ: -1770.2030029296875
-    ScaleX: 223.10565185546875
-    ScaleY: 99.999946594238281
-    ScaleZ: 263.64898681640625
+    PositionX: 2800
+    PositionY: -1100
+    PositionZ: -1775
+    ScaleX: 225
+    ScaleY: 100
+    ScaleZ: 250
     RotationX: 0
-    RotationY: -1.2878035306930542
+    RotationY: 0
     RotationZ: 0
     Flags: 0
     Type: 0
