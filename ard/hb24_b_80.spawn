@@ -9,10 +9,10 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 566
-    PositionX: 566.915283203125
+  - ObjectId: 566 # Sora
+    PositionX: 566
     PositionY: 2000
-    PositionZ: 606.12158203125
+    PositionZ: 600
     RotationX: 0
     RotationY: 1.6929693222045898
     RotationZ: 0
@@ -27,10 +27,10 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 567
-    PositionX: 455.47378540039062
-    PositionY: 2000.0450439453125
-    PositionZ: 693.1890869140625
+  - ObjectId: 567 # Party Member 1
+    PositionX: 450
+    PositionY: 2000
+    PositionZ: 700
     RotationX: 0
     RotationY: 1.6929693222045898
     RotationZ: 0
@@ -45,10 +45,10 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 568
-    PositionX: 479.84768676757812
-    PositionY: 2000.011962890625
-    PositionZ: 494.6798095703125
+  - ObjectId: 568 # Party Member 2
+    PositionX: 475
+    PositionY: 2000
+    PositionZ: 500
     RotationX: 0
     RotationY: 1.6929693222045898
     RotationZ: 0
@@ -63,10 +63,10 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 566
-    PositionX: 1760.5860595703125
-    PositionY: -1100.0009765625
-    PositionZ: -1499.2010498046875
+  - ObjectId: 566 # Sora
+    PositionX: 1750
+    PositionY: -1100
+    PositionZ: -1500
     RotationX: 0
     RotationY: 0.62108206748962402
     RotationZ: 0
@@ -81,10 +81,10 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 567
-    PositionX: 1783.718994140625
-    PositionY: -1100.0009765625
-    PositionZ: -1359.68505859375
+  - ObjectId: 567 # Party Member 1
+    PositionX: 1800
+    PositionY: -1100
+    PositionZ: -1350
     RotationX: 0
     RotationY: 0.62108206748962402
     RotationZ: 0
@@ -99,10 +99,10 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 568
-    PositionX: 1621.0689697265625
-    PositionY: -1100.0009765625
-    PositionZ: -1476.0679931640625
+  - ObjectId: 568 # Party Member 2
+    PositionX: 1625
+    PositionY: -1100
+    PositionZ: -1475
     RotationX: 0
     RotationY: 0.62108206748962402
     RotationZ: 0
