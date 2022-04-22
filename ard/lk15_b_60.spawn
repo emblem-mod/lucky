@@ -9,7 +9,7 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 566
+  - ObjectId: 566 # Sora
     PositionX: 0
     PositionY: -22380
     PositionZ: 0
@@ -27,43 +27,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 567
-    PositionX: 89.798347473144531
-    PositionY: -353.82940673828125
-    PositionZ: 5016.60595703125
-    RotationX: 0
-    RotationY: 0.17453292012214661
-    RotationZ: 0
-    SpawnType: 0
-    SpawnArgument: 0
-    Serial: 5
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 0
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  - ObjectId: 568
-    PositionX: -107.16320037841797
-    PositionY: -352.18548583984375
-    PositionZ: 4981.8759765625
-    RotationX: 0
-    RotationY: 0.17453292012214661
-    RotationZ: 0
-    SpawnType: 0
-    SpawnArgument: 0
-    Serial: 6
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 0
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  - ObjectId: 348
+  - ObjectId: 348 # Genie Jafar
     PositionX: 300
     PositionY: -21450
     PositionZ: 500
