@@ -30,7 +30,7 @@
   - ObjectId: 567 # Party Member 1
     PositionX: 0
     PositionY: 0
-    PositionZ: -100
+    PositionZ: -125
     RotationX: 0
     RotationY: -2.0594885349273682
     RotationZ: 0
@@ -46,9 +46,9 @@
     Level: 0
     Medal: 0
   - ObjectId: 568 # Party Member 2
-    PositionX: 100
-    PositionY: -0
-    PositionZ: 50
+    PositionX: 125
+    PositionY: 0
+    PositionZ: 75
     RotationX: 0
     RotationY: -2.0594885349273682
     RotationZ: 0
@@ -78,10 +78,10 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 309 # Assassin
+  - ObjectId: 122 # Morning Star
     PositionX: -525
     PositionY: 0
-    PositionZ: 475
+    PositionZ: 300
     RotationX: 0
     RotationY: 1.0605405569076538
     RotationZ: 0
@@ -96,10 +96,10 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 122 # Morning Star
-    PositionX: -575
+  - ObjectId: 309 # Assassin
+    PositionX: -650
     PositionY: 0
-    PositionZ: 325
+    PositionZ: 225
     RotationX: 0
     RotationY: 1.0605405569076538
     RotationZ: 0
@@ -115,9 +115,9 @@
     Level: 0
     Medal: 0
   - ObjectId: 309 # Assassin
-    PositionX: -650
+    PositionX: -525
     PositionY: 0
-    PositionZ: 250
+    PositionZ: 450
     RotationX: 0
     RotationY: 1.0605405569076538
     RotationZ: 0
@@ -133,130 +133,112 @@
     Level: 0
     Medal: 0
   - ObjectId: 122 # Morning Star
-    PositionX: -150
+    PositionX: 350
     PositionY: 0
-    PositionZ: 375
+    PositionZ: 350
     RotationX: 0
     RotationY: 0
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
-    Serial: 24
+    Serial: 13
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
     SpawnDelay: 0
     Command: 0
     SpawnRange: 0
-    Level: 0
-    Medal: 0
-  - ObjectId: 122 # Morning Star
-    PositionX: -350
-    PositionY: 0
-    PositionZ: 25
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 2
-    SpawnArgument: 0
-    Serial: 25
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 0
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  - ObjectId: 122 # Morning Star
-    PositionX: -250
-    PositionY: 0
-    PositionZ: -575
-    RotationX: 0
-    RotationY: 3.1415927410125732
-    RotationZ: 0
-    SpawnType: 2
-    SpawnArgument: 0
-    Serial: 26
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 0
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  - ObjectId: 122 # Morning Star
-    PositionX: -575
-    PositionY: 0
-    PositionZ: -175
-    RotationX: 0
-    RotationY: 3.1415927410125732
-    RotationZ: 0
-    SpawnType: 2
-    SpawnArgument: 0
-    Serial: 27
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 0
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  - ObjectId: 122 # Morning Star
-    PositionX: -575
-    PositionY: 0
-    PositionZ: 325
-    RotationX: 0
-    RotationY: 3.1415927410125732
-    RotationZ: 0
-    SpawnType: 2
-    SpawnArgument: 0
-    Serial: 28
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 0
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  - ObjectId: 122 # Morning Star
-    PositionX: -125
-    PositionY: 0
-    PositionZ: 575
-    RotationX: 0
-    RotationY: 3.1415927410125732
-    RotationZ: 0
-    SpawnType: 2
-    SpawnArgument: 0
-    Serial: 29
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 0
-    Command: 0
-    SpawnRange: 0
-    Level: 0
+    Level: 1
     Medal: 0
   - ObjectId: 122 # Morning Star
     PositionX: 425
     PositionY: 0
-    PositionZ: 425
+    PositionZ: -250
     RotationX: 0
-    RotationY: 3.1415927410125732
+    RotationY: 0
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
-    Serial: 30
+    Serial: 14
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
     SpawnDelay: 0
     Command: 0
     SpawnRange: 0
-    Level: 0
+    Level: 1
+    Medal: 0
+  - ObjectId: 122 # Morning Star
+    PositionX: -125
+    PositionY: 0
+    PositionZ: -450
+    RotationX: 0
+    RotationY: 0
+    RotationZ: 0
+    SpawnType: 2
+    SpawnArgument: 0
+    Serial: 15
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 1
+    Medal: 0
+  - ObjectId: 309 # Assassin
+    PositionX: 0
+    PositionY: -100
+    PositionZ: 0
+    RotationX: 0
+    RotationY: 3.1415927410125732
+    RotationZ: 0
+    SpawnType: 2
+    SpawnArgument: 0
+    Serial: 20
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 2
+    Medal: 0
+  - ObjectId: 311 # Sniper
+    PositionX: -50
+    PositionY: 0
+    PositionZ: -250
+    RotationX: 0
+    RotationY: 3.1415927410125732
+    RotationZ: 0
+    SpawnType: 2
+    SpawnArgument: 0
+    Serial: 21
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 2
+    Medal: 0
+  - ObjectId: 311 # Sniper
+    PositionX: 200
+    PositionY: 0
+    PositionZ: 175
+    RotationX: 0
+    RotationY: 3.1415927410125732
+    RotationZ: 0
+    SpawnType: 2
+    SpawnArgument: 0
+    Serial: 22
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 2
     Medal: 0
   EventActivators:
   - Shape: 2
