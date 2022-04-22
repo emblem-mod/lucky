@@ -9,10 +9,10 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 566
-    PositionX: -1000
-    PositionY: 100
-    PositionZ: 0
+  - ObjectId: 566 # Sora
+    PositionX: -750
+    PositionY: 0
+    PositionZ: -450
     RotationX: 0
     RotationY: -2.7684116363525391
     RotationZ: 0
@@ -27,10 +27,10 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 567
-    PositionX: -1050
-    PositionY: 100
-    PositionZ: -125
+  - ObjectId: 567 # Party Member 1
+    PositionX: -800
+    PositionY: 0
+    PositionZ: -600
     RotationX: 0
     RotationY: -2.7684116363525391
     RotationZ: 0
@@ -45,10 +45,10 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 568
-    PositionX: -850
-    PositionY: 100
-    PositionZ: -50
+  - ObjectId: 568 # Party Member 2
+    PositionX: -600
+    PositionY: 0
+    PositionZ: -525
     RotationX: 0
     RotationY: -2.7684116363525391
     RotationZ: 0
@@ -63,7 +63,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 1476
+  - ObjectId: 1476 # Tension Orbs
     PositionX: 0
     PositionY: 0
     PositionZ: 0
@@ -96,7 +96,7 @@
   Unk20: 3276800
   Unk24: 0
   Entities:
-  - ObjectId: 72
+  - ObjectId: 72 # Emerald Blues
     PositionX: -1400
     PositionY: 0
     PositionZ: 700
@@ -114,10 +114,10 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 18
-    PositionX: -1300
-    PositionY: 0
-    PositionZ: 400
+  - ObjectId: 18 # Driller Mole
+    PositionX: -1500
+    PositionY: 50
+    PositionZ: 300
     RotationX: 0
     RotationY: 0
     RotationZ: 0
@@ -132,10 +132,10 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 18
+  - ObjectId: 18 # Driller Mole
     PositionX: -1000
-    PositionY: 0
-    PositionZ: 550
+    PositionY: 100
+    PositionZ: 600
     RotationX: 0
     RotationY: 0
     RotationZ: 0
@@ -145,14 +145,14 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 0
+    SpawnDelay: 50
     Command: 0
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 18
+  - ObjectId: 18 # Driller Mole
     PositionX: -2000
-    PositionY: 0
+    PositionY: 100
     PositionZ: -100
     RotationX: 0
     RotationY: 0
@@ -168,10 +168,10 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 18
-    PositionX: -100
-    PositionY: 0
-    PositionZ: 1000
+  - ObjectId: 18 # Driller Mole
+    PositionX: -200
+    PositionY: 100
+    PositionZ: 1100
     RotationX: 0
     RotationY: 0
     RotationZ: 0
@@ -181,15 +181,15 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 100
+    SpawnDelay: 150
     Command: 0
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 18
-    PositionX: 900
-    PositionY: 0
-    PositionZ: 1450
+  - ObjectId: 18 # Driller Mole
+    PositionX: 600
+    PositionY: 100
+    PositionZ: 1400
     RotationX: 0
     RotationY: 0
     RotationZ: 0
@@ -199,14 +199,14 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 100
+    SpawnDelay: 200
     Command: 0
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 18
+  - ObjectId: 72 # Emerald Blues
     PositionX: -1500
-    PositionY: 50
+    PositionY: -200
     PositionZ: 300
     RotationX: 0
     RotationY: 0
@@ -217,14 +217,14 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 200
+    SpawnDelay: 0
     Command: 0
     SpawnRange: 0
-    Level: 0
+    Level: 1
     Medal: 0
-  - ObjectId: 18
+  - ObjectId: 72 # Emerald Blues
     PositionX: -800
-    PositionY: 50
+    PositionY: -200
     PositionZ: 1000
     RotationX: 0
     RotationY: 0
@@ -235,14 +235,14 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 200
+    SpawnDelay: 0
     Command: 0
     SpawnRange: 0
-    Level: 0
+    Level: 1
     Medal: 0
-  - ObjectId: 18
+  - ObjectId: 72 # Emerald Blues
     PositionX: -600
-    PositionY: 50
+    PositionY: -200
     PositionZ: 600
     RotationX: 0
     RotationY: 0
@@ -253,10 +253,10 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 200
+    SpawnDelay: 0
     Command: 0
     SpawnRange: 0
-    Level: 0
+    Level: 1
     Medal: 0
   EventActivators:
   - Shape: 2
@@ -288,7 +288,7 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 2299
+  - ObjectId: 2299 # Paradox Yuffie
     PositionX: -800
     PositionY: -100
     PositionZ: -1900
@@ -306,7 +306,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 72
+  - ObjectId: 72 # Emerald Blues
     PositionX: 0
     PositionY: -5000
     PositionZ: 1000
@@ -324,7 +324,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 72
+  - ObjectId: 72 # Emerald Blues
     PositionX: -2000
     PositionY: -15000
     PositionZ: -100
@@ -342,9 +342,9 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 72
+  - ObjectId: 72 # Emerald Blues
     PositionX: 1500
-    PositionY: -30000
+    PositionY: -25000
     PositionZ: -200
     RotationX: 0
     RotationY: 0
