@@ -21,7 +21,12 @@ assets:
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/tt/tt25_b_40.spawn # Pete I and Neoshadows
+    - name: ard/tt/tt25_b_40.spawn # Pete Underdrome and Neoshadows
+  - name: evt
+    type: areadatascript
+    method: areadatascript
+    source:
+    - name: ard/tt/tt25_evt.script # Boss Signal and OST: Apprehension
 
 # Star Chamber Fight
 - name: ard/tt29.ard
