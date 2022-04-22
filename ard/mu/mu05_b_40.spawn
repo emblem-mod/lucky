@@ -9,7 +9,7 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 566
+  - ObjectId: 566 # Sora
     PositionX: -700
     PositionY: 0
     PositionZ: -900
@@ -43,9 +43,9 @@
   Unk24: 0
   Entities:
   - ObjectId: 1671
-    PositionX: -166.20089721679688
-    PositionY: 9.6361713076476008E-05
-    PositionZ: -1340.5570068359375
+    PositionX: -150
+    PositionY: 0
+    PositionZ: -1350
     RotationX: 0
     RotationY: -2.6179938316345215
     RotationZ: 0
@@ -61,9 +61,9 @@
     Level: 0
     Medal: 0
   - ObjectId: 1671
-    PositionX: 76.26055908203125
-    PositionY: 9.6361713076476008E-05
-    PositionZ: -1356.1939697265625
+    PositionX: 75
+    PositionY: 0
+    PositionZ: -1350
     RotationX: 0
     RotationY: -2.6179938316345215
     RotationZ: 0
@@ -79,9 +79,9 @@
     Level: 0
     Medal: 0
   - ObjectId: 1671
-    PositionX: -461.23660278320312
-    PositionY: 9.6361713076476008E-05
-    PositionZ: -1568.6309814453125
+    PositionX: -450
+    PositionY: 0
+    PositionZ: -1575
     RotationX: 0
     RotationY: -2.6179938316345215
     RotationZ: 0
@@ -97,9 +97,9 @@
     Level: 0
     Medal: 0
   - ObjectId: 1671
-    PositionX: -615.01123046875
-    PositionY: 9.6361713076476008E-05
-    PositionZ: -1910.9219970703125
+    PositionX: -600
+    PositionY: 0
+    PositionZ: -1900
     RotationX: 0
     RotationY: -2.6179938316345215
     RotationZ: 0
@@ -115,9 +115,9 @@
     Level: 0
     Medal: 0
   - ObjectId: 1671
-    PositionX: 86.166229248046875
-    PositionY: 9.6361713076476008E-05
-    PositionZ: -1720.77197265625
+    PositionX: 75
+    PositionY: 0
+    PositionZ: -1725
     RotationX: 0
     RotationY: -2.6179938316345215
     RotationZ: 0
@@ -133,9 +133,9 @@
     Level: 0
     Medal: 0
   - ObjectId: 1671
-    PositionX: -458.44900512695312
-    PositionY: 9.6361713076476008E-05
-    PositionZ: -1977.469970703125
+    PositionX: -450
+    PositionY: 0
+    PositionZ: -1975
     RotationX: 0
     RotationY: -2.6179938316345215
     RotationZ: 0
@@ -151,9 +151,9 @@
     Level: 0
     Medal: 0
   - ObjectId: 1671
-    PositionX: -708.448974609375
-    PositionY: 9.6361713076476008E-05
-    PositionZ: -1544.4580078125
+    PositionX: -700
+    PositionY: 0
+    PositionZ: -1550
     RotationX: 0
     RotationY: -2.6179938316345215
     RotationZ: 0
@@ -169,9 +169,9 @@
     Level: 0
     Medal: 0
   - ObjectId: 1671
-    PositionX: -170.53250122070312
-    PositionY: 9.6361713076476008E-05
-    PositionZ: -1176.156005859375
+    PositionX: -175
+    PositionY: 0
+    PositionZ: -1175
     RotationX: 0
     RotationY: -2.6179938316345215
     RotationZ: 0
@@ -187,9 +187,9 @@
     Level: 0
     Medal: 0
   - ObjectId: 1671
-    PositionX: -548.64141845703125
-    PositionY: 9.6361713076476008E-05
-    PositionZ: -1221.2530517578125
+    PositionX: -550
+    PositionY: 0
+    PositionZ: -1225
     RotationX: 0
     RotationY: -2.6179938316345215
     RotationZ: 0
@@ -205,9 +205,9 @@
     Level: 0
     Medal: 0
   - ObjectId: 1671
-    PositionX: -73.641387939453125
-    PositionY: 9.6361713076476008E-05
-    PositionZ: -2043.97705078125
+    PositionX: -75
+    PositionY: 0
+    PositionZ: -2050
     RotationX: 0
     RotationY: -2.6179938316345215
     RotationZ: 0
@@ -223,9 +223,9 @@
     Level: 0
     Medal: 0
   - ObjectId: 1671
-    PositionX: -244.07510375976562
-    PositionY: 0.00016118900384753942
-    PositionZ: -1753.926025390625
+    PositionX: -250
+    PositionY: 0
+    PositionZ: -1750
     RotationX: 0
     RotationY: -2.6179938316345215
     RotationZ: 0
@@ -241,9 +241,9 @@
     Level: 0
     Medal: 0
   - ObjectId: 1671
-    PositionX: -290.16641235351562
-    PositionY: 9.6361713076476008E-05
-    PositionZ: -2014.5780029296875
+    PositionX: -300
+    PositionY: 0
+    PositionZ: -2025
     RotationX: 0
     RotationY: -2.6179938316345215
     RotationZ: 0
@@ -260,7 +260,7 @@
     Medal: 0
   - ObjectId: 1671
     PositionX: -834.7816162109375
-    PositionY: 9.6361713076476008E-05
+    PositionY: 0
     PositionZ: -2271.27587890625
     RotationX: 0
     RotationY: -2.6179938316345215
@@ -278,7 +278,7 @@
     Medal: 0
   - ObjectId: 1671
     PositionX: -1084.781982421875
-    PositionY: 9.6361713076476008E-05
+    PositionY: 0
     PositionZ: -1838.2640380859375
     RotationX: 0
     RotationY: -2.6179938316345215
@@ -296,7 +296,7 @@
     Medal: 0
   - ObjectId: 1671
     PositionX: -546.8651123046875
-    PositionY: 9.6361713076476008E-05
+    PositionY: 0
     PositionZ: -1469.9620361328125
     RotationX: 0
     RotationY: -2.6179938316345215
@@ -314,7 +314,7 @@
     Medal: 0
   - ObjectId: 1671
     PositionX: -924.9739990234375
-    PositionY: 9.6361713076476008E-05
+    PositionY: 0
     PositionZ: -1515.0589599609375
     RotationX: 0
     RotationY: -2.6179938316345215
@@ -332,7 +332,7 @@
     Medal: 0
   - ObjectId: 1671
     PositionX: -449.9739990234375
-    PositionY: 9.6361713076476008E-05
+    PositionY: 0
     PositionZ: -2337.782958984375
     RotationX: 0
     RotationY: -2.6179938316345215
@@ -350,7 +350,7 @@
     Medal: 0
   - ObjectId: 1671
     PositionX: 478.848388671875
-    PositionY: 9.6361713076476008E-05
+    PositionY: 0
     PositionZ: -1423.5179443359375
     RotationX: 0
     RotationY: -2.6179938316345215
@@ -367,9 +367,9 @@
     Level: 0
     Medal: 0
   - ObjectId: 1671
-    PositionX: -65.766777038574219
-    PositionY: 9.6361713076476008E-05
-    PositionZ: -1680.2159423828125
+    PositionX: -75
+    PositionY: 0
+    PositionZ: -1675
     RotationX: 0
     RotationY: -2.6179938316345215
     RotationZ: 0
@@ -385,9 +385,9 @@
     Level: 0
     Medal: 0
   - ObjectId: 1671
-    PositionX: -315.76681518554688
-    PositionY: 9.6361713076476008E-05
-    PositionZ: -1247.2039794921875
+    PositionX: -325
+    PositionY: 0
+    PositionZ: -1250
     RotationX: 0
     RotationY: -2.6179938316345215
     RotationZ: 0
@@ -403,9 +403,9 @@
     Level: 0
     Medal: 0
   - ObjectId: 1671
-    PositionX: 222.14970397949219
-    PositionY: 9.6361713076476008E-05
-    PositionZ: -878.90228271484375
+    PositionX: 225
+    PositionY: 0
+    PositionZ: -875
     RotationX: 0
     RotationY: -2.6179938316345215
     RotationZ: 0
@@ -422,7 +422,7 @@
     Medal: 0
   - ObjectId: 1671
     PositionX: -155.95919799804688
-    PositionY: 9.6361713076476008E-05
+    PositionY: 0
     PositionZ: -923.99847412109375
     RotationX: 0
     RotationY: -2.6179938316345215
@@ -440,7 +440,7 @@
     Medal: 0
   - ObjectId: 1671
     PositionX: 319.04080200195312
-    PositionY: 9.6361713076476008E-05
+    PositionY: 0
     PositionZ: -1746.7230224609375
     RotationX: 0
     RotationY: -2.6179938316345215
@@ -458,7 +458,7 @@
     Medal: 0
   - ObjectId: 1671
     PositionX: 327.74990844726562
-    PositionY: 9.6361713076476008E-05
+    PositionY: 0
     PositionZ: -1522.240966796875
     RotationX: 0
     RotationY: -2.6179938316345215
@@ -476,7 +476,7 @@
     Medal: 0
   - ObjectId: 1671
     PositionX: -805.72320556640625
-    PositionY: 9.6361713076476008E-05
+    PositionY: 0
     PositionZ: -2254.462890625
     RotationX: 0
     RotationY: -2.6179938316345215
@@ -494,7 +494,7 @@
     Medal: 0
   - ObjectId: 1671
     PositionX: -734.14691162109375
-    PositionY: 9.6361713076476008E-05
+    PositionY: 0
     PositionZ: -1435.0279541015625
     RotationX: 0
     RotationY: -2.6179938316345215
@@ -512,7 +512,7 @@
     Medal: 0
   - ObjectId: 1671
     PositionX: 58.204349517822266
-    PositionY: 9.6361713076476008E-05
+    PositionY: 0
     PositionZ: -1055.375
     RotationX: 0
     RotationY: -2.6179938316345215
@@ -530,7 +530,7 @@
     Medal: 0
   - ObjectId: 1671
     PositionX: -679.53790283203125
-    PositionY: 9.6361713076476008E-05
+    PositionY: 0
     PositionZ: -1290.52197265625
     RotationX: 0
     RotationY: -2.6179938316345215
@@ -548,7 +548,7 @@
     Medal: 0
   - ObjectId: 1671
     PositionX: -807.64678955078125
-    PositionY: 9.6361713076476008E-05
+    PositionY: 0
     PositionZ: -1768.6309814453125
     RotationX: 0
     RotationY: -2.6179938316345215
@@ -565,8 +565,8 @@
     Level: 0
     Medal: 0
   - ObjectId: 1671
-    PositionX: -219.73030090332031
-    PositionY: 9.6361713076476008E-05
+    PositionX: -225
+    PositionY: 0
     PositionZ: -1486.9320068359375
     RotationX: 0
     RotationY: -2.6179938316345215
@@ -583,8 +583,8 @@
     Level: 0
     Medal: 0
   - ObjectId: 1671
-    PositionX: -394.73028564453125
-    PositionY: 9.6361713076476008E-05
+    PositionX: -400
+    PositionY: 0
     PositionZ: -1183.823974609375
     RotationX: 0
     RotationY: -2.6179938316345215
@@ -601,9 +601,9 @@
     Level: 0
     Medal: 0
   - ObjectId: 1671
-    PositionX: 89.5318603515625
-    PositionY: 9.6361713076476008E-05
-    PositionZ: -1818.1080322265625
+    PositionX: 100
+    PositionY: 0
+    PositionZ: -1800
     RotationX: 0
     RotationY: -2.6179938316345215
     RotationZ: 0
@@ -619,8 +619,8 @@
     Level: 0
     Medal: 0
   - ObjectId: 1671
-    PositionX: -801.3582763671875
-    PositionY: 9.6361713076476008E-05
+    PositionX: -800
+    PositionY: 0
     PositionZ: -1741.2989501953125
     RotationX: 0
     RotationY: -2.6179938316345215
@@ -637,8 +637,8 @@
     Level: 0
     Medal: 0
   - ObjectId: 1671
-    PositionX: 293.02679443359375
-    PositionY: 9.6361713076476008E-05
+    PositionX: 300
+    PositionY: 0
     PositionZ: -1428.238037109375
     RotationX: 0
     RotationY: -2.6179938316345215
@@ -656,8 +656,8 @@
     Medal: 0
   - ObjectId: 1671
     PositionX: -176.97450256347656
-    PositionY: 9.6361713076476008E-05
-    PositionZ: -1856.5050048828125
+    PositionY: 0
+    PositionZ: -1850
     RotationX: 0
     RotationY: -2.6179938316345215
     RotationZ: 0
@@ -674,8 +674,8 @@
     Medal: 0
   - ObjectId: 1671
     PositionX: -829.098388671875
-    PositionY: 9.6361713076476008E-05
-    PositionZ: -1279.1409912109375
+    PositionY: 0
+    PositionZ: -1275
     RotationX: 0
     RotationY: -2.6179938316345215
     RotationZ: 0
@@ -691,9 +691,9 @@
     Level: 0
     Medal: 0
   - ObjectId: 1671
-    PositionX: -255.56430053710938
-    PositionY: 9.6361713076476008E-05
-    PositionZ: -920.3834228515625
+    PositionX: -250
+    PositionY: 0
+    PositionZ: -925
     RotationX: 0
     RotationY: -2.6179938316345215
     RotationZ: 0
@@ -710,8 +710,8 @@
     Medal: 0
   - ObjectId: 1671
     PositionX: 247.54460144042969
-    PositionY: 9.6361713076476008E-05
-    PositionZ: -1091.7939453125
+    PositionY: 0
+    PositionZ: -1100
     RotationX: 0
     RotationY: -2.6179938316345215
     RotationZ: 0
@@ -727,9 +727,9 @@
     Level: 0
     Medal: 0
   - ObjectId: 1671
-    PositionX: -601.9744873046875
-    PositionY: 9.6361713076476008E-05
-    PositionZ: -1120.383056640625
+    PositionX: -600
+    PositionY: 0
+    PositionZ: -1125
     RotationX: 0
     RotationY: -2.6179938316345215
     RotationZ: 0
@@ -747,14 +747,14 @@
   EventActivators:
   - Shape: 2
     Option: 0
-    PositionX: 308.41488647460938
-    PositionY: -100.00006103515625
-    PositionZ: -1619.72998046875
-    ScaleX: 111.32199859619141
+    PositionX: 0
+    PositionY: 0
+    PositionZ: 0
+    ScaleX: 100
     ScaleY: 100
-    ScaleZ: 97.632652282714844
+    ScaleZ: 100
     RotationX: 0
-    RotationY: -1.9729183912277222
+    RotationY: 0
     RotationZ: 0
     Flags: 0
     Type: 0
@@ -795,14 +795,14 @@
   EventActivators:
   - Shape: 2
     Option: 0
-    PositionX: 565.339599609375
-    PositionY: -100.00006103515625
-    PositionZ: -1895.4300537109375
-    ScaleX: 111.32199859619141
+    PositionX: 0
+    PositionY: 0
+    PositionZ: 0
+    ScaleX: 100
     ScaleY: 100
-    ScaleZ: 97.632499694824219
+    ScaleZ: 100
     RotationX: 0
-    RotationY: -1.9729183912277222
+    RotationY: 0
     RotationZ: 0
     Flags: 0
     Type: 0
