@@ -9,7 +9,7 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 566
+  - ObjectId: 566 # Sora
     PositionX: -300
     PositionY: 0
     PositionZ: -100
@@ -27,7 +27,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 567
+  - ObjectId: 567 # Party Member 1
     PositionX: -425
     PositionY: 0
     PositionZ: -25
@@ -45,7 +45,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 568
+  - ObjectId: 568 # Party Member 2
     PositionX: -350
     PositionY: 0
     PositionZ: -150
@@ -63,7 +63,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 997
+  - ObjectId: 997 # Xaldin
     PositionX: 450
     PositionY: 0
     PositionZ: 200
@@ -96,7 +96,7 @@
   Unk20: 3276800
   Unk24: 0
   Entities:
-  - ObjectId: 1109
+  - ObjectId: 1109 # Gun Pirate
     PositionX: -600
     PositionY: 200
     PositionZ: -2000
@@ -114,7 +114,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 1107
+  - ObjectId: 1107 # Axe Pirate
     PositionX: -1100
     PositionY: 100
     PositionZ: -400
@@ -132,7 +132,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 1107
+  - ObjectId: 1107 # Axe Pirate
     PositionX: 0
     PositionY: 0
     PositionZ: 900
@@ -180,7 +180,7 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 2356
+  - ObjectId: 2356 # Anti Sora
     PositionX: -1000
     PositionY: -10000
     PositionZ: 0
