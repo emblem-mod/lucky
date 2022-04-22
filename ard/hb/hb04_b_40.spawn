@@ -78,7 +78,7 @@
   Unk20: 3276800
   Unk24: 0
   Entities:
-  - ObjectId: 314 # Dusk
+  - ObjectId: 7 # Dusk
     PositionX: -150
     PositionY: 0
     PositionZ: 200
@@ -96,7 +96,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 314 # Dusk
+  - ObjectId: 7 # Dusk
     PositionX: 150
     PositionY: 0
     PositionZ: 100
@@ -114,7 +114,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 314 # Dusk
+  - ObjectId: 7 # Dusk
     PositionX: 450
     PositionY: 0
     PositionZ: 200
@@ -163,9 +163,9 @@
   Unk24: 0
   Entities:
   - ObjectId: 1535 # Luxord's Card
-    PositionX: -650
+    PositionX: 150
     PositionY: 0
-    PositionZ: 100
+    PositionZ: 800
     RotationX: 0
     RotationY: 0
     RotationZ: 0
@@ -181,11 +181,11 @@
     Level: 0
     Medal: 0
   - ObjectId: 1535 # Luxord's Card
-    PositionX: -450
+    PositionX: 625
     PositionY: 0
-    PositionZ: 700
+    PositionZ: 575
     RotationX: 0
-    RotationY: 0
+    RotationY: -0.7853981634000000
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
@@ -199,11 +199,11 @@
     Level: 0
     Medal: 0
   - ObjectId: 1535 # Luxord's Card
-    PositionX: 150
+    PositionX: 850
     PositionY: 0
-    PositionZ: 900
+    PositionZ: 100
     RotationX: 0
-    RotationY: 0
+    RotationY: -1.5707963705062866
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
@@ -217,11 +217,11 @@
     Level: 0
     Medal: 0
   - ObjectId: 1535 # Luxord's Card
-    PositionX: 450
+    PositionX: 625
     PositionY: 0
-    PositionZ: 700
+    PositionZ: -375
     RotationX: 0
-    RotationY: 0
+    RotationY: -2.3561944902000000
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
@@ -235,11 +235,11 @@
     Level: 0
     Medal: 0
   - ObjectId: 1535 # Luxord's Card
-    PositionX: 950
+    PositionX: 150
     PositionY: 0
-    PositionZ: 100
+    PositionZ: -600
     RotationX: 0
-    RotationY: 0
+    RotationY: 3.1415927410125732
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
@@ -253,11 +253,11 @@
     Level: 0
     Medal: 0
   - ObjectId: 1535 # Luxord's Card
-    PositionX: 450
+    PositionX: -325
     PositionY: 0
-    PositionZ: -500
+    PositionZ: -375
     RotationX: 0
-    RotationY: 0
+    RotationY: 2.3561944902000000
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
@@ -271,11 +271,11 @@
     Level: 0
     Medal: 0
   - ObjectId: 1535 # Luxord's Card
-    PositionX: 150
+    PositionX: -550
     PositionY: 0
-    PositionZ: -700
+    PositionZ: 100
     RotationX: 0
-    RotationY: 0
+    RotationY: 1.5707963705062866
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
@@ -289,11 +289,11 @@
     Level: 0
     Medal: 0
   - ObjectId: 1535 # Luxord's Card
-    PositionX: -450
+    PositionX: -325
     PositionY: 0
-    PositionZ: -500
+    PositionZ: 575
     RotationX: 0
-    RotationY: 0
+    RotationY: 0.7853981634000000
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
