@@ -740,12 +740,12 @@ assets:
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/ca03_b_40.spawn # Barbossa -> Volcanic Lord and Barrels
+    - name: ard/ca/ca03_b_40.spawn # Volcanic Lord and Enemies
   - name: b_50
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/ca03_b_50.spawn # Barrels -> Barrel Positions
+    - name: ard/ca/ca03_b_50.spawn # Burning Barrels Remix
 
 # Barbossa and Illuminator
 - name: ard/ca10.ard
