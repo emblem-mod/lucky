@@ -18,7 +18,7 @@
     RotationZ: 0
     SpawnType: 0
     SpawnArgument: 0
-    Serial: 7
+    Serial: 6
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -36,7 +36,7 @@
     RotationZ: 0
     SpawnType: 0
     SpawnArgument: 0
-    Serial: 8
+    Serial: 7
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -54,7 +54,7 @@
     RotationZ: 0
     SpawnType: 0
     SpawnArgument: 0
-    Serial: 9
+    Serial: 8
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -72,7 +72,7 @@
     RotationZ: 0
     SpawnType: 0
     SpawnArgument: 0
-    Serial: 90
+    Serial: 9
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -123,7 +123,7 @@
     RotationZ: 0
     SpawnType: 3
     SpawnArgument: 0
-    Serial: 12
+    Serial: 11
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -141,7 +141,7 @@
     RotationZ: 0
     SpawnType: 3
     SpawnArgument: 0
-    Serial: 19
+    Serial: 12
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -159,7 +159,7 @@
     RotationZ: 0
     SpawnType: 3
     SpawnArgument: 0
-    Serial: 21
+    Serial: 13
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -168,9 +168,9 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-    
-    
-    
+
+
+
   - ObjectId: 120 # Neoshadow
     PositionX: -300
     PositionY: 0
@@ -180,14 +180,14 @@
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
-    Serial: 22
+    Serial: 20
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
     SpawnDelay: 0
     Command: 0
     SpawnRange: 0
-    Level: 0
+    Level: 1
     Medal: 0
   - ObjectId: 120 # Neoshadow
     PositionX: 150
@@ -198,14 +198,14 @@
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
-    Serial: 23
+    Serial: 21
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
     SpawnDelay: 0
     Command: 0
     SpawnRange: 0
-    Level: 0
+    Level: 1
     Medal: 0
   - ObjectId: 120 # Neoshadow
     PositionX: 50
@@ -216,14 +216,14 @@
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
-    Serial: 24
+    Serial: 22
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
     SpawnDelay: 0
     Command: 0
     SpawnRange: 0
-    Level: 0
+    Level: 1
     Medal: 0
   - ObjectId: 120 # Neoshadow
     PositionX: -250
@@ -234,14 +234,14 @@
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
-    Serial: 25
+    Serial: 23
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
     SpawnDelay: 0
     Command: 0
     SpawnRange: 0
-    Level: 0
+    Level: 1
     Medal: 0
   - ObjectId: 120 # Neoshadow
     PositionX: 500
@@ -252,14 +252,32 @@
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
-    Serial: 63
+    Serial: 24
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
     SpawnDelay: 0
     Command: 0
     SpawnRange: 0
-    Level: 0
+    Level: 1
+    Medal: 0
+  - ObjectId: 120 # Neoshadow
+    PositionX: -450
+    PositionY: 0
+    PositionZ: -250
+    RotationX: 0
+    RotationY: 1.5707963705062866
+    RotationZ: 0
+    SpawnType: 3
+    SpawnArgument: 0
+    Serial: 25
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 1
     Medal: 0
   EventActivators:
   - Shape: 2
