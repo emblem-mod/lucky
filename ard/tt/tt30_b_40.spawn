@@ -78,7 +78,7 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 313 # Berserker
+  - ObjectId: 12 # Luna Bandit
     PositionX: 350
     PositionY: 0
     PositionZ: 775
@@ -96,7 +96,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 12 # Luna Bandit
+  - ObjectId: 313 # Berserker
     PositionX: 275
     PositionY: 0
     PositionZ: 900
@@ -114,7 +114,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 302
+  - ObjectId: 12 # Luna Bandit
     PositionX: 150
     PositionY: 0
     PositionZ: 850
@@ -132,7 +132,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 302
+  - ObjectId: 12 # Luna Bandit
     PositionX: 50
     PositionY: 0
     PositionZ: 975
@@ -150,7 +150,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 302
+  - ObjectId: 12 # Luna Bandit
     PositionX: 525
     PositionY: 0
     PositionZ: 825
@@ -168,7 +168,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 301
+  - ObjectId: 12 # Luna Bandit
     PositionX: 25
     PositionY: 0
     PositionZ: 1000
@@ -186,7 +186,7 @@
     SpawnRange: 0
     Level: 1
     Medal: 0
-  - ObjectId: 301
+  - ObjectId: 12 # Luna Bandit
     PositionX: 100
     PositionY: 0
     PositionZ: -800
@@ -204,7 +204,7 @@
     SpawnRange: 0
     Level: 1
     Medal: 0
-  - ObjectId: 301
+  - ObjectId: 12 # Luna Bandit
     PositionX: 875
     PositionY: 0
     PositionZ: 275
@@ -222,7 +222,7 @@
     SpawnRange: 0
     Level: 1
     Medal: 0
-  - ObjectId: 301
+  - ObjectId: 12 # Luna Bandit
     PositionX: -875
     PositionY: 0
     PositionZ: 150
