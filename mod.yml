@@ -21,7 +21,7 @@ assets:
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/tt/tt25_b_40.spawn # Pete Underdrome and Neoshadows
+    - name: ard/tt/tt25_b_40.spawn # Underdrome Pete and Neoshadows
   - name: evt
     type: areadatascript
     method: areadatascript
