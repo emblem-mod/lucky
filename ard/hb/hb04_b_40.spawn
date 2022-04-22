@@ -27,7 +27,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 0 # Luxord
+  - ObjectId: 2504 # Luxord
     PositionX: 150
     PositionY: 0
     PositionZ: 300
@@ -88,8 +88,8 @@
     SpawnType: 3
     SpawnArgument: 0
     Serial: 10
-    Argument1: 0
-    Argument2: 1
+    Argument1: 3
+    Argument2: 0
     ReactionCommand: 0
     SpawnDelay: 0
     Command: 0
@@ -124,7 +124,7 @@
     SpawnType: 3
     SpawnArgument: 0
     Serial: 12
-    Argument1: 3
+    Argument1: 5
     Argument2: 0
     ReactionCommand: 0
     SpawnDelay: 0
