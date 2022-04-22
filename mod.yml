@@ -771,12 +771,7 @@ assets:
     - name: ard/ca/ca10_b_40.spawn # Demyx, Crescendos and Darkness
 
 # Treasure Heap Gambler
-  - name: b_70
-    type: areadataspawn
-    method: spawnpoint
-    source:
-    - name: ard/ca/ca10_b_40.spawn # Demyx, Crescendos and Darkness
-    #! Just Demyx again for the moment. Fight may possibly move to here.
+    #! b_70 The Demyx fight may move here if he becomes Data version.
 
 - name: msn/jp/CA10_MS107.bar
   multi:
