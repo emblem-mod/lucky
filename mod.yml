@@ -146,7 +146,7 @@ assets:
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/hb/hb17_b_40.spawn # Twilight Thorn and Behemoth Models
+    - name: ard/hb/hb17_b_40.spawn # Twilight Thorn
   - name: b_99
     type: areadataspawn
     method: spawnpoint
@@ -547,7 +547,7 @@ assets:
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/boss_marluxia.spawn # Marluxia, Creeper Plants and Lava Pools
+    - name: ard/zz/boss_marluxia.spawn # Marluxia, Creeper Plants and Lava Pools
 
 # Round II Bad Alert
   - name: b_61
