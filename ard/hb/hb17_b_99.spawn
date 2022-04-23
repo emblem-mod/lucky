@@ -9,7 +9,7 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 1366 # 1000 Heartless
+  - ObjectId: 0 # 1000 Heartless
     PositionX: 1000
     PositionY: 0
     PositionZ: -1150
@@ -27,7 +27,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 1366 # 1000 Heartless
+  - ObjectId: 0 # 1000 Heartless
     PositionX: 0
     PositionY: 0
     PositionZ: -1350
@@ -189,7 +189,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 1367 # Summit Heartless
+  - ObjectId: 0 # Summit Heartless
     PositionX: -1000
     PositionY: 0
     PositionZ: -1150
@@ -207,7 +207,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 1367 # Summit Heartless
+  - ObjectId: 0 # Summit Heartless
     PositionX: 1300
     PositionY: 0
     PositionZ: -150
