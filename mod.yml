@@ -668,6 +668,20 @@ assets:
 # Mickey's House Fight
 
 # Steamboat Pete
+- name: ard/wi02.ard
+  method: binarc
+  source:
+  - name: b_40
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: ard/wi/wi03_b_40.spawn # Final Xemnas, Riku and Paralysed Sora
+- name: msn/jp/WI02_MS103.bar
+  multi:
+  - name: msn/us/WI02_MS103.bar
+  method: copy
+  source:
+  - name: msn/jp/EH20_MS113.bar # Final Xemnas MSN
 
 # Pete II
 - name: ard/wi03.ard
