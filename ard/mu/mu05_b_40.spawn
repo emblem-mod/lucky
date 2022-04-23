@@ -441,7 +441,7 @@
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
-    Serial: 115
+    Serial: 50
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
