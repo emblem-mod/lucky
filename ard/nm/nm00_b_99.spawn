@@ -115,9 +115,9 @@
     Level: 0
     Medal: 0
   - ObjectId: 2200 # Cursed Medallions (Grim Reaper II)
-    PositionX: -13
-    PositionY: 21.11598014831543
-    PositionZ: -805.6204833984375
+    PositionX: 0
+    PositionY: 00
+    PositionZ: -800
     RotationX: 0
     RotationY: 0
     RotationZ: 0
@@ -132,20 +132,16 @@
     SpawnRange: 0
     Level: 0
     Medal: 123
-
-
-
-
-  - ObjectId: 1605 # (Object) Medallions
-    PositionX: -125
+  - ObjectId: 2200 # Cursed Medallions (Grim Reaper II)
+    PositionX: 0
     PositionY: 0
-    PositionZ: 0
+    PositionZ: -900
     RotationX: 0
     RotationY: 0
     RotationZ: 0
     SpawnType: 0
     SpawnArgument: 0
-    Serial: 140
+    Serial: 269
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -153,79 +149,7 @@
     Command: 0
     SpawnRange: 0
     Level: 0
-    Medal: 0
-  - ObjectId: 1522 # (Crowd) Medallion
-    PositionX: -125
-    PositionY: 0
-    PositionZ: 0
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 0
-    SpawnArgument: 0
-    Serial: 150
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 0
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  - ObjectId: 1221 # (Object) ???
-    PositionX: -125
-    PositionY: 0
-    PositionZ: 0
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 0
-    SpawnArgument: 0
-    Serial: 160
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 0
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  - ObjectId: 1497 # (Game Object) ???
-    PositionX: -125
-    PositionY: 0
-    PositionZ: 0
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 0
-    SpawnArgument: 0
-    Serial: 170
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 0
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  - ObjectId: 1751 # (Game Object) ???	F_CA060_MEDAL
-    PositionX: -125
-    PositionY: 0
-    PositionZ: 0
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 0
-    SpawnArgument: 0
-    Serial: 180
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 0
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
+    Medal: 123
   EventActivators: []
   WalkPath: []
   ReturnParameters: []
