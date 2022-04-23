@@ -64,9 +64,9 @@
     Level: 0
     Medal: 0
   - ObjectId: 2079 # Xemnas II Clone
-    PositionX: 25
+    PositionX: -75
     PositionY: 0
-    PositionZ: 700
+    PositionZ: 600
     RotationX: 0
     RotationY: 0
     RotationZ: 0
@@ -96,7 +96,7 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 2258 # Dying Sora
+  - ObjectId: 2258 # Paralysed Sora
     PositionX: 0
     PositionY: 0
     PositionZ: 0
