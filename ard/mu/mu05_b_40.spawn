@@ -405,9 +405,9 @@
   EventActivators:
   - Shape: 2
     Option: 0
-    PositionX: 300
+    PositionX: 0
     PositionY: 0
-    PositionZ: -1600
+    PositionZ: 0
     ScaleX: 100
     ScaleY: 100
     ScaleZ: 100
@@ -451,11 +451,11 @@
     Level: 0
     Medal: 0
   - ObjectId: 11 # Fortuneteller
-    PositionX: 200
-    PositionY: -100
-    PositionZ: -1500
+    PositionX: -200
+    PositionY: -100000
+    PositionZ: -1700
     RotationX: 0
-    RotationY: -2.6179938316345215
+    RotationY: 0
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
@@ -468,30 +468,12 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 11 # Fortuneteller
-    PositionX: -600
-    PositionY: -100
-    PositionZ: -1900
-    RotationX: 0
-    RotationY: -2.6179938316345215
-    RotationZ: 0
-    SpawnType: 2
-    SpawnArgument: 0
-    Serial: 52
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 0
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
   EventActivators:
   - Shape: 2
     Option: 0
-    PositionX: 600
+    PositionX: 0
     PositionY: 0
-    PositionZ: -1600
+    PositionZ: 0
     ScaleX: 100
     ScaleY: 100
     ScaleZ: 100
