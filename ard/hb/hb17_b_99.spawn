@@ -243,7 +243,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 1367 # Summit Heartless
+  - ObjectId: 0
     PositionX: 500
     PositionY: 0
     PositionZ: -650
@@ -261,7 +261,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 1367 # Summit Heartless
+  - ObjectId: 0
     PositionX: -500
     PositionY: 0
     PositionZ: -650
@@ -315,7 +315,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 1367 # Summit Heartless
+  - ObjectId: 0
     PositionX: 500
     PositionY: 0
     PositionZ: 350
@@ -333,7 +333,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 1367 # Summit Heartless
+  - ObjectId: 0
     PositionX: -500
     PositionY: 0
     PositionZ: 350
