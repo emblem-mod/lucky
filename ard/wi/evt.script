@@ -41,7 +41,7 @@ Spawn "e_03"
 
 Program 0x34
 Party DEFAULT
-Bgm 117 117
+Bgm 190 190
 AreaSettings 16 -1
 	SetProgressFlag 0x3416
 	SetUnk05 0x3
