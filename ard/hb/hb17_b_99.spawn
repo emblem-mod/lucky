@@ -9,8 +9,8 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 0 # 1000 Heartless
-    PositionX: 1000
+  - ObjectId: 1366 # 1000 Heartless
+    PositionX: 650
     PositionY: 0
     PositionZ: -1150
     RotationX: 0
@@ -27,26 +27,8 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 0 # 1000 Heartless
-    PositionX: 0
-    PositionY: 0
-    PositionZ: -1350
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 0
-    SpawnArgument: 0
-    Serial: 21
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 0
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
   - ObjectId: 1366 # 1000 Heartless
-    PositionX: -1000
+    PositionX: -650
     PositionY: 0
     PositionZ: -1150
     RotationX: 0
@@ -100,7 +82,7 @@
     Level: 0
     Medal: 0
   - ObjectId: 1366 # 1000 Heartless
-    PositionX: 1000
+    PositionX: 650
     PositionY: 0
     PositionZ: 850
     RotationX: 0
@@ -118,25 +100,7 @@
     Level: 0
     Medal: 0
   - ObjectId: 1366 # 1000 Heartless
-    PositionX: 0
-    PositionY: 0
-    PositionZ: 1150
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 0
-    SpawnArgument: 0
-    Serial: 26
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 0
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  - ObjectId: 1366 # 1000 Heartless
-    PositionX: -1000
+    PositionX: -650
     PositionY: 0
     PositionZ: 850
     RotationX: 0
@@ -154,7 +118,7 @@
     Level: 0
     Medal: 0
   - ObjectId: 1367 # Summit Heartless
-    PositionX: 1000
+    PositionX: 650
     PositionY: 0
     PositionZ: -1150
     RotationX: 0
@@ -172,25 +136,7 @@
     Level: 0
     Medal: 0
   - ObjectId: 1367 # Summit Heartless
-    PositionX: 0
-    PositionY: 0
-    PositionZ: -1350
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 0
-    SpawnArgument: 0
-    Serial: 31
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 0
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  - ObjectId: 0 # Summit Heartless
-    PositionX: -1000
+    PositionX: -650
     PositionY: 0
     PositionZ: -1150
     RotationX: 0
@@ -207,7 +153,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 0 # Summit Heartless
+  - ObjectId: 1367 # Summit Heartless
     PositionX: 1300
     PositionY: 0
     PositionZ: -150
@@ -244,7 +190,7 @@
     Level: 0
     Medal: 0
   - ObjectId: 1367 # Summit Heartless
-    PositionX: 1000
+    PositionX: 650
     PositionY: 0
     PositionZ: 850
     RotationX: 0
@@ -262,25 +208,7 @@
     Level: 0
     Medal: 0
   - ObjectId: 1367 # Summit Heartless
-    PositionX: 0
-    PositionY: 0
-    PositionZ: 1150
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 0
-    SpawnArgument: 0
-    Serial: 36
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 0
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  - ObjectId: 1367 # Summit Heartless
-    PositionX: -1000
+    PositionX: -650
     PositionY: 0
     PositionZ: 850
     RotationX: 0
