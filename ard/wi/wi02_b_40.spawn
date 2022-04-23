@@ -52,10 +52,10 @@
     RotationX: 0
     RotationY: -0.47996554430000000
     RotationZ: 0
-    SpawnType: 0
+    SpawnType: 3
     SpawnArgument: 0
     Serial: 22
-    Argument1: 0
+    Argument1: 1
     Argument2: 0
     ReactionCommand: 0
     SpawnDelay: 0
