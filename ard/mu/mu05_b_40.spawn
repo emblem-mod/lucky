@@ -312,7 +312,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 11 # Fortuneteller
+  - ObjectId: 0 # Fortuneteller
     PositionX: 200
     PositionY: -100
     PositionZ: -1500
@@ -330,7 +330,7 @@
     SpawnRange: 0
     Level: 1
     Medal: 0
-  - ObjectId: 11 # Fortuneteller
+  - ObjectId: 0 # Fortuneteller
     PositionX: -600
     PositionY: -100
     PositionZ: -1900
@@ -348,7 +348,7 @@
     SpawnRange: 0
     Level: 1
     Medal: 0
-  - ObjectId: 74 # Aerial Viking
+  - ObjectId: 0 # Aerial Viking
     PositionX: -400
     PositionY: -100
     PositionZ: -1300
@@ -366,7 +366,7 @@
     SpawnRange: 0
     Level: 2
     Medal: 0
-  - ObjectId: 74 # Aerial Viking
+  - ObjectId: 0 # Aerial Viking
     PositionX: -250
     PositionY: -100
     PositionZ: -1600
@@ -384,7 +384,7 @@
     SpawnRange: 0
     Level: 2
     Medal: 0
-  - ObjectId: 74 # Aerial Viking
+  - ObjectId: 0 # Aerial Viking
     PositionX: -500
     PositionY: -100
     PositionZ: -2000
