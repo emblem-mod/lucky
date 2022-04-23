@@ -9,7 +9,7 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 566
+  - ObjectId: 566 # Sora
     PositionX: -100
     PositionY: 0
     PositionZ: 1800
@@ -27,7 +27,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 567
+  - ObjectId: 2257 # Riku
     PositionX: 100
     PositionY: 0
     PositionZ: 1800
@@ -45,25 +45,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 2079
-    PositionX: 150
-    PositionY: 0
-    PositionZ: 1400
-    RotationX: 0
-    RotationY: 3.1415927410125732
-    RotationZ: 0
-    SpawnType: 0
-    SpawnArgument: 0
-    Serial: 7
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 0
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  - ObjectId: 2079
+  - ObjectId: 2079 # Xemnas II
     PositionX: 0
     PositionY: 0
     PositionZ: 1200
@@ -72,8 +54,26 @@
     RotationZ: 0
     SpawnType: 0
     SpawnArgument: 0
-    Serial: 8
+    Serial: 7
     Argument1: 1
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 0
+    Medal: 0
+  - ObjectId: 2079 # Xemnas II Clone
+    PositionX: 150
+    PositionY: 0
+    PositionZ: 1400
+    RotationX: 0
+    RotationY: 3.1415927410125732
+    RotationZ: 0
+    SpawnType: 0
+    SpawnArgument: 0
+    Serial: 8
+    Argument1: 0
     Argument2: 0
     ReactionCommand: 0
     SpawnDelay: 0
@@ -96,7 +96,7 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 2258
+  - ObjectId: 2258 # Dying Sora
     PositionX: -440
     PositionY: 0
     PositionZ: 1785
@@ -129,7 +129,7 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 318
+  - ObjectId: 318 # Dusk
     PositionX: 0
     PositionY: 0
     PositionZ: -2000
@@ -147,7 +147,7 @@
     SpawnRange: 200
     Level: 0
     Medal: 0
-  - ObjectId: 318
+  - ObjectId: 318 # Dusk
     PositionX: 1500
     PositionY: 0
     PositionZ: -1500
@@ -165,7 +165,7 @@
     SpawnRange: 600
     Level: 0
     Medal: 0
-  - ObjectId: 318
+  - ObjectId: 318 # Dusk
     PositionX: 2000
     PositionY: 0
     PositionZ: 0
@@ -183,7 +183,7 @@
     SpawnRange: 200
     Level: 0
     Medal: 0
-  - ObjectId: 318
+  - ObjectId: 318 # Dusk
     PositionX: 1500
     PositionY: 0
     PositionZ: 1500
@@ -201,7 +201,7 @@
     SpawnRange: 600
     Level: 0
     Medal: 0
-  - ObjectId: 318
+  - ObjectId: 318 # Dusk
     PositionX: 0
     PositionY: 0
     PositionZ: 2000
@@ -219,7 +219,7 @@
     SpawnRange: 200
     Level: 0
     Medal: 0
-  - ObjectId: 318
+  - ObjectId: 318 # Dusk
     PositionX: -1500
     PositionY: 0
     PositionZ: 1500
@@ -237,7 +237,7 @@
     SpawnRange: 600
     Level: 0
     Medal: 0
-  - ObjectId: 318
+  - ObjectId: 318 # Dusk
     PositionX: -2000
     PositionY: 0
     PositionZ: 0
@@ -255,7 +255,7 @@
     SpawnRange: 200
     Level: 0
     Medal: 0
-  - ObjectId: 318
+  - ObjectId: 318 # Dusk
     PositionX: -1500
     PositionY: 0
     PositionZ: -1500
@@ -276,11 +276,7 @@
 
 
 
-
-
-
-
-  - ObjectId: 318
+  - ObjectId: 318 # Dusk
     PositionX: 0
     PositionY: 0
     PositionZ: -2000
@@ -298,7 +294,7 @@
     SpawnRange: 200
     Level: 0
     Medal: 0
-  - ObjectId: 318
+  - ObjectId: 318 # Dusk
     PositionX: 1500
     PositionY: 0
     PositionZ: -1500
@@ -316,7 +312,7 @@
     SpawnRange: 600
     Level: 0
     Medal: 0
-  - ObjectId: 318
+  - ObjectId: 318 # Dusk
     PositionX: 2000
     PositionY: 0
     PositionZ: 0
@@ -334,7 +330,7 @@
     SpawnRange: 200
     Level: 0
     Medal: 0
-  - ObjectId: 318
+  - ObjectId: 318 # Dusk
     PositionX: 1500
     PositionY: 0
     PositionZ: 1500
@@ -352,7 +348,7 @@
     SpawnRange: 600
     Level: 0
     Medal: 0
-  - ObjectId: 318
+  - ObjectId: 318 # Dusk
     PositionX: 0
     PositionY: 0
     PositionZ: 2000
@@ -368,60 +364,6 @@
     SpawnDelay: 250
     Command: 0
     SpawnRange: 200
-    Level: 0
-    Medal: 0
-  - ObjectId: 318
-    PositionX: -1500
-    PositionY: 0
-    PositionZ: 1500
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 2
-    SpawnArgument: 2
-    Serial: 145
-    Argument1: 1
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 150
-    Command: 0
-    SpawnRange: 600
-    Level: 0
-    Medal: 0
-  - ObjectId: 318
-    PositionX: -2000
-    PositionY: 0
-    PositionZ: 0
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 2
-    SpawnArgument: 2
-    Serial: 146
-    Argument1: 1
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 250
-    Command: 0
-    SpawnRange: 200
-    Level: 0
-    Medal: 0
-  - ObjectId: 318
-    PositionX: -1500
-    PositionY: 0
-    PositionZ: -1500
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 2
-    SpawnArgument: 2
-    Serial: 147
-    Argument1: 1
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 150
-    Command: 0
-    SpawnRange: 600
     Level: 0
     Medal: 0
   EventActivators:
