@@ -298,7 +298,7 @@
     
     
 
-- ObjectId: 11 # Fortuneteller
+  - ObjectId: 11 # Fortuneteller
     PositionX: 200
     PositionY: -100
     PositionZ: -1500
