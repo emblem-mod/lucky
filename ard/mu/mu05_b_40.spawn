@@ -434,7 +434,7 @@
   Entities:
   - ObjectId: 1036 # Blizzard Lord
     PositionX: -200
-    PositionY: -200
+    PositionY: -500
     PositionZ: -1700
     RotationX: 0
     RotationY: -2.6179938316345215
@@ -452,7 +452,7 @@
     Medal: 0
   - ObjectId: 11 # Fortuneteller
     PositionX: -200
-    PositionY: -100000
+    PositionY: -5000
     PositionZ: -1700
     RotationX: 0
     RotationY: 0
