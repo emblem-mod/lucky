@@ -9,7 +9,7 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 566
+  - ObjectId: 566 # Sora
     PositionX: 0
     PositionY: 0
     PositionZ: 60
@@ -27,7 +27,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 99
+  - ObjectId: 99 # Mulan
     PositionX: -100
     PositionY: 0
     PositionZ: -35
@@ -60,7 +60,7 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 1488
+  - ObjectId: 1488 # The Experiment
     PositionX: 0
     PositionY: 0
     PositionZ: 1500
@@ -78,7 +78,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 11
+  - ObjectId: 11 # Fortuneteller
     PositionX: -300
     PositionY: 0
     PositionZ: 1700
@@ -96,7 +96,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 11
+  - ObjectId: 11 # Fortuneteller
     PositionX: 300
     PositionY: 0
     PositionZ: 1700
@@ -117,14 +117,14 @@
   EventActivators:
   - Shape: 2
     Option: 0
-    PositionX: -1775.6090087890625
-    PositionY: -100
-    PositionZ: -815.94891357421875
-    ScaleX: 179.6083984375
+    PositionX: 0
+    PositionY: 0
+    PositionZ: 0
+    ScaleX: 100
     ScaleY: 100
-    ScaleZ: 217.49040222167969
+    ScaleZ: 100
     RotationX: 0
-    RotationY: 1.3383177518844604
+    RotationY: 0
     RotationZ: 0
     Flags: 0
     Type: 0
@@ -144,7 +144,7 @@
   Unk20: 2949120
   Unk24: 0
   Entities:
-  - ObjectId: 2405
+  - ObjectId: 2405 # Iron Hammer
     PositionX: -2600
     PositionY: 0
     PositionZ: 1500
@@ -162,7 +162,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 2405
+  - ObjectId: 2405 # Iron Hammer
     PositionX: 2600
     PositionY: 0
     PositionZ: 1500
@@ -180,7 +180,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 2405
+  - ObjectId: 2405 # Iron Hammer
     PositionX: -2600
     PositionY: 0
     PositionZ: -1500
@@ -198,7 +198,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 2405
+  - ObjectId: 2405 # Iron Hammer
     PositionX: 2600
     PositionY: 0
     PositionZ: -1500
@@ -219,14 +219,14 @@
   EventActivators:
   - Shape: 2
     Option: 0
-    PositionX: -1705.9759521484375
-    PositionY: -100
-    PositionZ: -1308.2340087890625
-    ScaleX: 179.60850524902344
+    PositionX: 0
+    PositionY: 0
+    PositionZ: 0
+    ScaleX: 100
     ScaleY: 100
-    ScaleZ: 217.49049377441406
+    ScaleZ: 100
     RotationX: 0
-    RotationY: 1.3383177518844604
+    RotationY: 0
     RotationZ: 0
     Flags: 0
     Type: 0
