@@ -631,6 +631,21 @@ assets:
   - name: msn/jp/HB04_MS403.bar # Demyx II MSN
   
 # Building Site Fight
+- name: ard/wi05.ard
+  method: binarc
+  source:
+  - name: b_40
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: ard/wi/wi05_b_40.spawn # Xemnas I and Construction Platforms
+    #! Needs Storm Rider Barriers
+- name: msn/jp/WI05_MS102D.bar
+  multi:
+  - name: msn/us/WI05_MS102D.bar
+  method: copy
+  source:
+  - name: msn/jp/EH19_MS105.bar # Xemnas I MSN
 
 # Lilliput Fight
 
@@ -642,7 +657,7 @@ assets:
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/wi/wi06_b_40.spawn # CHECK WHAT'S IN HERE (Probably Xemnas or Hades)
+    - name: ard/wi/wi06_b_40.spawn # Hades
     
 # Mickey's House Fight
 
