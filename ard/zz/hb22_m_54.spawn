@@ -9,7 +9,7 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 2416
+  - ObjectId: 2416 # CoR Horizontal Pillar
     PositionX: -225
     PositionY: -2250
     PositionZ: -1650
@@ -27,7 +27,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 2417
+  - ObjectId: 2417 # CoR Vertical Pillar
     PositionX: 700
     PositionY: 280
     PositionZ: -1100
@@ -45,7 +45,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 2416
+  - ObjectId: 2416 # CoR Horizontal Pillar
     PositionX: 950
     PositionY: -1050
     PositionZ: 2375
@@ -63,7 +63,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 2417
+  - ObjectId: 2417 # CoR Vertical Pillar
     PositionX: 75
     PositionY: -1075
     PositionZ: -3825
@@ -81,7 +81,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 2416
+  - ObjectId: 2416 # CoR Horizontal Pillar
     PositionX: 1525
     PositionY: -3050
     PositionZ: -1300
@@ -99,7 +99,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 2416
+  - ObjectId: 2416 # CoR Horizontal Pillar
     PositionX: 1300
     PositionY: -3050
     PositionZ: -600
