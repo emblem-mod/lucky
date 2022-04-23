@@ -1,7 +1,7 @@
 Program 0x37
 Party DEFAULT
 Bgm 190 190
-AreaSettings 7 -1
+AreaSettings 16 -1
 	SetProgressFlag 0x340C
 	SetUnk05 0x3
 	SetEvent "112" Type 8
