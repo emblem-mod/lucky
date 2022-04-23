@@ -11,7 +11,7 @@
   Entities:
   - ObjectId: 566 # Sora
     PositionX: -300
-    PositionY: 0
+    PositionY: 50
     PositionZ: -100
     RotationX: 0
     RotationY: 1.9198621511459351
@@ -29,7 +29,7 @@
     Medal: 0
   - ObjectId: 567 # Party Member 1
     PositionX: -425
-    PositionY: 0
+    PositionY: 50
     PositionZ: -25
     RotationX: 0
     RotationY: 1.9198621511459351
@@ -46,9 +46,9 @@
     Level: 0
     Medal: 0
   - ObjectId: 568 # Party Member 2
-    PositionX: -350
-    PositionY: 0
-    PositionZ: -150
+    PositionX: -375
+    PositionY: 50
+    PositionZ: -225
     RotationX: 0
     RotationY: 1.9198621511459351
     RotationZ: 0
@@ -96,12 +96,12 @@
   Unk20: 3276800
   Unk24: 0
   Entities:
-  - ObjectId: 1109 # Gun Pirate
-    PositionX: -600
-    PositionY: 200
-    PositionZ: -2000
+  - ObjectId: 9 # Assault Rider
+    PositionX: 550
+    PositionY: 25
+    PositionZ: 600
     RotationX: 0
-    RotationY: 3.1415927410125732
+    RotationY: -1.2217303514480591
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
@@ -114,34 +114,16 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 1107 # Axe Pirate
-    PositionX: -1100
-    PositionY: 100
-    PositionZ: -400
+  - ObjectId: 9 # Assault Rider
+    PositionX: 800
+    PositionY: 50
+    PositionZ: 100
     RotationX: 0
-    RotationY: 1.9198621511459351
+    RotationY: -1.2217303514480591
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
     Serial: 21
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 0
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  - ObjectId: 1107 # Axe Pirate
-    PositionX: 0
-    PositionY: 0
-    PositionZ: 900
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 2
-    SpawnArgument: 0
-    Serial: 22
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -180,16 +162,52 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 2356 # Anti Sora
-    PositionX: -1000
-    PositionY: -10000
-    PositionZ: 0
+  - ObjectId: 2409 # Lance Warrior
+    PositionX: 2000
+    PositionY: 50
+    PositionZ: 650
     RotationX: 0
-    RotationY: 0
+    RotationY: -1.2217303514480591
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
     Serial: 30
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 0
+    Medal: 0
+  - ObjectId: 2409 # Lance Warrior
+    PositionX: -650
+    PositionY: 200
+    PositionZ: -2200
+    RotationX: 0
+    RotationY: 3.1415927410125732
+    RotationZ: 0
+    SpawnType: 2
+    SpawnArgument: 0
+    Serial: 31
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 0
+    Medal: 0
+  - ObjectId: 2409 # Lance Warrior
+    PositionX: -1000
+    PositionY: 125
+    PositionZ: 300
+    RotationX: 0
+    RotationY: 1.5707963705062866
+    RotationZ: 0
+    SpawnType: 2
+    SpawnArgument: 0
+    Serial: 32
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
