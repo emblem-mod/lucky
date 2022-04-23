@@ -11,14 +11,14 @@
   Entities:
   - ObjectId: 566 # Sora
     PositionX: 0
-    PositionY: -300
-    PositionZ: 150
+    PositionY: 0
+    PositionZ: -150
     RotationX: 0
     RotationY: 3.1415927410125732
     RotationZ: 0
     SpawnType: 0
     SpawnArgument: 0
-    Serial: 26
+    Serial: 10
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -27,16 +27,52 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 357 # Storm Rider
+  - ObjectId: 567 # Party Member 1
+    PositionX: -100
+    PositionY: 0
+    PositionZ: -250
+    RotationX: 0
+    RotationY: 3.1415927410125732
+    RotationZ: 0
+    SpawnType: 0
+    SpawnArgument: 0
+    Serial: 11
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 0
+    Medal: 0
+  - ObjectId: 568 # Party Member 2
+    PositionX: 100
+    PositionY: 0
+    PositionZ: -250
+    RotationX: 0
+    RotationY: 3.1415927410125732
+    RotationZ: 0
+    SpawnType: 0
+    SpawnArgument: 0
+    Serial: 12
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 0
+    Medal: 0
+  - ObjectId: 350 # Hades
     PositionX: 0
-    PositionY: 700
-    PositionZ: -150
+    PositionY: 0
+    PositionZ: 600
     RotationX: 0
     RotationY: 0
     RotationZ: 0
     SpawnType: 0
     SpawnArgument: 0
-    Serial: 27
+    Serial: 13
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -49,9 +85,9 @@
   WalkPath: []
   ReturnParameters: []
   Signals: []
-- Type: 1
+- Type: 2
   Flag: 0
-  Id: 187
+  Id: 42
   Teleport:
     Place: 0
     Door: 0
@@ -60,17 +96,17 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 721 # Storm Rider Barrier
-    PositionX: -3000
+  - ObjectId: 1840 # Shadow TR
+    PositionX: 300
     PositionY: 0
-    PositionZ: 750
+    PositionZ: 100
     RotationX: 0
-    RotationY: 1.5707963705062866
+    RotationY: -0.39269909262657166
     RotationZ: 0
-    SpawnType: 0
+    SpawnType: 3
     SpawnArgument: 0
-    Serial: 94
-    Argument1: 1
+    Serial: 20
+    Argument1: 0
     Argument2: 0
     ReactionCommand: 0
     SpawnDelay: 0
@@ -78,17 +114,356 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 721 # Storm Rider Barrier
-    PositionX: 3000
+  - ObjectId: 1840 # Shadow TR
+    PositionX: -250
     PositionY: 0
+    PositionZ: 200
+    RotationX: 0
+    RotationY: 0.39269909262657166
+    RotationZ: 0
+    SpawnType: 3
+    SpawnArgument: 0
+    Serial: 21
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 0
+    Medal: 0
+  - ObjectId: 1840 # Shadow TR
+    PositionX: 150
+    PositionY: 0
+    PositionZ: 250
+    RotationX: 0
+    RotationY: -0.19634954631328583
+    RotationZ: 0
+    SpawnType: 3
+    SpawnArgument: 0
+    Serial: 22
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 0
+    Medal: 0
+  - ObjectId: 1840 # Shadow TR
+    PositionX: -150
+    PositionY: 0
+    PositionZ: 300
+    RotationX: 0
+    RotationY: 0.19634954631328583
+    RotationZ: 0
+    SpawnType: 3
+    SpawnArgument: 0
+    Serial: 23
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 0
+    Medal: 0
+  - ObjectId: 1840 # Shadow TR
+    PositionX: -350
+    PositionY: 0
+    PositionZ: 100
+    RotationX: 0
+    RotationY: 0.58904862403869629
+    RotationZ: 0
+    SpawnType: 3
+    SpawnArgument: 0
+    Serial: 24
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 0
+    Medal: 0
+  - ObjectId: 1840 # Shadow TR
+    PositionX: 50
+    PositionY: 0
+    PositionZ: 300
+    RotationX: 0
+    RotationY: -0.19634954631328583
+    RotationZ: 0
+    SpawnType: 3
+    SpawnArgument: 0
+    Serial: 25
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 0
+    Medal: 0
+  - ObjectId: 1840 # Shadow TR
+    PositionX: -50
+    PositionY: 0
+    PositionZ: 350
+    RotationX: 0
+    RotationY: 0
+    RotationZ: 0
+    SpawnType: 3
+    SpawnArgument: 0
+    Serial: 26
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 0
+    Medal: 0
+  EventActivators:
+  - Shape: 2
+    Option: 0
+    PositionX: 0
+    PositionY: 0
+    PositionZ: 0
+    ScaleX: 100
+    ScaleY: 100
+    ScaleZ: 100
+    RotationX: 0
+    RotationY: 0
+    RotationZ: 0
+    Flags: 0
+    Type: 0
+    OnBgGroup: 0
+    OffBgGroup: 0
+  WalkPath: []
+  ReturnParameters: []
+  Signals: []
+- Type: 2
+  Flag: 1
+  Id: 43
+  Teleport:
+    Place: 0
+    Door: 0
+    World: 0
+    Unknown: 0
+  Unk20: 0
+  Unk24: 0
+  Entities:
+  - ObjectId: 1831 # Hot Rod TR
+    PositionX: 0
+    PositionY: 0
+    PositionZ: 1000
+    RotationX: 0
+    RotationY: 0
+    RotationZ: 0
+    SpawnType: 2
+    SpawnArgument: 0
+    Serial: 30
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 1
+    Medal: 0
+  - ObjectId: 1840 # Shadow TR
+    PositionX: 0
+    PositionY: 0
+    PositionZ: 700
+    RotationX: 0
+    RotationY: 0
+    RotationZ: 0
+    SpawnType: 2
+    SpawnArgument: 0
+    Serial: 31
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 1
+    Medal: 0
+  - ObjectId: 1840 # Shadow TR
+    PositionX: 150
+    PositionY: 0
+    PositionZ: 700
+    RotationX: 0
+    RotationY: 0
+    RotationZ: 0
+    SpawnType: 2
+    SpawnArgument: 0
+    Serial: 32
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 1
+    Medal: 0
+  - ObjectId: 1840 # Shadow TR
+    PositionX: -150
+    PositionY: -0
+    PositionZ: 700
+    RotationX: 0
+    RotationY: 0
+    RotationZ: 0
+    SpawnType: 2
+    SpawnArgument: 0
+    Serial: 33
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 1
+    Medal: 0
+  EventActivators:
+  - Shape: 2
+    Option: 0
+    PositionX: 0
+    PositionY: 0
+    PositionZ: 0
+    ScaleX: 100
+    ScaleY: 100
+    ScaleZ: 100
+    RotationX: 0
+    RotationY: 0
+    RotationZ: 0
+    Flags: 0
+    Type: 0
+    OnBgGroup: 0
+    OffBgGroup: 0
+  WalkPath: []
+  ReturnParameters: []
+  Signals:
+  - SignalId: 3
+    Argument: 42
+    Action: 0
+    Padding05: 0
+    Padding06: 0
+    Padding07: 0
+- Type: 2
+  Flag: 1
+  Id: 44
+  Teleport:
+    Place: 0
+    Door: 0
+    World: 0
+    Unknown: 0
+  Unk20: 0
+  Unk24: 0
+  Entities:
+  - ObjectId: 1831 # Hot Rod TR
+    PositionX: 325
+    PositionY: 0
+    PositionZ: 1000
+    RotationX: 0
+    RotationY: 0
+    RotationZ: 0
+    SpawnType: 2
+    SpawnArgument: 0
+    Serial: 34
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 1
+    Medal: 0
+  - ObjectId: 1831 # Hot Rod TR
+    PositionX: -375
+    PositionY: -0
+    PositionZ: 1050
+    RotationX: 0
+    RotationY: 0
+    RotationZ: 0
+    SpawnType: 2
+    SpawnArgument: 0
+    Serial: 35
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 1
+    Medal: 0
+  EventActivators:
+  - Shape: 2
+    Option: 0
+    PositionX: 0
+    PositionY: 0
+    PositionZ: 0
+    ScaleX: 100
+    ScaleY: 100
+    ScaleZ: 100
+    RotationX: 0
+    RotationY: 0
+    RotationZ: 0
+    Flags: 0
+    Type: 0
+    OnBgGroup: 0
+    OffBgGroup: 0
+  WalkPath: []
+  ReturnParameters:
+  - Id: 0
+    Type: 0
+    Rate: 0
+    EntryType: 0
+    Argument04: 0
+    Argument08: 0
+    Argument0c: 0
+  - Id: 0
+    Type: 0
+    Rate: 0
+    EntryType: 0
+    Argument04: 0
+    Argument08: 0
+    Argument0c: 0
+  - Id: 0
+    Type: 0
+    Rate: 0
+    EntryType: 0
+    Argument04: 0
+    Argument08: 0
+    Argument0c: 0
+  Signals:
+  - SignalId: 3
+    Argument: 43
+    Action: 0
+    Padding05: 0
+    Padding06: 0
+    Padding07: 0
+- Type: 5
+  Flag: 1
+  Id: 52
+  Teleport:
+    Place: 0
+    Door: 0
+    World: 0
+    Unknown: 0
+  Unk20: 0
+  Unk24: 0
+  Entities:
+  - ObjectId: 344 # Small White Fire
+    PositionX: 875
+    PositionY: -0
     PositionZ: 750
     RotationX: 0
-    RotationY: -1.5707963705062866
+    RotationY: 0
     RotationZ: 0
     SpawnType: 0
     SpawnArgument: 0
-    Serial: 95
-    Argument1: 2
+    Serial: 40
+    Argument1: 0
     Argument2: 0
     ReactionCommand: 0
     SpawnDelay: 0
