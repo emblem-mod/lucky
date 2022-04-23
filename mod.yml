@@ -146,12 +146,12 @@ assets:
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/hb/hb17_b_40.spawn # Infinite Twilight Thorn
+    - name: ard/hb/hb17_b_40.spawn # Surprise
   - name: b_99
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/hb/hb17_b_99.spawn # 1000 Heartless and Summit Heartless
+    - name: ard/hb/hb17_b_99.spawn # 1000 Heartless Remix
   - name: evt
     type: areadatascript
     method: areadatascript
@@ -162,7 +162,7 @@ assets:
   - name: msn/us/HB17_MS405.bar
   method: copy
   source:
-  - name: msn/jp/TT34_MS304.bar # Twilight Thorn MSN
+  - name: msn/jp/TT34_MS304.bar # Surprise MSN
 
 
 
@@ -208,7 +208,7 @@ assets:
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/mu/mu02_b_45.spawn # ???
+    - name: ard/mu/mu02_b_45.spawn # UNCHANGED
 
 - name: msn/jp/MU02_MS103A.bar
   multi:
@@ -330,13 +330,7 @@ assets:
   source:
   - name: msn/jp/HB32_FM_VEX.bar # Vexen MSN
 
-# Riku-Ansem (See Summit Fight)
-
-# Imperial Square Fight II (See Imperial Square Fight I)
-
 # Antechamber Fight
-
-# Storm Rider (See Imperial Square Fight I)
 
 
 
@@ -346,7 +340,7 @@ assets:
 
 # Parlor Fight
 
-# Thresholder & Possessor Fight
+# Thresholder & Possessor
 - name: ard/bb11.ard
   method: binarc
   source:
@@ -370,7 +364,13 @@ assets:
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/bb/bb03_b_40.spawn # Zexion
+    - name: ard/bb/bb03_b_40.spawn # Zexion and Bookmasters
+- name: msn/jp/BB03_MS103.bar
+  multi:
+  - name: msn/us/BB03_MS103.bar
+  method: copy
+  source:
+  - name: msn/jp/HB34_FM_ZEX.bar # Zexion MSN
 
 # Shadow Stalker
 
@@ -432,7 +432,7 @@ assets:
 
 # OLYMPUS COLISEUM ====================================================================================================
 
-# Invincible Hades Fight
+# Invincible Hades
 - name: ard/he06.ard
   method: binarc
   source:
@@ -554,7 +554,7 @@ assets:
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/he/he09_b_61.spawn # Data Xigbar and Platforms
+    - name: ard/he/he09_b_61.spawn # Data Xigbar and CoR Platforms
   - name: evt
     type: areadatascript
     method: areadatascript
@@ -580,10 +580,6 @@ assets:
   - name: msn/jp/EH10_MS102.bar # Xigbar MSN
 
 # Hades' Chamber Fight
-
-# Invincible Hades (See Round I Spin Strike)
-
-# Hades (See Round I Spin Strike)
 
 
 
@@ -652,7 +648,6 @@ assets:
   source:
   - name: msn/jp/EH19_MS105.bar # Xemnas I MSN
  
-
 # Lilliput Fight
 
 # Scene of the Fire Fight
@@ -681,6 +676,7 @@ assets:
     method: areadatascript
     source:
     - name: ard/wi/wi02_evt.script # Enemy Signal and OST: Darkness of the Unknown III
+    #! Performs better than wi03 but can be locked out of arena.
 - name: msn/jp/WI02_MS103.bar
   multi:
   - name: msn/us/WI02_MS103.bar
@@ -707,12 +703,14 @@ assets:
     method: spawnpoint
     source:
     - name: ard/wi/wi03_b_41.spawn # Remove Pete II Transition Assets
+    #! Has choppy performance.
 - name: msn/jp/WI03_MS104.bar
   multi:
   - name: msn/us/WI03_MS104.bar
   method: copy
   source:
   - name: msn/jp/EH20_MS113.bar # Final Xemnas MSN
+
 
 
 
@@ -741,7 +739,7 @@ assets:
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/ca/ca09_b_40.spawn # Xaldin, Assult Rider and Lance Warriors
+    - name: ard/ca/ca09_b_40.spawn # Xaldin, Assault Riders and Lance Warriors
   - name: evt
     type: areadatascript
     method: areadatascript
@@ -753,7 +751,7 @@ assets:
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/ca/ca09_b_70.spawn # Gambler with Medallion
+    - name: ard/ca/ca09_b_70.spawn # UNCHANGED
 
 - name: msn/jp/CA09_MS104.bar
   multi:
@@ -792,7 +790,7 @@ assets:
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/ca/ca10_b_40.spawn # Demyx, Crescendos and Darkness
+    - name: ard/ca/ca10_b_40.spawn # Demyx II, Crescendos and Darkness
 
 # Treasure Heap Gambler
     #! b_70 The Demyx fight may move here if he becomes Data version.
@@ -804,8 +802,6 @@ assets:
   source:
   - name: msn/jp/HB04_MS403.bar # Demyx MSN
 
-# Harbor Fight III (See Harbor Fight I)
-
 # Grim Reaper I
 
 # Seadrift Keep Gambler Fight I
@@ -814,15 +810,9 @@ assets:
 
 # Seadrift Row Gambler
 
-# Isla de Muerta Gambler (See Isla de Muerta Fight)
-
 # Powder Store Gambler
 
 # Moonlight Nook Gambler
-
-# Treasure Heap Gambler (See Barbossa and Illuminator)
-
-# Grim Reaper II (See Harbor Fight I)
 
 
 
@@ -961,7 +951,7 @@ assets:
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/nm/nm00_b_40.spawn # Aerial Champs and Wight Knights then Tifa and Aerial Knockers
+    - name: ard/nm/nm00_b_40.spawn # Tifa, Aerial Champs, Wight Knights and Aerial Knockers
   - name: evt
     type: areadatascript
     method: areadatascript
@@ -1044,8 +1034,6 @@ assets:
 
 # Lock, Shock and Barrel
 
-# Present Collection Fight (See Town Square Fight)
-
 # The Experiment
 - name: ard/nm07.ard
   method: binarc
@@ -1089,7 +1077,7 @@ assets:
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/lk/lk05_b_60.spawn
+    - name: ard/lk/lk05_b_60.spawn # UNCHANGED
 
 # Shenzi, Banzai and Ed
 - name: ard/lk02.ard
@@ -1120,8 +1108,6 @@ assets:
   source:
   - name: msn/jp/HB33_FM_LEX.bar # Data Lexaeus MSN
 
-# Hyena Chase (See Elephant Graveyard Fight)
-
 # Groundshaker
 - name: ard/lk15.ard
   method: binarc
@@ -1140,6 +1126,8 @@ assets:
 
 
 
+
+
 # SPACE PARANOIDS =====================================================================================================
 
 # Cube Minigame
@@ -1154,7 +1142,7 @@ assets:
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/tr/tr03_b_40.spawn # Emerald Blues, Bookmasters, Soldiers and Strafers then Hostile Program
+    - name: ard/tr/tr03_b_40.spawn # Hostile Program, Emerald Blues, Bookmasters, Soldiers and Strafers
 
 # Hostile Program
 
@@ -1276,27 +1264,6 @@ assets:
 
 
 # KEYBLADE GRAVEYARD ==================================================================================================
-
-# Lingering Will
-- name: ard/dc07.ard
-  method: binarc
-  source:
-  - name: b_80
-    type: areadataspawn
-    method: spawnpoint
-    source:
-    - name: ard/dc/dc07_b_80.spawn # Data Final Xemnas with More Clones
-  - name: evt
-    type: areadatascript
-    method: areadatascript
-    source:
-    - name: ard/dc/dc07_evt.script # Music Change
-- name: msn/jp/DC07_FM_NAZO.bar
-  multi:
-  - name: msn/us/DC07_FM_NAZO.bar
-  method: copy
-  source:
-  - name: msn/jp/EH20_MS113_RE.bar # Data Final Xemnas MSN
 
 
 
