@@ -328,7 +328,7 @@
     SpawnDelay: 0
     Command: 0
     SpawnRange: 0
-    Level: 1
+    Level: 0
     Medal: 0
   - ObjectId: 0 # Fortuneteller
     PositionX: -600
@@ -346,7 +346,7 @@
     SpawnDelay: 0
     Command: 0
     SpawnRange: 0
-    Level: 1
+    Level: 0
     Medal: 0
   - ObjectId: 0 # Aerial Viking
     PositionX: -400
@@ -364,7 +364,7 @@
     SpawnDelay: 0
     Command: 0
     SpawnRange: 0
-    Level: 2
+    Level: 0
     Medal: 0
   - ObjectId: 0 # Aerial Viking
     PositionX: -250
@@ -382,7 +382,7 @@
     SpawnDelay: 0
     Command: 0
     SpawnRange: 0
-    Level: 2
+    Level: 0
     Medal: 0
   - ObjectId: 0 # Aerial Viking
     PositionX: -500
@@ -400,7 +400,7 @@
     SpawnDelay: 0
     Command: 0
     SpawnRange: 0
-    Level: 2
+    Level: 0
     Medal: 0
   EventActivators:
   - Shape: 2
