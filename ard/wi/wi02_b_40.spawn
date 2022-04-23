@@ -99,48 +99,12 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 2079 # Xemnas II Clone
-    PositionX: 3000
-    PositionY: 0
-    PositionZ: 500
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 3
-    SpawnArgument: 0
-    Serial: 25
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 0
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  - ObjectId: 2079 # Xemnas II Clone
-    PositionX: 3000
-    PositionY: 0
-    PositionZ: 500
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 3
-    SpawnArgument: 0
-    Serial: 26
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 0
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
   - ObjectId: 721 # Storm Rider Barrier
-    PositionX: 1200
+    PositionX: 3900
     PositionY: 0
-    PositionZ: -300
+    PositionZ: 2100
     RotationX: 0
-    RotationY: 1.09083078250000000
+    RotationY: -0.47996554430000000
     RotationZ: 0
     SpawnType: 0
     SpawnArgument: 0
@@ -154,15 +118,33 @@
     Level: 0
     Medal: 0
   - ObjectId: 721 # Storm Rider Barrier
-    PositionX: 3900
+    PositionX: 1600
     PositionY: 0
-    PositionZ: 2100
+    PositionZ: 300
     RotationX: 0
-    RotationY: -0.47996554430000000
+    RotationY: 1.09083078250000000
     RotationZ: 0
     SpawnType: 0
     SpawnArgument: 0
     Serial: 41
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 0
+    Medal: 0
+  - ObjectId: 721 # Storm Rider Barrier
+    PositionX: 1700
+    PositionY: 0
+    PositionZ: -1700
+    RotationX: 0
+    RotationY: 2.66162710930000000
+    RotationZ: 0
+    SpawnType: 0
+    SpawnArgument: 0
+    Serial: 42
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
