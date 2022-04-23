@@ -36,7 +36,7 @@
     RotationZ: 0
     SpawnType: 0
     SpawnArgument: 0
-    Serial: 22
+    Serial: 21
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -54,7 +54,7 @@
     RotationZ: 0
     SpawnType: 0
     SpawnArgument: 0
-    Serial: 23
+    Serial: 22
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -72,7 +72,7 @@
     RotationZ: 0
     SpawnType: 0
     SpawnArgument: 0
-    Serial: 24
+    Serial: 23
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -90,7 +90,7 @@
     RotationZ: 0
     SpawnType: 0
     SpawnArgument: 0
-    Serial: 25
+    Serial: 24
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -108,7 +108,7 @@
     RotationZ: 0
     SpawnType: 0
     SpawnArgument: 0
-    Serial: 27
+    Serial: 25
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -144,7 +144,7 @@
     RotationZ: 0
     SpawnType: 0
     SpawnArgument: 0
-    Serial: 32
+    Serial: 31
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -162,7 +162,7 @@
     RotationZ: 0
     SpawnType: 0
     SpawnArgument: 0
-    Serial: 33
+    Serial: 32
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -180,7 +180,7 @@
     RotationZ: 0
     SpawnType: 0
     SpawnArgument: 0
-    Serial: 34
+    Serial: 33
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -198,7 +198,7 @@
     RotationZ: 0
     SpawnType: 0
     SpawnArgument: 0
-    Serial: 35
+    Serial: 34
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -216,7 +216,7 @@
     RotationZ: 0
     SpawnType: 0
     SpawnArgument: 0
-    Serial: 37
+    Serial: 35
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
