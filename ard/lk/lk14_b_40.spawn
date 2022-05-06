@@ -28,7 +28,7 @@
     Level: 0
     Medal: 0
   - ObjectId: 2357 # Lexaeus
-    PositionX: 400
+    PositionX: 300
     PositionY: 0
     PositionZ: 250
     RotationX: 0
@@ -216,7 +216,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 0 # Sandstorm Pillar
+  - ObjectId: 1571 # Sandstorm Pillar
     PositionX: -1100
     PositionY: 0
     PositionZ: -650
@@ -252,7 +252,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 0 # Sandstorm Pillar
+  - ObjectId: 1571 # Sandstorm Pillar
     PositionX: 200
     PositionY: 0
     PositionZ: 1150
