@@ -9,7 +9,7 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 566 # 84 Sora
+  - ObjectId: 84 # 84 Sora
     PositionX: -100
     PositionY: 0
     PositionZ: 250
