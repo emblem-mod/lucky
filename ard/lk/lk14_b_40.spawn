@@ -60,7 +60,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 18 # Driller Mole
+  - ObjectId: 2413 # Driller Mole
     PositionX: 1100
     PositionY: 0
     PositionZ: 0
@@ -78,7 +78,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 18 # Driller Mole
+  - ObjectId: 2413 # Driller Mole
     PositionX: 200
     PositionY: 0
     PositionZ: -1150
@@ -96,7 +96,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 18 # Driller Mole
+  - ObjectId: 2413 # Driller Mole
     PositionX: -1100
     PositionY: 0
     PositionZ: -650
@@ -114,7 +114,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 18 # Driller Mole
+  - ObjectId: 2413 # Driller Mole
     PositionX: -1100
     PositionY: 0
     PositionZ: 650
@@ -132,7 +132,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 18 # Driller Mole
+  - ObjectId: 2413 # Driller Mole
     PositionX: 200
     PositionY: 0
     PositionZ: 1150
@@ -182,105 +182,15 @@
   Entities:
   - ObjectId: 2357 # Data Lexaeus
     PositionX: 0
-    PositionY: -10000
+    PositionY: -3000
     PositionZ: 250
     RotationX: 0
     RotationY: -1.5707963705062866
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
-    Serial: 20
-    Argument1: 1
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 0
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  - ObjectId: 18 # Driller Mole
-    PositionX: 1100
-    PositionY: -200
-    PositionZ: 0
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 2
-    SpawnArgument: 0
     Serial: 30
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 0
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  - ObjectId: 18 # Driller Mole
-    PositionX: 200
-    PositionY: -400
-    PositionZ: -1150
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 2
-    SpawnArgument: 0
-    Serial: 31
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 0
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  - ObjectId: 18 # Driller Mole
-    PositionX: -1100
-    PositionY: -600
-    PositionZ: -650
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 2
-    SpawnArgument: 0
-    Serial: 32
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 0
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  - ObjectId: 18 # Driller Mole
-    PositionX: -1100
-    PositionY: -800
-    PositionZ: 650
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 2
-    SpawnArgument: 0
-    Serial: 33
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 0
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  - ObjectId: 18 # Driller Mole
-    PositionX: 200
-    PositionY: -1000
-    PositionZ: 1150
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 2
-    SpawnArgument: 0
-    Serial: 34
-    Argument1: 0
+    Argument1: 1
     Argument2: 0
     ReactionCommand: 0
     SpawnDelay: 0
@@ -301,7 +211,7 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 50
+    SpawnDelay: 200
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -319,7 +229,7 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 50
+    SpawnDelay: 200
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -337,7 +247,7 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 50
+    SpawnDelay: 200
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -355,7 +265,7 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 50
+    SpawnDelay: 200
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -373,7 +283,7 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 50
+    SpawnDelay: 200
     Command: 0
     SpawnRange: 0
     Level: 0
