@@ -27,6 +27,24 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
+  - ObjectId: 2357 # Data Lexaeus
+    PositionX: 300
+    PositionY: 0
+    PositionZ: 250
+    RotationX: 0
+    RotationY: -1.5707963705062866
+    RotationZ: 0
+    SpawnType: 0
+    SpawnArgument: 0
+    Serial: 5
+    Argument1: 1
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 0
+    Medal: 0
   EventActivators: []
   WalkPath: []
   ReturnParameters: []
@@ -42,7 +60,7 @@
   Unk20: 3276800
   Unk24: 0
   Entities:
-  - ObjectId: 8 # Driller Mole
+  - ObjectId: 8 # Hammer Frame
     PositionX: 1100
     PositionY: 0
     PositionZ: 0
@@ -60,7 +78,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 2405 # Iron Hammer
+  - ObjectId: 8 # Hammer Frame
     PositionX: 200
     PositionY: 0
     PositionZ: -1150
@@ -78,7 +96,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 8 # Driller Mole
+  - ObjectId: 8 # Hammer Frame
     PositionX: -1100
     PositionY: 0
     PositionZ: -650
@@ -96,7 +114,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 8 # Driller Mole
+  - ObjectId: 8 # Hammer Frame
     PositionX: -1100
     PositionY: 0
     PositionZ: 650
@@ -114,7 +132,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 2405 # Iron Hammer
+  - ObjectId: 8 # Hammer Frame
     PositionX: 200
     PositionY: 0
     PositionZ: 1150
@@ -162,28 +180,10 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 2357 # Data Lexaeus
+  - ObjectId: 18 # Driller Mole
     PositionX: 1100
-    PositionY: 0
-    PositionZ: 250
-    RotationX: 0
-    RotationY: -1.5707963705062866
-    RotationZ: 0
-    SpawnType: 0
-    SpawnArgument: 0
-    Serial: 20
-    Argument1: 1
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 0
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  - ObjectId: 8 # Driller Mole
-    PositionX: 200
-    PositionY: 0
-    PositionZ: -1150
+    PositionY: -200
+    PositionZ: 0
     RotationX: 0
     RotationY: 0
     RotationZ: 0
@@ -198,10 +198,10 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 8 # Driller Mole
+  - ObjectId: 18 # Driller Mole
     PositionX: 200
-    PositionY: 0
-    PositionZ: 1150
+    PositionY: -200
+    PositionZ: -1150
     RotationX: 0
     RotationY: 0
     RotationZ: 0
@@ -216,10 +216,10 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 2405 # Iron Hammer
-    PositionX: 1100
-    PositionY: -20000
-    PositionZ: 0
+  - ObjectId: 18 # Driller Mole
+    PositionX: -1100
+    PositionY: -200
+    PositionZ: -650
     RotationX: 0
     RotationY: 0
     RotationZ: 0
@@ -234,10 +234,10 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 2405 # Iron Hammer
+  - ObjectId: 18 # Driller Mole
     PositionX: -1100
-    PositionY: -50000
-    PositionZ: -650
+    PositionY: -200
+    PositionZ: 650
     RotationX: 0
     RotationY: 0
     RotationZ: 0
@@ -252,10 +252,10 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 2405 # Iron Hammer
-    PositionX: -1100
-    PositionY: -50000
-    PositionZ: 650
+  - ObjectId: 18 # Driller Mole
+    PositionX: 200
+    PositionY: -200
+    PositionZ: 1150
     RotationX: 0
     RotationY: 0
     RotationZ: 0
@@ -283,7 +283,7 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 100
+    SpawnDelay: 0
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -301,7 +301,7 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 100
+    SpawnDelay: 0
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -319,7 +319,7 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 100
+    SpawnDelay: 0
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -337,7 +337,7 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 100
+    SpawnDelay: 0
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -355,7 +355,7 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 100
+    SpawnDelay: 0
     Command: 0
     SpawnRange: 0
     Level: 0
