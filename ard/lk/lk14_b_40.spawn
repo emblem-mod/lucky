@@ -182,7 +182,7 @@
   Entities:
   - ObjectId: 2357 # Data Lexaeus
     PositionX: 0
-    PositionY: -5000
+    PositionY: -10000
     PositionZ: 250
     RotationX: 0
     RotationY: -1.5707963705062866
@@ -191,6 +191,96 @@
     SpawnArgument: 0
     Serial: 20
     Argument1: 1
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 0
+    Medal: 0
+  - ObjectId: 18 # Driller Mole
+    PositionX: 1100
+    PositionY: -200
+    PositionZ: 0
+    RotationX: 0
+    RotationY: 0
+    RotationZ: 0
+    SpawnType: 2
+    SpawnArgument: 0
+    Serial: 30
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 0
+    Medal: 0
+  - ObjectId: 18 # Driller Mole
+    PositionX: 200
+    PositionY: -400
+    PositionZ: -1150
+    RotationX: 0
+    RotationY: 0
+    RotationZ: 0
+    SpawnType: 2
+    SpawnArgument: 0
+    Serial: 31
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 0
+    Medal: 0
+  - ObjectId: 18 # Driller Mole
+    PositionX: -1100
+    PositionY: -600
+    PositionZ: -650
+    RotationX: 0
+    RotationY: 0
+    RotationZ: 0
+    SpawnType: 2
+    SpawnArgument: 0
+    Serial: 32
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 0
+    Medal: 0
+  - ObjectId: 18 # Driller Mole
+    PositionX: -1100
+    PositionY: -800
+    PositionZ: 650
+    RotationX: 0
+    RotationY: 0
+    RotationZ: 0
+    SpawnType: 2
+    SpawnArgument: 0
+    Serial: 33
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 0
+    Medal: 0
+  - ObjectId: 18 # Driller Mole
+    PositionX: 200
+    PositionY: -1000
+    PositionZ: 1150
+    RotationX: 0
+    RotationY: 0
+    RotationZ: 0
+    SpawnType: 2
+    SpawnArgument: 0
+    Serial: 34
+    Argument1: 0
     Argument2: 0
     ReactionCommand: 0
     SpawnDelay: 0
@@ -207,11 +297,11 @@
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
-    Serial: 30
+    Serial: 40
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 100
+    SpawnDelay: 50
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -225,11 +315,11 @@
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
-    Serial: 31
+    Serial: 41
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 100
+    SpawnDelay: 50
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -243,11 +333,11 @@
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
-    Serial: 32
+    Serial: 42
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 100
+    SpawnDelay: 50
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -261,11 +351,11 @@
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
-    Serial: 33
+    Serial: 43
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 100
+    SpawnDelay: 50
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -279,11 +369,11 @@
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
-    Serial: 34
+    Serial: 44
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 100
+    SpawnDelay: 50
     Command: 0
     SpawnRange: 0
     Level: 0
