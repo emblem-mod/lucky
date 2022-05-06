@@ -43,9 +43,9 @@
   Unk24: 0
   Entities:
   - ObjectId: 2405 # Iron Hammer
-    PositionX: 1100
+    PositionX: 400
     PositionY: 0
-    PositionZ: 0
+    PositionZ: 250
     RotationX: 0
     RotationY: 0
     RotationZ: 0
@@ -60,10 +60,10 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 2405 # Iron Hammer
-    PositionX: 200
+  - ObjectId: 18 # Driller Mole
+    PositionX: 1100
     PositionY: 0
-    PositionZ: -1150
+    PositionZ: 0
     RotationX: 0
     RotationY: 0
     RotationZ: 0
@@ -78,10 +78,10 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 2405 # Iron Hammer
-    PositionX: -1100
+  - ObjectId: 18 # Driller Mole
+    PositionX: 200
     PositionY: 0
-    PositionZ: -650
+    PositionZ: -1150
     RotationX: 0
     RotationY: 0
     RotationZ: 0
@@ -96,10 +96,10 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 2405 # Iron Hammer
+  - ObjectId: 18 # Driller Mole
     PositionX: -1100
     PositionY: 0
-    PositionZ: 650
+    PositionZ: -650
     RotationX: 0
     RotationY: 0
     RotationZ: 0
@@ -114,7 +114,25 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 2405 # Iron Hammer
+  - ObjectId: 18 # Driller Mole
+    PositionX: -1100
+    PositionY: 0
+    PositionZ: 650
+    RotationX: 0
+    RotationY: 0
+    RotationZ: 0
+    SpawnType: 2
+    SpawnArgument: 0
+    Serial: 14
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 0
+    Medal: 0
+  - ObjectId: 18 # Driller Mole
     PositionX: 200
     PositionY: 0
     PositionZ: 1150
@@ -123,7 +141,7 @@
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
-    Serial: 14
+    Serial: 15
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -162,9 +180,9 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 2357 # Lexaeus
+  - ObjectId: 2357 # Data Lexaeus
     PositionX: 0
-    PositionY: 0
+    PositionY: -5000
     PositionZ: 250
     RotationX: 0
     RotationY: -1.5707963705062866
@@ -173,96 +191,6 @@
     SpawnArgument: 0
     Serial: 20
     Argument1: 1
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 0
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  - ObjectId: 18 # Driller Mole
-    PositionX: 1100
-    PositionY: 0
-    PositionZ: 0
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 2
-    SpawnArgument: 0
-    Serial: 21
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 0
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  - ObjectId: 18 # Driller Mole
-    PositionX: 200
-    PositionY: 0
-    PositionZ: -1150
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 2
-    SpawnArgument: 0
-    Serial: 22
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 0
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  - ObjectId: 18 # Driller Mole
-    PositionX: -1100
-    PositionY: 0
-    PositionZ: -650
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 2
-    SpawnArgument: 0
-    Serial: 23
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 0
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  - ObjectId: 18 # Driller Mole
-    PositionX: -1100
-    PositionY: 0
-    PositionZ: 650
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 2
-    SpawnArgument: 0
-    Serial: 24
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 0
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  - ObjectId: 18 # Driller Mole
-    PositionX: 200
-    PositionY: 0
-    PositionZ: 1150
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 2
-    SpawnArgument: 0
-    Serial: 25
-    Argument1: 0
     Argument2: 0
     ReactionCommand: 0
     SpawnDelay: 0
@@ -283,7 +211,7 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 0
+    SpawnDelay: 100
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -301,7 +229,7 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 50
+    SpawnDelay: 100
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -337,7 +265,7 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 150
+    SpawnDelay: 100
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -355,7 +283,7 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 200
+    SpawnDelay: 100
     Command: 0
     SpawnRange: 0
     Level: 0
