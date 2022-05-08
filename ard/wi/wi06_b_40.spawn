@@ -27,10 +27,28 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
+  - ObjectId: 362 # Hades
+    PositionX: 0
+    PositionY: -50
+    PositionZ: 250
+    RotationX: 0
+    RotationY: 0
+    RotationZ: 0
+    SpawnType: 0
+    SpawnArgument: 0
+    Serial: 11
+    Argument1: 1
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 0
+    Medal: 0
   - ObjectId: 350 # Hades
     PositionX: 0
     PositionY: 0
-    PositionZ: 1000
+    PositionZ: 800
     RotationX: 0
     RotationY: 0
     RotationZ: 0
