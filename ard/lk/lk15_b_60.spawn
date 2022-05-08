@@ -9,7 +9,7 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 1279 # Sora on Carpet
+  - ObjectId: 1279 # Carpet Sora
     PositionX: 300
     PositionY: -25000
     PositionZ: -3300
@@ -27,7 +27,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 360 # Carpet Partner
+  - ObjectId: 360 # Magic Carpet
     PositionX: 300
     PositionY: -25000
     PositionZ: -1500
