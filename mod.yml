@@ -1088,7 +1088,6 @@ assets:
     method: spawnpoint
     source:
     - name: ard/lk/lk02_b_40.spawn # Leon, Cloud, Tifa and Yuffie
-    #! Might need to upgrade them to their Underdrome versions for balance.
 
 # Scar
 - name: ard/lk14.ard
@@ -1098,9 +1097,7 @@ assets:
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/lk/lk14_b_40.spawn # Data Lexaeus, Driller Moles and Sandstorm Pillars
-    #! Sometimes crashes when entering Limit Form. Perhaps keep Sora as a Lion and add Simba.
-    #! Add OST: The Deep End (Rock Titan KH3 Ver)
+    - name: ard/lk/lk14_b_40.spawn # Data Lexaeus, Hammer Frames, Driller Moles and Sandstorm Pillars
 - name: msn/jp/LK14_MS103.bar
   multi:
   - name: msn/us/LK14_MS103.bar
@@ -1116,7 +1113,7 @@ assets:
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/lk/lk15_b_60.spawn 
+    - name: ard/lk/lk15_b_60.spawn # Carpet Sora, Magic Carpet and Genie Jafar
 - name: msn/jp/LK15_MS202.bar
   multi:
   - name: msn/us/LK15_MS202.bar
