@@ -659,6 +659,12 @@ assets:
     method: spawnpoint
     source:
     - name: ard/wi/wi06_b_40.spawn # Normal Fight with Hades
+- name: msn/jp/WI06_MS102B.bar
+  multi:
+  - name: msn/us/WI06_MS102B.bar
+  method: copy
+  source:
+  - name: msn/jp/HE19_MS205.bar # Hades MSN
     
 # Mickey's House Fight
 
