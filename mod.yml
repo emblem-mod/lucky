@@ -651,14 +651,14 @@ assets:
 # Lilliput Fight
 
 # Scene of the Fire Fight
-- name: ard/wi04.ard
+- name: ard/wi06.ard
   method: binarc
   source:
   - name: b_40
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/wi/wi06_b_40.spawn # Hades
+    - name: ard/wi/wi06_b_40.spawn # Normal Fight with Hades
     
 # Mickey's House Fight
 
@@ -1065,7 +1065,7 @@ assets:
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/lk/lk05_b_40.spawn 
+    - name: ard/lk/lk05_b_40.spawn #
   - name: evt
     type: areadatascript
     method: areadatascript
@@ -1077,7 +1077,7 @@ assets:
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/lk/lk05_b_60.spawn # UNCHANGED
+    - name: ard/lk/lk05_b_60.spawn #
 
 # Shenzi, Banzai and Ed
 - name: ard/lk02.ard
