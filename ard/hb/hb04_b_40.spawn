@@ -52,7 +52,7 @@
     RotationX: 0
     RotationY: 0
     RotationZ: 0
-    SpawnType: 2
+    SpawnType: 0
     SpawnArgument: 0
     Serial: 9
     Argument1: 0
