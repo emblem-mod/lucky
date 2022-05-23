@@ -1,0 +1,6 @@
+Program 0x50
+Progress 0x8d1
+Party DEFAULT
+Mission 0xC2 "TT20_MS603_RE"
+Unk1d 3
+Spawn "b_44"
