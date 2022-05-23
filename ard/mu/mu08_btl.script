@@ -1,0 +1,12 @@
+Program 0x4F
+Progress 0x2018
+Party W_FRIEND
+Mission 0x18 "HE18_MS108"
+Spawn "b_61"
+Spawn "b_70"
+
+Program 0x4A
+Progress 0x2018
+Party W_FRIEND
+Mission 0x5C "BB15_MS203"
+Spawn "b_40"

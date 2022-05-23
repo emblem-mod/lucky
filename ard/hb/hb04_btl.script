@@ -1,0 +1,4 @@
+Program 0x37
+Party DEFAULT
+Mission 0x90 "EH14_MS103"
+Spawn "b_40"

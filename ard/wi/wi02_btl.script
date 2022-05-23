@@ -1,0 +1,4 @@
+Program 0x34
+Party DEFAULT
+Mission 0x67 "EH20_MS113"
+Spawn "b_40"

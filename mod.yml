@@ -15,8 +15,15 @@ assets:
 
 # Tower Fight
 - name: ard/tt25.ard
+  multi:
+  - name: ard/us/tt25.ard
   method: binarc
   source:
+  - name: btl
+    type: areadatascript
+    method: areadatascript
+    source:
+    - name: ard/tt/tt25_btl.script # TT25_MS801 -> HE08_MS107 (Pete I)
   - name: b_40
     type: areadataspawn
     method: spawnpoint
@@ -27,15 +34,11 @@ assets:
     method: areadatascript
     source:
     - name: ard/tt/tt25_evt.script # Boss Signal and OST: Apprehension
-- name: msn/jp/TT25_MS801.bar
-  multi:
-  - name: msn/us/TT25_MS801.bar
-  method: copy
-  source:
-  - name: msn/jp/HE08_MS107.bar # Pete I MSN
 
 # Star Chamber Fight
 - name: ard/tt29.ard
+  multi:
+  - name: ard/us/tt29.ard
   method: binarc
   source:
   - name: b_40
@@ -46,6 +49,8 @@ assets:
 
 # Moon Chamber Fight
 - name: ard/tt30.ard
+  multi:
+  - name: ard/us/tt30.ard
   method: binarc
   source:
   - name: b_40
@@ -56,8 +61,15 @@ assets:
 
 # Sandlot Fight
 - name: ard/tt04.ard
+  multi:
+  - name: ard/us/tt04.ard
   method: binarc
   source:
+  - name: btl
+    type: areadatascript
+    method: areadatascript
+    source:
+    - name: ard/tt/tt04_btl.script # TT04_MS901 -> TT20_MS603_RE (Data Axel)
   - name: b_44
     type: areadataspawn
     method: spawnpoint
@@ -68,12 +80,6 @@ assets:
     method: areadatascript
     source:
     - name: ard/tt/tt04_evt.script # Boss Signal and OST: 13th Struggle
-- name: msn/jp/TT04_MS901.bar
-  multi:
-  - name: msn/us/TT04_MS901.bar
-  method: copy
-  source:
-  - name: msn/jp/TT20_MS603_RE.bar # Data Axel MSN
 
 # Old Mansion Fight
 
@@ -81,8 +87,15 @@ assets:
 
 # Betwixt and Between Fight II
 - name: ard/tt40.ard
+  multi:
+  - name: ard/us/tt40.ard
   method: binarc
   source:
+  - name: btl
+    type: areadatascript
+    method: areadatascript
+    source:
+    - name: ard/tt/tt40_btl.script # TT40_MS003 -> EH10_MS102 (Xigbar)
   - name: b_41
     type: areadataspawn
     method: spawnpoint
@@ -93,12 +106,6 @@ assets:
     method: areadatascript
     source:
     - name: ard/tt/tt40_evt.script # Boss Signal and OST: Darkness of the Unknown I
-- name: msn/jp/TT40_MS003.bar
-  multi:
-  - name: msn/us/TT40_MS003.bar
-  method: copy
-  source:
-  - name: msn/jp/EH10_MS102.bar # Xigbar MSN
 
 
 
@@ -116,19 +123,20 @@ assets:
 
 # Demyx II
 - name: ard/hb04.ard
+  multi:
+  - name: ard/us/hb04.ard
   method: binarc
   source:
+  - name: btl
+    type: areadatascript
+    method: areadatascript
+    source:
+    - name: ard/hb/hb04_btl.script # HB04_MS403 -> EH14_MS103 (Luxord)
   - name: b_40
     type: areadataspawn
     method: spawnpoint
     source:
     - name: ard/hb/hb04_b_40.spawn # Data Luxord and More Cards
-- name: msn/jp/HB04_MS403.bar
-  multi:
-  - name: msn/us/HB04_MS403.bar
-  method: copy
-  source:
-  - name: msn/jp/EH14_MS103.bar # Luxord MSN
 
 # Ravine Trail Fight I
 
@@ -140,8 +148,15 @@ assets:
 
 # 1000 Heartless
 - name: ard/hb17.ard
+  multi:
+  - name: ard/us/hb17.ard
   method: binarc
   source:
+  - name: btl
+    type: areadatascript
+    method: areadatascript
+    source:
+    - name: ard/hb/hb17_btl.script # HB17_MS405 -> TT34_MS304 (Twilight Thorn)
   - name: b_40
     type: areadataspawn
     method: spawnpoint
@@ -157,12 +172,6 @@ assets:
     method: areadatascript
     source:
     - name: ard/hb/hb17_evt.script # Boss Signal and OST: Darkness of the Unknown II
-- name: msn/jp/HB17_MS405.bar
-  multi:
-  - name: msn/us/HB17_MS405.bar
-  method: copy
-  source:
-  - name: msn/jp/TT34_MS304.bar # Surprise MSN
 
 
 
@@ -188,39 +197,44 @@ assets:
 
 # Encampment Fight
 
-# Mission I Surprise Attack
+# Mission I Surprise Attack & Mission II Ambush
 - name: ard/mu02.ard
+  multi:
+  - name: ard/us/mu02.ard
   method: binarc
   source:
-  - name: b_40
+  - name: btl
+    type: areadatascript
+    method: areadatascript
+    source:
+    - name: ard/mu/mu02_btl.script # MU02_MS103A -> TT05_MS404 (Axel I)
+  - name: b_40 # Mission I Surprise Attack
     type: areadataspawn
     method: spawnpoint
     source:
     - name: ard/mu/mu02_b_40.spawn # Yuffie, Driller Moles and Emerald Blues
+#  - name: b_45 # Mission II Ambush
+#    type: areadataspawn
+#    method: spawnpoint
+#    source:
+#    - name: ard/mu/mu02_b_45.spawn # UNCHANGED
   - name: evt
     type: areadatascript
     method: areadatascript
     source:
     - name: ard/mu/mu02_evt.script # Boss Signal
 
-# Mission II Ambush
-  - name: b_45
-    type: areadataspawn
-    method: spawnpoint
-    source:
-    - name: ard/mu/mu02_b_45.spawn # UNCHANGED
-
-- name: msn/jp/MU02_MS103A.bar
-  multi:
-  - name: msn/us/MU02_MS103A.bar
-  method: copy
-  source:
-  - name: msn/jp/TT05_MS404.bar # Axel I MSN
-
 # Mission III Search
 - name: ard/mu01.ard
+  multi:
+  - name: ard/us/mu01.ard
   method: binarc
   source:
+  - name: btl
+    type: areadatascript
+    method: areadatascript
+    source:
+    - name: ard/mu/mu01_btl.script # MU01_MS103C -> BB05_MS104B (Dark Thorn)
   - name: b_42
     type: areadataspawn
     method: spawnpoint
@@ -231,19 +245,20 @@ assets:
     method: areadatascript
     source:
     - name: ard/mu/mu01_evt.script # Boss Signal and OST: Desire for All That is Lost
-- name: msn/jp/MU01_MS103C.bar
-  multi:
-  - name: msn/us/MU01_MS103C.bar
-  method: copy
-  source:
-  - name: msn/jp/BB05_MS104B.bar # Dark Thorn MSN
 
 # Mountain Trail Fight
 
 # Village Cave Fight
 - name: ard/mu05.ard
+  multi:
+  - name: ard/us/mu05.ard
   method: binarc
   source:
+  - name: btl
+    type: areadatascript
+    method: areadatascript
+    source:
+    - name: ard/mu/mu05_btl.script # MU05_MS105 -> TT05_MS404 (Axel I)
   - name: b_40
     type: areadataspawn
     method: spawnpoint
@@ -254,81 +269,60 @@ assets:
     method: areadatascript
     source:
     - name: ard/mu/mu05_evt.script # Boss Signal
-- name: msn/jp/MU05_MS105.bar
-  multi:
-  - name: msn/us/MU05_MS105.bar
-  method: copy
-  source:
-  - name: msn/jp/TT05_MS404.bar # Axel I MSN
 
 # Summit Fight
 
 # Riku-Ansem
 
-# Imperial Square Fight I
+# Imperial Square Fight I & Imperial Square Fight II & Storm Rider
 - name: ard/mu08.ard
+  multi:
+  - name: ard/us/mu08.ard
   method: binarc
   source:
-  - name: b_40
+  - name: btl
+    type: areadatascript
+    method: areadatascript
+    source:
+    - name: ard/mu/mu08_btl.script # MU08_MS107 -> HE18_MS108 (Hydra), MU08_MS204 -> BB15_MS203 (Xaldin)
+  - name: b_40 # Imperial Square Fight I
     type: areadataspawn
     method: spawnpoint
     source:
     - name: ard/mu/mu08_b_40.spawn # Hydra, Phil, Pegasus, Meg and Infinite Large Urns
     #! Add Palace Gate Walls like in Data Xaldin's Fight to show play area
+  - name: b_60 # Imperial Square Fight II
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: ard/mu/mu08_b_60.spawn # Dragoons and Samurais
+  - name: b_61 # Storm Rider
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: ard/mu/mu08_b_61.spawn # Data Xaldin and Spring Metals
   - name: evt
     type: areadatascript
     method: areadatascript
     source:
     - name: ard/mu/mu08_evt.script # Boss Signal (b_40)
-  
-# Imperial Square Fight II
-  - name: b_60
-    type: areadataspawn
-    method: spawnpoint
-    source:
-    - name: ard/mu/mu08_b_60.spawn # Dragoons and Samurais
-
-# Storm Rider
-  - name: b_61
-    type: areadataspawn
-    method: spawnpoint
-    source:
-    - name: ard/mu/mu08_b_61.spawn # Data Xaldin and Spring Metals
-
-- name: msn/jp/MU08_MS107.bar
-  multi:
-  - name: msn/us/MU08_MS107.bar
-  method: copy
-  source:
-  - name: msn/jp/HE18_MS108.bar # Hydra MSN
-- name: msn/jp/MU08_MS204.bar
-  multi:
-  - name: msn/us/MU08_MS204.bar
-  method: copy
-  source:
-  - name: msn/jp/BB15_MS203.bar # Xaldin MSN
 
 # Shan Yu
 - name: ard/mu09.ard
+  multi:
+  - name: ard/us/mu09.ard
   method: binarc
   source:
+  - name: btl
+    type: areadatascript
+    method: areadatascript
+    source:
+    - name: ard/mu/mu09_btl.script # MU09_MS108 -> HB32_FM_VEX (Vexen) & remove b_41
   - name: b_40
     type: areadataspawn
     method: spawnpoint
     source:
     - name: ard/mu/mu09_b_40.spawn # Vexen and Infinite Camo Cannons
-  - name: b_41
-    type: areadataspawn
-    method: spawnpoint
-    source:
-    - name: ard/mu/mu09_b_41.spawn # Remove Shan Yu Enemies
-    #! NOTE: Does removing b_41 via btl.script make the game run better?
-- name: msn/jp/MU09_MS108.bar
-  multi:
-  - name: msn/us/MU09_MS108.bar
-  method: copy
-  source:
-  - name: msn/jp/HB32_FM_VEX.bar # Vexen MSN
 
 # Antechamber Fight
 
@@ -342,35 +336,37 @@ assets:
 
 # Thresholder & Possessor
 - name: ard/bb11.ard
+  multi:
+  - name: ard/us/bb11.ard
   method: binarc
   source:
+  - name: btl
+    type: areadatascript
+    method: areadatascript
+    source:
+    - name: ard/bb/bb11_btl.script # BB11_MS102 -> HB38_FM_MAR (Marluxia)
   - name: b_40
     type: areadataspawn
     method: spawnpoint
     source:
     - name: ard/bb/bb11_b_40.spawn # Marluxia, Hook Bats and Emerald Blues
-- name: msn/jp/BB11_MS102.bar
-  multi:
-  - name: msn/us/BB11_MS102.bar
-  method: copy
-  source:
-  - name: msn/jp/HB38_FM_MAR.bar # Marluxia MSN
 
 # Beast
 - name: ard/bb03.ard
+  multi:
+  - name: ard/us/bb03.ard
   method: binarc
   source:
+  - name: btl
+    type: areadatascript
+    method: areadatascript
+    source:
+    - name: ard/bb/bb03_btl.script # BB03_MS103 -> HB34_FM_ZEX (Zexion)
   - name: b_40
     type: areadataspawn
     method: spawnpoint
     source:
     - name: ard/bb/bb03_b_40.spawn # Zexion and Bookmasters
-- name: msn/jp/BB03_MS103.bar
-  multi:
-  - name: msn/us/BB03_MS103.bar
-  method: copy
-  source:
-  - name: msn/jp/HB34_FM_ZEX.bar # Zexion MSN
 
 # Shadow Stalker
 
@@ -378,8 +374,15 @@ assets:
 
 # Ballroom Fight
 - name: ard/bb04.ard
+  multi:
+  - name: ard/us/bb04.ard
   method: binarc
   source:
+  - name: btl
+    type: areadatascript
+    method: areadatascript
+    source:
+    - name: ard/bb/bb04_btl.script # BB04_MS201 -> HE17_MS105 (Demyx I)
   - name: b_60
     type: areadataspawn
     method: spawnpoint
@@ -390,19 +393,20 @@ assets:
     method: areadatascript
     source:
     - name: ard/bb/bb04_evt.script # Boss Signal and OST: Dance of the Daring
-- name: msn/jp/BB04_MS201.bar
-  multi:
-  - name: msn/us/BB04_MS201.bar
-  method: copy
-  source:
-  - name: msn/jp/HE17_MS105.bar # Demyx I MSN
 
 # Entrance Hall Fight
 
 # Xaldin
 - name: ard/bb15.ard
+  multi:
+  - name: ard/us/bb15.ard
   method: binarc
   source:
+  - name: btl
+    type: areadatascript
+    method: areadatascript
+    source:
+    - name: ard/bb/bb15_btl.script # Add b_61 & BB15_MS203 -> WI03_MS104 (Pete II)
   - name: b_60
     type: areadataspawn
     method: spawnpoint
@@ -414,17 +418,6 @@ assets:
     method: spawnpoint
     source:
     - name: ard/bb/bb15_b_61.spawn # Pete II Extras
-  - name: btl
-    type: areadatascript
-    method: areadatascript
-    source:
-    - name: ard/bb/bb15_btl.script # Add b_61
-- name: msn/jp/BB15_MS203.bar
-  multi:
-  - name: msn/us/BB15_MS203.bar
-  method: copy
-  source:
-  - name: msn/jp/WI03_MS104.bar # Pete II MSN
 
 
 
@@ -434,8 +427,15 @@ assets:
 
 # Invincible Hades
 - name: ard/he06.ard
+  multi:
+  - name: ard/us/he06.ard
   method: binarc
   source:
+  - name: btl
+    type: areadatascript
+    method: areadatascript
+    source:
+    - name: ard/he/he06_btl.script # HE06_MS101 -> CA09_MS104 (Survive)
   - name: b_40
     type: areadataspawn
     method: spawnpoint
@@ -446,19 +446,20 @@ assets:
     method: areadatascript
     source:
     - name: ard/he/he06_evt.script # Enemy Signal and OST: One Winged Angel
-- name: msn/jp/HE06_MS101.bar
-  multi:
-  - name: msn/us/HE06_MS101.bar
-  method: copy
-  source:
-  - name: msn/jp/CA09_MS104.bar # Survive Timer MSN
 
 # Valley of the Dead Escape
 
 # Cerberus
 - name: ard/he07.ard
+  multi:
+  - name: ard/us/he07.ard
   method: binarc
   source:
+  - name: btl
+    type: areadatascript
+    method: areadatascript
+    source:
+    - name: ard/he/he07_btl.script # HE07_MS_103 -> HB33_FM_LEX (Lexaeus)
   - name: b_40
     type: areadataspawn
     method: spawnpoint
@@ -470,17 +471,18 @@ assets:
     source:
     - name: ard/he/he07_b_50.spawn # More Falling Boulders
     #! Improve Arena Walls, Improve Boulders Idea, Fix Lexaeus' Grab Attack
-- name: msn/jp/HE07_MS103.bar
-  multi:
-  - name: msn/us/HE07_MS103.bar
-  method: copy
-  source:
-  - name: msn/jp/HB33_FM_LEX.bar # Lexaeus MSN
 
 # Phil's Training
 - name: ard/he00.ard
+  multi:
+  - name: ard/us/he00.ard
   method: binarc
   source:
+  - name: btl
+    type: areadatascript
+    method: areadatascript
+    source:
+    - name: ard/he/he00_btl.script # Replace b_4a, b_4b, b_4d and b_4e with b_40 and b_41
   - name: b_40
     type: areadataspawn
     method: spawnpoint
@@ -492,35 +494,38 @@ assets:
     method: spawnpoint
     source:
     - name: ard/he/he00_b_41.spawn # Maniac Remix and Cloud
-  - name: btl
-    type: areadatascript
-    method: areadatascript
-    source:
-    - name: ard/he/he00_btl.script # Replace b_4a, b_4b, b_4d and b_4e with b_40 and b_41
 
 # Water Clones Fight
 
 # Pete I
 - name: ard/he08.ard
+  multi:
+  - name: ard/us/he08.ard
   method: binarc
   source:
+  - name: btl
+    type: areadatascript
+    method: areadatascript
+    source:
+    - name: ard/he/he08_btl.script # HE08_MS107 -> NM03_MS103 (Prison Keeper)
   - name: b_41
     type: areadataspawn
     method: spawnpoint
     source:
     - name: ard/he/he08_b_41.spawn # Prison Keeper, Invincible Grim Reaper II and Whirlwinds
-    #! The room could be slightly bigger. Is their another good option somewhere?
-- name: msn/jp/HE08_MS107.bar
-  multi:
-  - name: msn/us/HE08_MS107.bar
-  method: copy
-  source:
-  - name: msn/jp/NM03_MS103.bar # Prison Keeper MSN
+    #! The room could be slightly bigger. Is there another good option somewhere?
 
 # Hydra
 - name: ard/he18.ard
+  multi:
+  - name: ard/us/he18.ard
   method: binarc
   source:
+  - name: btl
+    type: areadatascript
+    method: areadatascript
+    source:
+    - name: ard/he/he18_btl.script # HE18_MS108 -> HB01_MS601 (Sephiroth)
   - name: b_40
     type: areadataspawn
     method: spawnpoint
@@ -531,26 +536,25 @@ assets:
     method: areadatascript
     source:
     - name: ard/he/he18_evt.script # OST: One Winged Angel
-    #! Move fight to Dark Coliseum and add OST: FF7R One Winged Angel Mix.
-- name: msn/jp/HE18_MS108.bar
-  multi:
-  - name: msn/us/HE18_MS108.bar
-  method: copy
-  source:
-  - name: msn/jp/HB01_MS601.bar # Sephiroth MSN
+    #! Move fight to Dark Coliseum and add OST: FF7R One Winged Angel Mix
 
-# Round I Spin Strike
+# Round I Spin Strike & Round II Bad Alert
 - name: ard/he09.ard
+  multi:
+  - name: ard/us/he09.ard
   method: binarc
   source:
-  - name: b_60
+  - name: btl
+    type: areadatascript
+    method: areadatascript
+    source:
+    - name: ard/he/he09_btl.script # HE09_MS201 -> HB38_FM_MAR (Marluxia), HE09_MS202 -> EH10_MS102 (Xigbar)
+  - name: b_60 # Round I Spin Strike
     type: areadataspawn
     method: spawnpoint
     source:
     - name: ard/zz/boss_marluxia.spawn # Marluxia, Creeper Plants and Lava Pools
-
-# Round II Bad Alert
-  - name: b_61
+  - name: b_61 # Round II Bad Alert
     type: areadataspawn
     method: spawnpoint
     source:
@@ -566,19 +570,6 @@ assets:
 
 # Hades
 
-- name: msn/jp/HE09_MS201.bar
-  multi:
-  - name: msn/us/HE09_MS201.bar
-  method: copy
-  source:
-  - name: msn/jp/HB38_FM_MAR.bar # Marluxia MSN
-- name: msn/jp/HE09_MS202.bar
-  multi:
-  - name: msn/us/HE09_MS202.bar
-  method: copy
-  source:
-  - name: msn/jp/EH10_MS102.bar # Xigbar MSN
-
 # Hades' Chamber Fight
 
 
@@ -591,6 +582,8 @@ assets:
 
 # Audience Chamber Fight
 - name: ard/dc00.ard
+  multi:
+  - name: ard/us/dc00.ard
   method: binarc
   source:
   - name: b_41
@@ -611,25 +604,33 @@ assets:
 
 # Past Pete
 - name: ard/wi01.ard
+  multi:
+  - name: ard/us/wi01.ard
   method: binarc
   source:
+  - name: btl
+    type: areadatascript
+    method: areadatascript
+    source:
+    - name: ard/wi/wi01_btl.script # WI01_MS101 -> HB04_MS403 (Demyx II)
   - name: b_40
     type: areadataspawn
     method: spawnpoint
     source:
     - name: ard/wi/wi01_b_40.spawn # Demyx II, Crimson Jazz, Silver Rocks and Dancers
     #! I don't like this fight. Too messy. Perhaps Demyx just doesn't go here.
-- name: msn/jp/WI01_MS101.bar
-  multi:
-  - name: msn/us/WI01_MS101.bar
-  method: copy
-  source:
-  - name: msn/jp/HB04_MS403.bar # Demyx II MSN
   
 # Building Site Fight
 - name: ard/wi05.ard
+  multi:
+  - name: ard/us/wi05.ard
   method: binarc
   source:
+  - name: btl
+    type: areadatascript
+    method: areadatascript
+    source:
+    - name: ard/wi/wi05_btl.script # WI05_MS102D -> EH19_MS105 (Xemnas I)
   - name: b_40
     type: areadataspawn
     method: spawnpoint
@@ -641,37 +642,39 @@ assets:
     method: areadatascript
     source:
     - name: ard/wi/wi05_evt.script # Boss Signal
-- name: msn/jp/WI05_MS102D.bar
-  multi:
-  - name: msn/us/WI05_MS102D.bar
-  method: copy
-  source:
-  - name: msn/jp/EH19_MS105.bar # Xemnas I MSN
  
 # Lilliput Fight
 
 # Scene of the Fire Fight
 - name: ard/wi06.ard
+  multi:
+  - name: ard/us/wi06.ard
   method: binarc
   source:
+  - name: btl
+    type: areadatascript
+    method: areadatascript
+    source:
+    - name: ard/wi/wi06_btl.script # WI06_MS102B -> HE19_MS205 (Hades)
   - name: b_40
     type: areadataspawn
     method: spawnpoint
     source:
     - name: ard/wi/wi06_b_40.spawn # Normal Fight with Hades
-- name: msn/jp/WI06_MS102B.bar
-  multi:
-  - name: msn/us/WI06_MS102B.bar
-  method: copy
-  source:
-  - name: msn/jp/HE19_MS205.bar # Hades MSN
     
 # Mickey's House Fight
 
 # Steamboat Pete
 - name: ard/wi02.ard
+  multi:
+  - name: ard/us/wi02.ard
   method: binarc
   source:
+  - name: btl
+    type: areadatascript
+    method: areadatascript
+    source:
+    - name: ard/wi/wi02_btl.script # WI02_MS103 -> EH20_MS113 (Final Xemnas)
   - name: b_40
     type: areadataspawn
     method: spawnpoint
@@ -683,17 +686,18 @@ assets:
     source:
     - name: ard/wi/wi02_evt.script # Enemy Signal and OST: Darkness of the Unknown III
     #! Performs better than wi03 but can be locked out of arena.
-- name: msn/jp/WI02_MS103.bar
-  multi:
-  - name: msn/us/WI02_MS103.bar
-  method: copy
-  source:
-  - name: msn/jp/EH20_MS113.bar # Final Xemnas MSN
 
 # Pete II
 - name: ard/wi03.ard
+  multi:
+  - name: ard/us/wi03.ard
   method: binarc
   source:
+  - name: btl
+    type: areadatascript
+    method: areadatascript
+    source:
+    - name: ard/wi/wi03_btl.script # WI03_MS104 -> EH20_MS113 (Final Xemnas) & remove b_41
   - name: b_40
     type: areadataspawn
     method: spawnpoint
@@ -704,18 +708,7 @@ assets:
     method: areadatascript
     source:
     - name: ard/wi/wi03_evt.script # Enemy Signal and OST: Darkness of the Unknown III
-  - name: b_41
-    type: areadataspawn
-    method: spawnpoint
-    source:
-    - name: ard/wi/wi03_b_41.spawn # Remove Pete II Transition Assets
     #! Has choppy performance.
-- name: msn/jp/WI03_MS104.bar
-  multi:
-  - name: msn/us/WI03_MS104.bar
-  method: copy
-  source:
-  - name: msn/jp/EH20_MS113.bar # Final Xemnas MSN
 
 
 
@@ -737,34 +730,30 @@ assets:
 
 # Town Fight
 
-# Isla de Muerta Fight
+# Isla de Muerta Fight & Gambler
 - name: ard/ca09.ard
   method: binarc
   source:
-  - name: b_40
+  - name: btl
+    type: areadatascript
+    method: areadatascript
+    source:
+    - name: ard/ca/ca09_btl.script # CA09_MS104 -> BB15_MS203 (Xaldin)
+  - name: b_40 # Isla de Muerta Fight
     type: areadataspawn
     method: spawnpoint
     source:
     - name: ard/ca/ca09_b_40.spawn # Xaldin, Assault Riders and Lance Warriors
+#  - name: b_70 # Isla de Muerta Gambler
+#    type: areadataspawn
+#    method: spawnpoint
+#    source:
+#    - name: ard/ca/ca09_b_70.spawn # UNCHANGED
   - name: evt
     type: areadatascript
     method: areadatascript
     source:
     - name: ard/ca/ca09_evt.script # Boss Signal
-
-# Isla de Muerta Gambler
-  - name: b_70
-    type: areadataspawn
-    method: spawnpoint
-    source:
-    - name: ard/ca/ca09_b_70.spawn # UNCHANGED
-
-- name: msn/jp/CA09_MS104.bar
-  multi:
-  - name: msn/us/CA09_MS104.bar
-  method: copy
-  source:
-  - name: msn/jp/BB15_MS203.bar # Xaldin MSN
 
 # Interceptor Fight
 
@@ -792,21 +781,18 @@ assets:
 - name: ard/ca10.ard
   method: binarc
   source:
+  - name: btl
+    type: areadatascript
+    method: areadatascript
+    source:
+    - name: ard/ca/ca10_btl.script # CA10_MS107 -> HB04_MS403 (Demyx II)
   - name: b_40
     type: areadataspawn
     method: spawnpoint
     source:
     - name: ard/ca/ca10_b_40.spawn # Demyx II, Crescendos and Darkness
-
 # Treasure Heap Gambler
     #! b_70 The Demyx fight may move here if he becomes Data version.
-
-- name: msn/jp/CA10_MS107.bar
-  multi:
-  - name: msn/us/CA10_MS107.bar
-  method: copy
-  source:
-  - name: msn/jp/HB04_MS403.bar # Demyx MSN
 
 # Grim Reaper I
 
@@ -1241,12 +1227,12 @@ assets:
     source:
     - name: ard/bb/bb15_b_60.spawn # Pete II, Past Pete and Lion Pete (Scar)
     #! If Pete II is used here don't use bb15 as the base, use eh14 AND add Pete II Extras.
-- name: msn/jp/EH14_MS103.bar
-  multi:
-  - name: msn/us/EH14_MS103.bar
-  method: copy
-  source:
-  - name: msn/jp/WI03_MS104.bar # Pete II MSN
+#- name: msn/jp/EH14_MS103.bar
+#  multi:
+#  - name: msn/us/EH14_MS103.bar
+#  method: copy
+#  source:
+#  - name: msn/jp/WI03_MS104.bar # Pete II MSN
 
 # Saix
 

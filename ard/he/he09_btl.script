@@ -1,0 +1,10 @@
+Program 0x7C
+AllocEnemy 2097152
+Party DEFAULT
+Mission 0x4F "HB38_FM_MAR"
+Spawn "b_60"
+
+Program 0x7D
+Party DEFAULT
+Mission 0x50 "EH10_MS102"
+Spawn "b_61"
