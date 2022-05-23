@@ -1,0 +1,7 @@
+Program 0x3C
+Progress 0x405a
+Unk06 0
+AllocEnemy 2097152
+Party W_FRIEND_FIX
+Mission 0x7C "HB04_MS403"
+Spawn "b_40"

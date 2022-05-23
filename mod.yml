@@ -730,34 +730,30 @@ assets:
 
 # Town Fight
 
-# Isla de Muerta Fight
+# Isla de Muerta Fight & Gambler
 - name: ard/ca09.ard
   method: binarc
   source:
-  - name: b_40
+  - name: btl
+    type: areadatascript
+    method: areadatascript
+    source:
+    - name: ard/ca/ca09_btl.script # CA09_MS104 -> BB15_MS203 (Xaldin)
+  - name: b_40 # Isla de Muerta Fight
     type: areadataspawn
     method: spawnpoint
     source:
     - name: ard/ca/ca09_b_40.spawn # Xaldin, Assault Riders and Lance Warriors
+#  - name: b_70 # Isla de Muerta Gambler
+#    type: areadataspawn
+#    method: spawnpoint
+#    source:
+#    - name: ard/ca/ca09_b_70.spawn # UNCHANGED
   - name: evt
     type: areadatascript
     method: areadatascript
     source:
     - name: ard/ca/ca09_evt.script # Boss Signal
-
-# Isla de Muerta Gambler
-  - name: b_70
-    type: areadataspawn
-    method: spawnpoint
-    source:
-    - name: ard/ca/ca09_b_70.spawn # UNCHANGED
-
-- name: msn/jp/CA09_MS104.bar
-  multi:
-  - name: msn/us/CA09_MS104.bar
-  method: copy
-  source:
-  - name: msn/jp/BB15_MS203.bar # Xaldin MSN
 
 # Interceptor Fight
 
@@ -785,21 +781,18 @@ assets:
 - name: ard/ca10.ard
   method: binarc
   source:
+  - name: btl
+    type: areadatascript
+    method: areadatascript
+    source:
+    - name: ard/ca/ca10_btl.script # CA10_MS107 -> HB04_MS403 (Demyx II)
   - name: b_40
     type: areadataspawn
     method: spawnpoint
     source:
     - name: ard/ca/ca10_b_40.spawn # Demyx II, Crescendos and Darkness
-
 # Treasure Heap Gambler
     #! b_70 The Demyx fight may move here if he becomes Data version.
-
-- name: msn/jp/CA10_MS107.bar
-  multi:
-  - name: msn/us/CA10_MS107.bar
-  method: copy
-  source:
-  - name: msn/jp/HB04_MS403.bar # Demyx MSN
 
 # Grim Reaper I
 
