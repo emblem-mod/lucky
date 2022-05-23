@@ -553,7 +553,7 @@ assets:
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/zz/boss_marluxia.spawn # Marluxia, Creeper Plants and Lava Pools
+    - name: ard/xx/boss_marluxia.spawn # Marluxia, Creeper Plants and Lava Pools
   - name: b_61 # Round II Bad Alert
     type: areadataspawn
     method: spawnpoint
