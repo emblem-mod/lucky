@@ -1,0 +1,5 @@
+Program 0x35
+AllocEnemy 1992294
+Party DEFAULT
+Mission 0x68 "EH20_MS113"
+Spawn "b_40"

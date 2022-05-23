@@ -1,0 +1,4 @@
+Program 0x3A
+Party DEFAULT
+Mission 0x62 "HB04_MS403"
+Spawn "b_40"

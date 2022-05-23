@@ -427,8 +427,15 @@ assets:
 
 # Invincible Hades
 - name: ard/he06.ard
+  multi:
+  - name: ard/us/he06.ard
   method: binarc
   source:
+  - name: btl
+    type: areadatascript
+    method: areadatascript
+    source:
+    - name: ard/he/he06_btl.script # HE06_MS101 -> CA09_MS104 (Survive)
   - name: b_40
     type: areadataspawn
     method: spawnpoint
@@ -439,19 +446,20 @@ assets:
     method: areadatascript
     source:
     - name: ard/he/he06_evt.script # Enemy Signal and OST: One Winged Angel
-- name: msn/jp/HE06_MS101.bar
-  multi:
-  - name: msn/us/HE06_MS101.bar
-  method: copy
-  source:
-  - name: msn/jp/CA09_MS104.bar # Survive Timer MSN
 
 # Valley of the Dead Escape
 
 # Cerberus
 - name: ard/he07.ard
+  multi:
+  - name: ard/us/he07.ard
   method: binarc
   source:
+  - name: btl
+    type: areadatascript
+    method: areadatascript
+    source:
+    - name: ard/he/he07_btl.script # HE07_MS_103 -> HB33_FM_LEX (Lexaeus)
   - name: b_40
     type: areadataspawn
     method: spawnpoint
@@ -463,17 +471,18 @@ assets:
     source:
     - name: ard/he/he07_b_50.spawn # More Falling Boulders
     #! Improve Arena Walls, Improve Boulders Idea, Fix Lexaeus' Grab Attack
-- name: msn/jp/HE07_MS103.bar
-  multi:
-  - name: msn/us/HE07_MS103.bar
-  method: copy
-  source:
-  - name: msn/jp/HB33_FM_LEX.bar # Lexaeus MSN
 
 # Phil's Training
 - name: ard/he00.ard
+  multi:
+  - name: ard/us/he00.ard
   method: binarc
   source:
+  - name: btl
+    type: areadatascript
+    method: areadatascript
+    source:
+    - name: ard/he/he00_btl.script # Replace b_4a, b_4b, b_4d and b_4e with b_40 and b_41
   - name: b_40
     type: areadataspawn
     method: spawnpoint
@@ -485,35 +494,38 @@ assets:
     method: spawnpoint
     source:
     - name: ard/he/he00_b_41.spawn # Maniac Remix and Cloud
-  - name: btl
-    type: areadatascript
-    method: areadatascript
-    source:
-    - name: ard/he/he00_btl.script # Replace b_4a, b_4b, b_4d and b_4e with b_40 and b_41
 
 # Water Clones Fight
 
 # Pete I
 - name: ard/he08.ard
+  multi:
+  - name: ard/us/he08.ard
   method: binarc
   source:
+  - name: btl
+    type: areadatascript
+    method: areadatascript
+    source:
+    - name: ard/he/he08_btl.script # HE08_MS107 -> NM03_MS103 (Prison Keeper)
   - name: b_41
     type: areadataspawn
     method: spawnpoint
     source:
     - name: ard/he/he08_b_41.spawn # Prison Keeper, Invincible Grim Reaper II and Whirlwinds
-    #! The room could be slightly bigger. Is their another good option somewhere?
-- name: msn/jp/HE08_MS107.bar
-  multi:
-  - name: msn/us/HE08_MS107.bar
-  method: copy
-  source:
-  - name: msn/jp/NM03_MS103.bar # Prison Keeper MSN
+    #! The room could be slightly bigger. Is there another good option somewhere?
 
 # Hydra
 - name: ard/he18.ard
+  multi:
+  - name: ard/us/he18.ard
   method: binarc
   source:
+  - name: btl
+    type: areadatascript
+    method: areadatascript
+    source:
+    - name: ard/he/he18_btl.script # HE18_MS108 -> HB01_MS601 (Sephiroth)
   - name: b_40
     type: areadataspawn
     method: spawnpoint
@@ -524,26 +536,25 @@ assets:
     method: areadatascript
     source:
     - name: ard/he/he18_evt.script # OST: One Winged Angel
-    #! Move fight to Dark Coliseum and add OST: FF7R One Winged Angel Mix.
-- name: msn/jp/HE18_MS108.bar
-  multi:
-  - name: msn/us/HE18_MS108.bar
-  method: copy
-  source:
-  - name: msn/jp/HB01_MS601.bar # Sephiroth MSN
+    #! Move fight to Dark Coliseum and add OST: FF7R One Winged Angel Mix
 
-# Round I Spin Strike
+# Round I Spin Strike & Round II Bad Alert
 - name: ard/he09.ard
+  multi:
+  - name: ard/us/he09.ard
   method: binarc
   source:
-  - name: b_60
+  - name: btl
+    type: areadatascript
+    method: areadatascript
+    source:
+    - name: ard/he/he09_btl.script # HE09_MS201 -> HB38_FM_MAR (Marluxia), HE09_MS202 -> EH10_MS102 (Xigbar)
+  - name: b_60 # Round I Spin Strike
     type: areadataspawn
     method: spawnpoint
     source:
     - name: ard/zz/boss_marluxia.spawn # Marluxia, Creeper Plants and Lava Pools
-
-# Round II Bad Alert
-  - name: b_61
+  - name: b_61 # Round II Bad Alert
     type: areadataspawn
     method: spawnpoint
     source:
@@ -559,19 +570,6 @@ assets:
 
 # Hades
 
-- name: msn/jp/HE09_MS201.bar
-  multi:
-  - name: msn/us/HE09_MS201.bar
-  method: copy
-  source:
-  - name: msn/jp/HB38_FM_MAR.bar # Marluxia MSN
-- name: msn/jp/HE09_MS202.bar
-  multi:
-  - name: msn/us/HE09_MS202.bar
-  method: copy
-  source:
-  - name: msn/jp/EH10_MS102.bar # Xigbar MSN
-
 # Hades' Chamber Fight
 
 
@@ -584,6 +582,8 @@ assets:
 
 # Audience Chamber Fight
 - name: ard/dc00.ard
+  multi:
+  - name: ard/us/dc00.ard
   method: binarc
   source:
   - name: b_41
@@ -604,25 +604,33 @@ assets:
 
 # Past Pete
 - name: ard/wi01.ard
+  multi:
+  - name: ard/us/wi01.ard
   method: binarc
   source:
+  - name: btl
+    type: areadatascript
+    method: areadatascript
+    source:
+    - name: ard/wi/wi01_btl.script # WI01_MS101 -> HB04_MS403 (Demyx II)
   - name: b_40
     type: areadataspawn
     method: spawnpoint
     source:
     - name: ard/wi/wi01_b_40.spawn # Demyx II, Crimson Jazz, Silver Rocks and Dancers
     #! I don't like this fight. Too messy. Perhaps Demyx just doesn't go here.
-- name: msn/jp/WI01_MS101.bar
-  multi:
-  - name: msn/us/WI01_MS101.bar
-  method: copy
-  source:
-  - name: msn/jp/HB04_MS403.bar # Demyx II MSN
   
 # Building Site Fight
 - name: ard/wi05.ard
+  multi:
+  - name: ard/us/wi05.ard
   method: binarc
   source:
+  - name: btl
+    type: areadatascript
+    method: areadatascript
+    source:
+    - name: ard/wi/wi05_btl.script # WI05_MS102D -> EH19_MS105 (Xemnas I)
   - name: b_40
     type: areadataspawn
     method: spawnpoint
@@ -634,37 +642,39 @@ assets:
     method: areadatascript
     source:
     - name: ard/wi/wi05_evt.script # Boss Signal
-- name: msn/jp/WI05_MS102D.bar
-  multi:
-  - name: msn/us/WI05_MS102D.bar
-  method: copy
-  source:
-  - name: msn/jp/EH19_MS105.bar # Xemnas I MSN
  
 # Lilliput Fight
 
 # Scene of the Fire Fight
 - name: ard/wi06.ard
+  multi:
+  - name: ard/us/wi06.ard
   method: binarc
   source:
+  - name: btl
+    type: areadatascript
+    method: areadatascript
+    source:
+    - name: ard/wi/wi06_btl.script # WI06_MS102B -> HE19_MS205 (Hades)
   - name: b_40
     type: areadataspawn
     method: spawnpoint
     source:
     - name: ard/wi/wi06_b_40.spawn # Normal Fight with Hades
-- name: msn/jp/WI06_MS102B.bar
-  multi:
-  - name: msn/us/WI06_MS102B.bar
-  method: copy
-  source:
-  - name: msn/jp/HE19_MS205.bar # Hades MSN
     
 # Mickey's House Fight
 
 # Steamboat Pete
 - name: ard/wi02.ard
+  multi:
+  - name: ard/us/wi02.ard
   method: binarc
   source:
+  - name: btl
+    type: areadatascript
+    method: areadatascript
+    source:
+    - name: ard/wi/wi02_btl.script # WI02_MS103 -> EH20_MS113 (Final Xemnas)
   - name: b_40
     type: areadataspawn
     method: spawnpoint
@@ -676,17 +686,18 @@ assets:
     source:
     - name: ard/wi/wi02_evt.script # Enemy Signal and OST: Darkness of the Unknown III
     #! Performs better than wi03 but can be locked out of arena.
-- name: msn/jp/WI02_MS103.bar
-  multi:
-  - name: msn/us/WI02_MS103.bar
-  method: copy
-  source:
-  - name: msn/jp/EH20_MS113.bar # Final Xemnas MSN
 
 # Pete II
 - name: ard/wi03.ard
+  multi:
+  - name: ard/us/wi03.ard
   method: binarc
   source:
+  - name: btl
+    type: areadatascript
+    method: areadatascript
+    source:
+    - name: ard/wi/wi03_btl.script # WI03_MS104 -> EH20_MS113 (Final Xemnas) & remove b_41
   - name: b_40
     type: areadataspawn
     method: spawnpoint
@@ -697,18 +708,7 @@ assets:
     method: areadatascript
     source:
     - name: ard/wi/wi03_evt.script # Enemy Signal and OST: Darkness of the Unknown III
-  - name: b_41
-    type: areadataspawn
-    method: spawnpoint
-    source:
-    - name: ard/wi/wi03_b_41.spawn # Remove Pete II Transition Assets
     #! Has choppy performance.
-- name: msn/jp/WI03_MS104.bar
-  multi:
-  - name: msn/us/WI03_MS104.bar
-  method: copy
-  source:
-  - name: msn/jp/EH20_MS113.bar # Final Xemnas MSN
 
 
 

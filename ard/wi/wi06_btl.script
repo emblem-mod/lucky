@@ -1,0 +1,5 @@
+Program 0x38
+Party DEFAULT
+Mission 0x64 "HE19_MS205"
+Spawn "b_40"
+Spawn "b_41"
