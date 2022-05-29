@@ -1,28 +1,3 @@
-Program 0x0A
-Capacity 7E-44
-Spawn "b_20"
-Spawn "b_35"
-
-Program 0x0B
-Capacity 7E-44
-Spawn "b_20"
-
-Program 0x01
-Capacity 7E-44
-Spawn "b_00"
-
-Program 0x02
-Capacity 7E-44
-Spawn "b_01"
-
-Program 0x38
-Party DEFAULT
-Mission 0x69 "LK05_MS101"
-Spawn "b_40"
-
-Program 0x19
-Spawn "b_70"
-
 Program 0x39
 Party W_FRIEND_FIX
 Mission 0x6C "NM10_MS201"
