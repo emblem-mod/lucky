@@ -25,7 +25,7 @@ Spawn "b_70"
 
 Program 0x39
 Party W_FRIEND_FIX
-Mission 0x6C "LK05_MS201"
+Mission 0x6C "NM10_MS201"
 Spawn "b_60"
 Spawn "b_61"
 Spawn "b_70"
