@@ -333,6 +333,21 @@ assets:
 # BEAST'S CASTLE ======================================================================================================
 
 # Parlor Fight
+- name: ard/bb01.ard
+  multi:
+  - name: ard/us/bb01.ard
+  method: binarc
+  source:
+  - name: btl
+    type: areadatascript
+    method: areadatascript
+    source:
+    - name: ard/bb/bb01_btl.script # BB01_MS101 -> NM10_MS201 (Lock, Shock and Barrel)
+  - name: b_40
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: ard/bb/bb01_b_40.spawn # Lock, Shock and Barrel
 
 # Thresholder & Possessor
 - name: ard/bb11.ard
@@ -369,21 +384,6 @@ assets:
     - name: ard/bb/bb03_b_40.spawn # Zexion and Bookmasters
 
 # Shadow Stalker
-- name: ard/bb05.ard
-  multi:
-  - name: ard/us/bb05.ard
-  method: binarc
-  source:
-  - name: btl
-    type: areadatascript
-    method: areadatascript
-    source:
-    - name: ard/bb/bb05_btl.script # BB05_MS104A -> NM10_MS201 (Lock, Shock and Barrel)
-  - name: b_40
-    type: areadataspawn
-    method: spawnpoint
-    source:
-    - name: ard/bb/bb05_b_40.spawn # Lock, Shock and Barrel
 
 # Dark Thorn
 
@@ -1068,11 +1068,6 @@ assets:
 - name: ard/lk05.ard
   method: binarc
   source:
-  - name: btl
-    type: areadatascript
-    method: areadatascript
-    source:
-    - name: ard/lk/lk05_btl.script # LK05_MS201 -> NM10_MS201 (Lock, Shock and Barrel)
   - name: b_40
     type: areadataspawn
     method: spawnpoint
@@ -1089,7 +1084,7 @@ assets:
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/lk/lk05_b_60.spawn # Lock, Shock and Barrel
+    - name: ard/lk/lk05_b_60.spawn # Lock, Shock and Barrel (DELETE FIGHT)
 
 # Shenzi, Banzai and Ed
 - name: ard/lk02.ard
