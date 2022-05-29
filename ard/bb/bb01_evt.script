@@ -73,7 +73,7 @@ Spawn "g52_"
 
 Program 0x44
 Bgm 104 104
-AreaSettings 15 -1
+AreaSettings 7 -1
 	SetProgressFlag 0x1429
 	SetUnk05 0x3
 	SetEvent "103" Type 9
