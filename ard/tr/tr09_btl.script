@@ -1,0 +1,5 @@
+Program 0x3B
+Party W_FRIEND
+MapScript 5
+Mission 0x8A "HB34_FM_ZEX"
+Spawn "b_61"

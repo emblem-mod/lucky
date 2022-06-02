@@ -1,0 +1,4 @@
+Program 0x35
+Party DEFAULT
+Mission 0x86 "EH10_MS102"
+Spawn "b_60"

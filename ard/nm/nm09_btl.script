@@ -1,0 +1,5 @@
+Program 0x45
+Party W_FRIEND
+Mission 0x71 "BB11_MS102"
+Spawn "b_40"
+Spawn "b_50"
