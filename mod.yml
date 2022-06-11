@@ -161,7 +161,7 @@ assets:
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/hb/hb17_b_40.spawn # Surprise
+    - name: ard/hb/hb17_b_40.spawn # Twilight Thorn
   - name: b_99
     type: areadataspawn
     method: spawnpoint
@@ -901,7 +901,6 @@ assets:
 # Sandswept Ruins Fight
 
 # Sandswept Tower Fight & Magic Switches
-
 - name: ard/al14.ard
   multi:
   - name: ard/us/al14.ard
@@ -977,7 +976,6 @@ assets:
     method: spawnpoint
     source:
     - name: ard/nm/nm00_b_99.spawn # Grim Reaper II
-    #! Medallions do not function correctly, ask Thundrio to see if fix is possible.
   - name: evt
     type: areadatascript
     method: areadatascript
@@ -1079,7 +1077,7 @@ assets:
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/lk/lk05_b_60.spawn # Lock, Shock and Barrel (DELETE FIGHT)
+    - name: ard/lk/lk05_b_60.spawn # Lock, Shock and Barrel (DELETE - Fight got moved to BB Parlor)
 
 # Shenzi, Banzai and Ed
 - name: ard/lk02.ard
@@ -1267,3 +1265,640 @@ assets:
 
 
 
+
+# =================================================================================================================== #
+# LUCKY EMBLEMS #######################################################################################################
+# =================================================================================================================== #
+
+# TWILIGHT TOWN =======================================================================================================
+
+- name: map/jp/tt02.map
+  method: copy
+  source:
+  - name: map/tt/tt02.map # Usual Spot
+- name: map/jp/tt04.map
+  method: copy
+  source:
+  - name: map/tt/tt04.map # Sandlot
+- name: map/jp/tt05.map
+  method: copy
+  source:
+  - name: map/tt/tt05.map # Struggle Sandlot
+- name: map/jp/tt07.map
+  method: copy
+  source:
+  - name: map/tt/tt07.map # Tram Common
+- name: map/jp/tt08.map
+  method: copy
+  source:
+  - name: map/tt/tt08.map # Station Plaza
+- name: map/jp/tt10.map
+  method: copy
+  source:
+  - name: map/tt/tt10.map # Sunset Terrace
+- name: map/jp/tt12.map
+  method: copy
+  source:
+  - name: map/tt/tt12.map # Sunset Hill
+- name: map/jp/tt15.map
+  method: copy
+  source:
+  - name: map/tt/tt15.map # Mansion Foyer
+- name: map/jp/tt17.map
+  method: copy
+  source:
+  - name: map/tt/tt17.map # Library
+- name: map/jp/tt18.map
+  method: copy
+  source:
+  - name: map/tt/tt18.map # White Room
+- name: map/jp/tt19.map
+  method: copy
+  source:
+  - name: map/tt/tt19.map # Basement Hall
+- name: map/jp/tt21.map
+  method: copy
+  source:
+  - name: map/tt/tt21.map # Computer Room
+- name: map/jp/tt23.map
+  method: copy
+  source:
+  - name: map/tt/tt23.map # Pod Room
+- name: map/jp/tt26.map
+  method: copy
+  source:
+  - name: map/tt/tt26.map # Entryway
+- name: map/jp/tt27.map
+  method: copy
+  source:
+  - name: map/tt/tt27.map # Sorcerer's Loft
+- name: map/jp/tt28.map
+  method: copy
+  source:
+  - name: map/tt/tt28.map # Wardrobe
+- name: map/jp/tt30.map
+  method: copy
+  source:
+  - name: map/tt/tt30.map # Moon Chamber
+- name: map/jp/tt37.map
+  method: copy
+  source:
+  - name: map/tt/tt37.map # Underground Concourse
+
+# HOLLOW BASTION ======================================================================================================
+
+- name: map/jp/hb01.map
+  method: copy
+  source:
+  - name: map/hb/hb01.map # Dark Depths
+- name: map/jp/hb03.map
+  method: copy
+  source:
+  - name: map/hb/hb03.map # Crystal Fissure
+- name: map/jp/hb05.map
+  method: copy
+  source:
+  - name: map/hb/hb05.map # Ansem's Study
+- name: map/jp/hb06.map
+  method: copy
+  source:
+  - name: map/hb/hb06.map # Postern
+- name: map/jp/hb08.map
+  method: copy
+  source:
+  - name: map/hb/hb08.map # Bailey
+- name: map/jp/hb09.map
+  method: copy
+  source:
+  - name: map/hb/hb09.map # Borough
+- name: map/jp/hb10.map
+  method: copy
+  source:
+  - name: map/hb/hb10.map # Marketplace
+- name: map/jp/hb11.map
+  method: copy
+  source:
+  - name: map/hb/hb11.map # Corridors
+- name: map/jp/hb13.map
+  method: copy
+  source:
+  - name: map/hb/hb13.map # Merlin's House
+- name: map/jp/hb18.map
+  method: copy
+  source:
+  - name: map/hb/hb18.map # Destroyed Restoration Site
+- name: map/jp/hb19.map
+  method: copy
+  source:
+  - name: map/hb/hb19.map # Destroyed Bailey
+- name: map/jp/hb20.map
+  method: copy
+  source:
+  - name: map/hb/hb20.map # Corridors Fight
+- name: map/jp/hb25.map
+  method: copy
+  source:
+  - name: map/hb/hb25.map # Transport to Remembrance
+
+# LAND OF DRAGONS =====================================================================================================
+
+- name: map/jp/mu00.map
+  method: copy
+  source:
+  - name: map/mu/mu00.map # Bamboo Grove
+- name: map/jp/mu02.map
+  method: copy
+  source:
+  - name: map/mu/mu02.map # Checkpoint
+- name: map/jp/mu03.map
+  method: copy
+  source:
+  - name: map/mu/mu03.map # Mountain Trail
+- name: map/jp/mu04.map
+  method: copy
+  source:
+  - name: map/mu/mu04.map # Village
+- name: map/jp/mu05.map
+  method: copy
+  source:
+  - name: map/mu/mu05.map # Village Cave
+- name: map/jp/mu06.map
+  method: copy
+  source:
+  - name: map/mu/mu06.map # Ridge
+- name: map/jp/mu08.map
+  method: copy
+  source:
+  - name: map/mu/mu08.map # Imperial Square
+- name: map/jp/mu09.map
+  method: copy
+  source:
+  - name: map/mu/mu09.map # Palace Gates
+- name: map/jp/mu11.map
+  method: copy
+  source:
+  - name: map/mu/mu11.map # Throne Room
+
+# BEAST'S CASTLE ======================================================================================================
+
+- name: map/jp/bb00.map
+  method: copy
+  source:
+  - name: map/bb/bb00.map # Entrance Hall
+- name: map/jp/bb01.map
+  method: copy
+  source:
+  - name: map/bb/bb01.map # Parlor
+- name: map/jp/bb02.map
+  method: copy
+  source:
+  - name: map/bb/bb02.map # Belle's Room
+- name: map/jp/bb03.map
+  method: copy
+  source:
+  - name: map/bb/bb03.map # Beast's Room
+- name: map/jp/bb04.map
+  method: copy
+  source:
+  - name: map/bb/bb04.map # Ballroom
+- name: map/jp/bb07.map
+  method: copy
+  source:
+  - name: map/bb/bb07.map # East Wing
+- name: map/jp/bb09.map
+  method: copy
+  source:
+  - name: map/bb/bb09.map # West Wing
+- name: map/jp/bb10.map
+  method: copy
+  source:
+  - name: map/bb/bb10.map # Dungeon
+- name: map/jp/bb12.map
+  method: copy
+  source:
+  - name: map/bb/bb12.map # Secret Passage
+- name: map/jp/bb13.map
+  method: copy
+  source:
+  - name: map/bb/bb13.map # Bridge
+- name: map/jp/bb15.map
+  method: copy
+  source:
+  - name: map/bb/bb15.map # Xaldin Bridge
+
+# OLYMPUS COLISEUM ====================================================================================================
+
+- name: map/jp/he01.map
+  method: copy
+  source:
+  - name: map/he/he01.map # Coliseum Gates
+- name: map/jp/he02.map
+  method: copy
+  source:
+  - name: map/he/he02.map # Destroyed Coliseum Gates
+- name: map/jp/he03.map
+  method: copy
+  source:
+  - name: map/he/he03.map # Underworld Entrance
+- name: map/jp/he05.map
+  method: copy
+  source:
+  - name: map/he/he05.map # Valley of the Dead
+- name: map/jp/he06.map
+  method: copy
+  source:
+  - name: map/he/he06.map # Hades' Chamber
+- name: map/jp/he07.map
+  method: copy
+  source:
+  - name: map/he/he07.map # Cave of the Dead
+- name: map/jp/he11.map
+  method: copy
+  source:
+  - name: map/he/he11.map # Underworld Caverns
+- name: map/jp/he16.map
+  method: copy
+  source:
+  - name: map/he/he16.map # The Lost Road
+- name: map/jp/he17.map
+  method: copy
+  source:
+  - name: map/he/he17.map # Atrium
+- name: map/jp/he18.map
+  method: copy
+  source:
+  - name: map/he/he18.map # Hydra Coliseum Gates
+
+# DISNEY CASTLE =======================================================================================================
+
+- name: map/jp/dc00.map
+  method: copy
+  source:
+  - name: map/dc/dc00.map # Audience Chamber
+- name: map/jp/dc01.map
+  method: copy
+  source:
+  - name: map/dc/dc01.map # Library
+- name: map/jp/dc02.map
+  method: copy
+  source:
+  - name: map/dc/dc02.map # Colonnade
+- name: map/jp/dc03.map
+  method: copy
+  source:
+  - name: map/dc/dc03.map # Courtyard
+- name: map/jp/dc04.map
+  method: copy
+  source:
+  - name: map/dc/dc04.map # Dark Hall of the Cornerstone
+- name: map/jp/dc05.map
+  method: copy
+  source:
+  - name: map/dc/dc05.map # Hall of the Cornerstone
+- name: map/jp/dc06.map
+  method: copy
+  source:
+  - name: map/dc/dc06.map # Gummi Hangar
+
+# TIMELESS RIVER ======================================================================================================
+
+- name: map/jp/wi00.map
+  method: copy
+  source:
+  - name: map/wi/wi00.map # Cornerstone Hill
+- name: map/jp/wi01.map
+  method: copy
+  source:
+  - name: map/wi/wi01.map # Pier
+- name: map/jp/wi02.map
+  method: copy
+  source:
+  - name: map/wi/wi02.map # Waterway
+- name: map/jp/wi03.map
+  method: copy
+  source:
+  - name: map/wi/wi03.map # Wharf
+- name: map/jp/wi05.map
+  method: copy
+  source:
+  - name: map/wi/wi05.map # Building Site
+- name: map/jp/wi06.map
+  method: copy
+  source:
+  - name: map/wi/wi06.map # Scene of the Fire
+- name: map/jp/wi07.map
+  method: copy
+  source:
+  - name: map/wi/wi07.map # Mickey's House
+
+# PORT ROYAL ==========================================================================================================
+
+- name: map/jp/ca00.map
+  method: copy
+  source:
+  - name: map/ca/ca00.map # Rampart
+- name: map/jp/ca01.map
+  method: copy
+  source:
+  - name: map/ca/ca01.map # Harbor
+- name: map/jp/ca02.map
+  method: copy
+  source:
+  - name: map/ca/ca02.map # Town
+- name: map/jp/ca05.map
+  method: copy
+  source:
+  - name: map/ca/ca05.map # Black Pearl
+- name: map/jp/ca06.map
+  method: copy
+  source:
+  - name: map/ca/ca06.map # Captain's Stateroom
+- name: map/jp/ca08.map
+  method: copy
+  source:
+  - name: map/ca/ca08.map # Isla de Muerta
+- name: map/jp/ca09.map
+  method: copy
+  source:
+  - name: map/ca/ca09.map # Cave Mouth
+- name: map/jp/ca12.map
+  method: copy
+  source:
+  - name: map/ca/ca12.map # Powder Store
+- name: map/jp/ca13.map
+  method: copy
+  source:
+  - name: map/ca/ca13.map # Moonlight Nook
+- name: map/jp/ca15.map
+  method: copy
+  source:
+  - name: map/ca/ca15.map # Seadrift Row
+- name: map/jp/ca16.map
+  method: copy
+  source:
+  - name: map/ca/ca16.map # Isla de Muerta
+- name: map/jp/ca18.map
+  method: copy
+  source:
+  - name: map/ca/ca18.map # Black Pearl to Town
+- name: map/jp/ca19.map
+  method: copy
+  source:
+  - name: map/ca/ca19.map # Black Pearl to Isla de Muerta
+- name: map/jp/ca20.map
+  method: copy
+  source:
+  - name: map/ca/ca20.map # Black Pearl to Ship Graveyard
+- name: map/jp/ca24.map
+  method: copy
+  source:
+  - name: map/ca/ca24.map # Grim Reaper Harbor
+
+# AGRABAH =============================================================================================================
+
+- name: map/jp/al00.map
+  method: copy
+  source:
+  - name: map/al/al00.map # Agrabah
+- name: map/jp/al01.map
+  method: copy
+  source:
+  - name: map/al/al01.map # Bazaar
+- name: map/jp/al02.map
+  method: copy
+  source:
+  - name: map/al/al02.map # Peddler's Shop
+- name: map/jp/al03.map
+  method: copy
+  source:
+  - name: map/al/al03.map # The Palace
+- name: map/jp/al07.map
+  method: copy
+  source:
+  - name: map/al/al07.map # Cave of Wonders
+- name: map/jp/al10.map
+  method: copy
+  source:
+  - name: map/al/al10.map # Treasure Room
+- name: map/jp/al11.map
+  method: copy
+  source:
+  - name: map/al/al11.map # Ruined Chamber
+- name: map/jp/al14.map
+  method: copy
+  source:
+  - name: map/al/al14.map # Sandswept Ruins
+- name: map/jp/al15.map
+  method: copy
+  source:
+  - name: map/al/al15.map # Gold Peddler's Shop
+
+# HALLOWEEN TOWN ======================================================================================================
+
+- name: map/jp/nm00.map
+  method: copy
+  source:
+  - name: map/nm/nm00.map # Halloween Town Square
+- name: map/jp/nm01.map
+  method: copy
+  source:
+  - name: map/nm/nm01.map # Dr. Finkelstein's Lab
+- name: map/jp/nm02.map
+  method: copy
+  source:
+  - name: map/nm/nm02.map # Graveyard
+- name: map/jp/nm04.map
+  method: copy
+  source:
+  - name: map/nm/nm04.map # Hinterlands
+- name: map/jp/nm06.map
+  method: copy
+  source:
+  - name: map/nm/nm06.map # Candy Cane Lane
+- name: map/jp/nm07.map
+  method: copy
+  source:
+  - name: map/nm/nm07.map # Christmas Tree Plaza
+- name: map/jp/nm08.map
+  method: copy
+  source:
+  - name: map/nm/nm08.map # Santa's House
+- name: map/jp/nm09.map
+  method: copy
+  source:
+  - name: map/nm/nm09.map # Toy Factory
+- name: map/jp/nm10.map
+  method: copy
+  source:
+  - name: map/nm/nm10.map # Wrapping Room
+
+# PRIDE LANDS =========================================================================================================
+
+- name: map/jp/lk01.map
+  method: copy
+  source:
+  - name: map/lk/lk01.map # Stone Hollow
+- name: map/jp/lk02.map
+  method: copy
+  source:
+  - name: map/lk/lk02.map # King's Den
+- name: map/jp/lk03.map
+  method: copy
+  source:
+  - name: map/lk/lk03.map # Wildebeest Valley
+- name: map/jp/lk04.map
+  method: copy
+  source:
+  - name: map/lk/lk04.map # Savannah
+- name: map/jp/lk05.map
+  method: copy
+  source:
+  - name: map/lk/lk05.map # Elephant Graveyard
+- name: map/jp/lk06.map
+  method: copy
+  source:
+  - name: map/lk/lk06.map # Gorge
+- name: map/jp/lk09.map
+  method: copy
+  source:
+  - name: map/lk/lk09.map # Oasis
+- name: map/jp/lk15.map
+  method: copy
+  source:
+  - name: map/lk/lk15.map # Groundshaker Savannah
+
+# SPACE PARANOIDS =====================================================================================================
+
+- name: map/jp/tr00.map
+  method: copy
+  source:
+  - name: map/tr/tr00.map # Pit Cell
+- name: map/jp/tr03.map
+  method: copy
+  source:
+  - name: map/tr/tr03.map # Dataspace
+- name: map/jp/tr04.map
+  method: copy
+  source:
+  - name: map/tr/tr04.map # I/O Tower Hallway
+- name: map/jp/tr05.map
+  method: copy
+  source:
+  - name: map/tr/tr05.map # I/O Communications Room
+- name: map/jp/tr06.map
+  method: copy
+  source:
+  - name: map/tr/tr06.map # Simluation Hangar
+- name: map/jp/tr07.map
+  method: copy
+  source:
+  - name: map/tr/tr07.map # Solar Sailer Simluation
+- name: map/jp/tr08.map
+  method: copy
+  source:
+  - name: map/tr/tr08.map # Central Computer Mesa
+- name: map/jp/tr10.map
+  method: copy
+  source:
+  - name: map/tr/tr10.map # Solar Sailer at Hangar
+- name: map/jp/tr11.map
+  method: copy
+  source:
+  - name: map/tr/tr11.map # Solar Sailer at Mesa
+
+# THE WORLD THAT NEVER WAS ============================================================================================
+
+- name: map/jp/eh01.map
+  method: copy
+  source:
+  - name: map/eh/eh01.map # Alley to Between
+- name: map/jp/eh02.map
+  method: copy
+  source:
+  - name: map/eh/eh02.map # Fragment Crossing
+- name: map/jp/eh03.map
+  method: copy
+  source:
+  - name: map/eh/eh03.map # Memory's Skyscraper
+- name: map/jp/eh04.map
+  method: copy
+  source:
+  - name: map/eh/eh04.map # Brink of Despair
+- name: map/jp/eh06.map
+  method: copy
+  source:
+  - name: map/eh/eh06.map # Nothing's Call
+- name: map/jp/eh07.map
+  method: copy
+  source:
+  - name: map/eh/eh07.map # Crooked Ascension Up
+- name: map/jp/eh08.map
+  method: copy
+  source:
+  - name: map/eh/eh08.map # Crooked Ascension Down
+- name: map/jp/eh09.map
+  method: copy
+  source:
+  - name: map/eh/eh09.map # Twilight's View
+- name: map/jp/eh10.map
+  method: copy
+  source:
+  - name: map/eh/eh10.map # Hall of Empty Melodies Bottom
+- name: map/jp/eh11.map
+  method: copy
+  source:
+  - name: map/eh/eh11.map # Hall of Empty Melodies Top
+- name: map/jp/eh13.map
+  method: copy
+  source:
+  - name: map/eh/eh13.map # Proof of Existence
+- name: map/jp/eh14.map
+  method: copy
+  source:
+  - name: map/eh/eh14.map # Havoc's Divide
+- name: map/jp/eh15.map
+  method: copy
+  source:
+  - name: map/eh/eh15.map # Addled Impasse
+- name: map/jp/eh16.map
+  method: copy
+  source:
+  - name: map/eh/eh16.map # Naught's Approach
+- name: map/jp/eh18.map
+  method: copy
+  source:
+  - name: map/eh/eh18.map # The Altar of Naught
+
+# ATLANTICA ===========================================================================================================
+
+- name: map/jp/lm00.map
+  method: copy
+  source:
+  - name: map/lm/lm00.map # Triton's Throne
+- name: map/jp/lm02.map
+  method: copy
+  source:
+  - name: map/lm/lm02.map # Undersea Courtyard
+- name: map/jp/lm03.map
+  method: copy
+  source:
+  - name: map/lm/lm03.map # Under the Sea Courtyard
+
+# 100 ACRE WOOD =======================================================================================================
+
+- name: map/jp/po00.map
+  method: copy
+  source:
+  - name: map/po/po00.map # Hundred Acre Wood
+- name: map/jp/po01.map
+  method: copy
+  source:
+  - name: map/po/po01.map # Starry Hill
+- name: map/jp/po04.map
+  method: copy
+  source:
+  - name: map/po/po04.map # Piglet's Howse
+- name: map/jp/po09.map
+  method: copy
+  source:
+  - name: map/po/po09.map # Spookey Cave
