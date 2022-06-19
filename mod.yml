@@ -1516,6 +1516,10 @@ assets:
   method: copy
   source:
   - name: map/he/he11.map # Underworld Caverns
+- name: map/jp/he14.map
+  method: copy
+  source:
+  - name: map/he/he14.map # Dark Coliseum Gates
 - name: map/jp/he16.map
   method: copy
   source:
@@ -1831,11 +1835,11 @@ assets:
 - name: map/jp/eh07.map
   method: copy
   source:
-  - name: map/eh/eh07.map # Crooked Ascension Up
+  - name: map/eh/eh07.map # Crooked Ascension Going Up
 - name: map/jp/eh08.map
   method: copy
   source:
-  - name: map/eh/eh08.map # Crooked Ascension Down
+  - name: map/eh/eh08.map # Crooked Ascension Going Down
 - name: map/jp/eh09.map
   method: copy
   source:
@@ -1843,11 +1847,11 @@ assets:
 - name: map/jp/eh10.map
   method: copy
   source:
-  - name: map/eh/eh10.map # Hall of Empty Melodies Bottom
+  - name: map/eh/eh10.map # Hall of Empty Melodies Lower
 - name: map/jp/eh11.map
   method: copy
   source:
-  - name: map/eh/eh11.map # Hall of Empty Melodies Top
+  - name: map/eh/eh11.map # Hall of Empty Melodies Upper
 - name: map/jp/eh13.map
   method: copy
   source:
