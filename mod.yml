@@ -1620,11 +1620,15 @@ assets:
 - name: map/jp/ca08.map
   method: copy
   source:
-  - name: map/ca/ca08.map # Isla de Muerta
+  - name: map/ca/ca08.map # Isla de Muerta with Interceptor
 - name: map/jp/ca09.map
   method: copy
   source:
   - name: map/ca/ca09.map # Cave Mouth
+- name: map/jp/ca10.map
+  method: copy
+  source:
+  - name: map/ca/ca10.map # Treasure Heap
 - name: map/jp/ca12.map
   method: copy
   source:
@@ -1640,7 +1644,7 @@ assets:
 - name: map/jp/ca16.map
   method: copy
   source:
-  - name: map/ca/ca16.map # Isla de Muerta
+  - name: map/ca/ca16.map # Isla de Muerta with Black Pearl
 - name: map/jp/ca18.map
   method: copy
   source:
