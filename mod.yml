@@ -881,7 +881,6 @@ assets:
 # Sandswept Ruins Fight
 
 # Sandswept Tower Fight & Magic Switches
-
 - name: ard/al14.ard
   multi:
   - name: ard/us/al14.ard
@@ -940,6 +939,8 @@ assets:
 
 # Town Square Fight & Present Collection Fight
 - name: ard/nm00.ard
+  multi:
+  - name: ard/us/nm00.ard
   method: binarc
   source:
   - name: btl
@@ -957,7 +958,6 @@ assets:
     method: spawnpoint
     source:
     - name: ard/nm/nm00_b_99.spawn # Grim Reaper II
-    #! Medallions do not function correctly, ask Thundrio to see if fix is possible.
   - name: evt
     type: areadatascript
     method: areadatascript
@@ -966,6 +966,8 @@ assets:
 
 # Candy Cane Lane Fight
 - name: ard/nm06.ard
+  multi:
+  - name: ard/us/nm06.ard
   method: binarc
   source:
   - name: b_40
@@ -976,6 +978,8 @@ assets:
 
 # Prison Keeper
 - name: ard/nm03.ard
+  multi:
+  - name: ard/us/nm03.ard
   method: binarc
   source:
   - name: btl
@@ -992,6 +996,8 @@ assets:
 
 # Oogie Boogie
 - name: ard/nm09.ard
+  multi:
+  - name: ard/us/nm09.ard
   method: binarc
   source:
   - name: btl
@@ -1019,6 +1025,8 @@ assets:
 
 # The Experiment
 - name: ard/nm07.ard
+  multi:
+  - name: ard/us/nm07.ard
   method: binarc
   source:
   - name: btl
@@ -1039,30 +1047,32 @@ assets:
 
 # PRIDE LANDS =========================================================================================================
 
-# Elephant Graveyard Fight
+# Elephant Graveyard Fight & Hyena Chase
 - name: ard/lk05.ard
+  multi:
+  - name: ard/us/lk05.ard
   method: binarc
   source:
-  - name: b_40
+  - name: b_40 # Elephant Graveyard Fight
     type: areadataspawn
     method: spawnpoint
     source:
     - name: ard/lk/lk05_b_40.spawn #
+  - name: b_60 # Hyena Chase
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: ard/lk/lk05_b_60.spawn # Lock, Shock and Barrel (DELETE - Fight got moved to BB Parlor)
   - name: evt
     type: areadatascript
     method: areadatascript
     source:
     - name: ard/lk/lk05_evt.script # Boss Signal
 
-# Hyena Chase
-  - name: b_60
-    type: areadataspawn
-    method: spawnpoint
-    source:
-    - name: ard/lk/lk05_b_60.spawn #
-
 # Shenzi, Banzai and Ed
 - name: ard/lk02.ard
+  multi:
+  - name: ard/us/lk02.ard
   method: binarc
   source:
   - name: b_40
@@ -1073,6 +1083,8 @@ assets:
 
 # Scar
 - name: ard/lk14.ard
+  multi:
+  - name: ard/us/lk14.ard
   method: binarc
   source:
   - name: btl
@@ -1088,6 +1100,8 @@ assets:
 
 # Groundshaker
 - name: ard/lk15.ard
+  multi:
+  - name: ard/us/lk15.ard
   method: binarc
   source:
   - name: btl
@@ -1100,12 +1114,6 @@ assets:
     method: spawnpoint
     source:
     - name: ard/lk/lk15_b_60.spawn # Carpet Sora, Magic Carpet and Genie Jafar
-- name: msn/jp/LK15_MS202.bar
-  multi:
-  - name: msn/us/LK15_MS202.bar
-  method: copy
-  source:
-  - name: msn/jp/AL05_MS203.bar # Genie Jafar MSN
 
 
 
@@ -1119,6 +1127,8 @@ assets:
 
 # Dataspace Fight
 - name: ard/tr03.ard
+  multi:
+  - name: ard/us/tr03.ard
   method: binarc
   source:
   - name: b_40
@@ -1131,6 +1141,8 @@ assets:
 
 # Game Grid Fight
 - name: ard/tr02.ard
+  multi:
+  - name: ard/us/tr02.ard
   method: binarc
   source:
   - name: btl
@@ -1153,6 +1165,8 @@ assets:
 
 # Solar Sailer Fight
 - name: ard/tr07.ard
+  multi:
+  - name: ard/us/tr07.ard
   method: binarc
   source:
   - name: b_60
@@ -1165,6 +1179,8 @@ assets:
 
 # Master Control Program
 - name: ard/tr09.ard
+  multi:
+  - name: ard/us/tr09.ard
   method: binarc
   source:
   - name: btl
@@ -1186,6 +1202,8 @@ assets:
 
 # Roxas
 - name: ard/eh21.ard
+  multi:
+  - name: ard/us/eh21.ard
   method: binarc
   source:
   - name: btl
@@ -1210,6 +1228,8 @@ assets:
 
 # Luxord
 - name: ard/eh14.ard
+  multi:
+  - name: ard/us/eh14.ard
   method: binarc
   source:
   - name: btl
