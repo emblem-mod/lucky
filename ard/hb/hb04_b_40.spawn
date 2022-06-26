@@ -97,58 +97,40 @@
   Unk24: 0
   Entities:
   - ObjectId: 302 # Shadow
-    PositionX: -300
-    PositionY: 0
-    PositionZ: 100
+    PositionX: -600
+    PositionY: -2500
+    PositionZ: -500
     RotationX: 0
     RotationY: 0
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 2
     Serial: 130
-    Argument1: 1
+    Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 250
+    SpawnDelay: 150
     Command: 0
-    SpawnRange: 200
-    Level: 0
+    SpawnRange: 600
+    Level: 100
     Medal: 0
   - ObjectId: 302 # Shadow
-    PositionX: 150
-    PositionY: 0
-    PositionZ: 100
+    PositionX: -100
+    PositionY: -2500
+    PositionZ: -1000
     RotationX: 0
     RotationY: 0
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 2
     Serial: 131
-    Argument1: 1
+    Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 150
+    SpawnDelay: 250
     Command: 0
-    SpawnRange: 600
-    Level: 0
-    Medal: 0
-  - ObjectId: 302 # Shadow
-    PositionX: 600
-    PositionY: 0
-    PositionZ: 100
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 2
-    SpawnArgument: 2
-    Serial: 132
-    Argument1: 1
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 150
-    Command: 0
-    SpawnRange: 600
-    Level: 0
+    SpawnRange: 200
+    Level: 100
     Medal: 0
   EventActivators:
   - Shape: 2
@@ -169,4 +151,3 @@
   WalkPath: []
   ReturnParameters: []
   Signals: []
-
