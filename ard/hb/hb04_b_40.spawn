@@ -97,9 +97,9 @@
   Unk24: 0
   Entities:
   - ObjectId: 302 # Shadow
-    PositionX: -600
-    PositionY: -2500
-    PositionZ: -500
+    PositionX: -300
+    PositionY: -5000
+    PositionZ: 100
     RotationX: 0
     RotationY: 0
     RotationZ: 0
@@ -115,9 +115,9 @@
     Level: 100
     Medal: 0
   - ObjectId: 302 # Shadow
-    PositionX: -100
-    PositionY: -2500
-    PositionZ: -1000
+    PositionX: 600
+    PositionY: -5000
+    PositionZ: 100
     RotationX: 0
     RotationY: 0
     RotationZ: 0
