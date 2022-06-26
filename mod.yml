@@ -148,7 +148,7 @@ assets:
     type: Bdx
     method: copy
     source:
-    - name: ai/b_ca050.bdx
+    - name: ai/b_ca050.bdx # Grim Reaper II AI Fixes
 
 # Ravine Trail Fight I
 
