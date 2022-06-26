@@ -64,16 +64,16 @@
   Unk24: 0
   Entities: []
   EventActivators:
-  - Shape: 0
+  - Shape: 2
     Option: 0
-    PositionX: -60
-    PositionY: -330
-    PositionZ: 3100
-    ScaleX: 110
-    ScaleY: 500
-    ScaleZ: 940
+    PositionX: 0
+    PositionY: 0
+    PositionZ: 0
+    ScaleX: 100
+    ScaleY: 100
+    ScaleZ: 100
     RotationX: 0
-    RotationY: -1.5793052911758423
+    RotationY: 0
     RotationZ: 0
     Flags: 0
     Type: 0
@@ -114,34 +114,70 @@
   Unk20: 1966080
   Unk24: 0
   Entities:
+  - ObjectId: 306
+    PositionX: -200
+    PositionY: -350
+    PositionZ: 2900
+    RotationX: 0
+    RotationY: 1.5531423091888428
+    RotationZ: 0
+    SpawnType: 2
+    SpawnArgument: 0
+    Serial: 168
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 5
+    Command: 0
+    SpawnRange: 0
+    Level: 1
+    Medal: 0
+  - ObjectId: 306
+    PositionX: -150
+    PositionY: -350
+    PositionZ: 3650
+    RotationX: 0
+    RotationY: 1.5531423091888428
+    RotationZ: 0
+    SpawnType: 2
+    SpawnArgument: 0
+    Serial: 169
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 5
+    Command: 0
+    SpawnRange: 0
+    Level: 1
+    Medal: 0
   - ObjectId: 1365
-    PositionX: 570
+    PositionX: -150
     PositionY: 0
-    PositionZ: 2990
+    PositionZ: 3500
     RotationX: 0
-    RotationY: 1.5531423091888428
+    RotationY: 0
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 1
-    Serial: 238
+    SpawnArgument: 0
+    Serial: 170
     Argument1: 99
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 5
+    SpawnDelay: 0
     Command: 0
     SpawnRange: 0
-    Level: 1
+    Level: 0
     Medal: 0
   - ObjectId: 1365
-    PositionX: -620
-    PositionY: -300000
-    PositionZ: 2990
+    PositionX: -515.
+    PositionY: -0
+    PositionZ: 2985
     RotationX: 0
     RotationY: 1.5531423091888428
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 1
-    Serial: 241
+    Serial: 171
     Argument1: 99
     Argument2: 0
     ReactionCommand: 0
@@ -150,35 +186,18 @@
     SpawnRange: 0
     Level: 1
     Medal: 0
-  - ObjectId: 1365
-    PositionX: -620
-    PositionY: -200000
-    PositionZ: 2840
-    RotationX: 0
-    RotationY: 1.5531423091888428
-    RotationZ: 0
-    SpawnType: 2
-    SpawnArgument: 1
-    Serial: 243
-    Argument1: 99
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 5
-    Command: 0
-    SpawnRange: 0
-    Level: 1
-    Medal: 0
+
   EventActivators:
   - Shape: 2
     Option: 0
-    PositionX: -1460
-    PositionY: 70
-    PositionZ: 3480
-    ScaleX: 180
+    PositionX: 0
+    PositionY: 0
+    PositionZ: 0
+    ScaleX: 100
     ScaleY: 100
-    ScaleZ: 220
+    ScaleZ: 100
     RotationX: 0
-    RotationY: -1.5793052911758423
+    RotationY: 0
     RotationZ: 0
     Flags: 0
     Type: 0
@@ -225,16 +244,52 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 2505 # Data Xemnas I
-    PositionX: 0
-    PositionY: 0
-    PositionZ: 3400
+  - ObjectId: 122
+    PositionX: -434
+    PositionY: -250
+    PositionZ: 3426
     RotationX: 0
     RotationY: 0
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
-    Serial: 135
+    Serial: 244
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 0
+    Medal: 0
+  - ObjectId: 122
+    PositionX: -139
+    PositionY: -250
+    PositionZ: 2953
+    RotationX: 0
+    RotationY: 0
+    RotationZ: 0
+    SpawnType: 2
+    SpawnArgument: 0
+    Serial: 245
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 0
+    Medal: 0
+  - ObjectId: 122
+    PositionX: 279
+    PositionY: -250
+    PositionZ: 3371
+    RotationX: 0
+    RotationY: 0
+    RotationZ: 0
+    SpawnType: 2
+    SpawnArgument: 0
+    Serial: 246
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -246,14 +301,14 @@
   EventActivators:
   - Shape: 2
     Option: 0
-    PositionX: -1470
-    PositionY: 670
-    PositionZ: 3010
-    ScaleX: 190
+    PositionX: 0
+    PositionY: 0
+    PositionZ: 0
+    ScaleX: 100
     ScaleY: 100
-    ScaleZ: 190
+    ScaleZ: 100
     RotationX: 0
-    RotationY: -1.5793052911758423
+    RotationY: 0
     RotationZ: 0
     Flags: 0
     Type: 0
@@ -285,6 +340,81 @@
   Signals:
   - SignalId: 82
     Argument: 83
+    Action: 0
+    Padding05: 0
+    Padding06: 0
+    Padding07: 0
+- Type: 2
+  Flag: 1
+  Id: 86
+  Teleport:
+    Place: 0
+    Door: 0
+    World: 0
+    Unknown: 0
+  Unk20: 0
+  Unk24: 0
+  Entities:
+  - ObjectId: 1606 # Xemnas I
+    PositionX: 0
+    PositionY: 0
+    PositionZ: 3400
+    RotationX: 0
+    RotationY: 0
+    RotationZ: 0
+    SpawnType: 2
+    SpawnArgument: 0
+    Serial: 135
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 0
+    Medal: 0
+  EventActivators:
+  - Shape: 2
+    Option: 0
+    PositionX: 0
+    PositionY: 0
+    PositionZ: 0
+    ScaleX: 100
+    ScaleY: 100
+    ScaleZ: 100
+    RotationX: 0
+    RotationY: 0
+    RotationZ: 0
+    Flags: 0
+    Type: 0
+    OnBgGroup: 0
+    OffBgGroup: 0
+  WalkPath: []
+  ReturnParameters:
+  - Id: 0
+    Type: 0
+    Rate: 0
+    EntryType: 0
+    Argument04: 0
+    Argument08: 0
+    Argument0c: 0
+  - Id: 0
+    Type: 0
+    Rate: 0
+    EntryType: 0
+    Argument04: 0
+    Argument08: 0
+    Argument0c: 0
+  - Id: 0
+    Type: 0
+    Rate: 0
+    EntryType: 0
+    Argument04: 0
+    Argument08: 0
+    Argument0c: 0
+  Signals:
+  - SignalId: 3
+    Argument: 84
     Action: 0
     Padding05: 0
     Padding06: 0
