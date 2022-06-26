@@ -9,10 +9,10 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 566
-    PositionX: -1139.885009765625
-    PositionY: -152.57119750976562
-    PositionZ: 1347.81103515625
+  - ObjectId: 566 # Sora
+    PositionX: -1150
+    PositionY: -150
+    PositionZ: 1350
     RotationX: 0
     RotationY: -3.1415927410125732
     RotationZ: 0
@@ -66,12 +66,12 @@
   EventActivators:
   - Shape: 0
     Option: 0
-    PositionX: -59.91912841796875
-    PositionY: -333.79611206054688
-    PositionZ: 3187.385986328125
-    ScaleX: 166.3238525390625
+    PositionX: -50
+    PositionY: -350
+    PositionZ: 3200
+    ScaleX: 200
     ScaleY: 500
-    ScaleZ: 940.35748291015625
+    ScaleZ: 1000
     RotationX: 0
     RotationY: -1.5793052911758423
     RotationZ: 0
@@ -114,88 +114,16 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 305
-    PositionX: 118.08470153808594
-    PositionY: -4.3476700782775879
-    PositionZ: 3322.719970703125
+  - ObjectId: 2505 # Data Xemnas I
+    PositionX: 0
+    PositionY: 0
+    PositionZ: 3400
     RotationX: 0
     RotationY: 0
     RotationZ: 0
-    SpawnType: 2
+    SpawnType: 3
     SpawnArgument: 0
-    Serial: 136
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 0
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  - ObjectId: 305
-    PositionX: -81.915298461914062
-    PositionY: -4.3476700782775879
-    PositionZ: 3322.719970703125
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 2
-    SpawnArgument: 0
-    Serial: 137
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 0
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  - ObjectId: 122
-    PositionX: -381.91531372070312
-    PositionY: -304.34768676757812
-    PositionZ: 3122.719970703125
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 2
-    SpawnArgument: 0
-    Serial: 138
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 0
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  - ObjectId: 306
-    PositionX: 18.084699630737305
-    PositionY: -154.34770202636719
-    PositionZ: 3522.719970703125
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 2
-    SpawnArgument: 0
-    Serial: 139
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 0
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  - ObjectId: 122
-    PositionX: 368.08468627929688
-    PositionY: -304.34768676757812
-    PositionZ: 3122.719970703125
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 2
-    SpawnArgument: 0
-    Serial: 140
+    Serial: 135
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -207,12 +135,12 @@
   EventActivators:
   - Shape: 2
     Option: 0
-    PositionX: -1458.3199462890625
-    PositionY: 66.203903198242188
-    PositionZ: 3478.62109375
-    ScaleX: 183.64450073242188
+    PositionX: -1450
+    PositionY: 50
+    PositionZ: 3500
+    ScaleX: 200
     ScaleY: 100
-    ScaleZ: 220.81449890136719
+    ScaleZ: 250
     RotationX: 0
     RotationY: -1.5793052911758423
     RotationZ: 0
@@ -261,16 +189,16 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 1672
-    PositionX: 18.756570816040039
-    PositionY: -7.7593288421630859
-    PositionZ: 3367.5791015625
+  - ObjectId: 318 # Dusk
+    PositionX: 20
+    PositionY: 0
+    PositionZ: 3350
     RotationX: 0
     RotationY: 0
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
-    Serial: 135
+    Serial: 136
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -282,12 +210,12 @@
   EventActivators:
   - Shape: 2
     Option: 0
-    PositionX: -1471.510009765625
-    PositionY: 66.203903198242188
-    PositionZ: 3014.27392578125
-    ScaleX: 185.86250305175781
+    PositionX: -1500
+    PositionY: 50
+    PositionZ: 3000
+    ScaleX: 200
     ScaleY: 100
-    ScaleZ: 194.66650390625
+    ScaleZ: 200
     RotationX: 0
     RotationY: -1.5793052911758423
     RotationZ: 0
