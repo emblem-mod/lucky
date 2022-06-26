@@ -99,7 +99,7 @@
   - ObjectId: 318 # Dusk
     PositionX: 150
     PositionY: -100000
-    PositionZ: -200
+    PositionZ: -2000
     RotationX: 0
     RotationY: 3.1415927410125732
     RotationZ: 0
@@ -117,7 +117,7 @@
   - ObjectId: 318 # Dusk
     PositionX: 150
     PositionY: -130000
-    PositionZ: 150
+    PositionZ: 2000
     RotationX: 0
     RotationY: 0
     RotationZ: 0
