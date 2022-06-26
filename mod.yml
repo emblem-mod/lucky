@@ -157,22 +157,22 @@ assets:
 # Ravine Trail Fight III
 
 # Ravine Trail Fight IV
-- name: ard/hb16.ard
-  multi:
-  - name: ard/us/hb16.ard
-  method: binarc
-  source:
+# Note: Completely broken garbage that I got working on RAM ages ago but not ROM
+#- name: ard/hb16.ard
+#  multi:
+#  - name: ard/us/hb16.ard
+#  method: binarc
+#  source:
 #  - name: btl
 #    type: areadatascript
 #    method: areadatascript
 #    source:
 #    - name: ard/hb/hb16_btl.script # HB16_MS404D -> EH19_MS105 (Xemnas I)
-  - name: b_43
-    type: areadataspawn
-    method: spawnpoint
-    source:
-    - name: ard/hb/hb16_b_43.spawn # Data Xemnas I
-
+#  - name: b_43
+#    type: areadataspawn
+#    method: spawnpoint
+#    source:
+#    - name: ard/hb/hb16_b_43.spawn # Data Xemnas I
 
 # 1000 Heartless
 - name: ard/hb17.ard
