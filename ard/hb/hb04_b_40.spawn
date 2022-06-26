@@ -81,7 +81,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 123
-  - ObjectId: 1662 # Closed Medallion Chest
+  - ObjectId: 1599 # Closed Medallion Chest
     PositionX: -300
     PositionY: 0
     PositionZ: 100
