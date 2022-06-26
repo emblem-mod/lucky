@@ -97,8 +97,8 @@
   Unk24: 0
   Entities:
   - ObjectId: 301 # Soldier
-    PositionX: -1800
-    PositionY: -40000
+    PositionX: -1200
+    PositionY: -30000
     PositionZ: 100
     RotationX: 0
     RotationY: 3.1415927410125732
@@ -115,8 +115,8 @@
     Level: 100
     Medal: 0
   - ObjectId: 301 # Soldier
-    PositionX: 2600
-    PositionY: -40000
+    PositionX: 1800
+    PositionY: -30000
     PositionZ: 100
     RotationX: 0
     RotationY: 0
