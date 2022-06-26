@@ -167,11 +167,11 @@ assets:
 #    method: areadatascript
 #    source:
 #    - name: ard/hb/hb16_btl.script # HB16_MS404D -> EH19_MS105 (Xemnas I)
-  - name: b_48
+  - name: b_43
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/hb/hb16_b_48.spawn # Data Xemnas I
+    - name: ard/hb/hb16_b_43.spawn # Data Xemnas I
 
 
 # 1000 Heartless
