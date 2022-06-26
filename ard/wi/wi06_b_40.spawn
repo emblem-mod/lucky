@@ -27,6 +27,42 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
+  - ObjectId: 567 # Party Member 1
+    PositionX: -100
+    PositionY: 0
+    PositionZ: -250
+    RotationX: 0
+    RotationY: 3.1415927410125732
+    RotationZ: 0
+    SpawnType: 0
+    SpawnArgument: 0
+    Serial: 27
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 0
+    Medal: 0
+  - ObjectId: 568 # Party Member 2
+    PositionX: 100
+    PositionY: 0
+    PositionZ: -250
+    RotationX: 0
+    RotationY: 3.1415927410125732
+    RotationZ: 0
+    SpawnType: 0
+    SpawnArgument: 0
+    Serial: 28
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 0
+    Medal: 0
   EventActivators: []
   WalkPath: []
   ReturnParameters: []
@@ -42,48 +78,12 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 2320 # Hercules
-    PositionX: 0
-    PositionY: -50
-    PositionZ: 250
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 0
-    SpawnArgument: 0
-    Serial: 11
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 0
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  - ObjectId: 350 # Hades
-    PositionX: 0
-    PositionY: 0
-    PositionZ: 800
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 0
-    SpawnArgument: 0
-    Serial: 13
-    Argument1: 1
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 0
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
   - ObjectId: 1840 # Shadow TR
-    PositionX: 300
+    PositionX: -300
     PositionY: 0
     PositionZ: 100
     RotationX: 0
-    RotationY: -0.39269909262657166
+    RotationY: 0.58904862403869629
     RotationZ: 0
     SpawnType: 3
     SpawnArgument: 0
@@ -97,7 +97,7 @@
     Level: 0
     Medal: 0
   - ObjectId: 1840 # Shadow TR
-    PositionX: -250
+    PositionX: -200
     PositionY: 0
     PositionZ: 200
     RotationX: 0
@@ -115,11 +115,11 @@
     Level: 0
     Medal: 0
   - ObjectId: 1840 # Shadow TR
-    PositionX: 150
+    PositionX: -150
     PositionY: 0
-    PositionZ: 250
+    PositionZ: 300
     RotationX: 0
-    RotationY: -0.19634954631328583
+    RotationY: 0.19634954631328583
     RotationZ: 0
     SpawnType: 3
     SpawnArgument: 0
@@ -133,11 +133,11 @@
     Level: 0
     Medal: 0
   - ObjectId: 1840 # Shadow TR
-    PositionX: -150
+    PositionX: 150
     PositionY: 0
     PositionZ: 300
     RotationX: 0
-    RotationY: 0.19634954631328583
+    RotationY: -0.19634954631328583
     RotationZ: 0
     SpawnType: 3
     SpawnArgument: 0
@@ -151,11 +151,11 @@
     Level: 0
     Medal: 0
   - ObjectId: 1840 # Shadow TR
-    PositionX: -350
+    PositionX: 200
     PositionY: 0
-    PositionZ: 100
+    PositionZ: 200
     RotationX: 0
-    RotationY: 0.58904862403869629
+    RotationY: -0.19634954631328583
     RotationZ: 0
     SpawnType: 3
     SpawnArgument: 0
@@ -169,33 +169,15 @@
     Level: 0
     Medal: 0
   - ObjectId: 1840 # Shadow TR
-    PositionX: 50
+    PositionX: 300
     PositionY: 0
-    PositionZ: 300
+    PositionZ: 100
     RotationX: 0
-    RotationY: -0.19634954631328583
+    RotationY: -0.39269909262657166
     RotationZ: 0
     SpawnType: 3
     SpawnArgument: 0
     Serial: 25
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 0
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  - ObjectId: 1840 # Shadow TR
-    PositionX: -50
-    PositionY: 0
-    PositionZ: 350
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 3
-    SpawnArgument: 0
-    Serial: 26
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -253,7 +235,7 @@
     Level: 1
     Medal: 0
   - ObjectId: 1840 # Shadow TR
-    PositionX: 0
+    PositionX: -150
     PositionY: 0
     PositionZ: 700
     RotationX: 0
@@ -271,7 +253,7 @@
     Level: 1
     Medal: 0
   - ObjectId: 1840 # Shadow TR
-    PositionX: 150
+    PositionX: 0
     PositionY: 0
     PositionZ: 700
     RotationX: 0
@@ -289,8 +271,8 @@
     Level: 1
     Medal: 0
   - ObjectId: 1840 # Shadow TR
-    PositionX: -150
-    PositionY: -0
+    PositionX: 150
+    PositionY: 0
     PositionZ: 700
     RotationX: 0
     RotationY: 0
@@ -343,7 +325,7 @@
   Unk24: 0
   Entities:
   - ObjectId: 1831 # Hot Rod TR
-    PositionX: 325
+    PositionX: -350
     PositionY: 0
     PositionZ: 1000
     RotationX: 0
@@ -351,7 +333,7 @@
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
-    Serial: 34
+    Serial: 40
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -361,15 +343,15 @@
     Level: 1
     Medal: 0
   - ObjectId: 1831 # Hot Rod TR
-    PositionX: -375
-    PositionY: -0
-    PositionZ: 1050
+    PositionX: 350
+    PositionY: 0
+    PositionZ: 1000
     RotationX: 0
     RotationY: 0
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
-    Serial: 35
+    Serial: 41
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -437,7 +419,7 @@
   Entities:
   - ObjectId: 344 # Small White Fire
     PositionX: 875
-    PositionY: -0
+    PositionY: 0
     PositionZ: 750
     RotationX: 0
     RotationY: 0
