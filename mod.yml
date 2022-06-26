@@ -84,16 +84,6 @@ assets:
     method: areadatascript
     source:
     - name: ard/tt/tt04_evt.script # Boss Signal and OST: 13th Struggle
-- name: obj/B_CA050.mdlx
-  method: binarc
-  source:
-  - name: b_ca
-    type: Bdx
-    method: copy
-    source:
-    - name: files/ai/b_ca050.bdx
-
-
 
 # Old Mansion Fight
 
@@ -151,6 +141,14 @@ assets:
     method: spawnpoint
     source:
     - name: ard/hb/hb04_b_40.spawn # Grim Reaper II, Medallion Chest and Minute Bombs
+- name: obj/B_CA050.mdlx
+  method: binarc
+  source:
+  - name: b_ca
+    type: Bdx
+    method: copy
+    source:
+    - name: ai/b_ca050.bdx
 
 # Ravine Trail Fight I
 
