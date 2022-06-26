@@ -140,7 +140,7 @@ assets:
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/hb/hb04_b_40.spawn # Grim Reaper II, Medallion Chest and Minute Bombs
+    - name: ard/hb/hb04_b_40.spawn # Grim Reaper II, Cursed Medallions and Infinite Dusks
 - name: obj/B_CA050.mdlx
   method: binarc
   source:
