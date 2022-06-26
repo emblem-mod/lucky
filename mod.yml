@@ -3,6 +3,10 @@ originalAuthor:
 description:
 assets:
 
+
+
+
+
 # SIMULATED TWILIGHT TOWN =============================================================================================
 
 
@@ -80,6 +84,16 @@ assets:
     method: areadatascript
     source:
     - name: ard/tt/tt04_evt.script # Boss Signal and OST: 13th Struggle
+- name: obj/B_CA050.mdlx
+  method: binarc
+  source:
+  - name: b_ca
+    type: Bdx
+    method: copy
+    source:
+    - name: files/ai/b_ca050.bdx
+
+
 
 # Old Mansion Fight
 
