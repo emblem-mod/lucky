@@ -70,10 +70,10 @@
     RotationX: 0
     RotationY: 3.1415927410125732
     RotationZ: 0
-    SpawnType: 0
+    SpawnType: 3
     SpawnArgument: 0
     Serial: 13
-    Argument1: 0
+    Argument1: 1
     Argument2: 0
     ReactionCommand: 0
     SpawnDelay: 0
@@ -88,7 +88,7 @@
     RotationX: 0
     RotationY: 0
     RotationZ: 0
-    SpawnType: 0
+    SpawnType: 3
     SpawnArgument: 0
     Serial: 14
     Argument1: 0
@@ -106,7 +106,7 @@
     RotationX: 0
     RotationY: 0
     RotationZ: 0
-    SpawnType: 0
+    SpawnType: 3
     SpawnArgument: 0
     Serial: 30
     Argument1: 0
@@ -265,7 +265,7 @@
     RotationX: 0
     RotationY: 0
     RotationZ: 0
-    SpawnType: 2
+    SpawnType: 3
     SpawnArgument: 0
     Serial: 50
     Argument1: 99
@@ -313,7 +313,7 @@
     RotationX: 0
     RotationY: 0
     RotationZ: 0
-    SpawnType: 0
+    SpawnType: 3
     SpawnArgument: 0
     Serial: 60
     Argument1: 0
