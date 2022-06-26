@@ -74,7 +74,7 @@ assets:
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/tt/tt04_b_44.spawn # Data Axel and Lava Pools
+    - name: ard/tt/tt04_b_44.spawn # Data Axel and Lava Pools with Partner Axel
   - name: evt
     type: areadatascript
     method: areadatascript
@@ -136,7 +136,7 @@ assets:
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/hb/hb04_b_40.spawn # Data Luxord and More Cards
+    - name: ard/hb/hb04_b_40.spawn # Grim Reaper II, Medallion Chest and Minute Bombs
 
 # Ravine Trail Fight I
 
