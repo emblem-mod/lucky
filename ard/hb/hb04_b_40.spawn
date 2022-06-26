@@ -96,10 +96,10 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 301 # Soldier
-    PositionX: -1200
-    PositionY: -30000
-    PositionZ: 100
+  - ObjectId: 318 # Dusk
+    PositionX: 150
+    PositionY: -100000
+    PositionZ: -200
     RotationX: 0
     RotationY: 3.1415927410125732
     RotationZ: 0
@@ -114,10 +114,10 @@
     SpawnRange: 0
     Level: 100
     Medal: 0
-  - ObjectId: 301 # Soldier
-    PositionX: 1800
-    PositionY: -30000
-    PositionZ: 100
+  - ObjectId: 318 # Dusk
+    PositionX: 150
+    PositionY: -130000
+    PositionZ: 150
     RotationX: 0
     RotationY: 0
     RotationZ: 0
