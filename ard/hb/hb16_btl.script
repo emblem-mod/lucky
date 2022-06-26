@@ -11,6 +11,18 @@ AreaSettings 16 -1
 Mission 0x94 "EH19_MS105"
 Spawn "b_48"
 
+Program 0x3F
+Capacity 1.26E-43
+Party NO_FRIEND
+Mission 0x92 "HB16_MS404B"
+Spawn "b_41"
+
+Program 0x40
+Capacity 1.4E-43
+Party NO_FRIEND
+Mission 0x93 "HB16_MS404C"
+Spawn "b_42"
+
 Program 0x41
 Capacity 1.54E-43
 AllocEnemy 2306867
