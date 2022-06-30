@@ -330,7 +330,7 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 77
+  - ObjectId: 311
     PositionX: 0
     PositionY: 6900
     PositionZ: 50
@@ -498,7 +498,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 316
+  - ObjectId: 311
     PositionX: -625
     PositionY: 15000
     PositionZ: -100
@@ -518,7 +518,7 @@
     Medal: 0
   - ObjectId: 314
     PositionX: -625
-    PositionY: 20000
+    PositionY: 10000
     PositionZ: -100
     RotationX: 0
     RotationY: 1.5707963705062866
