@@ -314,7 +314,7 @@
   Entities:
   - ObjectId: 308 # Dragoon
     PositionX: 0
-    PositionY: 5350
+    PositionY: 5300
     PositionZ: 0
     RotationX: 0
     RotationY: 0
@@ -362,18 +362,18 @@
   Entities:
   - ObjectId: 7 # Minute Bomb
     PositionX: 300
-    PositionY: 8000
+    PositionY: 9000
     PositionZ: -300
     RotationX: 0
     RotationY: 0
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
-    Serial: 100
+    Serial: 140
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 100
+    SpawnDelay: 0
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -387,47 +387,47 @@
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
-    Serial: 101
+    Serial: 141
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 100
+    SpawnDelay: 0
     Command: 0
     SpawnRange: 0
     Level: 0
     Medal: 0
   - ObjectId: 7 # Minute Bomb
     PositionX: -300
-    PositionY: 10000
+    PositionY: 9000
     PositionZ: 300
     RotationX: 0
     RotationY: 0
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
-    Serial: 102
+    Serial: 142
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 100
+    SpawnDelay: 0
     Command: 0
     SpawnRange: 0
     Level: 0
     Medal: 0
   - ObjectId: 308 # Dragoon
     PositionX: 0
-    PositionY: 11000
+    PositionY: 10000
     PositionZ: 0
     RotationX: 0
     RotationY: 0
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
-    Serial: 103
+    Serial: 143
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 100
+    SpawnDelay: 0
     Command: 0
     SpawnRange: 0
     Level: 0
