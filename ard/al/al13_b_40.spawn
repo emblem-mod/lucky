@@ -362,61 +362,61 @@
   Entities:
   - ObjectId: 7 # Minute Bomb
     PositionX: 300
-    PositionY: 10000
+    PositionY: 9500
     PositionZ: -300
     RotationX: 0
     RotationY: 0
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
-    Serial: 140
+    Serial: 100
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 10
+    SpawnDelay: 0
     Command: 0
     SpawnRange: 0
     Level: 0
     Medal: 0
   - ObjectId: 7 # Minute Bomb
     PositionX: 300
-    PositionY: 10000
+    PositionY: 9500
     PositionZ: 300
     RotationX: 0
     RotationY: 0
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
-    Serial: 141
+    Serial: 101
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 10
+    SpawnDelay: 0
     Command: 0
     SpawnRange: 0
     Level: 0
     Medal: 0
   - ObjectId: 7 # Minute Bomb
     PositionX: -300
-    PositionY: 10000
+    PositionY: 9500
     PositionZ: 300
     RotationX: 0
     RotationY: 0
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
-    Serial: 142
+    Serial: 102
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 10
+    SpawnDelay: 0
     Command: 0
     SpawnRange: 0
     Level: 0
     Medal: 0
   - ObjectId: 311 # Sniper
     PositionX: -300
-    PositionY: 10000
+    PositionY: 9500
     PositionZ: -300
     RotationX: 0
     RotationY: 0
@@ -427,7 +427,7 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 10
+    SpawnDelay: 0
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -482,7 +482,7 @@
   Entities:
   - ObjectId: 311 # Sniper
     PositionX: 0
-    PositionY: 15000
+    PositionY: 14000
     PositionZ: 0
     RotationX: 0
     RotationY: 0
@@ -500,7 +500,7 @@
     Medal: 0
   - ObjectId: 311 # Sniper
     PositionX: 0
-    PositionY: 16500
+    PositionY: 15500
     PositionZ: 0
     RotationX: 0
     RotationY: 0
@@ -518,7 +518,7 @@
     Medal: 0
   - ObjectId: 311 # Sniper
     PositionX: 0
-    PositionY: 18000
+    PositionY: 16000
     PositionZ: 0
     RotationX: 0
     RotationY: 0
@@ -536,7 +536,7 @@
     Medal: 0
   - ObjectId: 311 # Sniper
     PositionX: 0
-    PositionY: 19500
+    PositionY: 18500
     PositionZ: 0
     RotationX: 0
     RotationY: 0
