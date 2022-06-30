@@ -9,7 +9,7 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 566
+  - ObjectId: 566 # Sora
     PositionX: 0
     PositionY: 0
     PositionZ: -200
@@ -27,7 +27,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 2066
+  - ObjectId: 350 # Hades
     PositionX: 0
     PositionY: 0
     PositionZ: 200
@@ -192,7 +192,7 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 1774
+  - ObjectId: 74
     PositionX: 175
     PositionY: 1600
     PositionZ: 300
@@ -210,7 +210,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 1774
+  - ObjectId: 74
     PositionX: 225
     PositionY: 2200
     PositionZ: -150
@@ -228,7 +228,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 1774
+  - ObjectId: 74
     PositionX: -125
     PositionY: 3000
     PositionZ: -300
@@ -246,7 +246,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 1774
+  - ObjectId: 74
     PositionX: -325
     PositionY: 3600
     PositionZ: 250
@@ -342,9 +342,9 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 76
+  - ObjectId: 2356
     PositionX: 475
-    PositionY: 11700
+    PositionY: 5700
     PositionZ: -475
     RotationX: 0
     RotationY: -2.552544116973877
@@ -352,7 +352,7 @@
     SpawnType: 2
     SpawnArgument: 0
     Serial: 100
-    Argument1: 0
+    Argument1: 1
     Argument2: 0
     ReactionCommand: 0
     SpawnDelay: 0
@@ -360,9 +360,9 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 76
+  - ObjectId: 2356
     PositionX: 475
-    PositionY: 11700
+    PositionY: 7700
     PositionZ: 525
     RotationX: 0
     RotationY: 0.19634954631328583
@@ -370,7 +370,7 @@
     SpawnType: 2
     SpawnArgument: 0
     Serial: 101
-    Argument1: 0
+    Argument1: 1
     Argument2: 0
     ReactionCommand: 0
     SpawnDelay: 0
@@ -378,9 +378,9 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 76
+  - ObjectId: 2356
     PositionX: -625
-    PositionY: 11700
+    PositionY: 9700
     PositionZ: 25
     RotationX: 0
     RotationY: -1.3744467496871948
@@ -388,7 +388,7 @@
     SpawnType: 2
     SpawnArgument: 0
     Serial: 102
-    Argument1: 0
+    Argument1: 1
     Argument2: 0
     ReactionCommand: 0
     SpawnDelay: 0
