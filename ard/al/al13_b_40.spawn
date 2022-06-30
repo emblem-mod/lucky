@@ -90,7 +90,7 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 0 # Minute Bomb
+  - ObjectId: 7 # Minute Bomb
     PositionX: -300
     PositionY: 1000
     PositionZ: -300
@@ -108,7 +108,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 0 # Minute Bomb
+  - ObjectId: 7 # Minute Bomb
     PositionX: -300
     PositionY: 1000
     PositionZ: 300
@@ -126,7 +126,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 0 # Minute Bomb
+  - ObjectId: 7 # Minute Bomb
     PositionX: 300
     PositionY: 1000
     PositionZ: 300
@@ -144,7 +144,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 0 # Minute Bomb
+  - ObjectId: 7 # Minute Bomb
     PositionX: 300
     PositionY: 1000
     PositionZ: -300
@@ -228,7 +228,7 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 0
+  - ObjectId: 7
     PositionX: 175
     PositionY: 2700
     PositionZ: 300
@@ -246,7 +246,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 0
+  - ObjectId: 7
     PositionX: 225
     PositionY: 3000
     PositionZ: -150
@@ -264,7 +264,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 74
+  - ObjectId: 7
     PositionX: -125
     PositionY: 3300
     PositionZ: -300
@@ -282,7 +282,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 74
+  - ObjectId: 7
     PositionX: -325
     PositionY: 3600
     PositionZ: 250
