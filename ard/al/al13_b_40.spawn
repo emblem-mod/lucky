@@ -378,7 +378,7 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 76
+  - ObjectId: 2414
     PositionX: 487
     PositionY: 11700
     PositionZ: -475
@@ -396,7 +396,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 76
+  - ObjectId: 2414
     PositionX: 487
     PositionY: 11700
     PositionZ: 530
@@ -414,7 +414,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 76
+  - ObjectId: 2414
     PositionX: -612
     PositionY: 11700
     PositionZ: 30
@@ -432,7 +432,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 1
+  - ObjectId: 2414
     PositionX: 37
     PositionY: 11700
     PositionZ: 30
@@ -480,8 +480,8 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 11
-    PositionX: 623
+  - ObjectId: 
+    PositionX: 311
     PositionY: 13000
     PositionZ: -253
     RotationX: 0
@@ -498,7 +498,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 11
+  - ObjectId: 316
     PositionX: -625
     PositionY: 15000
     PositionZ: -100
@@ -509,6 +509,24 @@
     SpawnArgument: 0
     Serial: 111
     Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 0
+    Medal: 0
+  - ObjectId: 314
+    PositionX: -625
+    PositionY: 20000
+    PositionZ: -100
+    RotationX: 0
+    RotationY: 1.5707963705062866
+    RotationZ: 0
+    SpawnType: 2
+    SpawnArgument: 0
+    Serial: 112
+    Argument1: 1
     Argument2: 0
     ReactionCommand: 0
     SpawnDelay: 0
