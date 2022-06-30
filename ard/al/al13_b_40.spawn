@@ -454,11 +454,11 @@
   - Shape: 0
     Option: 0
     PositionX: 0
-    PositionY: 9550
+    PositionY: 16500
     PositionZ: 0
-    ScaleX: 750
-    ScaleY: 2250
-    ScaleZ: 750
+    ScaleX: 1350
+    ScaleY: 5500
+    ScaleZ: 1350
     RotationX: 0
     RotationY: 0
     RotationZ: 0
@@ -520,10 +520,10 @@
   - Shape: 0
     Option: 0
     PositionX: 0
-    PositionY: 17000
+    PositionY: 21500
     PositionZ: 0
     ScaleX: 1000
-    ScaleY: 4800
+    ScaleY: 300
     ScaleZ: 1000
     RotationX: 0
     RotationY: 0
