@@ -380,7 +380,7 @@
     Medal: 0
   - ObjectId: 7 # Minute Bomb
     PositionX: 300
-    PositionY: 9000
+    PositionY: 10000
     PositionZ: 300
     RotationX: 0
     RotationY: 0
@@ -398,7 +398,7 @@
     Medal: 0
   - ObjectId: 7 # Minute Bomb
     PositionX: -300
-    PositionY: 9000
+    PositionY: 10000
     PositionZ: 300
     RotationX: 0
     RotationY: 0
@@ -414,20 +414,20 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 308 # Dragoon
+  - ObjectId: 311 # Sniper
     PositionX: 0
-    PositionY: 10000
+    PositionY: 11000
     PositionZ: 0
     RotationX: 0
     RotationY: 0
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
-    Serial: 143
+    Serial: 103
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 0
+    SpawnDelay: 100
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -493,14 +493,14 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 0
+    SpawnDelay: 200
     Command: 0
     SpawnRange: 0
     Level: 0
     Medal: 0
   - ObjectId: 311 # Sniper
     PositionX: 0
-    PositionY: 16500
+    PositionY: 17000
     PositionZ: 0
     RotationX: 0
     RotationY: 0
@@ -511,14 +511,14 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 150
+    SpawnDelay: 200
     Command: 0
     SpawnRange: 0
     Level: 0
     Medal: 0
   - ObjectId: 311 # Sniper
     PositionX: 0
-    PositionY: 18000
+    PositionY: 19000
     PositionZ: 0
     RotationX: 0
     RotationY: 0
@@ -529,25 +529,7 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 150
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  - ObjectId: 311 # Sniper
-    PositionX: 0
-    PositionY: 19500
-    PositionZ: 0
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 2
-    SpawnArgument: 0
-    Serial: 113
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 150
+    SpawnDelay: 200
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -561,11 +543,11 @@
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
-    Serial: 114
+    Serial: 113
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 150
+    SpawnDelay: 200
     Command: 0
     SpawnRange: 0
     Level: 0
