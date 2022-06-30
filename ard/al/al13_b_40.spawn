@@ -9,7 +9,7 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 566 # Sora
+  - ObjectId: 566
     PositionX: 0
     PositionY: 0
     PositionZ: -150
@@ -27,7 +27,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 0
+  - ObjectId: 567
     PositionX: -125
     PositionY: 0
     PositionZ: -250
@@ -45,7 +45,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 0
+  - ObjectId: 568
     PositionX: 125
     PositionY: 0
     PositionZ: -250
@@ -63,7 +63,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 2066 # Hades Escape
+  - ObjectId: 2066
     PositionX: 0
     PositionY: 0
     PositionZ: 150
@@ -246,7 +246,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 77
+  - ObjectId: 76
     PositionX: 225
     PositionY: 2200
     PositionZ: -150
@@ -282,7 +282,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 77
+  - ObjectId: 76
     PositionX: -325
     PositionY: 3600
     PositionZ: 250
@@ -330,7 +330,7 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 77
+  - ObjectId: 1
     PositionX: 0
     PositionY: 6900
     PositionZ: 50
@@ -396,7 +396,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 77
+  - ObjectId: 76
     PositionX: 487
     PositionY: 11700
     PositionZ: 530
@@ -432,7 +432,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 77
+  - ObjectId: 76
     PositionX: 37
     PositionY: 11700
     PositionZ: 30
@@ -454,11 +454,11 @@
   - Shape: 0
     Option: 0
     PositionX: 0
-    PositionY: 15000
+    PositionY: 9550
     PositionZ: 0
-    ScaleX: 1300
-    ScaleY: 7000
-    ScaleZ: 1300
+    ScaleX: 750
+    ScaleY: 2250
+    ScaleZ: 750
     RotationX: 0
     RotationY: 0
     RotationZ: 0
@@ -481,7 +481,7 @@
   Unk24: 0
   Entities:
   - ObjectId: 
-    PositionX: 77
+    PositionX: 11
     PositionY: 13000
     PositionZ: -253
     RotationX: 0
@@ -498,7 +498,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 77
+  - ObjectId: 11
     PositionX: -625
     PositionY: 15000
     PositionZ: -100
@@ -520,10 +520,10 @@
   - Shape: 0
     Option: 0
     PositionX: 0
-    PositionY: 21000
+    PositionY: 17000
     PositionZ: 0
     ScaleX: 1000
-    ScaleY: 2000
+    ScaleY: 4800
     ScaleZ: 1000
     RotationX: 0
     RotationY: 0
