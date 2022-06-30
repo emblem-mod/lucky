@@ -90,10 +90,10 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 77
-    PositionX: 325
-    PositionY: 700
-    PositionZ: 0
+  - ObjectId: 2356 # Minute Bomb
+    PositionX: -300
+    PositionY: 1200
+    PositionZ: -300
     RotationX: 0
     RotationY: -2.552544116973877
     RotationZ: 0
@@ -108,10 +108,10 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 77
-    PositionX: -175
-    PositionY: 900
-    PositionZ: 350
+  - ObjectId: 2356 # Minute Bomb
+    PositionX: -300
+    PositionY: 1200
+    PositionZ: 300
     RotationX: 0
     RotationY: 0.19634954631328583
     RotationZ: 0
@@ -126,10 +126,10 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 77
-    PositionX: -175
-    PositionY: 1100
-    PositionZ: -350
+  - ObjectId: 2356 # Minute Bomb
+    PositionX: 300
+    PositionY: 1200
+    PositionZ: 300
     RotationX: 0
     RotationY: 2.7488934993743896
     RotationZ: 0
@@ -144,10 +144,10 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 77
-    PositionX: -425
-    PositionY: 1300
-    PositionZ: 0
+  - ObjectId: 2356 # Minute Bomb
+    PositionX: 300
+    PositionY: 1200
+    PositionZ: -300
     RotationX: 0
     RotationY: 1.5707963705062866
     RotationZ: 0
@@ -181,7 +181,7 @@
     Level: 0
     Medal: 0
   - ObjectId: 14 # Cannon Gun
-    PositionX: 300
+    PositionX: 0
     PositionY: 21000
     PositionZ: 0
     RotationX: 0
@@ -190,6 +190,24 @@
     SpawnType: 0
     SpawnArgument: 0
     Serial: 75
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 0
+    Medal: 0
+  - ObjectId: 14 # Cannon Gun
+    PositionX: 300
+    PositionY: 21000
+    PositionZ: 0
+    RotationX: 0
+    RotationY: 0
+    RotationZ: 0
+    SpawnType: 0
+    SpawnArgument: 0
+    Serial: 76
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -230,7 +248,7 @@
   Entities:
   - ObjectId: 74
     PositionX: 175
-    PositionY: 1600
+    PositionY: 2700
     PositionZ: 300
     RotationX: 0
     RotationY: -1.3744467496871948
@@ -248,7 +266,7 @@
     Medal: 0
   - ObjectId: 74
     PositionX: 225
-    PositionY: 2200
+    PositionY: 3000
     PositionZ: -150
     RotationX: 0
     RotationY: -1.3744467496871948
@@ -266,7 +284,7 @@
     Medal: 0
   - ObjectId: 74
     PositionX: -125
-    PositionY: 3000
+    PositionY: 3300
     PositionZ: -300
     RotationX: 0
     RotationY: -1.3744467496871948
@@ -330,7 +348,7 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 1
+  - ObjectId: 311
     PositionX: 0
     PositionY: 6900
     PositionZ: 50
@@ -432,7 +450,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 1
+  - ObjectId: 74
     PositionX: 50
     PositionY: 11700
     PositionZ: 25
@@ -482,7 +500,7 @@
   Entities:
   - ObjectId: 311
     PositionX: 0
-    PositionY: 15000
+    PositionY: 12000
     PositionZ: 0
     RotationX: 0
     RotationY: -2.3561944961547852
@@ -500,7 +518,7 @@
     Medal: 0
   - ObjectId: 311
     PositionX: 0
-    PositionY: 17000
+    PositionY: 13000
     PositionZ: 0
     RotationX: 0
     RotationY: 1.5707963705062866
@@ -518,7 +536,7 @@
     Medal: 0
   - ObjectId: 311
     PositionX: 0
-    PositionY: 19000
+    PositionY: 14000
     PositionZ: 0
     RotationX: 0
     RotationY: 1.5707963705062866
@@ -536,7 +554,7 @@
     Medal: 0
   - ObjectId: 311
     PositionX: 0
-    PositionY: 21000
+    PositionY: 15000
     PositionZ: 0
     RotationX: 0
     RotationY: 1.5707963705062866
