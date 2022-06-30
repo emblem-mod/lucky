@@ -378,7 +378,7 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 304 # Rapid Thruster
+  - ObjectId: 76 # Rapid Thruster
     PositionX: -350
     PositionY: 10000
     PositionZ: 350
@@ -396,7 +396,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 304 # Rapid Thruster
+  - ObjectId: 76 # Rapid Thruster
     PositionX: -300
     PositionY: 10250
     PositionZ: -300
@@ -414,7 +414,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 304 # Rapid Thruster
+  - ObjectId: 76 # Rapid Thruster
     PositionX: 250
     PositionY: 10500
     PositionZ: -250
@@ -432,7 +432,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 304 # Rapid Thruster
+  - ObjectId: 76 # Rapid Thruster
     PositionX: 200
     PositionY: 10750
     PositionZ: 200
@@ -450,7 +450,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 304 # Rapid Thruster
+  - ObjectId: 76 # Rapid Thruster
     PositionX: -150
     PositionY: 11000
     PositionZ: 150
@@ -468,7 +468,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 304 # Rapid Thruster
+  - ObjectId: 76 # Rapid Thruster
     PositionX: -100
     PositionY: 11250
     PositionZ: -100
@@ -547,7 +547,7 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 200
+    SpawnDelay: 150
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -565,7 +565,7 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 200
+    SpawnDelay: 150
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -583,7 +583,7 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 200
+    SpawnDelay: 150
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -601,7 +601,7 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 200
+    SpawnDelay: 150
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -619,7 +619,7 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 200
+    SpawnDelay: 150
     Command: 0
     SpawnRange: 0
     Level: 0
