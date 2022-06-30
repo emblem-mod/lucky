@@ -27,7 +27,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 7 # 350 Hades
+  - ObjectId: 350 # Hades
     PositionX: 0
     PositionY: 0
     PositionZ: 200
@@ -362,7 +362,7 @@
   Entities:
   - ObjectId: 7 # Minute Bomb
     PositionX: 300
-    PositionY: 9500
+    PositionY: 7000
     PositionZ: -300
     RotationX: 0
     RotationY: 0
@@ -380,7 +380,7 @@
     Medal: 0
   - ObjectId: 7 # Minute Bomb
     PositionX: 300
-    PositionY: 9500
+    PositionY: 7000
     PositionZ: 300
     RotationX: 0
     RotationY: 0
@@ -398,7 +398,7 @@
     Medal: 0
   - ObjectId: 7 # Minute Bomb
     PositionX: -300
-    PositionY: 9500
+    PositionY: 7000
     PositionZ: 300
     RotationX: 0
     RotationY: 0
@@ -414,9 +414,9 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 311 # Sniper
+  - ObjectId: 7 # Minute Bomb
     PositionX: -300
-    PositionY: 9500
+    PositionY: 7000
     PositionZ: -300
     RotationX: 0
     RotationY: 0
@@ -482,7 +482,7 @@
   Entities:
   - ObjectId: 311 # Sniper
     PositionX: 0
-    PositionY: 14000
+    PositionY: 13500
     PositionZ: 0
     RotationX: 0
     RotationY: 0
@@ -500,7 +500,7 @@
     Medal: 0
   - ObjectId: 311 # Sniper
     PositionX: 0
-    PositionY: 15500
+    PositionY: 15000
     PositionZ: 0
     RotationX: 0
     RotationY: 0
@@ -518,7 +518,7 @@
     Medal: 0
   - ObjectId: 311 # Sniper
     PositionX: 0
-    PositionY: 16000
+    PositionY: 15500
     PositionZ: 0
     RotationX: 0
     RotationY: 0
@@ -536,7 +536,7 @@
     Medal: 0
   - ObjectId: 311 # Sniper
     PositionX: 0
-    PositionY: 18500
+    PositionY: 17000
     PositionZ: 0
     RotationX: 0
     RotationY: 0
@@ -544,6 +544,24 @@
     SpawnType: 2
     SpawnArgument: 0
     Serial: 113
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 200
+    Command: 0
+    SpawnRange: 0
+    Level: 0
+    Medal: 0
+  - ObjectId: 311 # Sniper
+    PositionX: 0
+    PositionY: 18500
+    PositionZ: 0
+    RotationX: 0
+    RotationY: 0
+    RotationZ: 0
+    SpawnType: 2
+    SpawnArgument: 0
+    Serial: 114
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
