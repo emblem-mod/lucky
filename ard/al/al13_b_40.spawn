@@ -362,7 +362,7 @@
   Entities:
   - ObjectId: 7 # Minute Bomb
     PositionX: 300
-    PositionY: 7000
+    PositionY: 4000
     PositionZ: -300
     RotationX: 0
     RotationY: 0
@@ -380,7 +380,7 @@
     Medal: 0
   - ObjectId: 7 # Minute Bomb
     PositionX: 300
-    PositionY: 7000
+    PositionY: 4000
     PositionZ: 300
     RotationX: 0
     RotationY: 0
@@ -398,7 +398,7 @@
     Medal: 0
   - ObjectId: 7 # Minute Bomb
     PositionX: -300
-    PositionY: 7000
+    PositionY: 4000
     PositionZ: 300
     RotationX: 0
     RotationY: 0
@@ -416,7 +416,7 @@
     Medal: 0
   - ObjectId: 7 # Minute Bomb
     PositionX: -300
-    PositionY: 7000
+    PositionY: 4000
     PositionZ: -300
     RotationX: 0
     RotationY: 0
