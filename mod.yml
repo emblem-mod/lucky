@@ -267,7 +267,7 @@ assets:
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/mu/mu01_b_42.spawn # Dark Thorn, Dusk, Assassins, Gambler, Cursed Chandelier and Spin Pillar
+    - name: ard/mu/mu01_b_42.spawn # Dark Thorn, Assassins, Gambler, Cursed Chandelier and Spin Pillar
   - name: evt
     type: areadatascript
     method: areadatascript
@@ -881,6 +881,16 @@ assets:
     - name: ard/al/al09_e_50.spawn # Remove Party Members
 
 # Chasm of Challenges
+- name: ard/al13.ard
+  multi:
+  - name: ard/us/al13.ard
+  method: binarc
+  source:
+  - name: b_40
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: ard/al/al13_b_40.spawn # Hades Escape WiP
 
 # Treasure Room Fight
 - name: ard/al10.ard
