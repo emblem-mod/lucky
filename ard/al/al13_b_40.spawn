@@ -210,7 +210,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 76 # Minute Bomb
+  - ObjectId: 7 # Minute Bomb
     PositionX: -300
     PositionY: 600
     PositionZ: 300
@@ -246,7 +246,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 76 # Minute Bomb
+  - ObjectId: 7 # Minute Bomb
     PositionX: 300
     PositionY: 600
     PositionZ: -300
@@ -332,7 +332,7 @@
   Entities:
   - ObjectId: 308 # Dragoon
     PositionX: 0
-    PositionY: 5400
+    PositionY: 5350
     PositionZ: 0
     RotationX: 0
     RotationY: 0
@@ -378,46 +378,10 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 76 # Rapid Thruster
-    PositionX: -350
-    PositionY: 10000
-    PositionZ: 350
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 2
-    SpawnArgument: 0
-    Serial: 100
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 0
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  - ObjectId: 76 # Rapid Thruster
-    PositionX: -300
-    PositionY: 10250
+  - ObjectId: 7 # Minute Bomb
+    PositionX: 300
+    PositionY: 850
     PositionZ: -300
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 2
-    SpawnArgument: 0
-    Serial: 101
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 10
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  - ObjectId: 76 # Rapid Thruster
-    PositionX: 250
-    PositionY: 10500
-    PositionZ: -250
     RotationX: 0
     RotationY: 0
     RotationZ: 0
@@ -427,15 +391,15 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 10
+    SpawnDelay: 25
     Command: 0
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 76 # Rapid Thruster
-    PositionX: 200
-    PositionY: 10750
-    PositionZ: 200
+  - ObjectId: 7 # Minute Bomb
+    PositionX: 300
+    PositionY: 9000
+    PositionZ: 300
     RotationX: 0
     RotationY: 0
     RotationZ: 0
@@ -445,15 +409,15 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 10
+    SpawnDelay: 25
     Command: 0
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 76 # Rapid Thruster
-    PositionX: -150
-    PositionY: 11000
-    PositionZ: 150
+  - ObjectId: 7 # Minute Bomb
+    PositionX: -300
+    PositionY: 9500
+    PositionZ: 300
     RotationX: 0
     RotationY: 0
     RotationZ: 0
@@ -463,15 +427,15 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 10
+    SpawnDelay: 25
     Command: 0
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 76 # Rapid Thruster
-    PositionX: -100
-    PositionY: 11250
-    PositionZ: -100
+  - ObjectId: 7 # Minute Bomb
+    PositionX: -300
+    PositionY: 10000
+    PositionZ: -300
     RotationX: 0
     RotationY: 0
     RotationZ: 0
@@ -481,7 +445,7 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 10
+    SpawnDelay: 25
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -499,7 +463,7 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 10
+    SpawnDelay: 25
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -536,7 +500,7 @@
   Entities:
   - ObjectId: 311 # Sniper
     PositionX: 0
-    PositionY: 13000
+    PositionY: 15000
     PositionZ: 0
     RotationX: 0
     RotationY: 0
@@ -554,7 +518,7 @@
     Medal: 0
   - ObjectId: 311 # Sniper
     PositionX: 0
-    PositionY: 15000
+    PositionY: 16500
     PositionZ: 0
     RotationX: 0
     RotationY: 0
@@ -572,7 +536,7 @@
     Medal: 0
   - ObjectId: 311 # Sniper
     PositionX: 0
-    PositionY: 17000
+    PositionY: 18000
     PositionZ: 0
     RotationX: 0
     RotationY: 0
@@ -590,7 +554,7 @@
     Medal: 0
   - ObjectId: 311 # Sniper
     PositionX: 0
-    PositionY: 19000
+    PositionY: 19500
     PositionZ: 0
     RotationX: 0
     RotationY: 0
