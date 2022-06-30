@@ -210,7 +210,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 7 # Minute Bomb
+  - ObjectId: 76 # Minute Bomb
     PositionX: -300
     PositionY: 600
     PositionZ: 300
@@ -246,7 +246,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 7 # Minute Bomb
+  - ObjectId: 76 # Minute Bomb
     PositionX: 300
     PositionY: 600
     PositionZ: -300
@@ -332,7 +332,7 @@
   Entities:
   - ObjectId: 308 # Dragoon
     PositionX: 0
-    PositionY: 5500
+    PositionY: 5400
     PositionZ: 0
     RotationX: 0
     RotationY: 0
@@ -380,7 +380,7 @@
   Entities:
   - ObjectId: 304 # Rapid Thruster
     PositionX: -350
-    PositionY: 8500
+    PositionY: 10000
     PositionZ: 350
     RotationX: 0
     RotationY: 0
@@ -391,14 +391,14 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 10
+    SpawnDelay: 0
     Command: 0
     SpawnRange: 0
     Level: 0
     Medal: 0
   - ObjectId: 304 # Rapid Thruster
     PositionX: -300
-    PositionY: 9000
+    PositionY: 10250
     PositionZ: -300
     RotationX: 0
     RotationY: 0
@@ -416,7 +416,7 @@
     Medal: 0
   - ObjectId: 304 # Rapid Thruster
     PositionX: 250
-    PositionY: 9500
+    PositionY: 10500
     PositionZ: -250
     RotationX: 0
     RotationY: 0
@@ -434,7 +434,7 @@
     Medal: 0
   - ObjectId: 304 # Rapid Thruster
     PositionX: 200
-    PositionY: 10000
+    PositionY: 10750
     PositionZ: 200
     RotationX: 0
     RotationY: 0
@@ -452,7 +452,7 @@
     Medal: 0
   - ObjectId: 304 # Rapid Thruster
     PositionX: -150
-    PositionY: 10500
+    PositionY: 11000
     PositionZ: 150
     RotationX: 0
     RotationY: 0
@@ -470,7 +470,7 @@
     Medal: 0
   - ObjectId: 304 # Rapid Thruster
     PositionX: -100
-    PositionY: 11000
+    PositionY: 11250
     PositionZ: -100
     RotationX: 0
     RotationY: 0
@@ -554,7 +554,7 @@
     Medal: 0
   - ObjectId: 311 # Sniper
     PositionX: 0
-    PositionY: 14500
+    PositionY: 15000
     PositionZ: 0
     RotationX: 0
     RotationY: 0
@@ -572,7 +572,7 @@
     Medal: 0
   - ObjectId: 311 # Sniper
     PositionX: 0
-    PositionY: 16000
+    PositionY: 17000
     PositionZ: 0
     RotationX: 0
     RotationY: 0
@@ -590,7 +590,7 @@
     Medal: 0
   - ObjectId: 311 # Sniper
     PositionX: 0
-    PositionY: 17500
+    PositionY: 19000
     PositionZ: 0
     RotationX: 0
     RotationY: 0
@@ -608,7 +608,7 @@
     Medal: 0
   - ObjectId: 311 # Sniper
     PositionX: 0
-    PositionY: 19000
+    PositionY: 21000
     PositionZ: 0
     RotationX: 0
     RotationY: 0
