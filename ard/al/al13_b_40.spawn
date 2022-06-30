@@ -332,7 +332,7 @@
   Entities:
   - ObjectId: 308 # Dragoon
     PositionX: 0
-    PositionY: 5000
+    PositionY: 5500
     PositionZ: 0
     RotationX: 0
     RotationY: 0
@@ -391,7 +391,7 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 200
+    SpawnDelay: 10
     Command: 0
     SpawnRange: 0
     Level: 0
