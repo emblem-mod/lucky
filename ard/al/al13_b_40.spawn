@@ -27,7 +27,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 350 # Hades
+  - ObjectId: 2066 # 350 Hades
     PositionX: 0
     PositionY: 0
     PositionZ: 200
@@ -362,7 +362,7 @@
   Entities:
   - ObjectId: 7 # Minute Bomb
     PositionX: 300
-    PositionY: 9000
+    PositionY: 10000
     PositionZ: -300
     RotationX: 0
     RotationY: 0
@@ -373,7 +373,7 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 0
+    SpawnDelay: 10
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -391,7 +391,7 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 0
+    SpawnDelay: 10
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -409,15 +409,15 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 0
+    SpawnDelay: 10
     Command: 0
     SpawnRange: 0
     Level: 0
     Medal: 0
   - ObjectId: 311 # Sniper
-    PositionX: 0
-    PositionY: 11000
-    PositionZ: 0
+    PositionX: -300
+    PositionY: 10000
+    PositionZ: -300
     RotationX: 0
     RotationY: 0
     RotationZ: 0
@@ -427,7 +427,7 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 100
+    SpawnDelay: 10
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -500,7 +500,7 @@
     Medal: 0
   - ObjectId: 311 # Sniper
     PositionX: 0
-    PositionY: 17000
+    PositionY: 16500
     PositionZ: 0
     RotationX: 0
     RotationY: 0
@@ -518,7 +518,7 @@
     Medal: 0
   - ObjectId: 311 # Sniper
     PositionX: 0
-    PositionY: 19000
+    PositionY: 18000
     PositionZ: 0
     RotationX: 0
     RotationY: 0
@@ -536,7 +536,7 @@
     Medal: 0
   - ObjectId: 311 # Sniper
     PositionX: 0
-    PositionY: 21000
+    PositionY: 19500
     PositionZ: 0
     RotationX: 0
     RotationY: 0
