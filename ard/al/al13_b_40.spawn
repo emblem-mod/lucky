@@ -265,7 +265,7 @@
     Level: 0
     Medal: 0
   - ObjectId: 14 # Cannon Gun
-    PositionX: -500
+    PositionX: 0
     PositionY: 21500
     PositionZ: 0
     RotationX: 0
@@ -274,24 +274,6 @@
     SpawnType: 2
     SpawnArgument: 0
     Serial: 84
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 0
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  - ObjectId: 14 # Cannon Gun
-    PositionX: 500
-    PositionY: 21500
-    PositionZ: 0
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 2
-    SpawnArgument: 0
-    Serial: 85
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -380,18 +362,18 @@
   Entities:
   - ObjectId: 7 # Minute Bomb
     PositionX: 300
-    PositionY: 850
+    PositionY: 8000
     PositionZ: -300
     RotationX: 0
     RotationY: 0
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
-    Serial: 102
+    Serial: 100
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 25
+    SpawnDelay: 100
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -405,19 +387,55 @@
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
-    Serial: 103
+    Serial: 101
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 25
+    SpawnDelay: 100
     Command: 0
     SpawnRange: 0
     Level: 0
     Medal: 0
   - ObjectId: 7 # Minute Bomb
     PositionX: -300
-    PositionY: 9500
+    PositionY: 10000
     PositionZ: 300
+    RotationX: 0
+    RotationY: 0
+    RotationZ: 0
+    SpawnType: 2
+    SpawnArgument: 0
+    Serial: 102
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 100
+    Command: 0
+    SpawnRange: 0
+    Level: 0
+    Medal: 0
+  - ObjectId: 308 # Dragoon
+    PositionX: 0
+    PositionY: 11000
+    PositionZ: 0
+    RotationX: 0
+    RotationY: 0
+    RotationZ: 0
+    SpawnType: 2
+    SpawnArgument: 0
+    Serial: 103
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 100
+    Command: 0
+    SpawnRange: 0
+    Level: 0
+    Medal: 0
+  - ObjectId: 14 # Cannon Gun
+    PositionX: 0
+    PositionY: 21500
+    PositionZ: 0
     RotationX: 0
     RotationY: 0
     RotationZ: 0
@@ -427,43 +445,7 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 25
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  - ObjectId: 7 # Minute Bomb
-    PositionX: -300
-    PositionY: 10000
-    PositionZ: -300
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 2
-    SpawnArgument: 0
-    Serial: 105
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 25
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  - ObjectId: 308 # Dragoon
-    PositionX: 0
-    PositionY: 11500
-    PositionZ: 0
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 2
-    SpawnArgument: 0
-    Serial: 106
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 25
+    SpawnDelay: 0
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -511,7 +493,7 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 150
+    SpawnDelay: 0
     Command: 0
     SpawnRange: 0
     Level: 0
