@@ -27,7 +27,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 567
+  - ObjectId: 0
     PositionX: -125
     PositionY: 0
     PositionZ: -250
@@ -45,7 +45,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 568
+  - ObjectId: 0
     PositionX: 125
     PositionY: 0
     PositionZ: -250
@@ -246,7 +246,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 76
+  - ObjectId: 77
     PositionX: 225
     PositionY: 2200
     PositionZ: -150
@@ -282,7 +282,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 76
+  - ObjectId: 77
     PositionX: -325
     PositionY: 3600
     PositionZ: 250
@@ -330,7 +330,7 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 1
+  - ObjectId: 77
     PositionX: 0
     PositionY: 6900
     PositionZ: 50
@@ -378,7 +378,7 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 2414
+  - ObjectId: 77
     PositionX: 487
     PositionY: 11700
     PositionZ: -475
@@ -396,7 +396,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 2414
+  - ObjectId: 77
     PositionX: 487
     PositionY: 11700
     PositionZ: 530
@@ -414,7 +414,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 2414
+  - ObjectId: 77
     PositionX: -612
     PositionY: 11700
     PositionZ: 30
@@ -432,7 +432,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 2414
+  - ObjectId: 77
     PositionX: 37
     PositionY: 11700
     PositionZ: 30
