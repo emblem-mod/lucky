@@ -92,7 +92,7 @@
   Entities:
   - ObjectId: 7 # Minute Bomb
     PositionX: -300
-    PositionY: 200
+    PositionY: 500
     PositionZ: -300
     RotationX: 0
     RotationY: -2.552544116973877
@@ -110,7 +110,7 @@
     Medal: 0
   - ObjectId: 7 # Minute Bomb
     PositionX: -300
-    PositionY: 200
+    PositionY: 500
     PositionZ: 300
     RotationX: 0
     RotationY: 0.19634954631328583
@@ -128,7 +128,7 @@
     Medal: 0
   - ObjectId: 7 # Minute Bomb
     PositionX: 300
-    PositionY: 200
+    PositionY: 500
     PositionZ: 300
     RotationX: 0
     RotationY: 2.7488934993743896
@@ -146,7 +146,7 @@
     Medal: 0
   - ObjectId: 7 # Minute Bomb
     PositionX: 300
-    PositionY: 200
+    PositionY: 500
     PositionZ: -300
     RotationX: 0
     RotationY: 1.5707963705062866
@@ -205,7 +205,7 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 50
+    SpawnDelay: 10
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -223,7 +223,7 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 50
+    SpawnDelay: 10
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -241,7 +241,7 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 50
+    SpawnDelay: 10
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -259,7 +259,7 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 50
+    SpawnDelay: 10
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -277,7 +277,7 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 50
+    SpawnDelay: 10
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -295,7 +295,7 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 50
+    SpawnDelay: 10
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -307,7 +307,7 @@
     RotationX: 0
     RotationY: 0
     RotationZ: 0
-    SpawnType: 0
+    SpawnType: 2
     SpawnArgument: 0
     Serial: 86
     Argument1: 0
@@ -325,7 +325,7 @@
     RotationX: 0
     RotationY: 0
     RotationZ: 0
-    SpawnType: 0
+    SpawnType: 2
     SpawnArgument: 0
     Serial: 87
     Argument1: 0
@@ -368,7 +368,7 @@
   Entities:
   - ObjectId: 308 # Dragoon
     PositionX: 0
-    PositionY: 8000
+    PositionY: 6000
     PositionZ: 0
     RotationX: 0
     RotationY: 0
@@ -414,9 +414,9 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 2356 # Anti-Sora LV3
+  - ObjectId: 2356 # Anti-Sora
     PositionX: 0
-    PositionY: 7000
+    PositionY: 9000
     PositionZ: 0
     RotationX: 0
     RotationY: 0
@@ -424,7 +424,7 @@
     SpawnType: 2
     SpawnArgument: 0
     Serial: 100
-    Argument1: 3
+    Argument1: 0
     Argument2: 0
     ReactionCommand: 0
     SpawnDelay: 0
@@ -482,7 +482,7 @@
     Medal: 0
   - ObjectId: 311 # Sniper
     PositionX: 0
-    PositionY: 14500
+    PositionY: 15000
     PositionZ: 0
     RotationX: 0
     RotationY: 0
@@ -500,7 +500,7 @@
     Medal: 0
   - ObjectId: 311 # Sniper
     PositionX: 0
-    PositionY: 16000
+    PositionY: 17000
     PositionZ: 0
     RotationX: 0
     RotationY: 0
@@ -512,6 +512,42 @@
     Argument2: 0
     ReactionCommand: 0
     SpawnDelay: 200
+    Command: 0
+    SpawnRange: 0
+    Level: 0
+    Medal: 0
+  - ObjectId: 311 # Sniper
+    PositionX: 0
+    PositionY: 19000
+    PositionZ: 0
+    RotationX: 0
+    RotationY: 0
+    RotationZ: 0
+    SpawnType: 2
+    SpawnArgument: 0
+    Serial: 113
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 250
+    Command: 0
+    SpawnRange: 0
+    Level: 0
+    Medal: 0
+  - ObjectId: 311 # Sniper
+    PositionX: 0
+    PositionY: 21000
+    PositionZ: 0
+    RotationX: 0
+    RotationY: 0
+    RotationZ: 0
+    SpawnType: 2
+    SpawnArgument: 0
+    Serial: 114
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 250
     Command: 0
     SpawnRange: 0
     Level: 0
