@@ -396,17 +396,17 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 2356
-    PositionX: 475
-    PositionY: 5700
-    PositionZ: -475
+  - ObjectId: 2411 # Necromancer
+    PositionX: 50
+    PositionY: 11500
+    PositionZ: 25
     RotationX: 0
-    RotationY: -2.552544116973877
+    RotationY: 0
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
     Serial: 100
-    Argument1: 1
+    Argument1: 0
     Argument2: 0
     ReactionCommand: 0
     SpawnDelay: 0
@@ -414,12 +414,12 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 2356
-    PositionX: 475
-    PositionY: 7700
-    PositionZ: 525
+  - ObjectId: 2356 # Anti-Sora LV1
+    PositionX: 0
+    PositionY: 6000
+    PositionZ: 0
     RotationX: 0
-    RotationY: 0.19634954631328583
+    RotationY: 0
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
@@ -427,43 +427,43 @@
     Argument1: 1
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 0
+    SpawnDelay: 200
     Command: 0
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 2356
-    PositionX: -625
-    PositionY: 9700
-    PositionZ: 25
+  - ObjectId: 2356 # Anti-Sora LV2
+    PositionX: 0
+    PositionY: 3000
+    PositionZ: 0
     RotationX: 0
-    RotationY: -1.3744467496871948
+    RotationY: 0
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
     Serial: 102
-    Argument1: 1
+    Argument1: 2
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 0
+    SpawnDelay: 200
     Command: 0
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 74
-    PositionX: 50
-    PositionY: 11700
-    PositionZ: 25
+  - ObjectId: 2356 # Anti-Sora LV3
+    PositionX: 0
+    PositionY: -3000
+    PositionZ: 0
     RotationX: 0
-    RotationY: 2.7488934993743896
+    RotationY: 0
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
     Serial: 103
-    Argument1: 0
+    Argument1: 3
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 0
+    SpawnDelay: 200
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -475,7 +475,7 @@
     PositionY: 9600
     PositionZ: 0
     ScaleX: 750
-    ScaleY: 2200
+    ScaleY: 220
     ScaleZ: 750
     RotationX: 0
     RotationY: 0
@@ -498,12 +498,12 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 311
+  - ObjectId: 311 # Sniper
     PositionX: 0
-    PositionY: 12000
+    PositionY: 13000
     PositionZ: 0
     RotationX: 0
-    RotationY: -2.3561944961547852
+    RotationY: 0
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
@@ -511,17 +511,17 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 200
+    SpawnDelay: 100
     Command: 0
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 311
+  - ObjectId: 311 # Sniper
     PositionX: 0
-    PositionY: 13000
+    PositionY: 15000
     PositionZ: 0
     RotationX: 0
-    RotationY: 1.5707963705062866
+    RotationY: 0
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
@@ -529,17 +529,17 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 200
+    SpawnDelay: 100
     Command: 0
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 311
+  - ObjectId: 311 # Sniper
     PositionX: 0
-    PositionY: 14000
+    PositionY: 17000
     PositionZ: 0
     RotationX: 0
-    RotationY: 1.5707963705062866
+    RotationY: 0
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
@@ -547,17 +547,17 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 200
+    SpawnDelay: 100
     Command: 0
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 311
+  - ObjectId: 311 # Sniper
     PositionX: 0
-    PositionY: 15000
+    PositionY: 18000
     PositionZ: 0
     RotationX: 0
-    RotationY: 1.5707963705062866
+    RotationY: 0
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
@@ -565,7 +565,7 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 200
+    SpawnDelay: 100
     Command: 0
     SpawnRange: 0
     Level: 0
