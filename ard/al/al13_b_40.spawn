@@ -330,12 +330,12 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 134
+  - ObjectId: 308 # Dragoon
     PositionX: 0
     PositionY: 6900
-    PositionZ: 50
+    PositionZ: 0
     RotationX: 0
-    RotationY: -1.3744467496871948
+    RotationY: 0
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
@@ -378,7 +378,7 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 134 # Necromancer
+  - ObjectId: # Dragoon
     PositionX: 50
     PositionY: 11500
     PositionZ: 25
