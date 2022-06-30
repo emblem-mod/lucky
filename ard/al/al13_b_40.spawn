@@ -88,9 +88,9 @@
     RotationX: 0
     RotationY: 0
     RotationZ: 0
-    SpawnType: 2
+    SpawnType: 0
     SpawnArgument: 0
-    Serial: 66
+    Serial: 65
     Argument1: 1
     Argument2: 0
     ReactionCommand: 0
@@ -348,7 +348,7 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 311
+  - ObjectId: 77
     PositionX: 0
     PositionY: 6900
     PositionZ: 50
@@ -499,7 +499,7 @@
   Unk24: 0
   Entities:
   - ObjectId: 
-    PositionX: 311
+    PositionX: 77
     PositionY: 13000
     PositionZ: -253
     RotationX: 0
@@ -516,7 +516,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 311
+  - ObjectId: 77
     PositionX: -625
     PositionY: 15000
     PositionZ: -100
