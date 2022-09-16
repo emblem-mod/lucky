@@ -64,7 +64,7 @@
   - Shape: 0
     Option: 0
     PositionX: 0
-    PositionY: -50
+    PositionY: -100
     PositionZ: 0
     ScaleX: 500
     ScaleY: 100
@@ -148,10 +148,10 @@
   - Shape: 0
     Option: 0
     PositionX: 0
-    PositionY: 2400
+    PositionY: 3200
     PositionZ: 0
     ScaleX: 500
-    ScaleY: 1000
+    ScaleY: 400
     ScaleZ: 500
     RotationX: 0
     RotationY: 0
@@ -176,7 +176,7 @@
   Entities:
   - ObjectId: 308 # Dragoon
     PositionX: 0
-    PositionY: 5300
+    PositionY: 5350
     PositionZ: 0
     RotationX: 0
     RotationY: 0
@@ -199,7 +199,7 @@
     PositionY: 5500
     PositionZ: 0
     ScaleX: 500
-    ScaleY: 1500
+    ScaleY: 1400
     ScaleZ: 500
     RotationX: 0
     RotationY: 0
@@ -222,7 +222,7 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 11 # Lance Soldier
+  - ObjectId: 17 # Lance Soldier
     PositionX: -400
     PositionY: 11700
     PositionZ: 0
@@ -258,7 +258,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 11 # Lance Soldier
+  - ObjectId: 17 # Lance Soldier
     PositionX: 400
     PositionY: 11700
     PositionZ: 0
@@ -298,10 +298,10 @@
   - Shape: 0
     Option: 0
     PositionX: 0
-    PositionY: 11500
+    PositionY: 11300
     PositionZ: 0
     ScaleX: 750
-    ScaleY: 220
+    ScaleY: 400
     ScaleZ: 750
     RotationX: 0
     RotationY: 0
