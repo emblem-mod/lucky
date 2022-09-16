@@ -890,7 +890,7 @@ assets:
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/al/al13_b_40.spawn # Final Hades Escape, Fiery Globes, Rabid Dogs, Dragoon, Snipers and Cannon Guns
+    - name: ard/al/al13_b_40.spawn # Hades Escape, Fiery Globe Swarms, Dragoon, Snipers and Camo Cannons
 
 # Treasure Room Fight
 - name: ard/al10.ard
@@ -907,7 +907,7 @@ assets:
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/al/al10_b_40.spawn # Cannon Guns, Fiery Globe Swarm and Crimson Jazzes then Axel II and Lava Pools
+    - name: ard/al/al10_b_40.spawn # Cannon Guns, Fiery Globe Swarms and Crimson Jazzes then Axel II and Lava Pools
   - name: evt
     type: areadatascript
     method: areadatascript
