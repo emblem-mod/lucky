@@ -192,12 +192,12 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 14 # Cannon Gun
-    PositionX: 0
-    PositionY: 21500
-    PositionZ: 0
+  - ObjectId: 302 # Shadow
+    PositionX: -300
+    PositionY: 1000
+    PositionZ: 300
     RotationX: 0
-    RotationY: 0
+    RotationY: 0.19634954631328583
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
@@ -211,24 +211,6 @@
     Level: 0
     Medal: 0
   - ObjectId: 302 # Shadow
-    PositionX: -300
-    PositionY: 1000
-    PositionZ: 300
-    RotationX: 0
-    RotationY: 0.19634954631328583
-    RotationZ: 0
-    SpawnType: 2
-    SpawnArgument: 0
-    Serial: 81
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 25
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  - ObjectId: 302 # Shadow
     PositionX: 300
     PositionY: 1000
     PositionZ: 300
@@ -237,11 +219,29 @@
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
+    Serial: 81
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 0
+    Medal: 0
+  - ObjectId: 14 # Cannon Gun
+    PositionX: 0
+    PositionY: 21500
+    PositionZ: 0
+    RotationX: 0
+    RotationY: 0
+    RotationZ: 0
+    SpawnType: 2
+    SpawnArgument: 0
     Serial: 82
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 25
+    SpawnDelay: 0
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -324,10 +324,10 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 14 # Cannon Gun
-    PositionX: 500
-    PositionY: 21500
-    PositionZ: 0
+  - ObjectId: 302 # Shadow
+    PositionX: 300
+    PositionY: 6000
+    PositionZ: -300
     RotationX: 0
     RotationY: 0
     RotationZ: 0
@@ -337,7 +337,7 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 0
+    SpawnDelay: 100
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -345,7 +345,7 @@
   - ObjectId: 302 # Shadow
     PositionX: 300
     PositionY: 6000
-    PositionZ: -300
+    PositionZ: 300
     RotationX: 0
     RotationY: 0
     RotationZ: 0
@@ -361,7 +361,7 @@
     Level: 0
     Medal: 0
   - ObjectId: 302 # Shadow
-    PositionX: 300
+    PositionX: -300
     PositionY: 6000
     PositionZ: 300
     RotationX: 0
@@ -381,7 +381,7 @@
   - ObjectId: 302 # Shadow
     PositionX: -300
     PositionY: 6000
-    PositionZ: 300
+    PositionZ: -300
     RotationX: 0
     RotationY: 0
     RotationZ: 0
@@ -396,10 +396,10 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 302 # Shadow
-    PositionX: -300
-    PositionY: 6000
-    PositionZ: -300
+  - ObjectId: 14 # Cannon Gun
+    PositionX: 500
+    PositionY: 21500
+    PositionZ: 0
     RotationX: 0
     RotationY: 0
     RotationZ: 0
@@ -409,7 +409,7 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 100
+    SpawnDelay: 0
     Command: 0
     SpawnRange: 0
     Level: 0
