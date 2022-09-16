@@ -881,16 +881,16 @@ assets:
     - name: ard/al/al09_e_50.spawn # Remove Party Members
 
 # Chasm of Challenges
-#- name: ard/al13.ard
-#  multi:
-#  - name: ard/us/al13.ard
-#  method: binarc
-#  source:
-#  - name: b_40
-#    type: areadataspawn
-#    method: spawnpoint
-#    source:
-#    - name: ard/al/al13_b_40.spawn # Undefeatable Hades, Fiery Globes, Rabid Dogs, Dragoon, Snipers and Cannon Guns
+- name: ard/al13.ard
+  multi:
+  - name: ard/us/al13.ard
+  method: binarc
+  source:
+  - name: b_40
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: ard/al/al13_b_40.spawn # Final Hades Escape, Fiery Globes, Rabid Dogs, Dragoon, Snipers and Cannon Guns
 
 # Treasure Room Fight
 - name: ard/al10.ard
@@ -907,7 +907,7 @@ assets:
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/al/al10_b_40.spawn # Cannon Guns, Fiery Globe Swarm and Crimson Jazzes then Axel II and Lava Pool
+    - name: ard/al/al10_b_40.spawn # Cannon Guns, Fiery Globe Swarm and Crimson Jazzes then Axel II and Lava Pools
   - name: evt
     type: areadatascript
     method: areadatascript
