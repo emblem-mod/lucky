@@ -362,7 +362,7 @@
   Entities:
   - ObjectId: 1670 # Fiery Globe Swarm
     PositionX: 300
-    PositionY: 4000
+    PositionY: 5000
     PositionZ: -300
     RotationX: 0
     RotationY: 0
@@ -373,14 +373,14 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 100
+    SpawnDelay: 25
     Command: 0
     SpawnRange: 0
     Level: 0
     Medal: 0
   - ObjectId: 1670 # Fiery Globe Swarm
     PositionX: 300
-    PositionY: 4000
+    PositionY: 5000
     PositionZ: 300
     RotationX: 0
     RotationY: 0
@@ -391,14 +391,14 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 100
+    SpawnDelay: 25
     Command: 0
     SpawnRange: 0
     Level: 0
     Medal: 0
   - ObjectId: 1670 # Fiery Globe Swarm
     PositionX: -300
-    PositionY: 4000
+    PositionY: 5000
     PositionZ: 300
     RotationX: 0
     RotationY: 0
@@ -409,14 +409,14 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 100
+    SpawnDelay: 25
     Command: 0
     SpawnRange: 0
     Level: 0
     Medal: 0
   - ObjectId: 1670 # Fiery Globe Swarm
     PositionX: -300
-    PositionY: 4000
+    PositionY: 5000
     PositionZ: -300
     RotationX: 0
     RotationY: 0
@@ -427,7 +427,7 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 100
+    SpawnDelay: 25
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -482,7 +482,7 @@
   Entities:
   - ObjectId: 311 # Sniper
     PositionX: 0
-    PositionY: 1500
+    PositionY: 15000
     PositionZ: 0
     RotationX: 0
     RotationY: 0
@@ -556,7 +556,7 @@
   - Shape: 0
     Option: 0
     PositionX: 0
-    PositionY: 19000
+    PositionY: 18000
     PositionZ: 0
     ScaleX: 1000
     ScaleY: 4800
