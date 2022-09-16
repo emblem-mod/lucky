@@ -162,24 +162,6 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 14 # Cannon Gun
-    PositionX: 0
-    PositionY: 21500
-    PositionZ: 0
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 2
-    SpawnArgument: 0
-    Serial: 74
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 25
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
   EventActivators:
   - Shape: 0
     Option: 0
@@ -294,10 +276,10 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 14 # Cannon Gun
-    PositionX: 500
-    PositionY: 21500
-    PositionZ: 0
+  - ObjectId: 318 # Dusk
+    PositionX: 0
+    PositionY: 11700
+    PositionZ: -400
     RotationX: 0
     RotationY: 0
     RotationZ: 0
@@ -307,7 +289,25 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 0
+    SpawnDelay: 100
+    Command: 0
+    SpawnRange: 0
+    Level: 0
+    Medal: 0
+  - ObjectId: 318 # Dusk
+    PositionX: 0
+    PositionY: 11700
+    PositionZ: 400
+    RotationX: 0
+    RotationY: 0
+    RotationZ: 0
+    SpawnType: 2
+    SpawnArgument: 0
+    Serial: 93
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 100
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -316,7 +316,7 @@
   - Shape: 0
     Option: 0
     PositionX: 0
-    PositionY: 9600
+    PositionY: 11000
     PositionZ: 0
     ScaleX: 750
     ScaleY: 220
@@ -410,6 +410,24 @@
     Argument2: 0
     ReactionCommand: 0
     SpawnDelay: 150
+    Command: 0
+    SpawnRange: 0
+    Level: 0
+    Medal: 0
+  - ObjectId: 308 # Dragoon
+    PositionX: 0
+    PositionY: 21500
+    PositionZ: 0
+    RotationX: 0
+    RotationY: 0
+    RotationZ: 0
+    SpawnType: 2
+    SpawnArgument: 0
+    Serial: 104
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 200
     Command: 0
     SpawnRange: 0
     Level: 0
