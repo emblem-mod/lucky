@@ -90,7 +90,7 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 317 # Creeper
+  - ObjectId: 302 # Shadow
     PositionX: -200
     PositionY: 3500
     PositionZ: 0
@@ -100,7 +100,7 @@
     SpawnType: 2
     SpawnArgument: 0
     Serial: 70
-    Argument1: 1
+    Argument1: 0
     Argument2: 0
     ReactionCommand: 0
     SpawnDelay: 0
@@ -108,16 +108,34 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 317 # Creeper
+  - ObjectId: 302 # Shadow
+    PositionX: 0
+    PositionY: 3500
+    PositionZ: 200
+    RotationX: 0
+    RotationY: 1.5707963705062866
+    RotationZ: 0
+    SpawnType: 2
+    SpawnArgument: 0
+    Serial: 71
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 0
+    Medal: 0
+  - ObjectId: 302 # Shadow
     PositionX: 200
     PositionY: 3500
     PositionZ: 0
     RotationX: 0
     RotationY: 1.5707963705062866
     RotationZ: 0
-    SpawnType: 3
+    SpawnType: 2
     SpawnArgument: 0
-    Serial: 71
+    Serial: 72
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -204,7 +222,7 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 317 # Creeper
+  - ObjectId: 11 # Lance Soldier
     PositionX: -400
     PositionY: 11700
     PositionZ: 0
@@ -214,7 +232,7 @@
     SpawnType: 2
     SpawnArgument: 0
     Serial: 90
-    Argument1: 2
+    Argument1: 0
     Argument2: 0
     ReactionCommand: 0
     SpawnDelay: 0
@@ -222,7 +240,25 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 317 # Creeper
+  - ObjectId: 302 # Shadow
+    PositionX: 0
+    PositionY: 11700
+    PositionZ: -400
+    RotationX: 0
+    RotationY: 0
+    RotationZ: 0
+    SpawnType: 2
+    SpawnArgument: 0
+    Serial: 91
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 0
+    Medal: 0
+  - ObjectId: 11 # Lance Soldier
     PositionX: 400
     PositionY: 11700
     PositionZ: 0
@@ -231,8 +267,26 @@
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
-    Serial: 91
-    Argument1: 3
+    Serial: 92
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 0
+    Medal: 0
+  - ObjectId: 302 # Shadow
+    PositionX: 0
+    PositionY: 11700
+    PositionZ: 400
+    RotationX: 0
+    RotationY: 0
+    RotationZ: 0
+    SpawnType: 2
+    SpawnArgument: 0
+    Serial: 93
+    Argument1: 0
     Argument2: 0
     ReactionCommand: 0
     SpawnDelay: 0
