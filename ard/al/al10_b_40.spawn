@@ -148,7 +148,7 @@
     SpawnDelay: 0
     Command: 0
     SpawnRange: 0
-    Level: 0
+    Level: 1
     Medal: 0
   - ObjectId: 1670 # Fiery Globe Swarm
     PositionX: 700
@@ -166,7 +166,7 @@
     SpawnDelay: 0
     Command: 0
     SpawnRange: 0
-    Level: 0
+    Level: 1
     Medal: 0
   - ObjectId: 14 # Cannon Gun
     PositionX: 1000
@@ -184,7 +184,7 @@
     SpawnDelay: 0
     Command: 0
     SpawnRange: 0
-    Level: 0
+    Level: 1
     Medal: 0
   - ObjectId: 1670 # Fiery Globe Swarm
     PositionX: 700
@@ -202,7 +202,7 @@
     SpawnDelay: 0
     Command: 0
     SpawnRange: 0
-    Level: 0
+    Level: 1
     Medal: 0
   - ObjectId: 14 # Cannon Gun
     PositionX: 0
@@ -220,7 +220,7 @@
     SpawnDelay: 0
     Command: 0
     SpawnRange: 0
-    Level: 0
+    Level: 1
     Medal: 0
   - ObjectId: 1670 # Fiery Globe Swarm
     PositionX: -700
@@ -238,7 +238,7 @@
     SpawnDelay: 0
     Command: 0
     SpawnRange: 0
-    Level: 0
+    Level: 1
     Medal: 0
   - ObjectId: 14 # Cannon Gun
     PositionX: -1000
@@ -256,7 +256,7 @@
     SpawnDelay: 0
     Command: 0
     SpawnRange: 0
-    Level: 0
+    Level: 1
     Medal: 0
   - ObjectId: 1670 # Fiery Globe Swarm
     PositionX: -700
@@ -274,7 +274,7 @@
     SpawnDelay: 0
     Command: 0
     SpawnRange: 0
-    Level: 0
+    Level: 1
     Medal: 0
   - ObjectId: 1670 # Fiery Globe Swarm
     PositionX: 300
@@ -292,7 +292,7 @@
     SpawnDelay: 0
     Command: 0
     SpawnRange: 0
-    Level: 0
+    Level: 1
     Medal: 0
   - ObjectId: 1670 # Fiery Globe Swarm
     PositionX: -300
@@ -310,7 +310,7 @@
     SpawnDelay: 0
     Command: 0
     SpawnRange: 0
-    Level: 0
+    Level: 1
     Medal: 0
   - ObjectId: 1670 # Fiery Globe Swarm
     PositionX: 200
@@ -328,7 +328,7 @@
     SpawnDelay: 0
     Command: 0
     SpawnRange: 0
-    Level: 0
+    Level: 1
     Medal: 0
   - ObjectId: 1670 # Fiery Globe Swarm
     PositionX: -50
@@ -346,7 +346,7 @@
     SpawnDelay: 0
     Command: 0
     SpawnRange: 0
-    Level: 0
+    Level: 1
     Medal: 0
   - ObjectId: 1670 # Fiery Globe Swarm
     PositionX: -100
@@ -364,7 +364,7 @@
     SpawnDelay: 0
     Command: 0
     SpawnRange: 0
-    Level: 0
+    Level: 1
     Medal: 0
   - ObjectId: 1670 # Fiery Globe Swarm
     PositionX: -200
@@ -382,7 +382,7 @@
     SpawnDelay: 0
     Command: 0
     SpawnRange: 0
-    Level: 0
+    Level: 1
     Medal: 0
   - ObjectId: 1670 # Fiery Globe Swarm
     PositionX: 200
@@ -400,7 +400,7 @@
     SpawnDelay: 0
     Command: 0
     SpawnRange: 0
-    Level: 0
+    Level: 1
     Medal: 0
   - ObjectId: 1670 # Fiery Globe Swarm
     PositionX: 300
@@ -418,7 +418,7 @@
     SpawnDelay: 40
     Command: 0
     SpawnRange: 0
-    Level: 0
+    Level: 1
     Medal: 0
   - ObjectId: 1670 # Fiery Globe Swarm
     PositionX: 50
@@ -436,7 +436,7 @@
     SpawnDelay: 40
     Command: 0
     SpawnRange: 0
-    Level: 0
+    Level: 1
     Medal: 0
   - ObjectId: 1670 # Fiery Globe Swarm
     PositionX: -150
@@ -454,7 +454,7 @@
     SpawnDelay: 40
     Command: 0
     SpawnRange: 0
-    Level: 0
+    Level: 1
     Medal: 0
   - ObjectId: 1670 # Fiery Globe Swarm
     PositionX: 0
@@ -472,7 +472,7 @@
     SpawnDelay: 40
     Command: 0
     SpawnRange: 0
-    Level: 0
+    Level: 1
     Medal: 0
   - ObjectId: 1670 # Fiery Globe Swarm
     PositionX: 150
@@ -490,7 +490,7 @@
     SpawnDelay: 40
     Command: 0
     SpawnRange: 0
-    Level: 0
+    Level: 1
     Medal: 0
   - ObjectId: 73 # Crimson Jazz
     PositionX: -250
@@ -508,7 +508,7 @@
     SpawnDelay: 40
     Command: 0
     SpawnRange: 0
-    Level: 1
+    Level: 2
     Medal: 0
   - ObjectId: 73 # Crimson Jazz
     PositionX: 250
@@ -526,7 +526,7 @@
     SpawnDelay: 40
     Command: 0
     SpawnRange: 0
-    Level: 1
+    Level: 2
     Medal: 0
   EventActivators:
   - Shape: 2
@@ -574,7 +574,7 @@
     SpawnDelay: 0
     Command: 0
     SpawnRange: 0
-    Level: 1
+    Level: 0
     Medal: 0
   - ObjectId: 81 # Axel II
     PositionX: 0
@@ -592,7 +592,7 @@
     SpawnDelay: 0
     Command: 0
     SpawnRange: 0
-    Level: 1
+    Level: 0
     Medal: 0
   EventActivators:
   - Shape: 2
