@@ -103,7 +103,7 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 10
+    SpawnDelay: 25
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -121,7 +121,7 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 10
+    SpawnDelay: 25
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -139,7 +139,7 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 10
+    SpawnDelay: 25
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -157,7 +157,7 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 10
+    SpawnDelay: 25
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -264,7 +264,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 2407 # Camo Cannon
+  - ObjectId: 14 # Cannon Gun
     PositionX: 0
     PositionY: 21500
     PositionZ: 0
@@ -373,7 +373,7 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 0
+    SpawnDelay: 100
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -391,7 +391,7 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 0
+    SpawnDelay: 100
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -409,7 +409,7 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 0
+    SpawnDelay: 100
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -427,12 +427,30 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
+    SpawnDelay: 100
+    Command: 0
+    SpawnRange: 0
+    Level: 0
+    Medal: 0
+  - ObjectId: 311 # Sniper
+    PositionX: 0
+    PositionY: 9000
+    PositionZ: 0
+    RotationX: 0
+    RotationY: 0
+    RotationZ: 0
+    SpawnType: 2
+    SpawnArgument: 0
+    Serial: 104
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
     SpawnDelay: 0
     Command: 0
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 2407 # Camo Cannon
+  - ObjectId: 14 # Cannon Gun
     PositionX: 0
     PositionY: 21500
     PositionZ: 0
@@ -441,7 +459,7 @@
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
-    Serial: 104
+    Serial: 105
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -482,7 +500,7 @@
   Entities:
   - ObjectId: 311 # Sniper
     PositionX: 0
-    PositionY: 13500
+    PositionY: 15500
     PositionZ: 0
     RotationX: 0
     RotationY: 0
@@ -499,8 +517,8 @@
     Level: 0
     Medal: 0
   - ObjectId: 311 # Sniper
-    PositionX: -300
-    PositionY: 15000
+    PositionX: -500
+    PositionY: 17000
     PositionZ: 0
     RotationX: 0
     RotationY: 0
@@ -517,8 +535,8 @@
     Level: 0
     Medal: 0
   - ObjectId: 311 # Sniper
-    PositionX: 300
-    PositionY: 15000
+    PositionX: 500
+    PositionY: 17000
     PositionZ: 0
     RotationX: 0
     RotationY: 0
@@ -529,14 +547,14 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 150
+    SpawnDelay: 50
     Command: 0
     SpawnRange: 0
     Level: 0
     Medal: 0
   - ObjectId: 311 # Sniper
     PositionX: 0
-    PositionY: 17000
+    PositionY: 19000
     PositionZ: 0
     RotationX: 0
     RotationY: 0
@@ -556,7 +574,7 @@
   - Shape: 0
     Option: 0
     PositionX: 0
-    PositionY: 17000
+    PositionY: 19000
     PositionZ: 0
     ScaleX: 1000
     ScaleY: 4800
