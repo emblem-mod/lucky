@@ -194,7 +194,7 @@
   Entities:
   - ObjectId: 1670 # Fiery Globe Swarm
     PositionX: -300
-    PositionY: 600
+    PositionY: 2500
     PositionZ: -300
     RotationX: 0
     RotationY: -2.552544116973877
@@ -205,14 +205,14 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 10
+    SpawnDelay: 0
     Command: 0
     SpawnRange: 0
     Level: 0
     Medal: 0
   - ObjectId: 1670 # Fiery Globe Swarm
     PositionX: -300
-    PositionY: 600
+    PositionY: 2500
     PositionZ: 300
     RotationX: 0
     RotationY: 0.19634954631328583
@@ -223,14 +223,14 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 10
+    SpawnDelay: 0
     Command: 0
     SpawnRange: 0
     Level: 0
     Medal: 0
   - ObjectId: 1670 # Fiery Globe Swarm
     PositionX: 300
-    PositionY: 600
+    PositionY: 2500
     PositionZ: 300
     RotationX: 0
     RotationY: 2.7488934993743896
@@ -241,14 +241,14 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 10
+    SpawnDelay: 0
     Command: 0
     SpawnRange: 0
     Level: 0
     Medal: 0
   - ObjectId: 1670 # Fiery Globe Swarm
     PositionX: 300
-    PositionY: 600
+    PositionY: 2500
     PositionZ: -300
     RotationX: 0
     RotationY: 1.5707963705062866
@@ -259,13 +259,13 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 10
+    SpawnDelay: 0
     Command: 0
     SpawnRange: 0
     Level: 0
     Medal: 0
   - ObjectId: 14 # Cannon Gun
-    PositionX: 0
+    PositionX: -500
     PositionY: 21500
     PositionZ: 0
     RotationX: 0
@@ -432,26 +432,8 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 311 # Sniper
-    PositionX: 0
-    PositionY: 9000
-    PositionZ: 0
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 2
-    SpawnArgument: 0
-    Serial: 104
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 0
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
   - ObjectId: 14 # Cannon Gun
-    PositionX: 0
+    PositionX: 500
     PositionY: 21500
     PositionZ: 0
     RotationX: 0
@@ -459,7 +441,7 @@
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
-    Serial: 105
+    Serial: 104
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -500,7 +482,7 @@
   Entities:
   - ObjectId: 311 # Sniper
     PositionX: 0
-    PositionY: 15500
+    PositionY: 1500
     PositionZ: 0
     RotationX: 0
     RotationY: 0
@@ -518,7 +500,7 @@
     Medal: 0
   - ObjectId: 311 # Sniper
     PositionX: -500
-    PositionY: 17000
+    PositionY: 16500
     PositionZ: 0
     RotationX: 0
     RotationY: 0
@@ -536,7 +518,7 @@
     Medal: 0
   - ObjectId: 311 # Sniper
     PositionX: 500
-    PositionY: 17000
+    PositionY: 16500
     PositionZ: 0
     RotationX: 0
     RotationY: 0
@@ -554,7 +536,7 @@
     Medal: 0
   - ObjectId: 311 # Sniper
     PositionX: 0
-    PositionY: 19000
+    PositionY: 17500
     PositionZ: 0
     RotationX: 0
     RotationY: 0
