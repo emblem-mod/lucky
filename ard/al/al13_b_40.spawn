@@ -90,9 +90,9 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 3 # Rabid Dog
+  - ObjectId: 317 # Creeper
     PositionX: -300
-    PositionY: 1000
+    PositionY: 3500
     PositionZ: 0
     RotationX: 0
     RotationY: -2.552544116973877
@@ -103,14 +103,14 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 25
+    SpawnDelay: 0
     Command: 0
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 3 # Rabid Dog
+  - ObjectId: 317 # Creeper
     PositionX: 0
-    PositionY: 1000
+    PositionY: 3500
     PositionZ: 300
     RotationX: 0
     RotationY: 2.7488934993743896
@@ -121,14 +121,14 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 25
+    SpawnDelay: 0
     Command: 0
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 3 # Rabid Dog
+  - ObjectId: 317 # Creeper
     PositionX: 300
-    PositionY: 1000
+    PositionY: 3500
     PositionZ: 0
     RotationX: 0
     RotationY: 1.5707963705062866
@@ -139,7 +139,7 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 25
+    SpawnDelay: 0
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -222,7 +222,7 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 13 # Hot Rod
+  - ObjectId: 317 # Creeper
     PositionX: -400
     PositionY: 11700
     PositionZ: 0
@@ -240,7 +240,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 13 # Hot Rod
+  - ObjectId: 317 # Creeper
     PositionX: 400
     PositionY: 11700
     PositionZ: 0
