@@ -90,7 +90,7 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 7 # Fiery Globe Swarm
+  - ObjectId: 1365 # Shadow Swarm
     PositionX: -300
     PositionY: 600
     PositionZ: -300
@@ -108,7 +108,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 7 # Fiery Globe Swarm
+  - ObjectId: 1365 # Shadow Swarm
     PositionX: -300
     PositionY: 600
     PositionZ: 300
@@ -126,7 +126,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 7 # Fiery Globe Swarm
+  - ObjectId: 1365 # Shadow Swarm
     PositionX: 300
     PositionY: 600
     PositionZ: 300
@@ -144,7 +144,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 7 # Fiery Globe Swarm
+  - ObjectId: 1365 # Shadow Swarm
     PositionX: 300
     PositionY: 600
     PositionZ: -300
@@ -192,7 +192,7 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 7 # Fiery Globe Swarm
+  - ObjectId: 1365 # Shadow Swarm
     PositionX: -300
     PositionY: 600
     PositionZ: -300
@@ -210,7 +210,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 7 # Fiery Globe Swarm
+  - ObjectId: 1365 # Shadow Swarm
     PositionX: -300
     PositionY: 600
     PositionZ: 300
@@ -228,7 +228,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 7 # Fiery Globe Swarm
+  - ObjectId: 1365 # Shadow Swarm
     PositionX: 300
     PositionY: 600
     PositionZ: 300
@@ -246,7 +246,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 7 # Fiery Globe Swarm
+  - ObjectId: 1365 # Shadow Swarm
     PositionX: 300
     PositionY: 600
     PositionZ: -300
@@ -378,7 +378,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 7 # Fiery Globe Swarm
+  - ObjectId: 1365 # Shadow Swarm
     PositionX: 300
     PositionY: 6000
     PositionZ: -300
@@ -396,7 +396,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 7 # Fiery Globe Swarm
+  - ObjectId: 1365 # Shadow Swarm
     PositionX: 300
     PositionY: 6000
     PositionZ: 300
@@ -414,7 +414,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 7 # Fiery Globe Swarm
+  - ObjectId: 1365 # Shadow Swarm
     PositionX: -300
     PositionY: 6000
     PositionZ: 300
@@ -432,7 +432,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 7 # Fiery Globe Swarm
+  - ObjectId: 1365 # Shadow Swarm
     PositionX: -300
     PositionY: 6000
     PositionZ: -300
