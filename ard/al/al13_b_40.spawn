@@ -90,7 +90,7 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 1670 # Fiery Globe Swarm
+  - ObjectId: 76 # Fiery Globe Swarm
     PositionX: -300
     PositionY: 600
     PositionZ: -300
@@ -108,7 +108,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 1670 # Fiery Globe Swarm
+  - ObjectId: 76 # Fiery Globe Swarm
     PositionX: -300
     PositionY: 600
     PositionZ: 300
@@ -126,7 +126,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 1670 # Fiery Globe Swarm
+  - ObjectId: 76 # Fiery Globe Swarm
     PositionX: 300
     PositionY: 600
     PositionZ: 300
@@ -144,7 +144,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 1670 # Fiery Globe Swarm
+  - ObjectId: 76 # Fiery Globe Swarm
     PositionX: 300
     PositionY: 600
     PositionZ: -300
@@ -192,9 +192,9 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 1670 # Fiery Globe Swarm
+  - ObjectId: 76 # Fiery Globe Swarm
     PositionX: -300
-    PositionY: 2500
+    PositionY: 2600
     PositionZ: -300
     RotationX: 0
     RotationY: -2.552544116973877
@@ -210,9 +210,9 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 1670 # Fiery Globe Swarm
+  - ObjectId: 76 # Fiery Globe Swarm
     PositionX: -300
-    PositionY: 2500
+    PositionY: 2600
     PositionZ: 300
     RotationX: 0
     RotationY: 0.19634954631328583
@@ -228,9 +228,9 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 1670 # Fiery Globe Swarm
+  - ObjectId: 76 # Fiery Globe Swarm
     PositionX: 300
-    PositionY: 2500
+    PositionY: 2600
     PositionZ: 300
     RotationX: 0
     RotationY: 2.7488934993743896
@@ -246,9 +246,9 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 1670 # Fiery Globe Swarm
+  - ObjectId: 76 # Fiery Globe Swarm
     PositionX: 300
-    PositionY: 2500
+    PositionY: 2600
     PositionZ: -300
     RotationX: 0
     RotationY: 1.5707963705062866
@@ -286,7 +286,7 @@
   - Shape: 0
     Option: 0
     PositionX: 0
-    PositionY: 2700
+    PositionY: 2600
     PositionZ: 0
     ScaleX: 500
     ScaleY: 1000
@@ -360,7 +360,7 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 1670 # Fiery Globe Swarm
+  - ObjectId: 76 # Fiery Globe Swarm
     PositionX: 300
     PositionY: 5000
     PositionZ: -300
@@ -378,7 +378,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 1670 # Fiery Globe Swarm
+  - ObjectId: 76 # Fiery Globe Swarm
     PositionX: 300
     PositionY: 5000
     PositionZ: 300
@@ -396,7 +396,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 1670 # Fiery Globe Swarm
+  - ObjectId: 76 # Fiery Globe Swarm
     PositionX: -300
     PositionY: 5000
     PositionZ: 300
@@ -414,7 +414,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 1670 # Fiery Globe Swarm
+  - ObjectId: 76 # Fiery Globe Swarm
     PositionX: -300
     PositionY: 5000
     PositionZ: -300
