@@ -578,12 +578,6 @@
     Medal: 0
 
 
-
-
-
-
-
-Entities:
   - ObjectId: 2043 # Lava Pool
     PositionX: 0
     PositionY: 0
