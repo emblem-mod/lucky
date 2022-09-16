@@ -90,10 +90,10 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 302 # Shadow
+  - ObjectId: 3 # Rabid Dog
     PositionX: -300
     PositionY: 1000
-    PositionZ: -300
+    PositionZ: 0
     RotationX: 0
     RotationY: -2.552544116973877
     RotationZ: 0
@@ -108,12 +108,12 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 302 # Shadow
-    PositionX: -300
+  - ObjectId: 3 # Rabid Dog
+    PositionX: 0
     PositionY: 1000
     PositionZ: 300
     RotationX: 0
-    RotationY: 0.19634954631328583
+    RotationY: 2.7488934993743896
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
@@ -126,34 +126,16 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 302 # Shadow
+  - ObjectId: 3 # Rabid Dog
     PositionX: 300
     PositionY: 1000
-    PositionZ: 300
-    RotationX: 0
-    RotationY: 2.7488934993743896
-    RotationZ: 0
-    SpawnType: 2
-    SpawnArgument: 0
-    Serial: 72
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 25
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  - ObjectId: 302 # Shadow
-    PositionX: 300
-    PositionY: 1000
-    PositionZ: -300
+    PositionZ: 0
     RotationX: 0
     RotationY: 1.5707963705062866
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
-    Serial: 73
+    Serial: 72
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -253,43 +235,7 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 100
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  - ObjectId: 318 # Dusk
-    PositionX: 400
-    PositionY: 11700
-    PositionZ: 0
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 2
-    SpawnArgument: 0
-    Serial: 91
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 100
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  - ObjectId: 318 # Dusk
-    PositionX: 0
-    PositionY: 11700
-    PositionZ: -400
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 2
-    SpawnArgument: 0
-    Serial: 92
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 100
+    SpawnDelay: 0
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -303,11 +249,29 @@
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
-    Serial: 93
+    Serial: 91
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 100
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 0
+    Medal: 0
+  - ObjectId: 318 # Dusk
+    PositionX: 400
+    PositionY: 11700
+    PositionZ: 0
+    RotationX: 0
+    RotationY: 0
+    RotationZ: 0
+    SpawnType: 2
+    SpawnArgument: 0
+    Serial: 92
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -316,7 +280,7 @@
   - Shape: 0
     Option: 0
     PositionX: 0
-    PositionY: 11000
+    PositionY: 11500
     PositionZ: 0
     ScaleX: 750
     ScaleY: 220
@@ -416,7 +380,7 @@
     Medal: 0
   - ObjectId: 308 # Dragoon
     PositionX: 0
-    PositionY: 21500
+    PositionY: 21600
     PositionZ: 0
     RotationX: 0
     RotationY: 0
@@ -427,7 +391,7 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 200
+    SpawnDelay: 0
     Command: 0
     SpawnRange: 0
     Level: 0
