@@ -90,7 +90,7 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 3 # Fiery Globe Swarm
+  - ObjectId: 3 # Rabid Dog
     PositionX: -300
     PositionY: 600
     PositionZ: -300
@@ -103,12 +103,12 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 0
+    SpawnDelay: 100
     Command: 0
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 3 # Fiery Globe Swarm
+  - ObjectId: 3 # Rabid Dog
     PositionX: -300
     PositionY: 600
     PositionZ: 300
@@ -121,12 +121,12 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 0
+    SpawnDelay: 100
     Command: 0
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 3 # Fiery Globe Swarm
+  - ObjectId: 3 # Rabid Dog
     PositionX: 300
     PositionY: 600
     PositionZ: 300
@@ -139,12 +139,12 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 0
+    SpawnDelay: 100
     Command: 0
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 3 # Fiery Globe Swarm
+  - ObjectId: 3 # Rabid Dog
     PositionX: 300
     PositionY: 600
     PositionZ: -300
@@ -157,7 +157,7 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 0
+    SpawnDelay: 100
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -192,7 +192,7 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 3 # Fiery Globe Swarm
+  - ObjectId: 3 # Rabid Dog
     PositionX: -300
     PositionY: 600
     PositionZ: -300
@@ -205,12 +205,12 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 0
+    SpawnDelay: 100
     Command: 0
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 7 # Minute Bomb
+  - ObjectId: 12 # Luna Bandit
     PositionX: -300
     PositionY: 600
     PositionZ: 300
@@ -223,12 +223,12 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 0
+    SpawnDelay: 100
     Command: 0
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 3 # Fiery Globe Swarm
+  - ObjectId: 3 # Rabid Dog
     PositionX: 300
     PositionY: 600
     PositionZ: 300
@@ -241,12 +241,12 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 0
+    SpawnDelay: 100
     Command: 0
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 7 # Minute Bomb
+  - ObjectId: 12 # Luna Bandit
     PositionX: 300
     PositionY: 600
     PositionZ: -300
@@ -259,7 +259,7 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 0
+    SpawnDelay: 100
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -360,7 +360,7 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 7 # Minute Bomb
+  - ObjectId: 12 # Luna Bandit
     PositionX: 300
     PositionY: 4000
     PositionZ: -300
@@ -373,12 +373,12 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 0
+    SpawnDelay: 100
     Command: 0
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 7 # Minute Bomb
+  - ObjectId: 12 # Luna Bandit
     PositionX: 300
     PositionY: 4000
     PositionZ: 300
@@ -391,12 +391,12 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 0
+    SpawnDelay: 100
     Command: 0
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 7 # Minute Bomb
+  - ObjectId: 12 # Luna Bandit
     PositionX: -300
     PositionY: 4000
     PositionZ: 300
@@ -409,12 +409,12 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 0
+    SpawnDelay: 100
     Command: 0
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 7 # Minute Bomb
+  - ObjectId: 12 # Luna Bandit
     PositionX: -300
     PositionY: 4000
     PositionZ: -300
@@ -427,7 +427,7 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 0
+    SpawnDelay: 100
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -499,7 +499,7 @@
     Level: 0
     Medal: 0
   - ObjectId: 311 # Sniper
-    PositionX: 0
+    PositionX: -300
     PositionY: 15000
     PositionZ: 0
     RotationX: 0
@@ -517,8 +517,8 @@
     Level: 0
     Medal: 0
   - ObjectId: 311 # Sniper
-    PositionX: 0
-    PositionY: 15500
+    PositionX: 300
+    PositionY: 15000
     PositionZ: 0
     RotationX: 0
     RotationY: 0
