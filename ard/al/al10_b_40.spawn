@@ -508,7 +508,7 @@
     SpawnDelay: 40
     Command: 0
     SpawnRange: 0
-    Level: 0
+    Level: 1
     Medal: 0
   - ObjectId: 73 # Crimson Jazz
     PositionX: 250
@@ -526,7 +526,7 @@
     SpawnDelay: 40
     Command: 0
     SpawnRange: 0
-    Level: 0
+    Level: 1
     Medal: 0
   EventActivators:
   - Shape: 2
@@ -574,7 +574,7 @@
     SpawnDelay: 0
     Command: 0
     SpawnRange: 0
-    Level: 0
+    Level: 1
     Medal: 0
   - ObjectId: 81 # Axel II
     PositionX: 0
@@ -592,7 +592,7 @@
     SpawnDelay: 0
     Command: 0
     SpawnRange: 0
-    Level: 0
+    Level: 1
     Medal: 0
   EventActivators:
   - Shape: 2
