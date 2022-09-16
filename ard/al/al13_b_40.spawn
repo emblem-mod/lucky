@@ -90,7 +90,7 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 76 # Fiery Globe
+  - ObjectId: 1670 # Fiery Globe Swarm
     PositionX: -300
     PositionY: 600
     PositionZ: -300
@@ -108,7 +108,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 76 # Fiery Globe
+  - ObjectId: 1670 # Fiery Globe Swarm
     PositionX: -300
     PositionY: 600
     PositionZ: 300
@@ -126,7 +126,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 76 # Fiery Globe
+  - ObjectId: 1670 # Fiery Globe Swarm
     PositionX: 300
     PositionY: 600
     PositionZ: 300
@@ -144,7 +144,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 76 # Fiery Globe
+  - ObjectId: 1670 # Fiery Globe Swarm
     PositionX: 300
     PositionY: 600
     PositionZ: -300
@@ -192,7 +192,7 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 3 # Rabid Dog
+  - ObjectId: 1670 # Fiery Globe Swarm
     PositionX: -300
     PositionY: 600
     PositionZ: -300
@@ -210,7 +210,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 76 # Fiery Globe
+  - ObjectId: 1670 # Fiery Globe Swarm
     PositionX: -300
     PositionY: 600
     PositionZ: 300
@@ -228,7 +228,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 3 # Rabid Dog
+  - ObjectId: 1670 # Fiery Globe Swarm
     PositionX: 300
     PositionY: 600
     PositionZ: 300
@@ -246,7 +246,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 76 # Fiery Globe
+  - ObjectId: 1670 # Fiery Globe Swarm
     PositionX: 300
     PositionY: 600
     PositionZ: -300
@@ -264,7 +264,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 14 # Cannon Gun
+  - ObjectId: 2407 # Camo Cannon
     PositionX: 0
     PositionY: 21500
     PositionZ: 0
@@ -277,7 +277,7 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 10
+    SpawnDelay: 0
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -360,7 +360,7 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 3 # Rabid Dog
+  - ObjectId: 1670 # Fiery Globe Swarm
     PositionX: 300
     PositionY: 4000
     PositionZ: -300
@@ -373,12 +373,12 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 10
+    SpawnDelay: 0
     Command: 0
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 3 # Rabid Dog
+  - ObjectId: 1670 # Fiery Globe Swarm
     PositionX: 300
     PositionY: 4000
     PositionZ: 300
@@ -391,12 +391,12 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 10
+    SpawnDelay: 0
     Command: 0
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 3 # Rabid Dog
+  - ObjectId: 1670 # Fiery Globe Swarm
     PositionX: -300
     PositionY: 4000
     PositionZ: 300
@@ -409,12 +409,12 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 10
+    SpawnDelay: 0
     Command: 0
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 3 # Rabid Dog
+  - ObjectId: 1670 # Fiery Globe Swarm
     PositionX: -300
     PositionY: 4000
     PositionZ: -300
@@ -427,12 +427,12 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 10
+    SpawnDelay: 0
     Command: 0
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 14 # Cannon Gun
+  - ObjectId: 2407 # Camo Cannon
     PositionX: 0
     PositionY: 21500
     PositionZ: 0
@@ -445,7 +445,7 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 10
+    SpawnDelay: 0
     Command: 0
     SpawnRange: 0
     Level: 0
