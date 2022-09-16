@@ -222,7 +222,7 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 318 # Dusk
+  - ObjectId: 13 # Hot Rod
     PositionX: -400
     PositionY: 11700
     PositionZ: 0
@@ -240,25 +240,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 318 # Dusk
-    PositionX: 0
-    PositionY: 11700
-    PositionZ: 400
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 2
-    SpawnArgument: 0
-    Serial: 91
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 0
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  - ObjectId: 318 # Dusk
+  - ObjectId: 13 # Hot Rod
     PositionX: 400
     PositionY: 11700
     PositionZ: 0
@@ -267,7 +249,7 @@
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
-    Serial: 92
+    Serial: 91
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
