@@ -148,7 +148,7 @@
     SpawnDelay: 0
     Command: 0
     SpawnRange: 0
-    Level: 1
+    Level: 2
     Medal: 0
   - ObjectId: 1670 # Fiery Globe Swarm
     PositionX: 700
@@ -166,7 +166,7 @@
     SpawnDelay: 0
     Command: 0
     SpawnRange: 0
-    Level: 1
+    Level: 2
     Medal: 0
   - ObjectId: 14 # Cannon Gun
     PositionX: 1000
@@ -184,7 +184,7 @@
     SpawnDelay: 0
     Command: 0
     SpawnRange: 0
-    Level: 1
+    Level: 2
     Medal: 0
   - ObjectId: 1670 # Fiery Globe Swarm
     PositionX: 700
@@ -202,7 +202,7 @@
     SpawnDelay: 0
     Command: 0
     SpawnRange: 0
-    Level: 1
+    Level: 2
     Medal: 0
   - ObjectId: 14 # Cannon Gun
     PositionX: 0
@@ -220,7 +220,7 @@
     SpawnDelay: 0
     Command: 0
     SpawnRange: 0
-    Level: 1
+    Level: 2
     Medal: 0
   - ObjectId: 1670 # Fiery Globe Swarm
     PositionX: -700
@@ -238,7 +238,7 @@
     SpawnDelay: 0
     Command: 0
     SpawnRange: 0
-    Level: 1
+    Level: 2
     Medal: 0
   - ObjectId: 14 # Cannon Gun
     PositionX: -1000
@@ -256,7 +256,7 @@
     SpawnDelay: 0
     Command: 0
     SpawnRange: 0
-    Level: 1
+    Level: 2
     Medal: 0
   - ObjectId: 1670 # Fiery Globe Swarm
     PositionX: -700
@@ -274,7 +274,7 @@
     SpawnDelay: 0
     Command: 0
     SpawnRange: 0
-    Level: 1
+    Level: 2
     Medal: 0
   - ObjectId: 1670 # Fiery Globe Swarm
     PositionX: 300
@@ -292,7 +292,7 @@
     SpawnDelay: 0
     Command: 0
     SpawnRange: 0
-    Level: 1
+    Level: 2
     Medal: 0
   - ObjectId: 1670 # Fiery Globe Swarm
     PositionX: -300
@@ -310,7 +310,7 @@
     SpawnDelay: 0
     Command: 0
     SpawnRange: 0
-    Level: 1
+    Level: 2
     Medal: 0
   - ObjectId: 1670 # Fiery Globe Swarm
     PositionX: 200
@@ -328,7 +328,7 @@
     SpawnDelay: 0
     Command: 0
     SpawnRange: 0
-    Level: 1
+    Level: 2
     Medal: 0
   - ObjectId: 1670 # Fiery Globe Swarm
     PositionX: -50
@@ -346,7 +346,7 @@
     SpawnDelay: 0
     Command: 0
     SpawnRange: 0
-    Level: 1
+    Level: 2
     Medal: 0
   - ObjectId: 1670 # Fiery Globe Swarm
     PositionX: -100
@@ -364,7 +364,7 @@
     SpawnDelay: 0
     Command: 0
     SpawnRange: 0
-    Level: 1
+    Level: 2
     Medal: 0
   - ObjectId: 1670 # Fiery Globe Swarm
     PositionX: -200
@@ -382,7 +382,7 @@
     SpawnDelay: 0
     Command: 0
     SpawnRange: 0
-    Level: 1
+    Level: 2
     Medal: 0
   - ObjectId: 1670 # Fiery Globe Swarm
     PositionX: 200
@@ -400,7 +400,7 @@
     SpawnDelay: 0
     Command: 0
     SpawnRange: 0
-    Level: 1
+    Level: 2
     Medal: 0
   - ObjectId: 1670 # Fiery Globe Swarm
     PositionX: 300
@@ -418,7 +418,7 @@
     SpawnDelay: 40
     Command: 0
     SpawnRange: 0
-    Level: 1
+    Level: 2
     Medal: 0
   - ObjectId: 1670 # Fiery Globe Swarm
     PositionX: 50
@@ -436,7 +436,7 @@
     SpawnDelay: 40
     Command: 0
     SpawnRange: 0
-    Level: 1
+    Level: 2
     Medal: 0
   - ObjectId: 1670 # Fiery Globe Swarm
     PositionX: -150
@@ -454,7 +454,7 @@
     SpawnDelay: 40
     Command: 0
     SpawnRange: 0
-    Level: 1
+    Level: 2
     Medal: 0
   - ObjectId: 1670 # Fiery Globe Swarm
     PositionX: 0
@@ -472,7 +472,7 @@
     SpawnDelay: 40
     Command: 0
     SpawnRange: 0
-    Level: 1
+    Level: 2
     Medal: 0
   - ObjectId: 1670 # Fiery Globe Swarm
     PositionX: 150
@@ -490,7 +490,7 @@
     SpawnDelay: 40
     Command: 0
     SpawnRange: 0
-    Level: 1
+    Level: 2
     Medal: 0
   - ObjectId: 73 # Crimson Jazz
     PositionX: -250
@@ -505,10 +505,10 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 40
+    SpawnDelay: 200
     Command: 0
     SpawnRange: 0
-    Level: 2
+    Level: 4
     Medal: 0
   - ObjectId: 73 # Crimson Jazz
     PositionX: 250
@@ -523,10 +523,10 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 40
+    SpawnDelay: 200
     Command: 0
     SpawnRange: 0
-    Level: 2
+    Level: 4
     Medal: 0
   EventActivators:
   - Shape: 2
@@ -572,6 +572,24 @@
     Argument2: 0
     ReactionCommand: 0
     SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 0
+    Medal: 0
+  - ObjectId: 2043 # Lava Pool
+    PositionX: 0
+    PositionY: 0
+    PositionZ: 0
+    RotationX: 0
+    RotationY: 0
+    RotationZ: 0
+    SpawnType: 2
+    SpawnArgument: 0
+    Serial: 51
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 175
     Command: 0
     SpawnRange: 0
     Level: 0
