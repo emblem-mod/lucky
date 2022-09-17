@@ -96,12 +96,12 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 120 # Neoshadow
+  - ObjectId: 318 # Dusk
     PositionX: -900
-    PositionY: -1000
-    PositionZ: -900
+    PositionY: -20000
+    PositionZ: 900
     RotationX: 0
-    RotationY: 3.1415927410125732
+    RotationY: 0
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 2
@@ -114,9 +114,9 @@
     SpawnRange: 0
     Level: 100
     Medal: 0
-  - ObjectId: 302 # Shadow
+  - ObjectId: 318 # Dusk
     PositionX: 900
-    PositionY: -100
+    PositionY: -20000
     PositionZ: 900
     RotationX: 0
     RotationY: 0
@@ -132,12 +132,12 @@
     SpawnRange: 0
     Level: 100
     Medal: 0
-  - ObjectId: 120 # Neoshadow
+  - ObjectId: 302 # Shadow
     PositionX: -900
-    PositionY: -1000
-    PositionZ: 900
+    PositionY: 0
+    PositionZ: -900
     RotationX: 0
-    RotationY: 3.1415927410125732
+    RotationY: 0
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 2
@@ -152,7 +152,7 @@
     Medal: 0
   - ObjectId: 302 # Shadow
     PositionX: 900
-    PositionY: -1000
+    PositionY: 0
     PositionZ: -900
     RotationX: 0
     RotationY: 0
