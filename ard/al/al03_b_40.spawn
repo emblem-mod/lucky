@@ -132,6 +132,42 @@
     SpawnRange: 0
     Level: 100
     Medal: 0
+  - ObjectId: 318 # Dusk 120 # Neoshadow
+    PositionX: -900
+    PositionY: -1000
+    PositionZ: -900
+    RotationX: 0
+    RotationY: 3.1415927410125732
+    RotationZ: 0
+    SpawnType: 2
+    SpawnArgument: 2
+    Serial: 132
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 150
+    Command: 0
+    SpawnRange: 0
+    Level: 100
+    Medal: 0
+  - ObjectId: 318 # Dusk
+    PositionX: 900
+    PositionY: -2000
+    PositionZ: 900
+    RotationX: 0
+    RotationY: 0
+    RotationZ: 0
+    SpawnType: 2
+    SpawnArgument: 2
+    Serial: 133
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 250
+    Command: 0
+    SpawnRange: 0
+    Level: 100
+    Medal: 0
   EventActivators:
   - Shape: 2
     Option: 0
