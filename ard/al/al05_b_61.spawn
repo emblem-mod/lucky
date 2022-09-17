@@ -10,9 +10,9 @@
   Unk24: 0
   Entities:
   - ObjectId: 1766
-    PositionX: 2000
-    PositionY: -7000
-    PositionZ: -27000
+    PositionX: 0
+    PositionY: -24500
+    PositionZ: -5500
     RotationX: 0
     RotationY: 0
     RotationZ: 0
