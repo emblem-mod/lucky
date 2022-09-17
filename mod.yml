@@ -4,10 +4,10 @@ description:
 assets:
 
 
-- name: obj/B_CA050.mdlx
+- name: obj/F_CA690_BTL.mdlx
   method: copy
   source:
-  - name: obj/B_CA050.mdlx # Grim Reaper II Chest to Origin
+  - name: obj/F_CA690_BTL.mdlx # Grim Reaper II Chest to Origin
 
 
 
