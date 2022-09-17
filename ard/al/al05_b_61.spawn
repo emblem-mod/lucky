@@ -11,8 +11,8 @@
   Entities:
   - ObjectId: 1766
     PositionX: 0
-    PositionY: -21000
-    PositionZ: -6300
+    PositionY: -20000
+    PositionZ: -10000
     RotationX: 0
     RotationY: 0
     RotationZ: 0
