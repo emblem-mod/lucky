@@ -92,10 +92,10 @@
   Entities:
   - ObjectId: 302 # Shadow
     PositionX: -200
-    PositionY: 3500
-    PositionZ: 0
+    PositionY: 2500
+    PositionZ: 200
     RotationX: 0
-    RotationY: -2.552544116973877
+    RotationY: 0
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
@@ -103,17 +103,17 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 0
+    SpawnDelay: 25
     Command: 0
     SpawnRange: 0
     Level: 0
     Medal: 0
   - ObjectId: 302 # Shadow
-    PositionX: 0
-    PositionY: 3500
-    PositionZ: 200
+    PositionX: -200
+    PositionY: 2500
+    PositionZ: -200
     RotationX: 0
-    RotationY: 1.5707963705062866
+    RotationY: 0
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
@@ -121,17 +121,17 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 0
+    SpawnDelay: 25
     Command: 0
     SpawnRange: 0
     Level: 0
     Medal: 0
   - ObjectId: 302 # Shadow
     PositionX: 200
-    PositionY: 3500
-    PositionZ: 0
+    PositionY: 2500
+    PositionZ: 200
     RotationX: 0
-    RotationY: 1.5707963705062866
+    RotationY: 0
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
@@ -139,7 +139,25 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 0
+    SpawnDelay: 25
+    Command: 0
+    SpawnRange: 0
+    Level: 0
+    Medal: 0
+  - ObjectId: 302 # Shadow
+    PositionX: 200
+    PositionY: 2500
+    PositionZ: -200
+    RotationX: 0
+    RotationY: 0
+    RotationZ: 0
+    SpawnType: 2
+    SpawnArgument: 0
+    Serial: 73
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 25
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -326,7 +344,7 @@
   Entities:
   - ObjectId: 311 # Sniper
     PositionX: 0
-    PositionY: 15000
+    PositionY: 15500
     PositionZ: 0
     RotationX: 0
     RotationY: 0
@@ -337,14 +355,14 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 150
+    SpawnDelay: 100
     Command: 0
     SpawnRange: 0
     Level: 0
     Medal: 0
   - ObjectId: 311 # Sniper
     PositionX: -500
-    PositionY: 16500
+    PositionY: 17000
     PositionZ: 0
     RotationX: 0
     RotationY: 0
@@ -362,7 +380,7 @@
     Medal: 0
   - ObjectId: 311 # Sniper
     PositionX: 500
-    PositionY: 16500
+    PositionY: 17500
     PositionZ: 0
     RotationX: 0
     RotationY: 0
@@ -373,15 +391,15 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 50
+    SpawnDelay: 25
     Command: 0
     SpawnRange: 0
     Level: 0
     Medal: 0
   - ObjectId: 311 # Sniper
     PositionX: 0
-    PositionY: 17500
-    PositionZ: 0
+    PositionY: 18500
+    PositionZ: -500
     RotationX: 0
     RotationY: 0
     RotationZ: 0
@@ -396,6 +414,24 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
+  - ObjectId: 311 # Sniper
+    PositionX: 0
+    PositionY: 19000
+    PositionZ: 500
+    RotationX: 0
+    RotationY: 0
+    RotationZ: 0
+    SpawnType: 2
+    SpawnArgument: 0
+    Serial: 104
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 100
+    Command: 0
+    SpawnRange: 0
+    Level: 0
+    Medal: 0
   - ObjectId: 308 # Dragoon
     PositionX: 0
     PositionY: 21600
@@ -405,7 +441,7 @@
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
-    Serial: 104
+    Serial: 105
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -421,7 +457,7 @@
     PositionY: 18000
     PositionZ: 0
     ScaleX: 1000
-    ScaleY: 4800
+    ScaleY: 4000
     ScaleZ: 1000
     RotationX: 0
     RotationY: 0
