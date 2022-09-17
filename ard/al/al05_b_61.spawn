@@ -2,9 +2,9 @@
   Flag: 1
   Id: 24
   Teleport:
-    Place: 60
+    Place: 0
     Door: 0
-    World: 60
+    World: 0
     Unknown: 0
   Unk20: 0
   Unk24: 0
