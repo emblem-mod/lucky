@@ -4,14 +4,24 @@ description:
 assets:
 
 
+- name: obj/B_CA050.mdlx
+  method: copy
+  source:
+  - name: obj/B_CA050.mdlx # Grim Reaper II Chest to Origin
+
+
+
+
+
+
+
+
+
+
 
 
 
 # SIMULATED TWILIGHT TOWN =============================================================================================
-
-
-
-
 
 # TWILIGHT TOWN =======================================================================================================
 
