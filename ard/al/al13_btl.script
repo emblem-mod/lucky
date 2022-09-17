@@ -1,0 +1,9 @@
+Program 0x50
+Capacity 60
+Mission 0x9B "AL13_TRAP_FREE"
+Spawn "b_40"
+
+Program 0x4F
+Capacity 60
+Mission 0x42 "AL13_TRAP"
+Spawn "b_40"
