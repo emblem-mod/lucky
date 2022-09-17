@@ -18,7 +18,7 @@
     RotationZ: 0
     SpawnType: 0
     SpawnArgument: 0
-    Serial: 10
+    Serial: 1000
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -36,25 +36,7 @@
     RotationZ: 0
     SpawnType: 0
     SpawnArgument: 0
-    Serial: 11
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 0
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  - ObjectId: 1895 # Dragon Xemnas
-    PositionX: 0
-    PositionY: -11750
-    PositionZ: 38000
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 0
-    SpawnArgument: 0
-    Serial: 12
+    Serial: 1100
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -72,7 +54,40 @@
     RotationZ: 0
     SpawnType: 0
     SpawnArgument: 0
-    Serial: 13
+    Serial: 1200
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 0
+    Medal: 0
+  EventActivators: []
+  WalkPath: []
+  ReturnParameters: []
+  Signals: []
+- Type: 5
+  Flag: 1
+  Id: 98
+  Teleport:
+    Place: 0
+    Door: 0
+    World: 0
+    Unknown: 0
+  Unk20: 0
+  Unk24: 0
+  Entities:
+  - ObjectId: 1895 # Dragon Xemnas
+    PositionX: 0
+    PositionY: -11750
+    PositionZ: 38000
+    RotationX: 0
+    RotationY: 0
+    RotationZ: 0
+    SpawnType: 0
+    SpawnArgument: 0
+    Serial: 1200
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
