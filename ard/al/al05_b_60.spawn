@@ -18,7 +18,7 @@
     RotationZ: 0
     SpawnType: 0
     SpawnArgument: 0
-    Serial: 1000
+    Serial: 10
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -36,25 +36,7 @@
     RotationZ: 0
     SpawnType: 0
     SpawnArgument: 0
-    Serial: 1100
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 0
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  - ObjectId: 2140 # Armoured Xemnas II
-    PositionX: 0
-    PositionY: -22500
-    PositionZ: 8500
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 0
-    SpawnArgument: 0
-    Serial: 1200
+    Serial: 11
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -72,7 +54,25 @@
     RotationZ: 0
     SpawnType: 0
     SpawnArgument: 0
-    Serial: 1300
+    Serial: 12
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 0
+    Medal: 0
+  - ObjectId: 2140 # Armoured Xemnas II
+    PositionX: 0
+    PositionY: -22500
+    PositionZ: 8500
+    RotationX: 0
+    RotationY: 0
+    RotationZ: 0
+    SpawnType: 0
+    SpawnArgument: 0
+    Serial: 13
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
