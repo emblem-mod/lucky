@@ -121,7 +121,7 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 25
+    SpawnDelay: 50
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -139,7 +139,7 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 25
+    SpawnDelay: 10
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -258,24 +258,6 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 302 # Shadow
-    PositionX: 0
-    PositionY: 11700
-    PositionZ: -400
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 2
-    SpawnArgument: 0
-    Serial: 91
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 0
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
   - ObjectId: 17 # Lance Soldier
     PositionX: 400
     PositionY: 11700
@@ -285,25 +267,7 @@
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
-    Serial: 92
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 0
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  - ObjectId: 302 # Shadow
-    PositionX: 0
-    PositionY: 11700
-    PositionZ: 400
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 2
-    SpawnArgument: 0
-    Serial: 93
+    Serial: 91
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -428,24 +392,6 @@
     Argument2: 0
     ReactionCommand: 0
     SpawnDelay: 100
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  - ObjectId: 308 # Dragoon
-    PositionX: 0
-    PositionY: 21600
-    PositionZ: 0
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 2
-    SpawnArgument: 0
-    Serial: 105
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 0
     Command: 0
     SpawnRange: 0
     Level: 0
