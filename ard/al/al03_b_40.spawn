@@ -27,24 +27,6 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 98 # Aladdin
-    PositionX: -100
-    PositionY: 0
-    PositionZ: -600
-    RotationX: 0
-    RotationY: -3.1415927410125732
-    RotationZ: 0
-    SpawnType: 0
-    SpawnArgument: 0
-    Serial: 4
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 0
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
   - ObjectId: 1543 # Grim Reaper II
     PositionX: 0
     PositionY: 0
@@ -150,7 +132,7 @@
     SpawnRange: 600
     Level: 0
     Medal: 0
-  - ObjectId: 318 # Dusk
+  - ObjectId: 120 # Neoshadow
     PositionX: -900
     PositionY: 0
     PositionZ: -900
@@ -168,7 +150,7 @@
     SpawnRange: 200
     Level: 0
     Medal: 0
-  - ObjectId: 318 # Dusk
+  - ObjectId: 120 # Neoshadow
     PositionX: 900
     PositionY: 0
     PositionZ: 900
