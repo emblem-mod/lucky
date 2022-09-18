@@ -91,7 +91,7 @@
     SpawnType: 3
     SpawnArgument: 0
     Serial: 21
-    Argument1: 1
+    Argument1: 0
     Argument2: 0
     ReactionCommand: 0
     SpawnDelay: 0
