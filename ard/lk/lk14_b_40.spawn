@@ -60,12 +60,12 @@
   Unk20: 3276800
   Unk24: 0
   Entities:
-  - ObjectId: 8 # Hammer Frame
-    PositionX: 1100
+  - ObjectId: 2405 # Iron Hammer
+    PositionX: 400
     PositionY: 0
-    PositionZ: 0
+    PositionZ: 450
     RotationX: 0
-    RotationY: 0
+    RotationY: -1.5707963705062866
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
@@ -78,70 +78,16 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 8 # Hammer Frame
-    PositionX: 200
+  - ObjectId: 2405 # Iron Hammer
+    PositionX: 400
     PositionY: 0
-    PositionZ: -1150
+    PositionZ: 50
     RotationX: 0
-    RotationY: 0
+    RotationY: -1.5707963705062866
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
     Serial: 11
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 0
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  - ObjectId: 8 # Hammer Frame
-    PositionX: -1100
-    PositionY: 0
-    PositionZ: -650
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 2
-    SpawnArgument: 0
-    Serial: 12
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 0
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  - ObjectId: 8 # Hammer Frame
-    PositionX: -1100
-    PositionY: 0
-    PositionZ: 650
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 2
-    SpawnArgument: 0
-    Serial: 13
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 0
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  - ObjectId: 8 # Hammer Frame
-    PositionX: 200
-    PositionY: 0
-    PositionZ: 1150
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 2
-    SpawnArgument: 0
-    Serial: 14
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
