@@ -11,7 +11,7 @@
   Entities:
   - ObjectId: 566 # Sora
     PositionX: -2850
-    PositionY: 157
+    PositionY: 150
     PositionZ: -550
     RotationX: 0
     RotationY: 0
@@ -29,7 +29,7 @@
     Medal: 0
   - ObjectId: 567 # Party Member 1
     PositionX: -2750
-    PositionY: 157
+    PositionY: 150
     PositionZ: -450
     RotationX: 0
     RotationY: 0
@@ -47,7 +47,7 @@
     Medal: 0
   - ObjectId: 568 # Party Member 2
     PositionX: -2950
-    PositionY: 157
+    PositionY: 150
     PositionZ: -450
     RotationX: 0
     RotationY: 0
@@ -63,17 +63,35 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 1 # PLACEHOLDER
-    PositionX: -2850
-    PositionY: 157
-    PositionZ: -1300
+  - ObjectId: 968 # Reckless
+    PositionX: -2650
+    PositionY: 150
+    PositionZ: -1200
     RotationX: 0
-    RotationY: 0
+    RotationY: -2.9452431201934814
     RotationZ: 0
     SpawnType: 3
     SpawnArgument: 0
-    Serial: 13
+    Serial: 20
     Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 0
+    Medal: 0
+  - ObjectId: 968 # Reckless
+    PositionX: -3100
+    PositionY: 150
+    PositionZ: -1300
+    RotationX: 0
+    RotationY: 2.9452431201934814
+    RotationZ: 0
+    SpawnType: 3
+    SpawnArgument: 0
+    Serial: 21
+    Argument1: 1
     Argument2: 0
     ReactionCommand: 0
     SpawnDelay: 0
@@ -85,255 +103,3 @@
   WalkPath: []
   ReturnParameters: []
   Signals: []
-- Type: 2
-  Flag: 0
-  Id: 56
-  Teleport:
-    Place: 120
-    Door: 0
-    World: 0
-    Unknown: 0
-  Unk20: 4259840
-  Unk24: 0
-  Entities:
-  - ObjectId: 2 # PLACEHOLDER
-    PositionX: -2850
-    PositionY: -40157
-    PositionZ: -1300
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 3
-    SpawnArgument: 0
-    Serial: 83
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 0
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  EventActivators:
-  - Shape: 2
-    Option: 0
-    PositionX: 559.77886962890625
-    PositionY: -1160
-    PositionZ: 1607.302978515625
-    ScaleX: 197.23249816894531
-    ScaleY: 100
-    ScaleZ: 214.89450073242188
-    RotationX: 0
-    RotationY: -1.4011504650115967
-    RotationZ: 0
-    Flags: 0
-    Type: 0
-    OnBgGroup: 0
-    OffBgGroup: 0
-  WalkPath: []
-  ReturnParameters:
-  - Id: 0
-    Type: 0
-    Rate: 0
-    EntryType: 0
-    Argument04: 0
-    Argument08: 0
-    Argument0c: 0
-  - Id: 0
-    Type: 0
-    Rate: 0
-    EntryType: 0
-    Argument04: 0
-    Argument08: 0
-    Argument0c: 0
-  - Id: 0
-    Type: 0
-    Rate: 0
-    EntryType: 0
-    Argument04: 0
-    Argument08: 0
-    Argument0c: 0
-  Signals: []
-- Type: 2
-  Flag: 1
-  Id: 57
-  Teleport:
-    Place: 0
-    Door: 0
-    World: 0
-    Unknown: 0
-  Unk20: 1310720
-  Unk24: 0
-  Entities:
-  - ObjectId: 18 # PLACEHOLDER
-    PositionX: -2850
-    PositionY: 157
-    PositionZ: -1300
-    RotationX: 0
-    RotationY: 1.5707963705062866
-    RotationZ: 0
-    SpawnType: 2
-    SpawnArgument: 0
-    Serial: 84
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 0
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  - ObjectId: 18 # PLACEHOLDER
-    PositionX: -2850
-    PositionY: 157
-    PositionZ: -1300
-    RotationX: 0
-    RotationY: 0.7853981634
-    RotationZ: 0
-    SpawnType: 2
-    SpawnArgument: 0
-    Serial: 85
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 0
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  - ObjectId: 18 # PLACEHOLDER
-    PositionX: -2850
-    PositionY: 157
-    PositionZ: -1300
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 2
-    SpawnArgument: 0
-    Serial: 86
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 0
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  - ObjectId: 18 # PLACEHOLDER
-    PositionX: -2850
-    PositionY: 157
-    PositionZ: -1300
-    RotationX: 0
-    RotationY: -0.7853981634
-    RotationZ: 0
-    SpawnType: 2
-    SpawnArgument: 0
-    Serial: 87
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 0
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  - ObjectId: 18 # PLACEHOLDER
-    PositionX: -2850
-    PositionY: 157
-    PositionZ: -1300
-    RotationX: 0
-    RotationY: -1.5707963705062866
-    RotationZ: 0
-    SpawnType: 2
-    SpawnArgument: 0
-    Serial: 88
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 0
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  - ObjectId: 18 # PLACEHOLDER
-    PositionX: -2850
-    PositionY: 157
-    PositionZ: -1300
-    RotationX: 0
-    RotationY: -2.3561944902
-    RotationZ: 0
-    SpawnType: 2
-    SpawnArgument: 0
-    Serial: 89
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 0
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  - ObjectId: 18 # PLACEHOLDER
-    PositionX: -2850
-    PositionY: 157
-    PositionZ: -1300
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 2
-    SpawnArgument: 0
-    Serial: 90
-    Argument1: 1
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 0
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  EventActivators:
-  - Shape: 2
-    Option: 0
-    PositionX: -880.96722412109375
-    PositionY: -1160
-    PositionZ: 1840.5560302734375
-    ScaleX: 197.23249816894531
-    ScaleY: 100
-    ScaleZ: 214.89450073242188
-    RotationX: 0
-    RotationY: -1.4011504650115967
-    RotationZ: 0
-    Flags: 0
-    Type: 0
-    OnBgGroup: 0
-    OffBgGroup: 0
-  WalkPath: []
-  ReturnParameters:
-  - Id: 0
-    Type: 0
-    Rate: 0
-    EntryType: 0
-    Argument04: 0
-    Argument08: 0
-    Argument0c: 0
-  - Id: 0
-    Type: 0
-    Rate: 0
-    EntryType: 0
-    Argument04: 0
-    Argument08: 0
-    Argument0c: 0
-  - Id: 0
-    Type: 0
-    Rate: 0
-    EntryType: 0
-    Argument04: 0
-    Argument08: 0
-    Argument0c: 0
-  Signals:
-  - SignalId: 3
-    Argument: 56
-    Action: 0
-    Padding05: 0
-    Padding06: 0
-    Padding07: 0
