@@ -103,8 +103,8 @@
   WalkPath: []
   ReturnParameters: []
   Signals: []
-- Type: 1
-  Flag: 0
+- Type: 2
+  Flag: 1
   Id: 45
   Teleport:
     Place: 0
