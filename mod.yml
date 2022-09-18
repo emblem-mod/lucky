@@ -1116,12 +1116,12 @@ assets:
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/lk/lk05_b_40.spawn #
+    - name: ard/lk/lk05_b_40.spawn # Recklesses
   - name: b_60 # Hyena Chase
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/lk/lk05_b_60.spawn # Mad Rides and Living Bone
+    - name: ard/lk/lk05_b_60.spawn # Living Bones (Doesn't advance story)
   - name: btl
     type: areadatascript
     method: areadatascript
@@ -1132,6 +1132,7 @@ assets:
     method: areadatascript
     source:
     - name: ard/lk/lk05_evt.script # (If Experiement change Boss Signal for b_40)
+                                   # Also Hyena Chase won't advance story, something wrong with evt?
 
 # Shenzi, Banzai and Ed
 - name: ard/lk02.ard
