@@ -61,7 +61,7 @@
   Unk24: 0
   Entities:
   - ObjectId: 310 # Samurai
-    PositionX: -300
+    PositionX: -600
     PositionY: 0
     PositionZ: 300
     RotationX: 0
@@ -79,7 +79,7 @@
     Level: 0
     Medal: 0
   - ObjectId: 310 # Samurai
-    PositionX: 300
+    PositionX: 600
     PositionY: 0
     PositionZ: 300
     RotationX: 0
@@ -97,9 +97,9 @@
     Level: 0
     Medal: 0
   - ObjectId: 301 # Soldier
-    PositionX: -500
+    PositionX: -1500
     PositionY: -40000
-    PositionZ: -3000
+    PositionZ: -500
     RotationX: 0
     RotationY: 0
     RotationZ: 0
@@ -115,9 +115,9 @@
     Level: 0
     Medal: 0
   - ObjectId: 301 # Soldier
-    PositionX: 500
+    PositionX: 1500
     PositionY: -40000
-    PositionZ: -3000
+    PositionZ: -500
     RotationX: 0
     RotationY: 0
     RotationZ: 0
@@ -180,78 +180,6 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 310 # Samurai
-    PositionX: -300
-    PositionY: 0
-    PositionZ: 0
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 2
-    SpawnArgument: 0
-    Serial: 30
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 50
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  - ObjectId: 310 # Samurai
-    PositionX: 300
-    PositionY: 0
-    PositionZ: 0
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 2
-    SpawnArgument: 0
-    Serial: 31
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 50
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  - ObjectId: 310 # Samurai
-    PositionX: -300
-    PositionY: 0
-    PositionZ: -800
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 2
-    SpawnArgument: 0
-    Serial: 32
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 50
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  - ObjectId: 310 # Samurai
-    PositionX: 300
-    PositionY: 0
-    PositionZ: -800
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 2
-    SpawnArgument: 0
-    Serial: 33
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 50
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
   - ObjectId: 1610 # Big White Fire
     PositionX: 1800
     PositionY: -150
@@ -261,11 +189,11 @@
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 2
-    Serial: 40
+    Serial: 30
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 100
+    SpawnDelay: 200
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -279,11 +207,11 @@
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 2
-    Serial: 41
+    Serial: 31
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 100
+    SpawnDelay: 0
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -297,11 +225,11 @@
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 2
-    Serial: 42
+    Serial: 32
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 100
+    SpawnDelay: 0
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -315,11 +243,83 @@
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 2
+    Serial: 33
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 0
+    Medal: 0
+  - ObjectId: 310 # Samurai
+    PositionX: -700
+    PositionY: 0
+    PositionZ: 200
+    RotationX: 0
+    RotationY: 0
+    RotationZ: 0
+    SpawnType: 2
+    SpawnArgument: 0
+    Serial: 40
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 200
+    Command: 0
+    SpawnRange: 0
+    Level: 0
+    Medal: 0
+  - ObjectId: 310 # Samurai
+    PositionX: 700
+    PositionY: 0
+    PositionZ: 200
+    RotationX: 0
+    RotationY: 0
+    RotationZ: 0
+    SpawnType: 2
+    SpawnArgument: 0
+    Serial: 41
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 0
+    Medal: 0
+  - ObjectId: 310 # Samurai
+    PositionX: -700
+    PositionY: 0
+    PositionZ: -1200
+    RotationX: 0
+    RotationY: 0
+    RotationZ: 0
+    SpawnType: 2
+    SpawnArgument: 0
+    Serial: 42
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 0
+    Medal: 0
+  - ObjectId: 310 # Samurai
+    PositionX: 700
+    PositionY: 0
+    PositionZ: -1200
+    RotationX: 0
+    RotationY: 0
+    RotationZ: 0
+    SpawnType: 2
+    SpawnArgument: 0
     Serial: 43
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 100
+    SpawnDelay: 0
     Command: 0
     SpawnRange: 0
     Level: 0
