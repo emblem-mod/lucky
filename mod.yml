@@ -4,6 +4,15 @@ description:
 assets:
 
 
+
+- name: obj/B_CA050.mdlx
+  method: binarc
+  source:
+  - name: b_ca
+    type: Bdx
+    method: copy
+    source:
+    - name: ai/b_ca050.bdx # Grim Reaper II Medallion Fixes
 - name: obj/F_CA690_BTL.mdlx
   method: copy
   source:
@@ -12,14 +21,9 @@ assets:
 
 
 
-
-
-
-
-
-
-
-
+# =================================================================================================================== #
+# HIDDEN KINGS PLANDO #################################################################################################
+# =================================================================================================================== #
 
 # SIMULATED TWILIGHT TOWN =============================================================================================
 
@@ -151,14 +155,6 @@ assets:
     method: spawnpoint
     source:
     - name: ard/hb/hb04_b_40.spawn # Grim Reaper II, Cursed Medallions and Infinite Dusks
-- name: obj/B_CA050.mdlx
-  method: binarc
-  source:
-  - name: b_ca
-    type: Bdx
-    method: copy
-    source:
-    - name: ai/b_ca050.bdx # Grim Reaper II AI Fixes
 
 # Ravine Trail Fight I
 
@@ -900,8 +896,7 @@ assets:
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/al/al13_b_40.spawn # Hades Escape, Shadows, Lance Soldiers, Dragoons and Snipers
-
+    - name: ard/al/al13_b_40.spawn # Shadows, Lance Soldiers, Dragoons and Snipers with Hades Escape
 
 # Treasure Room Fight
 - name: ard/al10.ard
@@ -935,12 +930,12 @@ assets:
     type: areadatascript
     method: areadatascript
     source:
-    - name: ard/al/al03_btl.script # AL03_MS103 -> EH15_MS104 (Saix)
+    - name: ard/al/al03_btl.script # AL03_MS103 -> CA01_MS204 (Grim Reaper II)
   - name: b_40
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/al/al03_b_40.spawn # Saix, Shamans and Bomb Bells
+    - name: ard/al/al03_b_40.spawn # Grim Reaper II, Cursed Medallions with Infinite Dusks and Shadows
 
 # Sandswept Ruins Fight
 
@@ -1126,12 +1121,17 @@ assets:
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/lk/lk05_b_60.spawn # Lock, Shock and Barrel (DELETE - Fight got moved to BB Parlor)
+    - name: ard/lk/lk05_b_60.spawn # Mad Rides and Living Bone
+  - name: btl
+    type: areadatascript
+    method: areadatascript
+    source:
+    - name: ard/lk/lk05_btl.script # LK05_MS102 -> LK05_MS101 (Enemies)
   - name: evt
     type: areadatascript
     method: areadatascript
     source:
-    - name: ard/lk/lk05_evt.script # Boss Signal
+    - name: ard/lk/lk05_evt.script # (If Experiement change Boss Signal for b_40)
 
 # Shenzi, Banzai and Ed
 - name: ard/lk02.ard
@@ -1160,7 +1160,7 @@ assets:
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/lk/lk14_b_40.spawn # Data Lexaeus, Hammer Frames, Driller Moles and Sandstorm Pillars
+    - name: ard/lk/lk14_b_40.spawn # Data Lexaeus, Iron Hammers, Driller Moles and Sandstorm Pillars
 
 # Groundshaker
 - name: ard/lk15.ard
@@ -1353,7 +1353,7 @@ assets:
 
 
 # =================================================================================================================== #
-# LUCKY EMBLEMS #######################################################################################################
+# LUCKY EMBLEM TEXTURES ###############################################################################################
 # =================================================================================================================== #
 
 # TWILIGHT TOWN =======================================================================================================
