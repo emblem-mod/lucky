@@ -10,11 +10,11 @@
   Unk24: 0
   Entities:
   - ObjectId: 566 # Sora
-    PositionX: 2725
+    PositionX: 4000
     PositionY: 0
-    PositionZ: 1325
+    PositionZ: 2600
     RotationX: 0
-    RotationY: -0.65462309122085571
+    RotationY: -1.5707963705062866
     RotationZ: 0
     SpawnType: 0
     SpawnArgument: 0
@@ -28,11 +28,11 @@
     Level: 0
     Medal: 0
   - ObjectId: 567 # Party Member 1
-    PositionX: 2875
+    PositionX: 4100
     PositionY: 0
-    PositionZ: 1350
+    PositionZ: 2500
     RotationX: 0
-    RotationY: -0.65462309122085571
+    RotationY: -1.5707963705062866
     RotationZ: 0
     SpawnType: 0
     SpawnArgument: 0
@@ -46,15 +46,51 @@
     Level: 0
     Medal: 0
   - ObjectId: 568 # Party Member 2
-    PositionX: 2725
+    PositionX: 4100
     PositionY: 0
-    PositionZ: 1475
+    PositionZ: 2700
     RotationX: 0
-    RotationY: -0.65462309122085571
+    RotationY: -1.5707963705062866
     RotationZ: 0
     SpawnType: 0
     SpawnArgument: 0
     Serial: 17
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 0
+    Medal: 0
+  - ObjectId: 721 # Storm Rider Barrier
+    PositionX: 2000
+    PositionY: 0
+    PositionZ: 400
+    RotationX: 0
+    RotationY: 2.87979326580000000
+    RotationZ: 0
+    SpawnType: 0
+    SpawnArgument: 0
+    Serial: 20
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 0
+    Medal: 0
+  - ObjectId: 721 # Storm Rider Barrier
+    PositionX: 1300
+    PositionY: 0
+    PositionZ: 2300
+    RotationX: 0
+    RotationY: 1.30899693900000000
+    RotationZ: 0
+    SpawnType: 0
+    SpawnArgument: 0
+    Serial: 21
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -78,68 +114,14 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 127
-    PositionX: -500
-    PositionY: -125
-    PositionZ: 600
+  - ObjectId: 1831 # Hot Rod
+    PositionX: 3000
+    PositionY: -200
+    PositionZ: 2600
     RotationX: 0
-    RotationY: 2.5143144130706787
+    RotationY: 1.5707963705062866
     RotationZ: 0
-    SpawnType: 0
-    SpawnArgument: 0
-    Serial: 20
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 0
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  - ObjectId: 128
-    PositionX: 2300
-    PositionY: 0
-    PositionZ: 900
-    RotationX: 0
-    RotationY: 2.5143144130706787
-    RotationZ: 0
-    SpawnType: 0
-    SpawnArgument: 0
-    Serial: 21
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 0
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  - ObjectId: 129
-    PositionX: -2700
-    PositionY: 150
-    PositionZ: -700
-    RotationX: 0
-    RotationY: 2.5143144130706787
-    RotationZ: 0
-    SpawnType: 0
-    SpawnArgument: 0
-    Serial: 22
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 0
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  - ObjectId: 1059
-    PositionX: 650
-    PositionY: -150
-    PositionZ: -950
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 0
+    SpawnType: 3
     SpawnArgument: 0
     Serial: 30
     Argument1: 0
@@ -150,14 +132,14 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 1059
-    PositionX: -3800
-    PositionY: -425
-    PositionZ: -2400
+  - ObjectId: 1831 # Hot Rod
+    PositionX: 3200
+    PositionY: -100
+    PositionZ: 2400
     RotationX: 0
-    RotationY: 0
+    RotationY: 1.5707963705062866
     RotationZ: 0
-    SpawnType: 0
+    SpawnType: 3
     SpawnArgument: 0
     Serial: 31
     Argument1: 0
@@ -168,14 +150,14 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 1059
-    PositionX: -900
-    PositionY: -25
-    PositionZ: 3200
+  - ObjectId: 1831 # Hot Rod
+    PositionX: 3400
+    PositionY: 0
+    PositionZ: 2200
     RotationX: 0
-    RotationY: 0
+    RotationY: 1.5707963705062866
     RotationZ: 0
-    SpawnType: 0
+    SpawnType: 3
     SpawnArgument: 0
     Serial: 32
     Argument1: 0
@@ -185,6 +167,24 @@
     Command: 0
     SpawnRange: 0
     Level: 0
+    Medal: 0
+  - ObjectId: 15 # Living Bone
+    PositionX: 2400
+    PositionY: -200
+    PositionZ: 2200
+    RotationX: 0
+    RotationY: 1.5707963705062866
+    RotationZ: 0
+    SpawnType: 2
+    SpawnArgument: 0
+    Serial: 33
+    Argument1: 2
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 1
     Medal: 0
   EventActivators: []
   WalkPath: []
