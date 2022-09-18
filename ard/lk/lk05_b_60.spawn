@@ -66,7 +66,7 @@
   - ObjectId: 721 # Storm Rider Barrier
     PositionX: 2000
     PositionY: 0
-    PositionZ: 400
+    PositionZ: 200
     RotationX: 0
     RotationY: 2.87979326580000000
     RotationZ: 0
@@ -82,7 +82,7 @@
     Level: 0
     Medal: 0
   - ObjectId: 721 # Storm Rider Barrier
-    PositionX: 1300
+    PositionX: 1100
     PositionY: 0
     PositionZ: 2300
     RotationX: 0
@@ -114,7 +114,7 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 1831 # Hot Rod
+  - ObjectId: 2406 # Mad Ride
     PositionX: 3000
     PositionY: -200
     PositionZ: 2600
@@ -132,7 +132,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 1831 # Hot Rod
+  - ObjectId: 2406 # Mad Ride
     PositionX: 3200
     PositionY: -100
     PositionZ: 2400
@@ -150,7 +150,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 1831 # Hot Rod
+  - ObjectId: 2406 # Mad Ride
     PositionX: 3400
     PositionY: 0
     PositionZ: 2200
