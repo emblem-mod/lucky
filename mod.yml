@@ -794,16 +794,16 @@ assets:
   - name: ard/us/ca09.ard
   method: binarc
   source:
-  - name: btl
-    type: areadatascript
-    method: areadatascript
-    source:
-    - name: ard/ca/ca09_btl.script # CA09_MS104 -> BB15_MS203 (Xaldin)
   - name: b_40 # Isla de Muerta Fight
     type: areadataspawn
     method: spawnpoint
     source:
     - name: ard/ca/ca09_b_40.spawn # Xaldin, Assault Riders and Lance Warriors
+  - name: btl
+    type: areadatascript
+    method: areadatascript
+    source:
+    - name: ard/ca/ca09_btl.script # CA09_MS104 -> BB15_MS203 (Xaldin)
 #  - name: b_70 # Isla de Muerta Gambler
 #    type: areadataspawn
 #    method: spawnpoint
@@ -845,16 +845,16 @@ assets:
   - name: ard/us/ca10.ard
   method: binarc
   source:
-  - name: btl
-    type: areadatascript
-    method: areadatascript
-    source:
-    - name: ard/ca/ca10_btl.script # CA10_MS107 -> HB04_MS403 (Demyx II)
   - name: b_40
     type: areadataspawn
     method: spawnpoint
     source:
     - name: ard/ca/ca10_b_40.spawn # Demyx II, Crescendos and Darkness
+  - name: btl
+    type: areadatascript
+    method: areadatascript
+    source:
+    - name: ard/ca/ca10_btl.script # CA10_MS107 -> HB04_MS403 (Demyx II)
 # Treasure Heap Gambler
     #! b_70 The Demyx fight may move here if he becomes Data version.
 
@@ -905,7 +905,7 @@ assets:
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/al/al13_b_40.spawn # Shadows, Lance Soldiers, Dragoons and Snipers with Hades Escape
+    - name: ard/al/al13_b_40.spawn # Shadows, Lance Soldiers, Dragoons and Snipers with Hades
 
 # Treasure Room Fight
 - name: ard/al10.ard
@@ -913,64 +913,84 @@ assets:
   - name: ard/us/al10.ard
   method: binarc
   source:
+  - name: b_40
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: ard/al/al10_b_40.spawn # Cannon Guns, Fiery Globes and Crimson Jazzes then Axel II and Lava Pool
   - name: btl
     type: areadatascript
     method: areadatascript
     source:
     - name: ard/al/al10_btl.script # AL10_MS102 -> TT20_MS603 (Axel II)
-  - name: b_40
-    type: areadataspawn
-    method: spawnpoint
-    source:
-    - name: ard/al/al10_b_40.spawn # Cannon Guns, Fiery Globe Swarms and Crimson Jazzes then Axel II and Lava Pools
   - name: evt
     type: areadatascript
     method: areadatascript
     source:
     - name: ard/al/al10_evt.script # Boss Signal
 
-# Volcanic and Blizzard Lords
+# Volcanic Lord and Blizzard Lord
 - name: ard/al03.ard
   multi:
   - name: ard/us/al03.ard
   method: binarc
   source:
+  - name: b_40
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: ard/al/al03_b_40.spawn # Grim Reaper II, Cursed Medallions with Infinite Gamblers
   - name: btl
     type: areadatascript
     method: areadatascript
     source:
     - name: ard/al/al03_btl.script # AL03_MS103 -> CA01_MS204 (Grim Reaper II)
-  - name: b_40
-    type: areadataspawn
-    method: spawnpoint
+  - name: map
+    type: areadatascript
+    method: areadatascript
     source:
-    - name: ard/al/al03_b_40.spawn # Grim Reaper II, Cursed Medallions with Infinite Dusks and Shadows
+    - name: ard/al/al03_map.script # Restore Green Plants
+
 
 # Sandswept Ruins Fight
 
 # Sandswept Tower Fight & Magic Switches
+#! Shorten the "enter the door" timer to 7 seconds (enough to enter when starting from the blizzard or thunder switches)
 - name: ard/al14.ard
   multi:
   - name: ard/us/al14.ard
   method: binarc
   source:
-  - name: btl
-    type: areadatascript
-    method: areadatascript
-    source:
-    - name: ard/al/al14_btl.script # AL13_MS201B -> HB32_FM_VEX (Vexen)
   - name: b_64 # Sandswept Tower Fight
     type: areadataspawn
     method: spawnpoint
     source:
     - name: ard/al/al14_b_64.spawn # Data Vexen and Ice Spikes
-  - name: b_65 # Magic Switches
+  - name: b_65
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/al/al14_b_65.spawn # Magic Switches Remix and Ice Spikes
-    #! After all the switches are activated Sora spawns in the wrong locations. Find and edit them.
-    #! Shorten the "enter the door" timer to 7 seconds (enough to enter when starting from the blizzard or thunder switches)
+    - name: ard/al/al14_b_65.spawn # Magic Switches Remix with Devastators
+  - name: b_67
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: ard/al/al14_b_67.spawn # Post-Switches Sora Spawn (Fire)
+  - name: b_68
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: ard/al/al14_b_68.spawn # Post-Switches Sora Spawn (Blizzard)
+  - name: b_69
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: ard/al/al14_b_69.spawn # Post-Switches Sora Spawn (Thunder)
+  - name: btl
+    type: areadatascript
+    method: areadatascript
+    source:
+    - name: ard/al/al14_btl.script # AL13_MS201B -> HB32_FM_VEX (Vexen)
   - name: evt
     type: areadatascript
     method: areadatascript
@@ -983,22 +1003,16 @@ assets:
   - name: ard/us/al05.ard
   method: binarc
   source:
-  - name: btl
-    type: areadatascript
-    method: areadatascript
-    source:
-    - name: ard/al/al05_btl.script # Add b_61 & AL05_MS203 -> EH23_MS112 (Armoured Xemnas II)
   - name: b_60
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/al/al05_b_60.spawn # Armoured Xemnas II, Dragon and Riku ! NOT ENOUGH MEMORY TO WORK
-  - name: b_61
-    type: areadataspawn
-    method: spawnpoint
+    - name: ard/al/al05_b_60.spawn # Data Saix and Berserkers
+  - name: btl
+    type: areadatascript
+    method: areadatascript
     source:
-    - name: ard/al/al05_b_61.spawn # Buildings
-
+    - name: ard/al/al05_btl.script # AL05_MS203 -> EH15_MS104 (Saix)
 
 
 
@@ -1011,11 +1025,6 @@ assets:
   - name: ard/us/nm00.ard
   method: binarc
   source:
-  - name: btl
-    type: areadatascript
-    method: areadatascript
-    source:
-    - name: ard/nm/nm00_btl.script # NM00_MS101 -> TT05_MS404 (Axel I) & NM00_MS202 -> CA01_MS204 (Grim Reaper)
   - name: b_40 # Town Square Fight
     type: areadataspawn
     method: spawnpoint
@@ -1026,6 +1035,11 @@ assets:
     method: spawnpoint
     source:
     - name: ard/nm/nm00_b_99.spawn # Grim Reaper II
+  - name: btl
+    type: areadatascript
+    method: areadatascript
+    source:
+    - name: ard/nm/nm00_btl.script # NM00_MS101 -> TT05_MS404 (Axel I) & NM00_MS202 -> CA01_MS204 (Grim Reaper)
   - name: evt
     type: areadatascript
     method: areadatascript
@@ -1050,17 +1064,17 @@ assets:
   - name: ard/us/nm03.ard
   method: binarc
   source:
-  - name: btl
-    type: areadatascript
-    method: areadatascript
-    source:
-    - name: ard/nm/nm03_btl.script # NM03_MS103 -> HE07_MS103
   - name: b_40
     type: areadataspawn
     method: spawnpoint
     source:
     - name: ard/nm/nm03_b_40.spawn # Cerberus, Living Bones and Rabid Dogs
     #! Add Jack Sparrow?
+  - name: btl
+    type: areadatascript
+    method: areadatascript
+    source:
+    - name: ard/nm/nm03_btl.script # NM03_MS103 -> HE07_MS103
 
 # Oogie Boogie
 - name: ard/nm09.ard
@@ -1068,11 +1082,6 @@ assets:
   - name: ard/us/nm09.ard
   method: binarc
   source:
-  - name: btl
-    type: areadatascript
-    method: areadatascript
-    source:
-    - name: ard/nm/nm09_btl.script # NM09_MS104 -> BB11_MS102 (Thresholder)
   - name: b_40
     type: areadataspawn
     method: spawnpoint
@@ -1088,6 +1097,11 @@ assets:
     method: spawnpoint
     source:
     - name: ard/nm/nm09_m_50.spawn # Punching Glove and Remove Conveyor Warp
+  - name: btl
+    type: areadatascript
+    method: areadatascript
+    source:
+    - name: ard/nm/nm09_btl.script # NM09_MS104 -> BB11_MS102 (Thresholder)
 
 # Lock, Shock and Barrel
 
@@ -1097,18 +1111,17 @@ assets:
   - name: ard/us/nm07.ard
   method: binarc
   source:
-  - name: btl
-    type: areadatascript
-    method: areadatascript
-    source:
-    - name: ard/nm/nm07_btl.script # NM07_MS204 -> HB33_FM_LAR (Larxene)
   - name: b_60
     type: areadataspawn
     method: spawnpoint
     source:
     - name: ard/nm/nm07_b_60.spawn # Data Larxene, Bolt Towers and Reckless
     #! Too much going on. I should remove enemies to simplify fight. Keep Reckless over Bolt Towers.
-
+  - name: btl
+    type: areadatascript
+    method: areadatascript
+    source:
+    - name: ard/nm/nm07_btl.script # NM07_MS204 -> HB33_FM_LAR (Larxene)
 
 
 
@@ -1161,16 +1174,16 @@ assets:
   - name: ard/us/lk14.ard
   method: binarc
   source:
-  - name: btl
-    type: areadatascript
-    method: areadatascript
-    source:
-    - name: ard/lk/lk14_btl.script # LK14_MS103 -> HB33_FM_LEX (Lexaeus)
   - name: b_40
     type: areadataspawn
     method: spawnpoint
     source:
     - name: ard/lk/lk14_b_40.spawn # Data Lexaeus, Iron Hammers, Driller Moles and Sandstorm Pillars
+  - name: btl
+    type: areadatascript
+    method: areadatascript
+    source:
+    - name: ard/lk/lk14_btl.script # LK14_MS103 -> HB33_FM_LEX (Lexaeus)
 
 # Groundshaker
 - name: ard/lk15.ard
@@ -1178,17 +1191,16 @@ assets:
   - name: ard/us/lk15.ard
   method: binarc
   source:
-  - name: btl
-    type: areadatascript
-    method: areadatascript
-    source:
-    - name: ard/lk/lk15_btl.script # LK15_MS202 -> AL05_MS203 (Genie Jafar)
   - name: b_60
     type: areadataspawn
     method: spawnpoint
     source:
     - name: ard/lk/lk15_b_60.spawn # Carpet Sora, Magic Carpet and Genie Jafar
-
+  - name: btl
+    type: areadatascript
+    method: areadatascript
+    source:
+    - name: ard/lk/lk15_btl.script # LK15_MS202 -> AL05_MS203 (Genie Jafar)
 
 
 
@@ -1219,16 +1231,16 @@ assets:
   - name: ard/us/tr02.ard
   method: binarc
   source:
-  - name: btl
-    type: areadatascript
-    method: areadatascript
-    source:
-    - name: ard/tr/tr02_btl.script # TR02_MS210 -> EH10_MS102 (Xigbar)
   - name: b_60
     type: areadataspawn
     method: spawnpoint
     source:
     - name: ard/tr/tr02_b_60.spawn # Xigbar, Snipers and Infinite Magnum Loaders
+  - name: btl
+    type: areadatascript
+    method: areadatascript
+    source:
+    - name: ard/tr/tr02_btl.script # TR02_MS210 -> EH10_MS102 (Xigbar)
   - name: evt
     type: areadatascript
     method: areadatascript
@@ -1257,17 +1269,16 @@ assets:
   - name: ard/us/tr09.ard
   method: binarc
   source:
-  - name: btl
-    type: areadatascript
-    method: areadatascript
-    source:
-    - name: ard/tr/tr09_btl.script # TR09_MS205 -> HB34_FM_ZEX (Zexion)
   - name: b_61
     type: areadataspawn
     method: spawnpoint
     source:
     - name: ard/tr/tr09_b_61.spawn # Data Zexion, Runemasters, Elevator Platforms and Cube Terminals
-
+  - name: btl
+    type: areadatascript
+    method: areadatascript
+    source:
+    - name: ard/tr/tr09_btl.script # TR09_MS205 -> HB34_FM_ZEX (Zexion)
 
 
 
@@ -1280,16 +1291,16 @@ assets:
   - name: ard/us/eh21.ard
   method: binarc
   source:
-  - name: btl
-    type: areadatascript
-    method: areadatascript
-    source:
-    - name: ard/eh/eh21_btl.script # EH21_MS101 -> EH24_MS110 (Armoured Xemnas I)
   - name: b_40
     type: areadataspawn
     method: spawnpoint
     source:
     - name: ard/eh/eh21_b_40.spawn # Armoured Xemnas I, Armoured Xemnas I, Sorcerer and Addtional Weapons
+  - name: btl
+    type: areadatascript
+    method: areadatascript
+    source:
+    - name: ard/eh/eh21_btl.script # EH21_MS101 -> EH24_MS110 (Armoured Xemnas I)
   - name: evt
     type: areadatascript
     method: areadatascript
@@ -1306,16 +1317,16 @@ assets:
   - name: ard/us/eh14.ard
   method: binarc
   source:
-  - name: btl
-    type: areadatascript
-    method: areadatascript
-    source:
-    - name: ard/eh/eh14_btl.script # EH14_MS103 -> WI03_MS104 (Pete II)
   - name: b_40
     type: areadataspawn
     method: spawnpoint
     source:
     - name: ard/bb/bb15_b_60.spawn # Pete II, Past Pete and Lion Pete (Scar)
+  - name: btl
+    type: areadatascript
+    method: areadatascript
+    source:
+    - name: ard/eh/eh14_btl.script # EH14_MS103 -> WI03_MS104 (Pete II)
     #! If Pete II is used here don't use bb15 as the base, use eh14 AND add Pete II Extras.
 
 # Saix
