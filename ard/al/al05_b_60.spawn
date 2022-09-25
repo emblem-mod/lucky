@@ -1,6 +1,6 @@
 - Type: 1
   Flag: 0
-  Id: 4
+  Id: 47
   Teleport:
     Place: 0
     Door: 0
@@ -11,10 +11,46 @@
   Entities:
   - ObjectId: 566 # Sora
     PositionX: 0
-    PositionY: -24000
-    PositionZ: -1500
+    PositionY: -22300
+    PositionZ: -200
     RotationX: 0
     RotationY: 3.1415927410125732
+    RotationZ: 0
+    SpawnType: 0
+    SpawnArgument: 0
+    Serial: 4
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 0
+    Medal: 0
+  - ObjectId: 2502 # Data Saix
+    PositionX: 0
+    PositionY: -22300
+    PositionZ: 200
+    RotationX: 0
+    RotationY: 0
+    RotationZ: 0
+    SpawnType: 0
+    SpawnArgument: 0
+    Serial: 8
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 0
+    Medal: 0
+  - ObjectId: 313 # Berserker
+    PositionX: -300
+    PositionY: -22600
+    PositionZ: 200
+    RotationX: 0
+    RotationY: 0
     RotationZ: 0
     SpawnType: 0
     SpawnArgument: 0
@@ -27,16 +63,34 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 2073 # Riku
+  - ObjectId: 313 # Berserker
+    PositionX: 300
+    PositionY: -22600
+    PositionZ: 200
+    RotationX: 0
+    RotationY: 0
+    RotationZ: 0
+    SpawnType: 0
+    SpawnArgument: 0
+    Serial: 11
+    Argument1: 1
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 0
+    Medal: 0
+  - ObjectId: 721 # Barrier
     PositionX: 0
-    PositionY: -24000
-    PositionZ: -1550
+    PositionY: -22300
+    PositionZ: -2100
     RotationX: 0
     RotationY: 3.1415927410125732
     RotationZ: 0
     SpawnType: 0
     SpawnArgument: 0
-    Serial: 11
+    Serial: 20
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -45,16 +99,16 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 1895 # Dragon Xemnas
-    PositionX: 0
-    PositionY: -11750
-    PositionZ: 38000
+  - ObjectId: 721 # Barrier
+    PositionX: -1500
+    PositionY: -22300
+    PositionZ: -1500
     RotationX: 0
-    RotationY: 0
+    RotationY: 2.3561944902000000
     RotationZ: 0
     SpawnType: 0
     SpawnArgument: 0
-    Serial: 12
+    Serial: 21
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -63,16 +117,250 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 2140 # Armoured Xemnas II
+  - ObjectId: 721 # Barrier
+    PositionX: -2100
+    PositionY: -22300
+    PositionZ: 0
+    RotationX: 0
+    RotationY: 1.5707963705062866
+    RotationZ: 0
+    SpawnType: 0
+    SpawnArgument: 0
+    Serial: 22
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 0
+    Medal: 0
+  - ObjectId: 721 # Barrier
+    PositionX: -1500
+    PositionY: -22300
+    PositionZ: 1500
+    RotationX: 0
+    RotationY: 0.7853981634000000
+    RotationZ: 0
+    SpawnType: 0
+    SpawnArgument: 0
+    Serial: 23
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 0
+    Medal: 0
+  - ObjectId: 721 # Barrier
     PositionX: 0
-    PositionY: -22500
-    PositionZ: 8500
+    PositionY: -22300
+    PositionZ: 2100
     RotationX: 0
     RotationY: 0
     RotationZ: 0
     SpawnType: 0
     SpawnArgument: 0
-    Serial: 13
+    Serial: 24
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 0
+    Medal: 0
+  - ObjectId: 721 # Barrier
+    PositionX: 1500
+    PositionY: -22300
+    PositionZ: 1500
+    RotationX: 0
+    RotationY: -0.7853981634000000
+    RotationZ: 0
+    SpawnType: 0
+    SpawnArgument: 0
+    Serial: 25
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 0
+    Medal: 0
+  - ObjectId: 721 # Barrier
+    PositionX: 2100
+    PositionY: -22300
+    PositionZ: 0
+    RotationX: 0
+    RotationY: -1.5707963705062866
+    RotationZ: 0
+    SpawnType: 0
+    SpawnArgument: 0
+    Serial: 26
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 0
+    Medal: 0
+  - ObjectId: 721 # Barrier
+    PositionX: 1500
+    PositionY: -22300
+    PositionZ: -1500
+    RotationX: 0
+    RotationY: -2.3561944902000000
+    RotationZ: 0
+    SpawnType: 0
+    SpawnArgument: 0
+    Serial: 27
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 0
+    Medal: 0
+  - ObjectId: 2114 # Saix's Claymore
+    PositionX: 0
+    PositionY: -22750
+    PositionZ: -2100
+    RotationX: 0
+    RotationY: 1.5707963705062866
+    RotationZ: 0
+    SpawnType: 0
+    SpawnArgument: 0
+    Serial: 70
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 0
+    Medal: 0
+  - ObjectId: 2114 # Saix's Claymore
+    PositionX: -1500
+    PositionY: -22750
+    PositionZ: -1500
+    RotationX: 3.1415927410125732
+    RotationY: 0.7853981634000000
+    RotationZ: 0
+    SpawnType: 0
+    SpawnArgument: 0
+    Serial: 71
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 0
+    Medal: 0
+  - ObjectId: 2114 # Saix's Claymore
+    PositionX: -2100
+    PositionY: -22750
+    PositionZ: 0
+    RotationX: 0
+    RotationY: 0
+    RotationZ: 0
+    SpawnType: 0
+    SpawnArgument: 0
+    Serial: 72
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 0
+    Medal: 0
+  - ObjectId: 2114 # Saix's Claymore
+    PositionX: -1500
+    PositionY: -22750
+    PositionZ: 1500
+    RotationX: 0
+    RotationY: -0.7853981634000000
+    RotationZ: 0
+    SpawnType: 0
+    SpawnArgument: 0
+    Serial: 73
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 0
+    Medal: 0
+  - ObjectId: 2114 # Saix's Claymore
+    PositionX: 0
+    PositionY: -22750
+    PositionZ: 2100
+    RotationX: 0
+    RotationY: -1.5707963705062866
+    RotationZ: 0
+    SpawnType: 0
+    SpawnArgument: 0
+    Serial: 74
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 0
+    Medal: 0
+  - ObjectId: 2114 # Saix's Claymore
+    PositionX: 1500
+    PositionY: -22750
+    PositionZ: 1500
+    RotationX: 0
+    RotationY: -2.3561944902000000
+    RotationZ: 0
+    SpawnType: 0
+    SpawnArgument: 0
+    Serial: 75
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 0
+    Medal: 0
+  - ObjectId: 2114 # Saix's Claymore
+    PositionX: 2100
+    PositionY: -22750
+    PositionZ: 0
+    RotationX: 0
+    RotationY: 3.1415927410125732
+    RotationZ: 0
+    SpawnType: 0
+    SpawnArgument: 0
+    Serial: 76
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 0
+    Medal: 0
+  - ObjectId: 2114 # Saix's Claymore
+    PositionX: 1500
+    PositionY: -22750
+    PositionZ: -1500
+    RotationX: 0
+    RotationY: 2.3561944902000000
+    RotationZ: 0
+    SpawnType: 0
+    SpawnArgument: 0
+    Serial: 77
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
