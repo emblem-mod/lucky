@@ -14,7 +14,7 @@ assets:
   - name: menu/us/title.2ld
   method: copy
   source:
-  - name: title.2ld # PS2 Title Screen
+  - name: menu/title.2ld # PS2 Title Screen
 
 - name: obj/B_CA050.mdlx
   method: binarc
