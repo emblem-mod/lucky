@@ -96,9 +96,9 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 318 # Dusk
+  - ObjectId: 314 # Gambler
     PositionX: -900
-    PositionY: -150000
+    PositionY: -100000
     PositionZ: 900
     RotationX: 0
     RotationY: 0
@@ -109,14 +109,14 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 150
+    SpawnDelay: 200
     Command: 0
     SpawnRange: 0
     Level: 100
     Medal: 0
-  - ObjectId: 318 # Dusk
+  - ObjectId: 314 # Gambler
     PositionX: 900
-    PositionY: -150000
+    PositionY: -100000
     PositionZ: 900
     RotationX: 0
     RotationY: 0
@@ -127,7 +127,7 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 250
+    SpawnDelay: 200
     Command: 0
     SpawnRange: 0
     Level: 100
