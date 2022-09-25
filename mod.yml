@@ -4,6 +4,17 @@ description:
 assets:
 
 
+- name: menu/fm/title.2ld
+  multi:
+  - name: menu/fr/title.2ld
+  - name: menu/gr/title.2ld
+  - name: menu/it/title.2ld
+  - name: menu/sp/title.2ld
+  - name: menu/uk/title.2ld
+  - name: menu/us/title.2ld
+  method: copy
+  source:
+  - name: title.2ld # Hidden Kings Title Screen
 
 - name: obj/B_CA050.mdlx
   method: binarc
@@ -17,8 +28,6 @@ assets:
   method: copy
   source:
   - name: obj/F_CA690_BTL.mdlx # Grim Reaper II Chest to Origin
-
-
 
 
 # =================================================================================================================== #
