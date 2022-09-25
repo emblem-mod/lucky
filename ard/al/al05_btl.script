@@ -1,4 +1,6 @@
 Program 0x3E
-Mission 0x45 "EH23_MS112"
+Party W_FRIEND
+MapScript 4
+Mission 0x45 "EH15_MS104"
+Unk1d 4
 Spawn "b_60"
-Spawn "b_61"
