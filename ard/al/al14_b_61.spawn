@@ -1,12 +1,12 @@
-- Type: 2
+- Type: 1
   Flag: 0
-  Id: 95
+  Id: 94
   Teleport:
     Place: 0
     Door: 0
     World: 0
     Unknown: 0
-  Unk20: 983040
+  Unk20: 0
   Unk24: 0
   Entities:
   - ObjectId: 1279 # Carpet Sora
@@ -45,9 +45,42 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
+  - ObjectId: 1367 # Rapid Thruster Swarm
+    PositionX: 10100
+    PositionY: -3500
+    PositionZ: -14000
+    RotationX: 0
+    RotationY: 0
+    RotationZ: 0
+    SpawnType: 3
+    SpawnArgument: 0
+    Serial: 102
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 0
+    Medal: 0
+  EventActivators: []
+  WalkPath: []
+  ReturnParameters: []
+  Signals: []
+- Type: 2
+  Flag: 0
+  Id: 95
+  Teleport:
+    Place: 0
+    Door: 0
+    World: 0
+    Unknown: 0
+  Unk20: 0
+  Unk24: 0
+  Entities:
   - ObjectId: 2413 # Aerial Viking
     PositionX: 9700
-    PositionY: -3150
+    PositionY: -3100
     PositionZ: -14200
     RotationX: 0
     RotationY: 2.4161989688873291
@@ -82,49 +115,13 @@
     Level: 0
     Medal: 0
   - ObjectId: 2413 # Aerial Viking
-    PositionX: 10500
-    PositionY: -2850
-    PositionZ: -13600
-    RotationX: 0
-    RotationY: -0.72539377212524414
-    RotationZ: 0
-    SpawnType: 3
-    SpawnArgument: 0
-    Serial: 112
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 0
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  - ObjectId: 2413 # Aerial Viking
-    PositionX: 9700
-    PositionY: -3000
-    PositionZ: -14500
-    RotationX: 0
-    RotationY: 2.4161989688873291
-    RotationZ: 0
-    SpawnType: 3
-    SpawnArgument: 0
-    Serial: 113
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 0
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  - ObjectId: 2413 # Aerial Viking
     PositionX: 10200
-    PositionY: -3000
+    PositionY: -2900
     PositionZ: -13500
     RotationX: 0
     RotationY: 0.060004435479640961
     RotationZ: 0
-    SpawnType: 3
+    SpawnType: 2
     SpawnArgument: 0
     Serial: 114
     Argument1: 0
@@ -137,12 +134,12 @@
     Medal: 0
   - ObjectId: 2413 # Aerial Viking
     PositionX: 10600
-    PositionY: -3000
+    PositionY: -3100
     PositionZ: -13800
     RotationX: 0
     RotationY: -1.1180926561355591
     RotationZ: 0
-    SpawnType: 3
+    SpawnType: 2
     SpawnArgument: 0
     Serial: 115
     Argument1: 0
@@ -155,7 +152,7 @@
     Medal: 0
   - ObjectId: 2403 # Magic Phantom
     PositionX: 11000
-    PositionY: -2800
+    PositionY: -3000
     PositionZ: -13100
     RotationX: 0
     RotationY: 2.4161989688873291
@@ -172,33 +169,15 @@
     Level: 1
     Medal: 0
   - ObjectId: 2403 # Magic Phantom
-    PositionX: 10600
-    PositionY: -2900
-    PositionZ: -12900
+    PositionX: 9000
+    PositionY: -3000
+    PositionZ: -15000
     RotationX: 0
     RotationY: 2.4161989688873291
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 1
     Serial: 121
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 0
-    Command: 0
-    SpawnRange: 0
-    Level: 1
-    Medal: 0
-  - ObjectId: 2403 # Magic Phantom
-    PositionX: 11100
-    PositionY: -3000
-    PositionZ: -13500
-    RotationX: 0
-    RotationY: 2.4161989688873291
-    RotationZ: 0
-    SpawnType: 2
-    SpawnArgument: 1
-    Serial: 122
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
