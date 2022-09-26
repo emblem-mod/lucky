@@ -144,7 +144,7 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 2202 # Bomb Bell
+  - ObjectId: 2285 # Bomb Bell
     PositionX: -17526.2109375
     PositionY: 3168.39990234375
     PositionZ: 15566.1103515625
@@ -633,7 +633,7 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 2202 # Bomb Bell
+  - ObjectId: 2285 # Bomb Bell
     PositionX: 4780.1748046875
     PositionY: -3600
     PositionZ: -15633.9697265625
@@ -894,7 +894,7 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 2202 # Bomb Bell
+  - ObjectId: 2285 # Bomb Bell
     PositionX: -7414.44482421875
     PositionY: -1600
     PositionZ: -11443.1298828125
@@ -1149,7 +1149,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 2202 # Bomb Bell
+  - ObjectId: 2285 # Bomb Bell
     PositionX: -4853.38818359375
     PositionY: -12600
     PositionZ: -26930.01953125
@@ -1293,7 +1293,7 @@
     SpawnRange: 0
     Level: 1
     Medal: 0
-  - ObjectId: 2202 # Bomb Bell
+  - ObjectId: 2285 # Bomb Bell
     PositionX: -4618.7490234375
     PositionY: -12900
     PositionZ: -27718.01953125
@@ -1329,7 +1329,7 @@
     SpawnRange: 0
     Level: 1
     Medal: 0
-  - ObjectId: 2202 # Bomb Bell
+  - ObjectId: 2285 # Bomb Bell
     PositionX: -4906.89306640625
     PositionY: -12900
     PositionZ: -27116.380859375
@@ -1419,7 +1419,7 @@
     SpawnRange: 0
     Level: 2
     Medal: 0
-  - ObjectId: 2202 # Bomb Bell
+  - ObjectId: 2285 # Bomb Bell
     PositionX: -4472.8310546875
     PositionY: -12600
     PositionZ: -27715.94921875
@@ -1824,7 +1824,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 2202 # Bomb Bell
+  - ObjectId: 2285 # Bomb Bell
     PositionX: -25507.4609375
     PositionY: 200
     PositionZ: 17423.759765625
@@ -2277,7 +2277,7 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 2202 # Bomb Bell
+  - ObjectId: 2285 # Bomb Bell
     PositionX: 1878.0009765625
     PositionY: -3600
     PositionZ: -25048.919921875
@@ -2295,7 +2295,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 2202 # Bomb Bell
+  - ObjectId: 2285 # Bomb Bell
     PositionX: 1780.9530029296875
     PositionY: -3600
     PositionZ: -25531.69921875
@@ -2636,12 +2636,12 @@
     RotationY: 0
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 1
+    SpawnArgument: 0
     Serial: 734
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 15
+    SpawnDelay: 0
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -2654,12 +2654,12 @@
     RotationY: 0
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 1
+    SpawnArgument: 0
     Serial: 859
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 15
+    SpawnDelay: 0
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -2672,12 +2672,12 @@
     RotationY: 0
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 1
+    SpawnArgument: 0
     Serial: 860
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 15
+    SpawnDelay: 0
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -2690,12 +2690,12 @@
     RotationY: 0
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 1
+    SpawnArgument: 0
     Serial: 861
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 15
+    SpawnDelay: 0
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -2708,12 +2708,12 @@
     RotationY: 0
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 1
+    SpawnArgument: 0
     Serial: 864
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 15
+    SpawnDelay: 0
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -2726,12 +2726,12 @@
     RotationY: 0
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 1
+    SpawnArgument: 0
     Serial: 865
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 15
+    SpawnDelay: 0
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -2744,12 +2744,12 @@
     RotationY: 0
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 1
+    SpawnArgument: 0
     Serial: 868
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 15
+    SpawnDelay: 0
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -2762,12 +2762,12 @@
     RotationY: 0
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 1
+    SpawnArgument: 0
     Serial: 870
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 15
+    SpawnDelay: 0
     Command: 0
     SpawnRange: 0
     Level: 0
