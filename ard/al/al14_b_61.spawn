@@ -127,7 +127,7 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 0
+    SpawnDelay: 200
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -181,7 +181,7 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 0
+    SpawnDelay: 15
     Command: 0
     SpawnRange: 0
     Level: 1
@@ -199,7 +199,7 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 0
+    SpawnDelay: 15
     Command: 0
     SpawnRange: 0
     Level: 1
@@ -217,7 +217,7 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 0
+    SpawnDelay: 15
     Command: 0
     SpawnRange: 0
     Level: 1
@@ -235,7 +235,7 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 0
+    SpawnDelay: 15
     Command: 0
     SpawnRange: 0
     Level: 1
@@ -277,33 +277,15 @@
     Level: 1
     Medal: 0
   - ObjectId: 2408 # Reckless
-    PositionX: 10500
-    PositionY: -2800
-    PositionZ: -14400
+    PositionX: 11000
+    PositionY: -3000
+    PositionZ: -15000
     RotationX: 0
     RotationY: 2.4161989688873291
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
     Serial: 130
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 0
-    Command: 0
-    SpawnRange: 0
-    Level: 2
-    Medal: 0
-  - ObjectId: 2408 # Reckless
-    PositionX: 9700
-    PositionY: -2800
-    PositionZ: -13600
-    RotationX: 0
-    RotationY: 2.4161989688873291
-    RotationZ: 0
-    SpawnType: 2
-    SpawnArgument: 0
-    Serial: 131
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -321,11 +303,29 @@
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
+    Serial: 131
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 200
+    Command: 0
+    SpawnRange: 0
+    Level: 2
+    Medal: 0
+  - ObjectId: 2408 # Reckless
+    PositionX: 9200
+    PositionY: -3000
+    PositionZ: -13200
+    RotationX: 0
+    RotationY: 2.4161989688873291
+    RotationZ: 0
+    SpawnType: 2
+    SpawnArgument: 0
     Serial: 132
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 0
+    SpawnDelay: 200
     Command: 0
     SpawnRange: 0
     Level: 2
