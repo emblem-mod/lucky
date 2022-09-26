@@ -951,16 +951,18 @@ assets:
     source:
     - name: ard/al/al03_map.script # Restore Green Plants
 
-
-# Sandswept Ruins Fight
-
-# Sandswept Tower Fight & Magic Switches
+# Sandswept Ruins Fights & Magic Switches
 #! Shorten the "enter the door" timer to 7 seconds (enough to enter when starting from the blizzard or thunder switches)
 - name: ard/al14.ard
   multi:
   - name: ard/us/al14.ard
   method: binarc
   source:
+  - name: b_61 # Sandswept Ruins Fight
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: ard/al/al14_b_61.spawn # 
   - name: b_64 # Sandswept Tower Fight
     type: areadataspawn
     method: spawnpoint
@@ -970,7 +972,7 @@ assets:
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/al/al14_b_65.spawn # Magic Switches Remix with Devastators
+    - name: ard/al/al14_b_65.spawn # Magic Switches Remix with Floating Ice Spikes
   - name: b_67
     type: areadataspawn
     method: spawnpoint
