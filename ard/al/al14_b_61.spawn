@@ -310,7 +310,7 @@
     SpawnDelay: 200
     Command: 0
     SpawnRange: 0
-    Level: 2
+    Level: 3
     Medal: 0
   - ObjectId: 2408 # Reckless
     PositionX: 9200
@@ -328,7 +328,7 @@
     SpawnDelay: 200
     Command: 0
     SpawnRange: 0
-    Level: 2
+    Level: 3
     Medal: 0
   EventActivators:
   - Shape: 2
