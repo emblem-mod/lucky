@@ -276,7 +276,7 @@
     SpawnRange: 0
     Level: 1
     Medal: 0
-  - ObjectId: 16 # Reckless
+  - ObjectId: 316 # Sorcerer
     PositionX: 11000
     PositionY: -3000
     PositionZ: -15000
@@ -286,7 +286,7 @@
     SpawnType: 2
     SpawnArgument: 0
     Serial: 130
-    Argument1: 1
+    Argument1: 0
     Argument2: 0
     ReactionCommand: 0
     SpawnDelay: 0
@@ -312,7 +312,7 @@
     SpawnRange: 0
     Level: 3
     Medal: 0
-  - ObjectId: 16 # Reckless
+  - ObjectId: 316 # Sorcerer
     PositionX: 9200
     PositionY: -3000
     PositionZ: -13200
@@ -322,7 +322,7 @@
     SpawnType: 2
     SpawnArgument: 0
     Serial: 132
-    Argument1: 1
+    Argument1: 0
     Argument2: 0
     ReactionCommand: 0
     SpawnDelay: 200
