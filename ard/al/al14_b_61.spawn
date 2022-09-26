@@ -45,24 +45,6 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 1367 # Rapid Thruster Swarm
-    PositionX: 10100
-    PositionY: -3500
-    PositionZ: -14000
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 3
-    SpawnArgument: 0
-    Serial: 102
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 0
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
   EventActivators: []
   WalkPath: []
   ReturnParameters: []
@@ -114,6 +96,24 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
+  - ObjectId: 2412 # Spring Metal
+    PositionX: 11000
+    PositionY: -3000
+    PositionZ: -13100
+    RotationX: 0
+    RotationY: 2.4161989688873291
+    RotationZ: 0
+    SpawnType: 3
+    SpawnArgument: 0
+    Serial: 112
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 0
+    Medal: 0
   - ObjectId: 2413 # Aerial Viking
     PositionX: 10200
     PositionY: -2900
@@ -123,7 +123,7 @@
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
-    Serial: 114
+    Serial: 113
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -141,6 +141,24 @@
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
+    Serial: 114
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 0
+    Medal: 0
+  - ObjectId: 2412 # Spring Metal
+    PositionX: 9000
+    PositionY: -3000
+    PositionZ: -15000
+    RotationX: 0
+    RotationY: 2.4161989688873291
+    RotationZ: 0
+    SpawnType: 2
+    SpawnArgument: 0
     Serial: 115
     Argument1: 0
     Argument2: 0
@@ -150,6 +168,78 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
+  - ObjectId: 304 # Rapid Thruster
+    PositionX: 9700
+    PositionY: -3100
+    PositionZ: -14200
+    RotationX: 0
+    RotationY: 2.4161989688873291
+    RotationZ: 0
+    SpawnType: 2
+    SpawnArgument: 0
+    Serial: 120
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 1
+    Medal: 0
+  - ObjectId: 304 # Rapid Thruster
+    PositionX: 10000
+    PositionY: -2900
+    PositionZ: -14500
+    RotationX: 0
+    RotationY: 2.6125483512878418
+    RotationZ: 0
+    SpawnType: 2
+    SpawnArgument: 0
+    Serial: 121
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 1
+    Medal: 0
+  - ObjectId: 304 # Rapid Thruster
+    PositionX: 10200
+    PositionY: -2900
+    PositionZ: -13500
+    RotationX: 0
+    RotationY: 0.060004435479640961
+    RotationZ: 0
+    SpawnType: 2
+    SpawnArgument: 0
+    Serial: 122
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 1
+    Medal: 0
+  - ObjectId: 304 # Rapid Thruster
+    PositionX: 10600
+    PositionY: -3100
+    PositionZ: -13800
+    RotationX: 0
+    RotationY: -1.1180926561355591
+    RotationZ: 0
+    SpawnType: 2
+    SpawnArgument: 0
+    Serial: 123
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 1
+    Medal: 0
   - ObjectId: 2403 # Magic Phantom
     PositionX: 11000
     PositionY: -3000
@@ -158,8 +248,8 @@
     RotationY: 2.4161989688873291
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 1
-    Serial: 120
+    SpawnArgument: 0
+    Serial: 124
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -176,8 +266,8 @@
     RotationY: 2.4161989688873291
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 1
-    Serial: 121
+    SpawnArgument: 0
+    Serial: 125
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -186,7 +276,7 @@
     SpawnRange: 0
     Level: 1
     Medal: 0
-  - ObjectId: 2412 # Spring Metal
+  - ObjectId: 2408 # Reckless
     PositionX: 10500
     PositionY: -2800
     PositionZ: -14400
@@ -195,7 +285,7 @@
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
-    Serial: 123
+    Serial: 130
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -204,7 +294,7 @@
     SpawnRange: 0
     Level: 2
     Medal: 0
-  - ObjectId: 2412 # Spring Metal
+  - ObjectId: 2408 # Reckless
     PositionX: 9700
     PositionY: -2800
     PositionZ: -13600
@@ -213,7 +303,25 @@
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
-    Serial: 124
+    Serial: 131
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 2
+    Medal: 0
+  - ObjectId: 2403 # Magic Phantom
+    PositionX: 10100
+    PositionY: -3000
+    PositionZ: -14000
+    RotationX: 0
+    RotationY: 0
+    RotationZ: 0
+    SpawnType: 2
+    SpawnArgument: 0
+    Serial: 132
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
