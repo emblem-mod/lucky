@@ -962,7 +962,7 @@ assets:
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/al/al14_b_61.spawn # 
+    - name: ard/al/al14_b_61.spawn # Aerial Vikings, Spring Metals, Rapid Thrusters, Magic Phantoms and Sorcerers
   - name: b_64 # Sandswept Tower Fight
     type: areadataspawn
     method: spawnpoint
