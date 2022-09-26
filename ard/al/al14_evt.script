@@ -37,6 +37,14 @@ AreaSettings 15 -1
 	SetPartyMenu 0
 
 
+Program 0x3D
+Bgm 60 60
+AreaSettings 7 -1
+	SetProgressFlag 0x1C21
+	SetJump Type 1 World AL Area 6 Entrance 0 LocalSet 0 FadeType 1
+	SetPartyMenu 0
+
+
 Program 0x56
 Bgm 84 84
 AreaSettings 7 -1
