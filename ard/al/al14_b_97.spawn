@@ -47,12 +47,12 @@
     RotationY: 0.36974450945854187
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 0
+    SpawnArgument: 1
     Serial: 607
     Argument1: 3
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 0
+    SpawnDelay: 15
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -65,12 +65,12 @@
     RotationY: 0.36974450945854187
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 0
+    SpawnArgument: 1
     Serial: 608
     Argument1: 9
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 0
+    SpawnDelay: 15
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -83,12 +83,12 @@
     RotationY: 0.36974450945854187
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 0
+    SpawnArgument: 1
     Serial: 659
     Argument1: 11
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 0
+    SpawnDelay: 15
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -144,7 +144,7 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 2285 # Bomb Bell
+  - ObjectId: 2202 # Bomb Bell
     PositionX: -17526.2109375
     PositionY: 3168.39990234375
     PositionZ: 15566.1103515625
@@ -152,7 +152,7 @@
     RotationY: -2.7410919666290283
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 0
+    SpawnArgument: 1
     Serial: 609
     Argument1: 4
     Argument2: 0
@@ -170,7 +170,7 @@
     RotationY: -2.7410919666290283
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 0
+    SpawnArgument: 1
     Serial: 610
     Argument1: 1
     Argument2: 0
@@ -188,7 +188,7 @@
     RotationY: -2.7410919666290283
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 0
+    SpawnArgument: 1
     Serial: 611
     Argument1: 10
     Argument2: 0
@@ -257,12 +257,12 @@
     RotationY: 1.3727904558181763
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 0
+    SpawnArgument: 1
     Serial: 660
     Argument1: 14
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 0
+    SpawnDelay: 15
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -275,12 +275,12 @@
     RotationY: 1.3727904558181763
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 0
+    SpawnArgument: 1
     Serial: 661
     Argument1: 12
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 0
+    SpawnDelay: 15
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -344,12 +344,12 @@
     RotationY: -2.1594784259796143
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 0
+    SpawnArgument: 1
     Serial: 613
     Argument1: 8
     Argument2: 1
     ReactionCommand: 0
-    SpawnDelay: 0
+    SpawnDelay: 15
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -362,12 +362,12 @@
     RotationY: -2.1594784259796143
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 0
+    SpawnArgument: 1
     Serial: 657
     Argument1: 13
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 0
+    SpawnDelay: 15
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -380,12 +380,12 @@
     RotationY: -2.1594784259796143
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 0
+    SpawnArgument: 1
     Serial: 658
     Argument1: 7
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 0
+    SpawnDelay: 15
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -449,7 +449,7 @@
     RotationY: 0
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 0
+    SpawnArgument: 1
     Serial: 615
     Argument1: 12
     Argument2: 0
@@ -467,7 +467,7 @@
     RotationY: 0
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 0
+    SpawnArgument: 1
     Serial: 665
     Argument1: 13
     Argument2: 0
@@ -485,7 +485,7 @@
     RotationY: 0
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 0
+    SpawnArgument: 1
     Serial: 664
     Argument1: 7
     Argument2: 0
@@ -503,7 +503,7 @@
     RotationY: 0
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 0
+    SpawnArgument: 1
     Serial: 616
     Argument1: 14
     Argument2: 0
@@ -521,7 +521,7 @@
     RotationY: 0
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 0
+    SpawnArgument: 1
     Serial: 666
     Argument1: 11
     Argument2: 0
@@ -539,7 +539,7 @@
     RotationY: 0
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 0
+    SpawnArgument: 1
     Serial: 667
     Argument1: 5
     Argument2: 0
@@ -557,7 +557,7 @@
     RotationY: 0
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 0
+    SpawnArgument: 1
     Serial: 614
     Argument1: 6
     Argument2: 0
@@ -633,7 +633,7 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 2285 # Bomb Bell
+  - ObjectId: 2202 # Bomb Bell
     PositionX: 4780.1748046875
     PositionY: -3600
     PositionZ: -15633.9697265625
@@ -641,12 +641,12 @@
     RotationY: -1.3509459495544434
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 0
+    SpawnArgument: 1
     Serial: 617
     Argument1: 14
     Argument2: 20
     ReactionCommand: 0
-    SpawnDelay: 0
+    SpawnDelay: 15
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -659,12 +659,12 @@
     RotationY: -1.3509459495544434
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 0
+    SpawnArgument: 1
     Serial: 618
     Argument1: 3
     Argument2: 20
     ReactionCommand: 0
-    SpawnDelay: 0
+    SpawnDelay: 15
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -728,12 +728,12 @@
     RotationY: -1.1862689256668091
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 0
+    SpawnArgument: 1
     Serial: 619
     Argument1: 14
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 0
+    SpawnDelay: 15
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -746,12 +746,12 @@
     RotationY: -1.1862689256668091
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 0
+    SpawnArgument: 1
     Serial: 621
     Argument1: 7
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 0
+    SpawnDelay: 15
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -815,12 +815,12 @@
     RotationY: 0
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 0
+    SpawnArgument: 1
     Serial: 622
     Argument1: 12
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 0
+    SpawnDelay: 15
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -833,12 +833,12 @@
     RotationY: 0
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 0
+    SpawnArgument: 1
     Serial: 623
     Argument1: 4
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 0
+    SpawnDelay: 15
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -894,7 +894,7 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 2285 # Bomb Bell
+  - ObjectId: 2202 # Bomb Bell
     PositionX: -7414.44482421875
     PositionY: -1600
     PositionZ: -11443.1298828125
@@ -902,12 +902,12 @@
     RotationY: 0
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 0
+    SpawnArgument: 1
     Serial: 624
     Argument1: 13
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 0
+    SpawnDelay: 15
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -920,7 +920,7 @@
     RotationY: 0
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 0
+    SpawnArgument: 1
     Serial: 629
     Argument1: 12
     Argument2: 0
@@ -938,7 +938,7 @@
     RotationY: 0
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 0
+    SpawnArgument: 1
     Serial: 668
     Argument1: 12
     Argument2: 17
@@ -956,7 +956,7 @@
     RotationY: 0
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 0
+    SpawnArgument: 1
     Serial: 672
     Argument1: 11
     Argument2: 0
@@ -974,7 +974,7 @@
     RotationY: 0
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 0
+    SpawnArgument: 1
     Serial: 626
     Argument1: 1
     Argument2: 0
@@ -992,7 +992,7 @@
     RotationY: 0
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 0
+    SpawnArgument: 1
     Serial: 671
     Argument1: 3
     Argument2: 0
@@ -1010,12 +1010,12 @@
     RotationY: 0
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 0
+    SpawnArgument: 1
     Serial: 625
     Argument1: 4
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 0
+    SpawnDelay: 15
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -1028,7 +1028,7 @@
     RotationY: 0
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 0
+    SpawnArgument: 1
     Serial: 669
     Argument1: 4
     Argument2: 0
@@ -1046,7 +1046,7 @@
     RotationY: 0
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 0
+    SpawnArgument: 1
     Serial: 670
     Argument1: 9
     Argument2: 0
@@ -1064,12 +1064,12 @@
     RotationY: 0
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 0
+    SpawnArgument: 1
     Serial: 673
     Argument1: 9
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 0
+    SpawnDelay: 15
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -1139,7 +1139,7 @@
     RotationY: -2.5290431976318359
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 0
+    SpawnArgument: 1
     Serial: 627
     Argument1: 15
     Argument2: 30
@@ -1149,7 +1149,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 2285 # Bomb Bell
+  - ObjectId: 2202 # Bomb Bell
     PositionX: -4853.38818359375
     PositionY: -12600
     PositionZ: -26930.01953125
@@ -1157,12 +1157,12 @@
     RotationY: -1.3509459495544434
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 0
+    SpawnArgument: 1
     Serial: 700
     Argument1: 10
     Argument2: 32
     ReactionCommand: 0
-    SpawnDelay: 0
+    SpawnDelay: 15
     Command: 0
     SpawnRange: 0
     Level: 2
@@ -1175,12 +1175,12 @@
     RotationY: -1.3509459495544434
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 0
+    SpawnArgument: 1
     Serial: 620
     Argument1: 30
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 0
+    SpawnDelay: 15
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -1193,7 +1193,7 @@
     RotationY: -1.3509459495544434
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 0
+    SpawnArgument: 1
     Serial: 685
     Argument1: 14
     Argument2: 30
@@ -1211,12 +1211,12 @@
     RotationY: -1.3509459495544434
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 0
+    SpawnArgument: 1
     Serial: 718
     Argument1: 32
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 0
+    SpawnDelay: 15
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -1229,7 +1229,7 @@
     RotationY: -1.3509459495544434
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 0
+    SpawnArgument: 1
     Serial: 713
     Argument1: 8
     Argument2: 30
@@ -1247,7 +1247,7 @@
     RotationY: -1.3509459495544434
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 0
+    SpawnArgument: 1
     Serial: 711
     Argument1: 4
     Argument2: 30
@@ -1265,7 +1265,7 @@
     RotationY: -1.3509459495544434
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 0
+    SpawnArgument: 1
     Serial: 689
     Argument1: 12
     Argument2: 32
@@ -1283,7 +1283,7 @@
     RotationY: -1.3509459495544434
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 0
+    SpawnArgument: 1
     Serial: 690
     Argument1: 6
     Argument2: 31
@@ -1293,7 +1293,7 @@
     SpawnRange: 0
     Level: 1
     Medal: 0
-  - ObjectId: 2285 # Bomb Bell
+  - ObjectId: 2202 # Bomb Bell
     PositionX: -4618.7490234375
     PositionY: -12900
     PositionZ: -27718.01953125
@@ -1301,7 +1301,7 @@
     RotationY: -1.3509459495544434
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 0
+    SpawnArgument: 1
     Serial: 709
     Argument1: 13
     Argument2: 32
@@ -1319,7 +1319,7 @@
     RotationY: -1.3509459495544434
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 0
+    SpawnArgument: 1
     Serial: 686
     Argument1: 10
     Argument2: 31
@@ -1329,7 +1329,7 @@
     SpawnRange: 0
     Level: 1
     Medal: 0
-  - ObjectId: 2285 # Bomb Bell
+  - ObjectId: 2202 # Bomb Bell
     PositionX: -4906.89306640625
     PositionY: -12900
     PositionZ: -27116.380859375
@@ -1337,7 +1337,7 @@
     RotationY: -1.3509459495544434
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 0
+    SpawnArgument: 1
     Serial: 708
     Argument1: 1
     Argument2: 30
@@ -1355,7 +1355,7 @@
     RotationY: -0.56554776430130005
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 0
+    SpawnArgument: 1
     Serial: 628
     Argument1: 1
     Argument2: 31
@@ -1373,7 +1373,7 @@
     RotationY: -1.3509459495544434
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 0
+    SpawnArgument: 1
     Serial: 706
     Argument1: 3
     Argument2: 30
@@ -1391,7 +1391,7 @@
     RotationY: -1.3509459495544434
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 0
+    SpawnArgument: 1
     Serial: 704
     Argument1: 8
     Argument2: 32
@@ -1409,7 +1409,7 @@
     RotationY: -1.3509459495544434
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 0
+    SpawnArgument: 1
     Serial: 705
     Argument1: 13
     Argument2: 31
@@ -1419,7 +1419,7 @@
     SpawnRange: 0
     Level: 2
     Medal: 0
-  - ObjectId: 2285 # Bomb Bell
+  - ObjectId: 2202 # Bomb Bell
     PositionX: -4472.8310546875
     PositionY: -12600
     PositionZ: -27715.94921875
@@ -1427,12 +1427,12 @@
     RotationY: -1.3509459495544434
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 0
+    SpawnArgument: 1
     Serial: 703
     Argument1: 6
     Argument2: 30
     ReactionCommand: 0
-    SpawnDelay: 0
+    SpawnDelay: 15
     Command: 0
     SpawnRange: 0
     Level: 2
@@ -1445,7 +1445,7 @@
     RotationY: -1.3509459495544434
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 0
+    SpawnArgument: 1
     Serial: 687
     Argument1: 2
     Argument2: 32
@@ -1463,7 +1463,7 @@
     RotationY: -1.3509459495544434
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 0
+    SpawnArgument: 1
     Serial: 688
     Argument1: 4
     Argument2: 30
@@ -1481,7 +1481,7 @@
     RotationY: -1.3509459495544434
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 0
+    SpawnArgument: 1
     Serial: 630
     Argument1: 8
     Argument2: 32
@@ -1499,12 +1499,12 @@
     RotationY: -1.3509459495544434
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 0
+    SpawnArgument: 1
     Serial: 719
     Argument1: 31
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 0
+    SpawnDelay: 15
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -1625,12 +1625,12 @@
     RotationY: 0
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 0
+    SpawnArgument: 1
     Serial: 707
     Argument1: 0
     Argument2: 1
     ReactionCommand: 0
-    SpawnDelay: 0
+    SpawnDelay: 15
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -1694,12 +1694,12 @@
     RotationY: 0
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 0
+    SpawnArgument: 1
     Serial: 712
     Argument1: 0
     Argument2: 1
     ReactionCommand: 0
-    SpawnDelay: 0
+    SpawnDelay: 15
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -1814,17 +1814,17 @@
     RotationY: -2.7410919666290283
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 0
+    SpawnArgument: 1
     Serial: 612
     Argument1: 2
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 0
+    SpawnDelay: 15
     Command: 0
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 2285 # Bomb Bell
+  - ObjectId: 2202 # Bomb Bell
     PositionX: -25507.4609375
     PositionY: 200
     PositionZ: 17423.759765625
@@ -1832,12 +1832,12 @@
     RotationY: -2.7410919666290283
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 0
+    SpawnArgument: 1
     Serial: 663
     Argument1: 7
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 0
+    SpawnDelay: 15
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -1901,12 +1901,12 @@
     RotationY: 0
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 0
+    SpawnArgument: 1
     Serial: 674
     Argument1: 14
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 0
+    SpawnDelay: 15
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -1919,12 +1919,12 @@
     RotationY: 1.7671458721160889
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 0
+    SpawnArgument: 1
     Serial: 675
     Argument1: 4
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 0
+    SpawnDelay: 15
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -1937,12 +1937,12 @@
     RotationY: 2.7488934993743896
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 0
+    SpawnArgument: 1
     Serial: 676
     Argument1: 5
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 0
+    SpawnDelay: 15
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -2006,12 +2006,12 @@
     RotationY: -0.7979084849357605
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 0
+    SpawnArgument: 1
     Serial: 677
     Argument1: 3
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 0
+    SpawnDelay: 15
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -2024,12 +2024,12 @@
     RotationY: -0.7979084849357605
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 0
+    SpawnArgument: 1
     Serial: 680
     Argument1: 11
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 0
+    SpawnDelay: 15
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -2042,12 +2042,12 @@
     RotationY: -1.3869571685791016
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 0
+    SpawnArgument: 1
     Serial: 678
     Argument1: 2
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 0
+    SpawnDelay: 15
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -2060,12 +2060,12 @@
     RotationY: -0.40520942211151123
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 0
+    SpawnArgument: 1
     Serial: 679
     Argument1: 9
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 0
+    SpawnDelay: 15
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -2129,12 +2129,12 @@
     RotationY: -2.0083329677581787
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 0
+    SpawnArgument: 1
     Serial: 681
     Argument1: 5
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 0
+    SpawnDelay: 15
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -2147,12 +2147,12 @@
     RotationY: -2.0083329677581787
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 0
+    SpawnArgument: 1
     Serial: 682
     Argument1: 6
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 0
+    SpawnDelay: 15
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -2165,12 +2165,12 @@
     RotationY: -2.0083329677581787
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 0
+    SpawnArgument: 1
     Serial: 683
     Argument1: 13
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 0
+    SpawnDelay: 15
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -2277,7 +2277,7 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 2285 # Bomb Bell
+  - ObjectId: 2202 # Bomb Bell
     PositionX: 1878.0009765625
     PositionY: -3600
     PositionZ: -25048.919921875
@@ -2285,17 +2285,17 @@
     RotationY: -1.3509459495544434
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 0
+    SpawnArgument: 1
     Serial: 691
     Argument1: 10
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 0
+    SpawnDelay: 15
     Command: 0
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 2285 # Bomb Bell
+  - ObjectId: 2202 # Bomb Bell
     PositionX: 1780.9530029296875
     PositionY: -3600
     PositionZ: -25531.69921875
@@ -2303,12 +2303,12 @@
     RotationY: -1.3509459495544434
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 0
+    SpawnArgument: 1
     Serial: 692
     Argument1: 7
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 0
+    SpawnDelay: 15
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -2372,12 +2372,12 @@
     RotationY: 2.047882080078125
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 0
+    SpawnArgument: 1
     Serial: 694
     Argument1: 3
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 0
+    SpawnDelay: 15
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -2390,12 +2390,12 @@
     RotationY: 2.047882080078125
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 0
+    SpawnArgument: 1
     Serial: 697
     Argument1: 11
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 0
+    SpawnDelay: 15
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -2408,12 +2408,12 @@
     RotationY: 1.4588330984115601
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 0
+    SpawnArgument: 1
     Serial: 695
     Argument1: 2
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 0
+    SpawnDelay: 15
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -2426,12 +2426,12 @@
     RotationY: 2.4405810832977295
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 0
+    SpawnArgument: 1
     Serial: 696
     Argument1: 9
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 0
+    SpawnDelay: 15
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -2495,12 +2495,12 @@
     RotationY: -1.3509459495544434
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 0
+    SpawnArgument: 1
     Serial: 723
     Argument1: 0
     Argument2: 1
     ReactionCommand: 0
-    SpawnDelay: 0
+    SpawnDelay: 15
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -2513,12 +2513,12 @@
     RotationY: -1.3509459495544434
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 0
+    SpawnArgument: 1
     Serial: 726
     Argument1: 0
     Argument2: 1
     ReactionCommand: 0
-    SpawnDelay: 0
+    SpawnDelay: 15
     Command: 0
     SpawnRange: 0
     Level: 1
@@ -2531,12 +2531,12 @@
     RotationY: -1.3509459495544434
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 0
+    SpawnArgument: 1
     Serial: 733
     Argument1: 1
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 0
+    SpawnDelay: 15
     Command: 0
     SpawnRange: 0
     Level: 2
@@ -2636,12 +2636,12 @@
     RotationY: 0
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 0
+    SpawnArgument: 1
     Serial: 734
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 0
+    SpawnDelay: 15
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -2654,12 +2654,12 @@
     RotationY: 0
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 0
+    SpawnArgument: 1
     Serial: 859
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 0
+    SpawnDelay: 15
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -2672,12 +2672,12 @@
     RotationY: 0
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 0
+    SpawnArgument: 1
     Serial: 860
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 0
+    SpawnDelay: 15
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -2690,12 +2690,12 @@
     RotationY: 0
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 0
+    SpawnArgument: 1
     Serial: 861
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 0
+    SpawnDelay: 15
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -2708,12 +2708,12 @@
     RotationY: 0
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 0
+    SpawnArgument: 1
     Serial: 864
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 0
+    SpawnDelay: 15
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -2726,12 +2726,12 @@
     RotationY: 0
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 0
+    SpawnArgument: 1
     Serial: 865
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 0
+    SpawnDelay: 15
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -2744,12 +2744,12 @@
     RotationY: 0
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 0
+    SpawnArgument: 1
     Serial: 868
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 0
+    SpawnDelay: 15
     Command: 0
     SpawnRange: 0
     Level: 0
@@ -2762,12 +2762,12 @@
     RotationY: 0
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 0
+    SpawnArgument: 1
     Serial: 870
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 0
+    SpawnDelay: 15
     Command: 0
     SpawnRange: 0
     Level: 0
