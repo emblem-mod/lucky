@@ -877,6 +877,21 @@ assets:
 # AGRABAH =============================================================================================================
 
 # Agrabah Fight
+- name: ard/al00.ard
+  multi:
+  - name: ard/us/al00.ard
+  method: binarc
+  source:
+  - name: b_40
+    type: areadataspawn
+    method: spawnpoint
+    source:
+    - name: ard/al/al00_b_40.spawn # ???
+  - name: evt
+    type: areadatascript
+    method: areadatascript
+    source:
+    - name: ard/al/al00_evt.script # Boss Signal
 
 # Escort Abu
 - name: ard/al09.ard
