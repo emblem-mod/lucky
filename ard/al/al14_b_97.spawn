@@ -336,7 +336,7 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 2248 # Spiked Roller
+  - ObjectId: 1760 # Fortuneteller
     PositionX: -12012.7802734375
     PositionY: -925.30999755859375
     PositionZ: 2559.093994140625
@@ -441,7 +441,7 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 1760 # Fortuneteller
+  - ObjectId: 2248 # Spiked Roller
     PositionX: -2137.489013671875
     PositionY: -2040.4100341796875
     PositionZ: -5894.2587890625
@@ -459,7 +459,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 1760 # Fortuneteller
+  - ObjectId: 2248 # Spiked Roller
     PositionX: -1587.489013671875
     PositionY: -1740.4100341796875
     PositionZ: -6944.2587890625
@@ -477,7 +477,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 1760 # Fortuneteller
+  - ObjectId: 2248 # Spiked Roller
     PositionX: -937.489013671875
     PositionY: -2040.4100341796875
     PositionZ: -8094.2587890625
@@ -495,7 +495,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 1760 # Fortuneteller
+  - ObjectId: 2248 # Spiked Roller
     PositionX: -837.489013671875
     PositionY: -2040.4100341796875
     PositionZ: -9244.2587890625
@@ -513,7 +513,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 1760 # Fortuneteller
+  - ObjectId: 2248 # Spiked Roller
     PositionX: -137.48899841308594
     PositionY: -1940.4100341796875
     PositionZ: -10144.259765625
@@ -531,7 +531,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 1760 # Fortuneteller
+  - ObjectId: 2248 # Spiked Roller
     PositionX: 162.51100158691406
     PositionY: -1589.0999755859375
     PositionZ: -11444.259765625
@@ -549,7 +549,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 1760 # Fortuneteller
+  - ObjectId: 2248 # Spiked Roller
     PositionX: 312.510986328125
     PositionY: -2040.4100341796875
     PositionZ: -13444.259765625
@@ -807,7 +807,7 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 2248 # Spiked Roller
+  - ObjectId: 1760 # Fortuneteller
     PositionX: -1357.071044921875
     PositionY: -700
     PositionZ: -16307.7099609375
@@ -825,7 +825,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 2248 # Spiked Roller
+  - ObjectId: 1760 # Fortuneteller
     PositionX: -1857.071044921875
     PositionY: -700
     PositionZ: -16507.7109375
@@ -912,7 +912,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 1760 # Fortuneteller
+  - ObjectId: 2248 # Spiked Roller
     PositionX: -6205.72412109375
     PositionY: -2200
     PositionZ: -21928.599609375
@@ -930,7 +930,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 1760 # Fortuneteller
+  - ObjectId: 2248 # Spiked Roller
     PositionX: -7405.72412109375
     PositionY: -1600
     PositionZ: -12428.599609375
@@ -948,7 +948,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 1760 # Fortuneteller
+  - ObjectId: 2248 # Spiked Roller
     PositionX: -7105.72412109375
     PositionY: -2200
     PositionZ: -20078.599609375
@@ -966,7 +966,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 1760 # Fortuneteller
+  - ObjectId: 2248 # Spiked Roller
     PositionX: -6305.72412109375
     PositionY: -1600
     PositionZ: -18428.599609375
@@ -984,7 +984,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 1760 # Fortuneteller
+  - ObjectId: 2248 # Spiked Roller
     PositionX: -7055.72412109375
     PositionY: -1600
     PositionZ: -16178.599609375
@@ -1002,7 +1002,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 1760 # Fortuneteller
+  - ObjectId: 2248 # Spiked Roller
     PositionX: -7614.44482421875
     PositionY: -1900
     PositionZ: -11193.1298828125
@@ -1056,7 +1056,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 1760 # Fortuneteller
+  - ObjectId: 2248 # Spiked Roller
     PositionX: -7214.44482421875
     PositionY: -2150
     PositionZ: -11293.1298828125
@@ -1185,7 +1185,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 1760 # Fortuneteller
+  - ObjectId: 2248 # Spiked Roller
     PositionX: -4337.66796875
     PositionY: -12100
     PositionZ: -26685.689453125
@@ -1221,7 +1221,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 1760 # Fortuneteller
+  - ObjectId: 2248 # Spiked Roller
     PositionX: -4581.40087890625
     PositionY: -12750
     PositionZ: -27197.33984375
@@ -1239,7 +1239,7 @@
     SpawnRange: 0
     Level: 3
     Medal: 0
-  - ObjectId: 1760 # Fortuneteller
+  - ObjectId: 2248 # Spiked Roller
     PositionX: -4879.35986328125
     PositionY: -12750
     PositionZ: -27468.859375
@@ -1257,7 +1257,7 @@
     SpawnRange: 0
     Level: 3
     Medal: 0
-  - ObjectId: 1760 # Fortuneteller
+  - ObjectId: 2248 # Spiked Roller
     PositionX: -3838.799072265625
     PositionY: -12100
     PositionZ: -26625.44921875
@@ -1275,7 +1275,7 @@
     SpawnRange: 0
     Level: 1
     Medal: 0
-  - ObjectId: 1760 # Fortuneteller
+  - ObjectId: 2248 # Spiked Roller
     PositionX: -3697.044921875
     PositionY: -12100
     PositionZ: -27259.80078125
@@ -1311,7 +1311,7 @@
     SpawnRange: 0
     Level: 3
     Medal: 0
-  - ObjectId: 1760 # Fortuneteller
+  - ObjectId: 2248 # Spiked Roller
     PositionX: -4478.3330078125
     PositionY: -12100
     PositionZ: -26973.2890625
@@ -1437,7 +1437,7 @@
     SpawnRange: 0
     Level: 2
     Medal: 0
-  - ObjectId: 1760 # Fortuneteller
+  - ObjectId: 2248 # Spiked Roller
     PositionX: -3957.111083984375
     PositionY: -12100
     PositionZ: -27471.619140625
@@ -1455,7 +1455,7 @@
     SpawnRange: 0
     Level: 1
     Medal: 0
-  - ObjectId: 1760 # Fortuneteller
+  - ObjectId: 2248 # Spiked Roller
     PositionX: -4282.60302734375
     PositionY: -12100
     PositionZ: -27390.650390625
@@ -1911,7 +1911,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 1760 # Fortuneteller
+  - ObjectId: 2248 # Spiked Roller
     PositionX: -6963.68408203125
     PositionY: -2080.166015625
     PositionZ: -17428.740234375
@@ -1929,7 +1929,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 1760 # Fortuneteller
+  - ObjectId: 2248 # Spiked Roller
     PositionX: -6463.68408203125
     PositionY: -2080.166015625
     PositionZ: -17928.740234375
@@ -1998,7 +1998,7 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 1760 # Fortuneteller
+  - ObjectId: 2248 # Spiked Roller
     PositionX: 79.720756530761719
     PositionY: -2280.166015625
     PositionZ: -18199.58984375
@@ -2016,7 +2016,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 1760 # Fortuneteller
+  - ObjectId: 2248 # Spiked Roller
     PositionX: -24.649929046630859
     PositionY: -1880.166015625
     PositionZ: -18548.310546875
@@ -2034,7 +2034,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 1760 # Fortuneteller
+  - ObjectId: 2248 # Spiked Roller
     PositionX: 125.33830261230469
     PositionY: -2080.166015625
     PositionZ: -18550.189453125
@@ -2052,7 +2052,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 1760 # Fortuneteller
+  - ObjectId: 2248 # Spiked Roller
     PositionX: -368.36749267578125
     PositionY: -2080.166015625
     PositionZ: -18043.970703125
@@ -2364,7 +2364,7 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 1760 # Fortuneteller
+  - ObjectId: 2248 # Spiked Roller
     PositionX: 8982.173828125
     PositionY: -4580.169921875
     PositionZ: -24446.939453125
@@ -2382,7 +2382,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 1760 # Fortuneteller
+  - ObjectId: 2248 # Spiked Roller
     PositionX: 9183.6669921875
     PositionY: -4180.169921875
     PositionZ: -24143.7890625
@@ -2400,7 +2400,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 1760 # Fortuneteller
+  - ObjectId: 2248 # Spiked Roller
     PositionX: 9040.740234375
     PositionY: -4380.169921875
     PositionZ: -24098.26953125
@@ -2418,7 +2418,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 1760 # Fortuneteller
+  - ObjectId: 2248 # Spiked Roller
     PositionX: 9365.4384765625
     PositionY: -4380.169921875
     PositionZ: -24726.419921875
@@ -2488,7 +2488,7 @@
   Unk24: 0
   Entities:
   - ObjectId: 1
-    PositionX: -429.092248 # Spiked Roller42773438
+    PositionX: -429.091760 # Fortuneteller42773438
     PositionY: -2010.029052734375
     PositionZ: -21748.970703125
     RotationX: 0
