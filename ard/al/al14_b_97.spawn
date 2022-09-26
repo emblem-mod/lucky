@@ -47,7 +47,7 @@
     RotationY: 0.36974450945854187
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 1
+    SpawnArgument: 0
     Serial: 607
     Argument1: 3
     Argument2: 0
@@ -65,7 +65,7 @@
     RotationY: 0.36974450945854187
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 1
+    SpawnArgument: 0
     Serial: 608
     Argument1: 9
     Argument2: 0
@@ -83,7 +83,7 @@
     RotationY: 0.36974450945854187
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 1
+    SpawnArgument: 0
     Serial: 659
     Argument1: 11
     Argument2: 0
@@ -144,7 +144,7 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 2248 # Spiked Roller
+  - ObjectId: 2285 # Bomb Bell
     PositionX: -17526.2109375
     PositionY: 3168.39990234375
     PositionZ: 15566.1103515625
@@ -152,7 +152,7 @@
     RotationY: -2.7410919666290283
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 1
+    SpawnArgument: 0
     Serial: 609
     Argument1: 4
     Argument2: 0
@@ -170,7 +170,7 @@
     RotationY: -2.7410919666290283
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 1
+    SpawnArgument: 0
     Serial: 610
     Argument1: 1
     Argument2: 0
@@ -188,7 +188,7 @@
     RotationY: -2.7410919666290283
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 1
+    SpawnArgument: 0
     Serial: 611
     Argument1: 10
     Argument2: 0
@@ -257,7 +257,7 @@
     RotationY: 1.3727904558181763
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 1
+    SpawnArgument: 0
     Serial: 660
     Argument1: 14
     Argument2: 0
@@ -275,7 +275,7 @@
     RotationY: 1.3727904558181763
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 1
+    SpawnArgument: 0
     Serial: 661
     Argument1: 12
     Argument2: 0
@@ -336,7 +336,7 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 2285 # Bomb Bell
+  - ObjectId: 2248 # Spiked Roller
     PositionX: -12012.7802734375
     PositionY: -925.30999755859375
     PositionZ: 2559.093994140625
@@ -344,7 +344,7 @@
     RotationY: -2.1594784259796143
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 1
+    SpawnArgument: 0
     Serial: 613
     Argument1: 8
     Argument2: 1
@@ -362,7 +362,7 @@
     RotationY: -2.1594784259796143
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 1
+    SpawnArgument: 0
     Serial: 657
     Argument1: 13
     Argument2: 0
@@ -380,7 +380,7 @@
     RotationY: -2.1594784259796143
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 1
+    SpawnArgument: 0
     Serial: 658
     Argument1: 7
     Argument2: 0
@@ -441,7 +441,7 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 2285 # Bomb Bell
+  - ObjectId: 1760 # Fortuneteller
     PositionX: -2137.489013671875
     PositionY: -2040.4100341796875
     PositionZ: -5894.2587890625
@@ -449,7 +449,7 @@
     RotationY: 0
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 1
+    SpawnArgument: 0
     Serial: 615
     Argument1: 12
     Argument2: 0
@@ -459,7 +459,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 2285 # Bomb Bell
+  - ObjectId: 1760 # Fortuneteller
     PositionX: -1587.489013671875
     PositionY: -1740.4100341796875
     PositionZ: -6944.2587890625
@@ -467,7 +467,7 @@
     RotationY: 0
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 1
+    SpawnArgument: 0
     Serial: 665
     Argument1: 13
     Argument2: 0
@@ -477,7 +477,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 2285 # Bomb Bell
+  - ObjectId: 1760 # Fortuneteller
     PositionX: -937.489013671875
     PositionY: -2040.4100341796875
     PositionZ: -8094.2587890625
@@ -485,7 +485,7 @@
     RotationY: 0
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 1
+    SpawnArgument: 0
     Serial: 664
     Argument1: 7
     Argument2: 0
@@ -495,7 +495,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 2285 # Bomb Bell
+  - ObjectId: 1760 # Fortuneteller
     PositionX: -837.489013671875
     PositionY: -2040.4100341796875
     PositionZ: -9244.2587890625
@@ -503,7 +503,7 @@
     RotationY: 0
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 1
+    SpawnArgument: 0
     Serial: 616
     Argument1: 14
     Argument2: 0
@@ -513,7 +513,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 2285 # Bomb Bell
+  - ObjectId: 1760 # Fortuneteller
     PositionX: -137.48899841308594
     PositionY: -1940.4100341796875
     PositionZ: -10144.259765625
@@ -521,7 +521,7 @@
     RotationY: 0
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 1
+    SpawnArgument: 0
     Serial: 666
     Argument1: 11
     Argument2: 0
@@ -531,7 +531,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 2285 # Bomb Bell
+  - ObjectId: 1760 # Fortuneteller
     PositionX: 162.51100158691406
     PositionY: -1589.0999755859375
     PositionZ: -11444.259765625
@@ -539,7 +539,7 @@
     RotationY: 0
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 1
+    SpawnArgument: 0
     Serial: 667
     Argument1: 5
     Argument2: 0
@@ -549,7 +549,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 2285 # Bomb Bell
+  - ObjectId: 1760 # Fortuneteller
     PositionX: 312.510986328125
     PositionY: -2040.4100341796875
     PositionZ: -13444.259765625
@@ -557,7 +557,7 @@
     RotationY: 0
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 1
+    SpawnArgument: 0
     Serial: 614
     Argument1: 6
     Argument2: 0
@@ -633,7 +633,7 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 2248 # Spiked Roller
+  - ObjectId: 2285 # Bomb Bell
     PositionX: 4780.1748046875
     PositionY: -3600
     PositionZ: -15633.9697265625
@@ -641,7 +641,7 @@
     RotationY: -1.3509459495544434
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 1
+    SpawnArgument: 0
     Serial: 617
     Argument1: 14
     Argument2: 20
@@ -659,7 +659,7 @@
     RotationY: -1.3509459495544434
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 1
+    SpawnArgument: 0
     Serial: 618
     Argument1: 3
     Argument2: 20
@@ -728,7 +728,7 @@
     RotationY: -1.1862689256668091
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 1
+    SpawnArgument: 0
     Serial: 619
     Argument1: 14
     Argument2: 0
@@ -746,7 +746,7 @@
     RotationY: -1.1862689256668091
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 1
+    SpawnArgument: 0
     Serial: 621
     Argument1: 7
     Argument2: 0
@@ -807,7 +807,7 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 2285 # Bomb Bell
+  - ObjectId: 2248 # Spiked Roller
     PositionX: -1357.071044921875
     PositionY: -700
     PositionZ: -16307.7099609375
@@ -815,7 +815,7 @@
     RotationY: 0
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 1
+    SpawnArgument: 0
     Serial: 622
     Argument1: 12
     Argument2: 0
@@ -825,7 +825,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 2285 # Bomb Bell
+  - ObjectId: 2248 # Spiked Roller
     PositionX: -1857.071044921875
     PositionY: -700
     PositionZ: -16507.7109375
@@ -833,7 +833,7 @@
     RotationY: 0
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 1
+    SpawnArgument: 0
     Serial: 623
     Argument1: 4
     Argument2: 0
@@ -894,7 +894,7 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 2248 # Spiked Roller
+  - ObjectId: 2285 # Bomb Bell
     PositionX: -7414.44482421875
     PositionY: -1600
     PositionZ: -11443.1298828125
@@ -902,7 +902,7 @@
     RotationY: 0
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 1
+    SpawnArgument: 0
     Serial: 624
     Argument1: 13
     Argument2: 0
@@ -912,7 +912,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 2285 # Bomb Bell
+  - ObjectId: 1760 # Fortuneteller
     PositionX: -6205.72412109375
     PositionY: -2200
     PositionZ: -21928.599609375
@@ -920,7 +920,7 @@
     RotationY: 0
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 1
+    SpawnArgument: 0
     Serial: 629
     Argument1: 12
     Argument2: 0
@@ -930,7 +930,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 2285 # Bomb Bell
+  - ObjectId: 1760 # Fortuneteller
     PositionX: -7405.72412109375
     PositionY: -1600
     PositionZ: -12428.599609375
@@ -938,7 +938,7 @@
     RotationY: 0
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 1
+    SpawnArgument: 0
     Serial: 668
     Argument1: 12
     Argument2: 17
@@ -948,7 +948,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 2285 # Bomb Bell
+  - ObjectId: 1760 # Fortuneteller
     PositionX: -7105.72412109375
     PositionY: -2200
     PositionZ: -20078.599609375
@@ -956,7 +956,7 @@
     RotationY: 0
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 1
+    SpawnArgument: 0
     Serial: 672
     Argument1: 11
     Argument2: 0
@@ -966,7 +966,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 2285 # Bomb Bell
+  - ObjectId: 1760 # Fortuneteller
     PositionX: -6305.72412109375
     PositionY: -1600
     PositionZ: -18428.599609375
@@ -974,7 +974,7 @@
     RotationY: 0
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 1
+    SpawnArgument: 0
     Serial: 626
     Argument1: 1
     Argument2: 0
@@ -984,7 +984,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 2285 # Bomb Bell
+  - ObjectId: 1760 # Fortuneteller
     PositionX: -7055.72412109375
     PositionY: -1600
     PositionZ: -16178.599609375
@@ -992,7 +992,7 @@
     RotationY: 0
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 1
+    SpawnArgument: 0
     Serial: 671
     Argument1: 3
     Argument2: 0
@@ -1002,7 +1002,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 2285 # Bomb Bell
+  - ObjectId: 1760 # Fortuneteller
     PositionX: -7614.44482421875
     PositionY: -1900
     PositionZ: -11193.1298828125
@@ -1010,7 +1010,7 @@
     RotationY: 0
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 1
+    SpawnArgument: 0
     Serial: 625
     Argument1: 4
     Argument2: 0
@@ -1028,7 +1028,7 @@
     RotationY: 0
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 1
+    SpawnArgument: 0
     Serial: 669
     Argument1: 4
     Argument2: 0
@@ -1046,7 +1046,7 @@
     RotationY: 0
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 1
+    SpawnArgument: 0
     Serial: 670
     Argument1: 9
     Argument2: 0
@@ -1056,7 +1056,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 2285 # Bomb Bell
+  - ObjectId: 1760 # Fortuneteller
     PositionX: -7214.44482421875
     PositionY: -2150
     PositionZ: -11293.1298828125
@@ -1064,7 +1064,7 @@
     RotationY: 0
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 1
+    SpawnArgument: 0
     Serial: 673
     Argument1: 9
     Argument2: 0
@@ -1139,7 +1139,7 @@
     RotationY: -2.5290431976318359
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 1
+    SpawnArgument: 0
     Serial: 627
     Argument1: 15
     Argument2: 30
@@ -1149,7 +1149,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 2248 # Spiked Roller
+  - ObjectId: 2285 # Bomb Bell
     PositionX: -4853.38818359375
     PositionY: -12600
     PositionZ: -26930.01953125
@@ -1157,7 +1157,7 @@
     RotationY: -1.3509459495544434
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 1
+    SpawnArgument: 0
     Serial: 700
     Argument1: 10
     Argument2: 32
@@ -1175,7 +1175,7 @@
     RotationY: -1.3509459495544434
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 1
+    SpawnArgument: 0
     Serial: 620
     Argument1: 30
     Argument2: 0
@@ -1185,7 +1185,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 2285 # Bomb Bell
+  - ObjectId: 1760 # Fortuneteller
     PositionX: -4337.66796875
     PositionY: -12100
     PositionZ: -26685.689453125
@@ -1193,7 +1193,7 @@
     RotationY: -1.3509459495544434
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 1
+    SpawnArgument: 0
     Serial: 685
     Argument1: 14
     Argument2: 30
@@ -1211,7 +1211,7 @@
     RotationY: -1.3509459495544434
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 1
+    SpawnArgument: 0
     Serial: 718
     Argument1: 32
     Argument2: 0
@@ -1221,7 +1221,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 2285 # Bomb Bell
+  - ObjectId: 1760 # Fortuneteller
     PositionX: -4581.40087890625
     PositionY: -12750
     PositionZ: -27197.33984375
@@ -1229,7 +1229,7 @@
     RotationY: -1.3509459495544434
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 1
+    SpawnArgument: 0
     Serial: 713
     Argument1: 8
     Argument2: 30
@@ -1239,7 +1239,7 @@
     SpawnRange: 0
     Level: 3
     Medal: 0
-  - ObjectId: 2285 # Bomb Bell
+  - ObjectId: 1760 # Fortuneteller
     PositionX: -4879.35986328125
     PositionY: -12750
     PositionZ: -27468.859375
@@ -1247,7 +1247,7 @@
     RotationY: -1.3509459495544434
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 1
+    SpawnArgument: 0
     Serial: 711
     Argument1: 4
     Argument2: 30
@@ -1257,7 +1257,7 @@
     SpawnRange: 0
     Level: 3
     Medal: 0
-  - ObjectId: 2285 # Bomb Bell
+  - ObjectId: 1760 # Fortuneteller
     PositionX: -3838.799072265625
     PositionY: -12100
     PositionZ: -26625.44921875
@@ -1265,7 +1265,7 @@
     RotationY: -1.3509459495544434
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 1
+    SpawnArgument: 0
     Serial: 689
     Argument1: 12
     Argument2: 32
@@ -1275,7 +1275,7 @@
     SpawnRange: 0
     Level: 1
     Medal: 0
-  - ObjectId: 2285 # Bomb Bell
+  - ObjectId: 1760 # Fortuneteller
     PositionX: -3697.044921875
     PositionY: -12100
     PositionZ: -27259.80078125
@@ -1283,7 +1283,7 @@
     RotationY: -1.3509459495544434
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 1
+    SpawnArgument: 0
     Serial: 690
     Argument1: 6
     Argument2: 31
@@ -1293,7 +1293,7 @@
     SpawnRange: 0
     Level: 1
     Medal: 0
-  - ObjectId: 2248 # Spiked Roller
+  - ObjectId: 2285 # Bomb Bell
     PositionX: -4618.7490234375
     PositionY: -12900
     PositionZ: -27718.01953125
@@ -1301,7 +1301,7 @@
     RotationY: -1.3509459495544434
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 1
+    SpawnArgument: 0
     Serial: 709
     Argument1: 13
     Argument2: 32
@@ -1311,7 +1311,7 @@
     SpawnRange: 0
     Level: 3
     Medal: 0
-  - ObjectId: 2285 # Bomb Bell
+  - ObjectId: 1760 # Fortuneteller
     PositionX: -4478.3330078125
     PositionY: -12100
     PositionZ: -26973.2890625
@@ -1319,7 +1319,7 @@
     RotationY: -1.3509459495544434
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 1
+    SpawnArgument: 0
     Serial: 686
     Argument1: 10
     Argument2: 31
@@ -1329,7 +1329,7 @@
     SpawnRange: 0
     Level: 1
     Medal: 0
-  - ObjectId: 2248 # Spiked Roller
+  - ObjectId: 2285 # Bomb Bell
     PositionX: -4906.89306640625
     PositionY: -12900
     PositionZ: -27116.380859375
@@ -1337,7 +1337,7 @@
     RotationY: -1.3509459495544434
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 1
+    SpawnArgument: 0
     Serial: 708
     Argument1: 1
     Argument2: 30
@@ -1355,7 +1355,7 @@
     RotationY: -0.56554776430130005
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 1
+    SpawnArgument: 0
     Serial: 628
     Argument1: 1
     Argument2: 31
@@ -1373,7 +1373,7 @@
     RotationY: -1.3509459495544434
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 1
+    SpawnArgument: 0
     Serial: 706
     Argument1: 3
     Argument2: 30
@@ -1391,7 +1391,7 @@
     RotationY: -1.3509459495544434
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 1
+    SpawnArgument: 0
     Serial: 704
     Argument1: 8
     Argument2: 32
@@ -1409,7 +1409,7 @@
     RotationY: -1.3509459495544434
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 1
+    SpawnArgument: 0
     Serial: 705
     Argument1: 13
     Argument2: 31
@@ -1419,7 +1419,7 @@
     SpawnRange: 0
     Level: 2
     Medal: 0
-  - ObjectId: 2248 # Spiked Roller
+  - ObjectId: 2285 # Bomb Bell
     PositionX: -4472.8310546875
     PositionY: -12600
     PositionZ: -27715.94921875
@@ -1427,7 +1427,7 @@
     RotationY: -1.3509459495544434
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 1
+    SpawnArgument: 0
     Serial: 703
     Argument1: 6
     Argument2: 30
@@ -1437,7 +1437,7 @@
     SpawnRange: 0
     Level: 2
     Medal: 0
-  - ObjectId: 2285 # Bomb Bell
+  - ObjectId: 1760 # Fortuneteller
     PositionX: -3957.111083984375
     PositionY: -12100
     PositionZ: -27471.619140625
@@ -1445,7 +1445,7 @@
     RotationY: -1.3509459495544434
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 1
+    SpawnArgument: 0
     Serial: 687
     Argument1: 2
     Argument2: 32
@@ -1455,7 +1455,7 @@
     SpawnRange: 0
     Level: 1
     Medal: 0
-  - ObjectId: 2285 # Bomb Bell
+  - ObjectId: 1760 # Fortuneteller
     PositionX: -4282.60302734375
     PositionY: -12100
     PositionZ: -27390.650390625
@@ -1463,7 +1463,7 @@
     RotationY: -1.3509459495544434
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 1
+    SpawnArgument: 0
     Serial: 688
     Argument1: 4
     Argument2: 30
@@ -1481,7 +1481,7 @@
     RotationY: -1.3509459495544434
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 1
+    SpawnArgument: 0
     Serial: 630
     Argument1: 8
     Argument2: 32
@@ -1491,7 +1491,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 2247 # Speeder
+  - ObjectId: 1886
     PositionX: -462.31869506835938
     PositionY: -1774.677001953125
     PositionZ: -25592.099609375
@@ -1499,7 +1499,7 @@
     RotationY: -1.3509459495544434
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 1
+    SpawnArgument: 0
     Serial: 719
     Argument1: 31
     Argument2: 0
@@ -1617,7 +1617,7 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 73 # Crismon Jazz
+  - ObjectId: 1
     PositionX: 2399.805908203125
     PositionY: -1954.677978515625
     PositionZ: -23621.0703125
@@ -1625,7 +1625,7 @@
     RotationY: 0
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 1
+    SpawnArgument: 0
     Serial: 707
     Argument1: 0
     Argument2: 1
@@ -1686,7 +1686,7 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 73 # Crismon Jazz
+  - ObjectId: 1
     PositionX: 5651.98779296875
     PositionY: -5373.9130859375
     PositionZ: -17965.73046875
@@ -1694,7 +1694,7 @@
     RotationY: 0
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 1
+    SpawnArgument: 0
     Serial: 712
     Argument1: 0
     Argument2: 1
@@ -1814,7 +1814,7 @@
     RotationY: -2.7410919666290283
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 1
+    SpawnArgument: 0
     Serial: 612
     Argument1: 2
     Argument2: 0
@@ -1824,7 +1824,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 2248 # Spiked Roller
+  - ObjectId: 2285 # Bomb Bell
     PositionX: -25507.4609375
     PositionY: 200
     PositionZ: 17423.759765625
@@ -1832,7 +1832,7 @@
     RotationY: -2.7410919666290283
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 1
+    SpawnArgument: 0
     Serial: 663
     Argument1: 7
     Argument2: 0
@@ -1901,7 +1901,7 @@
     RotationY: 0
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 1
+    SpawnArgument: 0
     Serial: 674
     Argument1: 14
     Argument2: 0
@@ -1911,7 +1911,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 2285 # Bomb Bell
+  - ObjectId: 1760 # Fortuneteller
     PositionX: -6963.68408203125
     PositionY: -2080.166015625
     PositionZ: -17428.740234375
@@ -1919,7 +1919,7 @@
     RotationY: 1.7671458721160889
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 1
+    SpawnArgument: 0
     Serial: 675
     Argument1: 4
     Argument2: 0
@@ -1929,7 +1929,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 2285 # Bomb Bell
+  - ObjectId: 1760 # Fortuneteller
     PositionX: -6463.68408203125
     PositionY: -2080.166015625
     PositionZ: -17928.740234375
@@ -1937,7 +1937,7 @@
     RotationY: 2.7488934993743896
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 1
+    SpawnArgument: 0
     Serial: 676
     Argument1: 5
     Argument2: 0
@@ -1998,7 +1998,7 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 2285 # Bomb Bell
+  - ObjectId: 1760 # Fortuneteller
     PositionX: 79.720756530761719
     PositionY: -2280.166015625
     PositionZ: -18199.58984375
@@ -2006,7 +2006,7 @@
     RotationY: -0.7979084849357605
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 1
+    SpawnArgument: 0
     Serial: 677
     Argument1: 3
     Argument2: 0
@@ -2016,7 +2016,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 2285 # Bomb Bell
+  - ObjectId: 1760 # Fortuneteller
     PositionX: -24.649929046630859
     PositionY: -1880.166015625
     PositionZ: -18548.310546875
@@ -2024,7 +2024,7 @@
     RotationY: -0.7979084849357605
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 1
+    SpawnArgument: 0
     Serial: 680
     Argument1: 11
     Argument2: 0
@@ -2034,7 +2034,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 2285 # Bomb Bell
+  - ObjectId: 1760 # Fortuneteller
     PositionX: 125.33830261230469
     PositionY: -2080.166015625
     PositionZ: -18550.189453125
@@ -2042,7 +2042,7 @@
     RotationY: -1.3869571685791016
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 1
+    SpawnArgument: 0
     Serial: 678
     Argument1: 2
     Argument2: 0
@@ -2052,7 +2052,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 2285 # Bomb Bell
+  - ObjectId: 1760 # Fortuneteller
     PositionX: -368.36749267578125
     PositionY: -2080.166015625
     PositionZ: -18043.970703125
@@ -2060,7 +2060,7 @@
     RotationY: -0.40520942211151123
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 1
+    SpawnArgument: 0
     Serial: 679
     Argument1: 9
     Argument2: 0
@@ -2129,7 +2129,7 @@
     RotationY: -2.0083329677581787
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 1
+    SpawnArgument: 0
     Serial: 681
     Argument1: 5
     Argument2: 0
@@ -2147,7 +2147,7 @@
     RotationY: -2.0083329677581787
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 1
+    SpawnArgument: 0
     Serial: 682
     Argument1: 6
     Argument2: 0
@@ -2165,7 +2165,7 @@
     RotationY: -2.0083329677581787
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 1
+    SpawnArgument: 0
     Serial: 683
     Argument1: 13
     Argument2: 0
@@ -2277,7 +2277,7 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 2248 # Spiked Roller
+  - ObjectId: 2285 # Bomb Bell
     PositionX: 1878.0009765625
     PositionY: -3600
     PositionZ: -25048.919921875
@@ -2285,7 +2285,7 @@
     RotationY: -1.3509459495544434
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 1
+    SpawnArgument: 0
     Serial: 691
     Argument1: 10
     Argument2: 0
@@ -2295,7 +2295,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 2248 # Spiked Roller
+  - ObjectId: 2285 # Bomb Bell
     PositionX: 1780.9530029296875
     PositionY: -3600
     PositionZ: -25531.69921875
@@ -2303,7 +2303,7 @@
     RotationY: -1.3509459495544434
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 1
+    SpawnArgument: 0
     Serial: 692
     Argument1: 7
     Argument2: 0
@@ -2364,7 +2364,7 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 1889
+  - ObjectId: 1760 # Fortuneteller
     PositionX: 8982.173828125
     PositionY: -4580.169921875
     PositionZ: -24446.939453125
@@ -2372,7 +2372,7 @@
     RotationY: 2.047882080078125
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 1
+    SpawnArgument: 0
     Serial: 694
     Argument1: 3
     Argument2: 0
@@ -2382,7 +2382,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 1889
+  - ObjectId: 1760 # Fortuneteller
     PositionX: 9183.6669921875
     PositionY: -4180.169921875
     PositionZ: -24143.7890625
@@ -2390,7 +2390,7 @@
     RotationY: 2.047882080078125
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 1
+    SpawnArgument: 0
     Serial: 697
     Argument1: 11
     Argument2: 0
@@ -2400,7 +2400,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 1889
+  - ObjectId: 1760 # Fortuneteller
     PositionX: 9040.740234375
     PositionY: -4380.169921875
     PositionZ: -24098.26953125
@@ -2408,7 +2408,7 @@
     RotationY: 1.4588330984115601
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 1
+    SpawnArgument: 0
     Serial: 695
     Argument1: 2
     Argument2: 0
@@ -2418,7 +2418,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 1889
+  - ObjectId: 1760 # Fortuneteller
     PositionX: 9365.4384765625
     PositionY: -4380.169921875
     PositionZ: -24726.419921875
@@ -2426,7 +2426,7 @@
     RotationY: 2.4405810832977295
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 1
+    SpawnArgument: 0
     Serial: 696
     Argument1: 9
     Argument2: 0
@@ -2487,15 +2487,15 @@
   Unk20: 524288
   Unk24: 0
   Entities:
-  - ObjectId: 2285 # Bomb Bell
-    PositionX: -429.09188842773438
+  - ObjectId: 1
+    PositionX: -429.092248 # Spiked Roller42773438
     PositionY: -2010.029052734375
     PositionZ: -21748.970703125
     RotationX: 0
     RotationY: -1.3509459495544434
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 1
+    SpawnArgument: 0
     Serial: 723
     Argument1: 0
     Argument2: 1
@@ -2505,7 +2505,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 2285 # Bomb Bell
+  - ObjectId: 1
     PositionX: -358.2047119140625
     PositionY: -1777.083984375
     PositionZ: -25617.859375
@@ -2513,7 +2513,7 @@
     RotationY: -1.3509459495544434
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 1
+    SpawnArgument: 0
     Serial: 726
     Argument1: 0
     Argument2: 1
@@ -2523,7 +2523,7 @@
     SpawnRange: 0
     Level: 1
     Medal: 0
-  - ObjectId: 2285 # Bomb Bell
+  - ObjectId: 1
     PositionX: 981.10052490234375
     PositionY: -2401.030029296875
     PositionZ: -26268.810546875
@@ -2531,7 +2531,7 @@
     RotationY: -1.3509459495544434
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 1
+    SpawnArgument: 0
     Serial: 733
     Argument1: 1
     Argument2: 0
@@ -2636,7 +2636,7 @@
     RotationY: 0
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 1
+    SpawnArgument: 0
     Serial: 734
     Argument1: 0
     Argument2: 0
@@ -2654,7 +2654,7 @@
     RotationY: 0
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 1
+    SpawnArgument: 0
     Serial: 859
     Argument1: 0
     Argument2: 0
@@ -2672,7 +2672,7 @@
     RotationY: 0
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 1
+    SpawnArgument: 0
     Serial: 860
     Argument1: 0
     Argument2: 0
@@ -2690,7 +2690,7 @@
     RotationY: 0
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 1
+    SpawnArgument: 0
     Serial: 861
     Argument1: 0
     Argument2: 0
@@ -2708,7 +2708,7 @@
     RotationY: 0
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 1
+    SpawnArgument: 0
     Serial: 864
     Argument1: 0
     Argument2: 0
@@ -2726,7 +2726,7 @@
     RotationY: 0
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 1
+    SpawnArgument: 0
     Serial: 865
     Argument1: 0
     Argument2: 0
@@ -2744,7 +2744,7 @@
     RotationY: 0
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 1
+    SpawnArgument: 0
     Serial: 868
     Argument1: 0
     Argument2: 0
@@ -2762,7 +2762,7 @@
     RotationY: 0
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 1
+    SpawnArgument: 0
     Serial: 870
     Argument1: 0
     Argument2: 0
