@@ -212,11 +212,11 @@
     RotationY: 0.060004435479640961
     RotationZ: 0
     SpawnType: 1
-    SpawnArgument: 0
+    SpawnArgument: 1
     Serial: 122
     Argument1: 0
-    Argument2: 2
-    ReactionCommand: 1
+    Argument2: 0
+    ReactionCommand: 0
     SpawnDelay: 15
     Command: 0
     SpawnRange: 0
@@ -230,11 +230,11 @@
     RotationY: -1.1180926561355591
     RotationZ: 0
     SpawnType: 1
-    SpawnArgument: 0
+    SpawnArgument: 1
     Serial: 123
     Argument1: 0
-    Argument2: 2
-    ReactionCommand: 1
+    Argument2: 0
+    ReactionCommand: 0
     SpawnDelay: 15
     Command: 0
     SpawnRange: 0
@@ -284,7 +284,7 @@
     RotationY: 2.4161989688873291
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 0
+    SpawnArgument: 1
     Serial: 130
     Argument1: 0
     Argument2: 0
@@ -302,7 +302,7 @@
     RotationY: 0
     RotationZ: 0
     SpawnType: 2
-    SpawnArgument: 0
+    SpawnArgument: 1
     Serial: 131
     Argument1: 0
     Argument2: 0
