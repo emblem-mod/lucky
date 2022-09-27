@@ -402,7 +402,7 @@
     OffBgGroup: 0
   - Shape: 1
     Option: 1
-    PositionX: -5000
+    PositionX: 3000
     PositionY: -22300
     PositionZ: 0
     ScaleX: 500
