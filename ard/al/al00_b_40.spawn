@@ -114,59 +114,23 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 302
-    PositionX: 2840
-    PositionY: 5
-    PositionZ: 594
-    RotationX: 0
-    RotationY: 2.4434609413146973
-    RotationZ: 0
-    SpawnType: 2
-    SpawnArgument: 1
-    Serial: 22
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 25
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  - ObjectId: 302
-    PositionX: 3106
-    PositionY: 0
-    PositionZ: 520
-    RotationX: 0
-    RotationY: 2.4434609413146973
-    RotationZ: 0
-    SpawnType: 2
-    SpawnArgument: 1
-    Serial: 23
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 25
-    Command: 0
-    SpawnRange: 0
-    Level: 1
-    Medal: 0
-  - ObjectId: 302
+  - ObjectId: 1239 # Hayner
     PositionX: 3336
     PositionY: 0
     PositionZ: 327
     RotationX: 0
     RotationY: 2.4434609413146973
     RotationZ: 0
-    SpawnType: 2
-    SpawnArgument: 1
-    Serial: 24
+    SpawnType: 3
+    SpawnArgument: 0
+    Serial: 22
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 25
+    SpawnDelay: 0
     Command: 0
     SpawnRange: 0
-    Level: 1
+    Level: 0
     Medal: 0
   - ObjectId: 302
     PositionX: 3157
@@ -186,24 +150,6 @@
     SpawnRange: 0
     Level: 1
     Medal: 0
-  - ObjectId: 2156 # Vivi
-    PositionX: 3042
-    PositionY: -6
-    PositionZ: 443
-    RotationX: 0
-    RotationY: 2.4434609413146973
-    RotationZ: 0
-    SpawnType: 2
-    SpawnArgument: 1
-    Serial: 26
-    Argument1: 2
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 25
-    Command: 0
-    SpawnRange: 0
-    Level: 1
-    Medal: 0
   EventActivators:
   - Shape: 2
     Option: 0
@@ -214,7 +160,7 @@
     ScaleY: 100
     ScaleZ: 100
     RotationX: 0
-    RotationY: 0.75398081541061401
+    RotationY: 0
     RotationZ: 0
     Flags: 0
     Type: 0
@@ -244,24 +190,6 @@
     SpawnType: 2
     SpawnArgument: 1
     Serial: 912
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 25
-    Command: 0
-    SpawnRange: 0
-    Level: 2
-    Medal: 0
-  - ObjectId: 12
-    PositionX: 3247
-    PositionY: -7
-    PositionZ: 189
-    RotationX: 0
-    RotationY: 0.87266445159912109
-    RotationZ: 0
-    SpawnType: 2
-    SpawnArgument: 1
-    Serial: 914
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
