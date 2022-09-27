@@ -79,9 +79,9 @@
   Unk24: 0
   Entities:
   - ObjectId: 2095 # Setzer
-    PositionX: 2614
+    PositionX: 2600
     PositionY: 0
-    PositionZ: 331
+    PositionZ: 300
     RotationX: 0
     RotationY: 3.0325095653533936
     RotationZ: 0
@@ -97,16 +97,16 @@
     Level: 0
     Medal: 0
   - ObjectId: 2156 # Vivi
-    PositionX: 2923
-    PositionY: -7
-    PositionZ: 855
+    PositionX: 2900
+    PositionY: 0
+    PositionZ: 900
     RotationX: 0
     RotationY: -0.89448124170303345
     RotationZ: 0
     SpawnType: 3
     SpawnArgument: 0
     Serial: 21
-    Argument1: 1
+    Argument1: 0
     Argument2: 0
     ReactionCommand: 0
     SpawnDelay: 0
@@ -115,9 +115,9 @@
     Level: 0
     Medal: 0
   - ObjectId: 1239 # Hayner
-    PositionX: 3336
+    PositionX: 3300
     PositionY: 0
-    PositionZ: 327
+    PositionZ: 400
     RotationX: 0
     RotationY: 2.4434609413146973
     RotationZ: 0
@@ -132,23 +132,23 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 302
-    PositionX: 3157
-    PositionY: -6
-    PositionZ: 347
+  - ObjectId: 1524 # Struggle Orbs
+    PositionX: 0
+    PositionY: 0
+    PositionZ: 0
     RotationX: 0
-    RotationY: 2.4434609413146973
+    RotationY: 0
     RotationZ: 0
-    SpawnType: 2
-    SpawnArgument: 1
+    SpawnType: 0
+    SpawnArgument: 0
     Serial: 25
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 25
+    SpawnDelay: 0
     Command: 0
     SpawnRange: 0
-    Level: 1
+    Level: 0
     Medal: 0
   EventActivators:
   - Shape: 2
@@ -180,24 +180,6 @@
   Unk20: 119406617
   Unk24: 1
   Entities:
-  - ObjectId: 12
-    PositionX: 3054
-    PositionY: 0
-    PositionZ: -40
-    RotationX: 0
-    RotationY: 0.6763150691986084
-    RotationZ: 0
-    SpawnType: 2
-    SpawnArgument: 1
-    Serial: 912
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 25
-    Command: 0
-    SpawnRange: 0
-    Level: 2
-    Medal: 0
   - ObjectId: 12
     PositionX: 3406
     PositionY: 0
