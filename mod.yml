@@ -886,7 +886,7 @@ assets:
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/al/al00_b_40.spawn # ???
+    - name: ard/al/al00_b_40.spawn # Setzer, Vivi and...
   - name: evt
     type: areadatascript
     method: areadatascript
@@ -954,7 +954,7 @@ assets:
     type: areadataspawn
     method: spawnpoint
     source:
-    - name: ard/al/al03_b_40.spawn # Grim Reaper II, Cursed Medallions with Infinite Gamblers
+    - name: ard/al/al03_b_40.spawn # Grim Reaper II, Cursed Medallions with Infinite Shadows
   - name: btl
     type: areadatascript
     method: areadatascript
@@ -1017,7 +1017,7 @@ assets:
     type: areadatascript
     method: areadatascript
     source:
-    - name: ard/al/al14_evt.script # Boss Signal and OST: Arabian Daydream, Encounter and Darkness of the Unknown
+    - name: ard/al/al14_evt.script # Boss Signal and OST: Arabian Daydream, The Encounter and Darkness of the Unknown II
 
 # Genie Jafar
 - name: ard/al05.ard
@@ -1035,7 +1035,16 @@ assets:
     method: areadatascript
     source:
     - name: ard/al/al05_btl.script # AL05_MS203 -> EH15_MS104 (Saix)
-
+  - name: evt
+    type: areadatascript
+    method: areadatascript
+    source:
+    - name: ard/al/al05_evt.script # OST: 13th Dilemma
+  - name: map
+    type: areadatascript
+    method: areadatascript
+    source:
+    - name: ard/al/al05_map.script # OST: 13th Dilemma
 
 
 
