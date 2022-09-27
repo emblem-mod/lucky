@@ -27,7 +27,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 567 # Party Member 1
+  - ObjectId: 0 # Party Member 1
     PositionX: 2600
     PositionY: 0
     PositionZ: 585
@@ -45,7 +45,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 568 # Party Member 2
+  - ObjectId: 0 # Party Member 2
     PositionX: 2735
     PositionY: 0
     PositionZ: 735
@@ -63,21 +63,6 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  EventActivators: []
-  WalkPath: []
-  ReturnParameters: []
-  Signals: []
-- Type: 2
-  Flag: 0
-  Id: 106
-  Teleport:
-    Place: 0
-    Door: 0
-    World: 0
-    Unknown: 0
-  Unk20: 1507328
-  Unk24: 0
-  Entities:
   - ObjectId: 2095 # Setzer
     PositionX: 2600
     PositionY: 0
@@ -132,163 +117,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 1524 # Struggle Orbs
-    PositionX: 0
-    PositionY: 0
-    PositionZ: 0
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 0
-    SpawnArgument: 0
-    Serial: 25
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 0
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  EventActivators:
-  - Shape: 2
-    Option: 0
-    PositionX: 0
-    PositionY: 0
-    PositionZ: 0
-    ScaleX: 100
-    ScaleY: 100
-    ScaleZ: 100
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    Flags: 0
-    Type: 0
-    OnBgGroup: 0
-    OffBgGroup: 0
-  WalkPath: []
-  ReturnParameters: []
-  Signals: []
-- Type: 2
-  Flag: 1
-  Id: 107
-  Teleport:
-    Place: 0
-    Door: 0
-    World: 25
-    Unknown: 0
-  Unk20: 119406617
-  Unk24: 1
-  Entities:
-  - ObjectId: 12
-    PositionX: 3406
-    PositionY: 0
-    PositionZ: -127
-    RotationX: 0
-    RotationY: 0.87266445159912109
-    RotationZ: 0
-    SpawnType: 2
-    SpawnArgument: 1
-    Serial: 988
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 25
-    Command: 0
-    SpawnRange: 0
-    Level: 2
-    Medal: 0
-  EventActivators:
-  - Shape: 2
-    Option: 0
-    PositionX: 1892
-    PositionY: -100
-    PositionZ: 857
-    ScaleX: 100
-    ScaleY: 100
-    ScaleZ: 100
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    Flags: 0
-    Type: 0
-    OnBgGroup: 0
-    OffBgGroup: 0
-  WalkPath: []
-  ReturnParameters:
-  - Id: 0
-    Type: 0
-    Rate: 0
-    EntryType: 0
-    Argument04: 0
-    Argument08: 0
-    Argument0c: 0
-  - Id: 0
-    Type: 0
-    Rate: 0
-    EntryType: 0
-    Argument04: 0
-    Argument08: 0
-    Argument0c: 0
-  - Id: 0
-    Type: 0
-    Rate: 0
-    EntryType: 0
-    Argument04: 0
-    Argument08: 0
-    Argument0c: 0
-  Signals:
-  - SignalId: 3
-    Argument: 106
-    Action: 0
-    Padding05: 0
-    Padding06: 0
-    Padding07: 0
-- Type: 2
-  Flag: 0
-  Id: 108
-  Teleport:
-    Place: 0
-    Door: 0
-    World: 0
-    Unknown: 0
-  Unk20: 0
-  Unk24: 0
-  Entities:
-  - ObjectId: 12
-    PositionX: 2478
-    PositionY: 0
-    PositionZ: 1377
-    RotationX: 0
-    RotationY: -0.050293128937482834
-    RotationZ: 0
-    SpawnType: 2
-    SpawnArgument: 0
-    Serial: 124
-    Argument1: 1
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 0
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  EventActivators:
-  - Shape: 1
-    Option: 0
-    PositionX: 0
-    PositionY: 0
-    PositionZ: 0
-    ScaleX: 100
-    ScaleY: 100
-    ScaleZ: 100
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    Flags: 0
-    Type: 0
-    OnBgGroup: 0
-    OffBgGroup: 0
+  EventActivators: []
   WalkPath: []
   ReturnParameters: []
   Signals: []
