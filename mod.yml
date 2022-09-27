@@ -29,32 +29,6 @@ assets:
   source:
   - name: obj/F_CA690_BTL.mdlx # Grim Reaper II Chest to Origin
 
-- name: obj/N_EX500_BTL.mdlx
-  method: binarc
-  source:
-  - name: n_ex
-    type: Bdx
-    method: copy
-    source:
-    - name: ai/n_ex500_btl.bdx # Hayner Fixes
-
-- name: obj/N_EX600_BTL.mdlx
-  method: binarc
-  source:
-  - name: n_ex
-    type: Bdx
-    method: copy
-    source:
-    - name: ai/n_ex600_btl.bdx # Setzer Fixes
-    
-- name: obj/N_EX610_BTL.mdlx
-  method: binarc
-  source:
-  - name: n_ex
-    type: Bdx
-    method: copy
-    source:
-    - name: ai/n_ex610_btl.bdx # Vivi Fixes
     
 
   
