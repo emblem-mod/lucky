@@ -36,7 +36,7 @@
     RotationZ: 0
     SpawnType: 0
     SpawnArgument: 0
-    Serial: 117
+    Serial: 7
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -54,7 +54,7 @@
     RotationZ: 0
     SpawnType: 0
     SpawnArgument: 0
-    Serial: 118
+    Serial: 8
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -78,7 +78,7 @@
   Unk20: 1507328
   Unk24: 0
   Entities:
-  - ObjectId: 12
+  - ObjectId: 2095 # Setzer
     PositionX: 2614
     PositionY: 0
     PositionZ: 331
@@ -87,7 +87,7 @@
     RotationZ: 0
     SpawnType: 3
     SpawnArgument: 0
-    Serial: 155
+    Serial: 20
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -96,7 +96,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 12
+  - ObjectId: 2156 # Vivi
     PositionX: 2923
     PositionY: -7
     PositionZ: 855
@@ -105,68 +105,14 @@
     RotationZ: 0
     SpawnType: 3
     SpawnArgument: 0
-    Serial: 122
-    Argument1: 0
+    Serial: 21
+    Argument1: 1
     Argument2: 0
     ReactionCommand: 0
     SpawnDelay: 0
     Command: 0
     SpawnRange: 0
     Level: 0
-    Medal: 0
-  - ObjectId: 12
-    PositionX: 2257
-    PositionY: -7
-    PositionZ: 761
-    RotationX: 0
-    RotationY: 1.2653635740280151
-    RotationZ: 0
-    SpawnType: 3
-    SpawnArgument: 0
-    Serial: 123
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 0
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  - ObjectId: 302
-    PositionX: 2790
-    PositionY: 2
-    PositionZ: 767
-    RotationX: 0
-    RotationY: 2.4434609413146973
-    RotationZ: 0
-    SpawnType: 2
-    SpawnArgument: 1
-    Serial: 900
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 25
-    Command: 0
-    SpawnRange: 0
-    Level: 3
-    Medal: 0
-  - ObjectId: 302
-    PositionX: 3019
-    PositionY: 9
-    PositionZ: 574
-    RotationX: 0
-    RotationY: 2.4434609413146973
-    RotationZ: 0
-    SpawnType: 2
-    SpawnArgument: 1
-    Serial: 908
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 25
-    Command: 0
-    SpawnRange: 0
-    Level: 3
     Medal: 0
   - ObjectId: 302
     PositionX: 2840
@@ -177,14 +123,14 @@
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 1
-    Serial: 909
+    Serial: 22
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
     SpawnDelay: 25
     Command: 0
     SpawnRange: 0
-    Level: 3
+    Level: 0
     Medal: 0
   - ObjectId: 302
     PositionX: 3106
@@ -195,7 +141,7 @@
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 1
-    Serial: 119
+    Serial: 23
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -213,7 +159,7 @@
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 1
-    Serial: 905
+    Serial: 24
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -231,7 +177,7 @@
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 1
-    Serial: 120
+    Serial: 25
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -240,7 +186,7 @@
     SpawnRange: 0
     Level: 1
     Medal: 0
-  - ObjectId: 12
+  - ObjectId: 2156 # Vivi
     PositionX: 3042
     PositionY: -6
     PositionZ: 443
@@ -249,8 +195,8 @@
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 1
-    Serial: 121
-    Argument1: 0
+    Serial: 26
+    Argument1: 2
     Argument2: 0
     ReactionCommand: 0
     SpawnDelay: 25
@@ -290,7 +236,7 @@
   Entities:
   - ObjectId: 12
     PositionX: 3054
-    PositionY: -7
+    PositionY: 0
     PositionZ: -40
     RotationX: 0
     RotationY: 0.6763150691986084
