@@ -1,6 +1,6 @@
 Program 0x39
 Capacity 60
 Party DEFAULT
-Mission 0x40 "TT05_MS405"
+Mission 0x40 "LK02_MS102"
 Unk1d 3
 Spawn "b_40"
