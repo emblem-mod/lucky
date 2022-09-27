@@ -8,5 +8,5 @@ Spawn "b_40"
 Program 0x3C
 Progress 0x383a
 Party W_FRIEND
-Mission 0x73 "CA01_MS204"
+Mission 0x73 "EH15_MS104"
 Spawn "b_99"
