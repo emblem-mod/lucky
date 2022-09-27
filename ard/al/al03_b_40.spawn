@@ -96,9 +96,9 @@
   Unk20: 0
   Unk24: 0
   Entities:
-  - ObjectId: 314 # Gambler
+  - ObjectId: 302 # Shadow
     PositionX: -900
-    PositionY: -100000
+    PositionY: 0
     PositionZ: 900
     RotationX: 0
     RotationY: 0
@@ -114,9 +114,9 @@
     SpawnRange: 0
     Level: 100
     Medal: 0
-  - ObjectId: 314 # Gambler
+  - ObjectId: 302 # Shadow
     PositionX: 900
-    PositionY: -100000
+    PositionY: 0
     PositionZ: 900
     RotationX: 0
     RotationY: 0
@@ -124,6 +124,42 @@
     SpawnType: 2
     SpawnArgument: 2
     Serial: 131
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 200
+    Command: 0
+    SpawnRange: 0
+    Level: 100
+    Medal: 0
+  - ObjectId: 302 # Shadow
+    PositionX: -900
+    PositionY: 0
+    PositionZ: -900
+    RotationX: 0
+    RotationY: 0
+    RotationZ: 0
+    SpawnType: 2
+    SpawnArgument: 2
+    Serial: 132
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 200
+    Command: 0
+    SpawnRange: 0
+    Level: 100
+    Medal: 0
+  - ObjectId: 302 # Shadow
+    PositionX: 900
+    PositionY: 0
+    PositionZ: -900
+    RotationX: 0
+    RotationY: 0
+    RotationZ: 0
+    SpawnType: 2
+    SpawnArgument: 2
+    Serial: 133
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
