@@ -27,14 +27,14 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 13 # 2502 Data Saix
+  - ObjectId: 302 # 2502 Data Saix
     PositionX: 0
     PositionY: -22300
     PositionZ: 200
     RotationX: 0
     RotationY: 0
     RotationZ: 0
-    SpawnType: 0
+    SpawnType: 2
     SpawnArgument: 0
     Serial: 8
     Argument1: 0
@@ -45,14 +45,14 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 13 # 313 Berserker
+  - ObjectId: 302 # 313 Berserker
     PositionX: -300
     PositionY: -22600
     PositionZ: 200
     RotationX: 0
     RotationY: 0
     RotationZ: 0
-    SpawnType: 3
+    SpawnType: 2
     SpawnArgument: 0
     Serial: 10
     Argument1: 0
@@ -63,14 +63,14 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 13 # 313 Berserker
+  - ObjectId: 302 # 313 Berserker
     PositionX: 300
     PositionY: -22600
     PositionZ: 200
     RotationX: 0
     RotationY: 0
     RotationZ: 0
-    SpawnType: 3
+    SpawnType: 2
     SpawnArgument: 0
     Serial: 11
     Argument1: 1
@@ -81,7 +81,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 721 # Barrier
+  - ObjectId: 302 # 721 Barrier
     PositionX: 0
     PositionY: -22300
     PositionZ: -2100
@@ -99,7 +99,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 721 # Barrier
+  - ObjectId: 302 # Barrier
     PositionX: -1500
     PositionY: -22300
     PositionZ: -1500
@@ -117,7 +117,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 721 # Barrier
+  - ObjectId: 302 # Barrier
     PositionX: -2100
     PositionY: -22300
     PositionZ: 0
@@ -135,7 +135,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 721 # Barrier
+  - ObjectId: 302 # Barrier
     PositionX: -1500
     PositionY: -22300
     PositionZ: 1500
@@ -153,7 +153,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 721 # Barrier
+  - ObjectId: 302 # Barrier
     PositionX: 0
     PositionY: -22300
     PositionZ: 2100
@@ -171,7 +171,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 721 # Barrier
+  - ObjectId: 302 # Barrier
     PositionX: 1500
     PositionY: -22300
     PositionZ: 1500
@@ -189,7 +189,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 721 # Barrier
+  - ObjectId: 302 # Barrier
     PositionX: 2100
     PositionY: -22300
     PositionZ: 0
@@ -207,7 +207,7 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  - ObjectId: 721 # Barrier
+  - ObjectId: 302 # Barrier
     PositionX: 1500
     PositionY: -22300
     PositionZ: -1500
@@ -387,7 +387,7 @@
   EventActivators:
   - Shape: 0
     Option: 0
-    PositionX: 1000
+    PositionX: 5000
     PositionY: -22300
     PositionZ: 0
     ScaleX: 500
@@ -402,7 +402,7 @@
     OffBgGroup: 0
   - Shape: 1
     Option: 1
-    PositionX: 2000
+    PositionX: -5000
     PositionY: -22300
     PositionZ: 0
     ScaleX: 500
