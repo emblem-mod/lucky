@@ -1,0 +1,4 @@
+Program 0x3E
+MapVisibility 0x55555555 0x40000000
+BarrierFlag 0x0 0x40000000
+SpawnAlt "m_21"
