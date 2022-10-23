@@ -1,4 +1,5 @@
 Program 0x37
 Party W_FRIEND_FIX
+AllocEffect 0x100000 0x80000
 Mission 0x6B "HB33_FM_LEX"
 Spawn "b_40"

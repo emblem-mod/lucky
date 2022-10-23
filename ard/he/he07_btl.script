@@ -1,6 +1,7 @@
 Program 0x72
 Progress 0x1837
 Party W_FRIEND_ONLY
+AllocEffect 0x100000 0x80000
 Mission 0x4A "HB33_FM_LEX"
 Unk1d 5
 Spawn "b_40"
