@@ -2,9 +2,7 @@ title: Hidden Kings
 originalAuthor: Televo
 description:
 assets:
-
-
-- name: menu/fm/title.2ld
+- name: menu/fm/title.2ld # PS2 Title Screen
   multi:
   - name: menu/fr/title.2ld
   - name: menu/gr/title.2ld
@@ -14,30 +12,19 @@ assets:
   - name: menu/us/title.2ld
   method: copy
   source:
-  - name: menu/title.2ld # PS2 Title Screen
-
-- name: obj/B_CA050.mdlx
+  - name: menu/title.2ld
+- name: obj/B_CA050.mdlx # Grim Reaper II Medallion Fixes
   method: binarc
   source:
   - name: b_ca
     type: Bdx
     method: copy
     source:
-    - name: ai/b_ca050.bdx # Grim Reaper II Medallion Fixes
-- name: obj/F_CA690_BTL.mdlx
+    - name: ai/b_ca050.bdx
+- name: obj/F_CA690_BTL.mdlx # Grim Reaper II Chest to Origin
   method: copy
   source:
-  - name: obj/F_CA690_BTL.mdlx # Grim Reaper II Chest to Origin
-
-    
-
-  
-  
-  
-  
-  
-  
-
+  - name: obj/F_CA690_BTL.mdlx
 
 # =================================================================================================================== #
 # HIDDEN KINGS PLANDO #################################################################################################
@@ -2063,3 +2050,378 @@ assets:
   method: copy
   source:
   - name: map/po/po09.map # Spookey Cave
+
+# =================================================================================================================== #
+# LUCKY EMBLEM TEXTURES ###############################################################################################
+# =================================================================================================================== #
+
+#Test Lua Script
+- name: scripts/F266B00B Weapon Test.lua
+  method: copy
+  source:
+  - name: F266B00B Weapon Test.lua
+#Starting Weapons
+- name: 00common.bdx
+  method: copy
+  source:
+  - name: 00common.bin
+#Big Chest -> Small Chest & TR Keyblade -> New Keyblade
+- name: 00objentry.bin
+  method: listpatch
+  type: List
+  source:
+  - name: ObjList.yml
+    type: objentry
+#Various Stuff
+- name: 03system.bin
+  method: binarc
+  source:
+  - name: went #Implement New Weapon Models
+    type: list
+    method: copy
+    source:
+      - name: 03system.bin/went.bin
+  - name: item #Implement New Pictures & Stats
+    type: list
+    method: listpatch
+    source:
+    - name: 03system.bin/ItemList.yml
+      type: item
+#Text
+- name: msg/jp/sys.bar
+  multi:
+  - name: msg/us/sys.bar
+  - name: msg/fr/sys.bar
+  - name: msg/gr/sys.bar
+  - name: msg/it/sys.bar
+  - name: msg/sp/sys.bar
+  method: binarc
+  source:
+  - name: sys
+    type: list
+    method: kh2msg
+    source:
+    - name: msg/sys.yml
+      language: en
+#Keyblade Models
+- name: obj/ANGUINVI.mdlx
+  method: copy
+  source:
+  - name: obj/Anguinvi.mdlx
+- name: obj/ANGUINVI_NM.mdlx
+  method: copy
+  source:
+  - name: obj/Anguinvi_NM.mdlx
+- name: obj/ANGUINVI_TR.mdlx
+  method: copy
+  source:
+  - name: obj/Anguinvi_TR.mdlx
+- name: obj/ENDSOFTHEEARTH.mdlx
+  method: copy
+  source:
+  - name: obj/EndsoftheEarth.mdlx
+- name: obj/ENDSOFTHEEARTH_NM.mdlx
+  method: copy
+  source:
+  - name: obj/EndsoftheEarth_NM.mdlx
+- name: obj/ENDSOFTHEEARTH_TR.mdlx
+  method: copy
+  source:
+  - name: obj/EndsoftheEarth_TR.mdlx
+- name: obj/LEOPAGULA.mdlx
+  method: copy
+  source:
+  - name: obj/Leopagula.mdlx
+- name: obj/LEOPAGULA_NM.mdlx
+  method: copy
+  source:
+  - name: obj/Leopagula_NM.mdlx
+- name: obj/LEOPAGULA_TR.mdlx
+  method: copy
+  source:
+  - name: obj/Leopagula_TR.mdlx
+- name: obj/NACHTSTERN.mdlx
+  method: copy
+  source:
+  - name: obj/Nachtstern.mdlx
+- name: obj/NACHTSTERN_NM.mdlx
+  method: copy
+  source:
+  - name: obj/Nachtstern_NM.mdlx
+- name: obj/NACHTSTERN_TR.mdlx
+  method: copy
+  source:
+  - name: obj/Nachtstern_TR.mdlx
+- name: obj/NONAME.mdlx
+  method: copy
+  source:
+  - name: obj/NoName.mdlx
+- name: obj/NONAME_NM.mdlx
+  method: copy
+  source:
+  - name: obj/NoName_NM.mdlx
+- name: obj/NONAME_TR.mdlx
+  method: copy
+  source:
+  - name: obj/NoName_TR.mdlx
+- name: obj/UNICOIRA.mdlx
+  method: copy
+  source:
+  - name: obj/Unicoira.mdlx
+- name: obj/UNICOIRA_NM.mdlx
+  method: copy
+  source:
+  - name: obj/Unicoira_NM.mdlx
+- name: obj/UNICOIRA_TR.mdlx
+  method: copy
+  source:
+  - name: obj/Unicoira_TR.mdlx
+- name: obj/URSACED.mdlx
+  method: copy
+  source:
+  - name: obj/Ursaced.mdlx
+- name: obj/URSACED_NM.mdlx
+  method: copy
+  source:
+  - name: obj/Ursaced_NM.mdlx
+- name: obj/URSACED_TR.mdlx
+  method: copy
+  source:
+  - name: obj/Ursaced_TR.mdlx
+- name: obj/VULPAVA.mdlx
+  method: copy
+  source:
+  - name: obj/Vulpava.mdlx
+- name: obj/VULPAVA_NM.mdlx
+  method: copy
+  source:
+  - name: obj/Vulpava_NM.mdlx
+- name: obj/VULPAVA_TR.mdlx
+  method: copy
+  source:
+  - name: obj/Vulpava_TR.mdlx
+- name: obj/WOODEN.mdlx
+  method: copy
+  source:
+  - name: obj/Wooden Keyblade.mdlx
+- name: obj/WOODEN_NM.mdlx
+  method: copy
+  source:
+  - name: obj/Wooden Keyblade_NM.mdlx
+- name: obj/WOODEN_TR.mdlx
+  method: copy
+  source:
+  - name: obj/Wooden Keyblade_TR.mdlx
+- name: obj/XBLADE.mdlx
+  method: copy
+  source:
+  - name: obj/XBlade.mdlx
+- name: obj/XBLADE_NM.mdlx
+  method: copy
+  source:
+  - name: obj/XBlade_NM.mdlx
+- name: obj/XBLADE_TR.mdlx
+  method: copy
+  source:
+  - name: obj/XBlade_TR.mdlx
+- name: remastered/obj/ANGUINVI.mdlx/-0.dds
+  method: copy
+  source:
+  - name: remastered/obj/Anguinvi/ZZ.dds
+- name: remastered/obj/ANGUINVI_NM.mdlx/-0.dds
+  method: copy
+  source:
+  - name: remastered/obj/Anguinvi/NM.dds
+- name: remastered/obj/ANGUINVI_TR.mdlx/-0.dds
+  method: copy
+  source:
+  - name: remastered/obj/Anguinvi/TR.dds
+- name: remastered/obj/ENDSOFTHEEARTH.mdlx/-0.dds
+  method: copy
+  source:
+  - name: remastered/obj/EndsoftheEarth/ZZ.dds
+- name: remastered/obj/ENDSOFTHEEARTH_NM.mdlx/-0.dds
+  method: copy
+  source:
+  - name: remastered/obj/EndsoftheEarth/NM.dds
+- name: remastered/obj/ENDSOFTHEEARTH_TR.mdlx/-0.dds
+  method: copy
+  source:
+  - name: remastered/obj/EndsoftheEarth/TR.dds
+- name: remastered/obj/LEOPAGULA.mdlx/-0.dds
+  method: copy
+  source:
+  - name: remastered/obj/Leopagula/ZZ.dds
+- name: remastered/obj/LEOPAGULA_NM.mdlx/-0.dds
+  method: copy
+  source:
+  - name: remastered/obj/Leopagula/NM.dds
+- name: remastered/obj/LEOPAGULA_TR.mdlx/-0.dds
+  method: copy
+  source:
+  - name: remastered/obj/Leopagula/TR.dds
+- name: remastered/obj/NACHTSTERN.mdlx/-0.dds
+  method: copy
+  source:
+  - name: remastered/obj/Nachtstern/ZZ.dds
+- name: remastered/obj/NACHTSTERN_NM.mdlx/-0.dds
+  method: copy
+  source:
+  - name: remastered/obj/Nachtstern/NM.dds
+- name: remastered/obj/NACHTSTERN_TR.mdlx/-0.dds
+  method: copy
+  source:
+  - name: remastered/obj/Nachtstern/TR.dds
+- name: remastered/obj/NONAME.mdlx/-0.dds
+  method: copy
+  source:
+  - name: remastered/obj/NoName/ZZ.dds
+- name: remastered/obj/NONAME_NM.mdlx/-0.dds
+  method: copy
+  source:
+  - name: remastered/obj/NoName/NM.dds
+- name: remastered/obj/NONAME_TR.mdlx/-0.dds
+  method: copy
+  source:
+  - name: remastered/obj/NoName/TR.dds
+- name: remastered/obj/UNICOIRA.mdlx/-0.dds
+  method: copy
+  source:
+  - name: remastered/obj/Unicoira/ZZ.dds
+- name: remastered/obj/UNICOIRA_NM.mdlx/-0.dds
+  method: copy
+  source:
+  - name: remastered/obj/Unicoira/NM.dds
+- name: remastered/obj/UNICOIRA_TR.mdlx/-0.dds
+  method: copy
+  source:
+  - name: remastered/obj/Unicoira/TR.dds
+- name: remastered/obj/URSACED.mdlx/-0.dds
+  method: copy
+  source:
+  - name: remastered/obj/Ursaced/ZZ.dds
+- name: remastered/obj/URSACED_NM.mdlx/-0.dds
+  method: copy
+  source:
+  - name: remastered/obj/Ursaced/NM.dds
+- name: remastered/obj/URSACED_TR.mdlx/-0.dds
+  method: copy
+  source:
+  - name: remastered/obj/Ursaced/TR.dds
+- name: remastered/obj/VULPAVA.mdlx/-0.dds
+  method: copy
+  source:
+  - name: remastered/obj/Vulpava/ZZ.dds
+- name: remastered/obj/VULPAVA_NM.mdlx/-0.dds
+  method: copy
+  source:
+  - name: remastered/obj/Vulpava/NM.dds
+- name: remastered/obj/VULPAVA_TR.mdlx/-0.dds
+  method: copy
+  source:
+  - name: remastered/obj/Vulpava/TR.dds
+- name: remastered/obj/WOODEN.mdlx/-0.dds
+  method: copy
+  source:
+  - name: remastered/obj/Wooden Keyblade/ZZ.dds
+- name: remastered/obj/WOODEN_NM.mdlx/-0.dds
+  method: copy
+  source:
+  - name: remastered/obj/Wooden Keyblade/NM.dds
+- name: remastered/obj/WOODEN_TR.mdlx/-0.dds
+  method: copy
+  source:
+  - name: remastered/obj/Wooden Keyblade/TR.dds
+- name: remastered/obj/XBLADE.mdlx/-0.dds
+  method: copy
+  source:
+  - name: remastered/obj/XBlade/ZZ.dds
+- name: remastered/obj/XBLADE_NM.mdlx/-0.dds
+  method: copy
+  source:
+  - name: remastered/obj/XBlade/NM.dds
+- name: remastered/obj/XBLADE_TR.mdlx/-0.dds
+  method: copy
+  source:
+  - name: remastered/obj/XBlade/TR.dds
+#Keyblade Pictures
+- name: itempic/item-030.imd
+  method: copy
+  source:
+  - name: itempic/Anguinvi.imd
+- name: itempic/item-031.imd
+  method: copy
+  source:
+  - name: itempic/Ends of the Earth.imd
+- name: itempic/item-032.imd
+  method: copy
+  source:
+  - name: itempic/Leopagula.imd
+- name: itempic/item-092.imd
+  method: copy
+  source:
+  - name: itempic/Nachtstern.imd
+- name: itempic/item-093.imd
+  method: copy
+  source:
+  - name: itempic/No Name.imd
+- name: itempic/item-094.imd
+  method: copy
+  source:
+  - name: itempic/Unicoira.imd
+- name: itempic/item-098.imd
+  method: copy
+  source:
+  - name: itempic/Ursaced.imd
+- name: itempic/item-099.imd
+  method: copy
+  source:
+  - name: itempic/Vulpava.imd 
+- name: itempic/item-100.imd
+  method: copy
+  source:
+  - name: itempic/Wooden Keyblade.imd
+- name: itempic/item-096.imd
+  method: copy
+  source:
+  - name: itempic/X-Blade.imd
+- name: remastered/itempic/item-030.imd/-0.dds
+  method: copy
+  source:
+  - name: remastered/itempic/Anguinvi.dds
+- name: remastered/itempic/item-031.imd/-0.dds
+  method: copy
+  source:
+  - name: remastered/itempic/Ends of the Earth.dds
+- name: remastered/itempic/item-032.imd/-0.dds
+  method: copy
+  source:
+  - name: remastered/itempic/Leopagula.dds
+- name: remastered/itempic/item-092.imd/-0.dds
+  method: copy
+  source:
+  - name: remastered/itempic/Nachtstern.dds
+- name: remastered/itempic/item-093.imd/-0.dds
+  method: copy
+  source:
+  - name: remastered/itempic/No Name.dds
+- name: remastered/itempic/item-094.imd/-0.dds
+  method: copy
+  source:
+  - name: remastered/itempic/Unicoira.dds
+- name: remastered/itempic/item-098.imd/-0.dds
+  method: copy
+  source:
+  - name: remastered/itempic/Ursaced.dds
+- name: remastered/itempic/item-099.imd/-0.dds
+  method: copy
+  source:
+  - name: remastered/itempic/Vulpava.idds
+- name: remastered/itempic/item-100.imd/-0.dds
+  method: copy
+  source:
+  - name: remastered/itempic/Wooden Keyblade.dds
+- name: remastered/itempic/item-096.imd/-0.dds
+  method: copy
+  source:
+  - name: remastered/itempic/X-Blade.dds
