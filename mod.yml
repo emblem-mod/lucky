@@ -2344,6 +2344,413 @@ assets:
   method: copy
   source:
   - name: remastered/obj/XBlade/TR.dds
+#Keyblade Effects
+- name: obj/ANGUINVI.a.fm
+  multi:
+  - name: obj/ANGUINVI_NM.a.fm
+  - name: obj/ANGUINVI_TR.a.fm
+  platform: ps2
+  method: copy
+  source:
+  - name: obj/Anguinvi.a.fm
+- name: obj/ANGUINVI.a.us
+  multi:
+  - name: obj/ANGUINVI_NM.a.us
+  - name: obj/ANGUINVI_TR.a.us
+  platform: pc
+  method: copy
+  source:
+  - name: obj/Anguinvi.a.us
+- name: obj/LEOPAGULA.a.fm
+  multi:
+  - name: obj/LEOPAGULA_NM.a.fm
+  - name: obj/LEOPAGULA_TR.a.fm
+  platform: ps2
+  method: copy
+  source:
+  - name: obj/Leopagula.a.fm
+- name: obj/LEOPAGULA.a.us
+  multi:
+  - name: obj/LEOPAGULA_NM.a.us
+  - name: obj/LEOPAGULA_TR.a.us
+  platform: pc
+  method: copy
+  source:
+  - name: obj/Leopagula.a.us
+- name: obj/UNICOIRA.a.fm
+  multi:
+  - name: obj/UNICOIRA_NM.a.fm
+  - name: obj/UNICOIRA_TR.a.fm
+  platform: ps2
+  method: copy
+  source:
+  - name: obj/Unicoira.a.fm
+- name: obj/UNICOIRA.a.us
+  multi:
+  - name: obj/UNICOIRA_NM.a.us
+  - name: obj/UNICOIRA_TR.a.us
+  platform: pc
+  method: copy
+  source:
+  - name: obj/Unicoira.a.us
+- name: obj/URSACED.a.fm
+  multi:
+  - name: obj/URSACED_NM.a.fm
+  - name: obj/URSACED_TR.a.fm
+  platform: ps2
+  method: copy
+  source:
+  - name: obj/Ursaced.a.fm
+- name: obj/URSACED.a.us
+  multi:
+  - name: obj/URSACED_NM.a.us
+  - name: obj/URSACED_TR.a.us
+  platform: pc
+  method: copy
+  source:
+  - name: obj/Ursaced.a.us
+- name: obj/VULPAVA.a.fm
+  multi:
+  - name: obj/VULPAVA_NM.a.fm
+  - name: obj/VULPAVA_TR.a.fm
+  platform: ps2
+  method: copy
+  source:
+  - name: obj/Vulpava.a.fm
+- name: obj/VULPAVA.a.us
+  multi:
+  - name: obj/VULPAVA_NM.a.us
+  - name: obj/VULPAVA_TR.a.us
+  platform: pc
+  method: copy
+  source:
+  - name: obj/Vulpava.a.us
+- name: obj/WOODEN.a.fm
+  multi:
+  - name: obj/WOODEN_NM.a.fm
+  - name: obj/WOODEN_TR.a.fm
+  platform: ps2
+  method: copy
+  source:
+  - name: obj/Wooden Keyblade.a.fm
+- name: obj/WOODEN.a.us
+  multi:
+  - name: obj/WOODEN_NM.a.us
+  - name: obj/WOODEN_TR.a.us
+  platform: pc
+  method: copy
+  source:
+  - name: obj/Wooden Keyblade.a.us
+- name: obj/XBLADE.a.fm
+  multi:
+  - name: obj/XBLADE_NM.a.fm
+  - name: obj/XBLADE_TR.a.fm
+  platform: ps2
+  method: copy
+  source:
+  - name: obj/XBlade.a.fm
+- name: obj/XBLADE.a.us
+  multi:
+  - name: obj/XBLADE_NM.a.us
+  - name: obj/XBLADE_TR.a.us
+  platform: pc
+  method: copy
+  source:
+  - name: obj/XBlade.a.us
+- name: remastered/obj/ANGUINVI.a.us/-0.dds
+  multi:
+  - name: remastered/obj/ANGUINVI_NM.a.us/-0.dds
+  - name: remastered/obj/ANGUINVI_TR.a.us/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/W_EX010_B0.a.us/-0.dds
+    type: internal
+- name: remastered/obj/ANGUINVI.a.us/-1.dds
+  multi:
+  - name: remastered/obj/ANGUINVI_NM.a.us/-1.dds
+  - name: remastered/obj/ANGUINVI_TR.a.us/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/W_EX010_B0.a.us/-1.dds
+    type: internal
+- name: remastered/obj/ANGUINVI.a.us/-2.dds
+  multi:
+  - name: remastered/obj/ANGUINVI_NM.a.us/-2.dds
+  - name: remastered/obj/ANGUINVI_TR.a.us/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/W_EX010_B0.a.us/-2.dds
+    type: internal
+- name: remastered/obj/ANGUINVI.a.us/se/obj/se515
+  multi:
+  - name: remastered/obj/ANGUINVI_NM.a.us/se/obj/se515
+  - name: remastered/obj/ANGUINVI_TR.a.us/se/obj/se515
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/W_EX010_B0.a.us/se/obj/se515
+    type: internal
+- name: remastered/obj/LEOPAGULA.a.us/-0.dds
+  multi:
+  - name: remastered/obj/LEOPAGULA_NM.a.us/-0.dds
+  - name: remastered/obj/LEOPAGULA_TR.a.us/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/W_EX010_M0.a.us/-0.dds
+    type: internal
+- name: remastered/obj/LEOPAGULA.a.us/-1.dds
+  multi:
+  - name: remastered/obj/LEOPAGULA_NM.a.us/-1.dds
+  - name: remastered/obj/LEOPAGULA_TR.a.us/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/W_EX010_M0.a.us/-1.dds
+    type: internal
+- name: remastered/obj/LEOPAGULA.a.us/-2.dds
+  multi:
+  - name: remastered/obj/LEOPAGULA_NM.a.us/-2.dds
+  - name: remastered/obj/LEOPAGULA_TR.a.us/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/W_EX010_M0.a.us/-2.dds
+    type: internal
+- name: remastered/obj/LEOPAGULA.a.us/-3.dds
+  multi:
+  - name: remastered/obj/LEOPAGULA_NM.a.us/-3.dds
+  - name: remastered/obj/LEOPAGULA_TR.a.us/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/W_EX010_M0.a.us/-3.dds
+    type: internal
+- name: remastered/obj/LEOPAGULA.a.us/-4.dds
+  multi:
+  - name: remastered/obj/LEOPAGULA_NM.a.us/-4.dds
+  - name: remastered/obj/LEOPAGULA_TR.a.us/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/W_EX010_M0.a.us/-4.dds
+    type: internal
+- name: remastered/obj/LEOPAGULA.a.us/se/obj/se524
+  multi:
+  - name: remastered/obj/LEOPAGULA_NM.a.us/se/obj/se524
+  - name: remastered/obj/LEOPAGULA_TR.a.us/se/obj/se524
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/W_EX010_M0.a.us/se/obj/se524
+    type: internal
+- name: remastered/obj/UNICOIRA.a.us/-0.dds
+  multi:
+  - name: remastered/obj/UNICOIRA_NM.a.us/-0.dds
+  - name: remastered/obj/UNICOIRA_TR.a.us/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/W_EX010_F0.a.us/-0.dds
+    type: internal
+- name: remastered/obj/UNICOIRA.a.us/-1.dds
+  multi:
+  - name: remastered/obj/UNICOIRA_NM.a.us/-1.dds
+  - name: remastered/obj/UNICOIRA_TR.a.us/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/W_EX010_F0.a.us/-1.dds
+    type: internal
+- name: remastered/obj/UNICOIRA.a.us/-2.dds
+  multi:
+  - name: remastered/obj/UNICOIRA_NM.a.us/-2.dds
+  - name: remastered/obj/UNICOIRA_TR.a.us/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/W_EX010_F0.a.us/-2.dds
+    type: internal
+- name: remastered/obj/UNICOIRA.a.us/se/obj/se519
+  multi:
+  - name: remastered/obj/UNICOIRA_NM.a.us/se/obj/se519
+  - name: remastered/obj/UNICOIRA_TR.a.us/se/obj/se519
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/W_EX010_F0.a.us/se/obj/se519
+    type: internal
+- name: remastered/obj/URSACED.a.us/-0.dds
+  multi:
+  - name: remastered/obj/URSACED_NM.a.us/-0.dds
+  - name: remastered/obj/URSACED_TR.a.us/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/W_EX010_80.a.us/-0.dds
+    type: internal
+- name: remastered/obj/URSACED.a.us/-1.dds
+  multi:
+  - name: remastered/obj/URSACED_NM.a.us/-1.dds
+  - name: remastered/obj/URSACED_TR.a.us/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/W_EX010_80.a.us/-1.dds
+    type: internal
+- name: remastered/obj/URSACED.a.us/-2.dds
+  multi:
+  - name: remastered/obj/URSACED_NM.a.us/-2.dds
+  - name: remastered/obj/URSACED_TR.a.us/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/W_EX010_80.a.us/-2.dds
+    type: internal
+- name: remastered/obj/URSACED.a.us/-3.dds
+  multi:
+  - name: remastered/obj/URSACED_NM.a.us/-3.dds
+  - name: remastered/obj/URSACED_TR.a.us/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/W_EX010_80.a.us/-3.dds
+    type: internal
+- name: remastered/obj/URSACED.a.us/se/obj/se512
+  multi:
+  - name: remastered/obj/URSACED_NM.a.us/se/obj/se512
+  - name: remastered/obj/URSACED_TR.a.us/se/obj/se512
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/W_EX010_80.a.us/se/obj/se512
+    type: internal
+- name: remastered/obj/VULPAVA.a.us/-0.dds
+  multi:
+  - name: remastered/obj/VULPAVA_NM.a.us/-0.dds
+  - name: remastered/obj/VULPAVA_TR.a.us/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/W_EX010_D0.a.us/-0.dds
+    type: internal
+- name: remastered/obj/VULPAVA.a.us/-1.dds
+  multi:
+  - name: remastered/obj/VULPAVA_NM.a.us/-1.dds
+  - name: remastered/obj/VULPAVA_TR.a.us/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/W_EX010_D0.a.us/-1.dds
+    type: internal
+- name: remastered/obj/VULPAVA.a.us/-2.dds
+  multi:
+  - name: remastered/obj/VULPAVA_NM.a.us/-2.dds
+  - name: remastered/obj/VULPAVA_TR.a.us/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/W_EX010_D0.a.us/-2.dds
+    type: internal
+- name: remastered/obj/VULPAVA.a.us/-3.dds
+  multi:
+  - name: remastered/obj/VULPAVA_NM.a.us/-3.dds
+  - name: remastered/obj/VULPAVA_TR.a.us/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/W_EX010_D0.a.us/-3.dds
+    type: internal
+- name: remastered/obj/VULPAVA.a.us/se/obj/se517
+  multi:
+  - name: remastered/obj/VULPAVA_NM.a.us/se/obj/se517
+  - name: remastered/obj/VULPAVA_TR.a.us/se/obj/se517
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/W_EX010_D0.a.us/se/obj/se517
+    type: internal
+- name: remastered/obj/WOODEN.a.us/-0.dds
+  multi:
+  - name: remastered/obj/WOODEN_NM.a.us/-0.dds
+  - name: remastered/obj/WOODEN_TR.a.us/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/W_EX010_50.a.us/-0.dds
+- name: remastered/obj/WOODEN.a.us/-1.dds
+  multi:
+  - name: remastered/obj/WOODEN_NM.a.us/-1.dds
+  - name: remastered/obj/WOODEN_TR.a.us/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/W_EX010_50.a.us/-1.dds
+- name: remastered/obj/WOODEN.a.us/se/obj/se509
+  multi:
+  - name: remastered/obj/WOODEN_NM.a.us/se/obj/se509
+  - name: remastered/obj/WOODEN_TR.a.us/se/obj/se509
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/W_EX010_50.a.us/se/obj/se509
+- name: remastered/obj/XBLADE.a.us/-0.dds
+  multi:
+  - name: remastered/obj/XBLADE_NM.a.us/-0.dds
+  - name: remastered/obj/XBLADE_TR.a.us/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/W_EX010_M0.a.us/-0.dds
+    type: internal
+- name: remastered/obj/XBLADE.a.us/-1.dds
+  multi:
+  - name: remastered/obj/XBLADE_NM.a.us/-1.dds
+  - name: remastered/obj/XBLADE_TR.a.us/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/W_EX010_M0.a.us/-1.dds
+    type: internal
+- name: remastered/obj/XBLADE.a.us/-2.dds
+  multi:
+  - name: remastered/obj/XBLADE_NM.a.us/-2.dds
+  - name: remastered/obj/XBLADE_TR.a.us/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/W_EX010_M0.a.us/-2.dds
+    type: internal
+- name: remastered/obj/XBLADE.a.us/-3.dds
+  multi:
+  - name: remastered/obj/XBLADE_NM.a.us/-3.dds
+  - name: remastered/obj/XBLADE_TR.a.us/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/W_EX010_M0.a.us/-3.dds
+    type: internal
+- name: remastered/obj/XBLADE.a.us/-4.dds
+  multi:
+  - name: remastered/obj/XBLADE_NM.a.us/-4.dds
+  - name: remastered/obj/XBLADE_TR.a.us/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/W_EX010_M0.a.us/-4.dds
+    type: internal
+- name: remastered/obj/XBLADE.a.us/se/obj/se524
+  multi:
+  - name: remastered/obj/XBLADE_NM.a.us/se/obj/se524
+  - name: remastered/obj/XBLADE_TR.a.us/se/obj/se524
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/W_EX010_M0.a.us/se/obj/se524
+    type: internal
 #Keyblade Pictures
 - name: itempic/item-030.imd
   method: copy
