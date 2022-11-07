@@ -1394,14 +1394,6 @@ assets:
 
 
 
-
-
-
-
-
-
-
-
 # =================================================================================================================== #
 # LUCKY EMBLEM TEXTURES ###############################################################################################
 # =================================================================================================================== #
@@ -2051,28 +2043,47 @@ assets:
   source:
   - name: map/po/po09.map # Spookey Cave
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # =================================================================================================================== #
-# LUCKY EMBLEM TEXTURES ###############################################################################################
+# CUSTOM KEYBLADES ####################################################################################################
 # =================================================================================================================== #
 
-#Test Lua Script
+# Test Lua Script
 - name: scripts/F266B00B Weapon Test.lua
   method: copy
   source:
   - name: F266B00B Weapon Test.lua
-#Starting Weapons
+
+# Starting Weapons
 - name: 00common.bdx
   method: copy
   source:
   - name: 00common.bin
-#Big Chest -> Small Chest & TR Keyblade -> New Keyblade
+
+# Big Chest -> Small Chest & TR Keyblade -> New Keyblade
 - name: 00objentry.bin
   method: listpatch
   type: List
   source:
   - name: ObjList.yml
     type: objentry
-#Various Stuff
+
+# Various Stuff
 - name: 03system.bin
   method: binarc
   source:
@@ -2087,7 +2098,8 @@ assets:
     source:
     - name: 03system.bin/ItemList.yml
       type: item
-#Text
+
+# Text
 - name: msg/jp/sys.bar
   multi:
   - name: msg/us/sys.bar
@@ -2103,7 +2115,8 @@ assets:
     source:
     - name: msg/sys.yml
       language: en
-#Keyblade Models
+
+# Keyblade Models
 - name: obj/ANGUINVI.mdlx
   method: copy
   source:
@@ -2344,7 +2357,8 @@ assets:
   method: copy
   source:
   - name: remastered/obj/XBlade/TR.dds
-#Keyblade Effects
+
+# Keyblade Effects
 - name: obj/ANGUINVI.a.fm
   multi:
   - name: obj/Keyblades/ANGUINVI_NM.a.fm
@@ -2751,7 +2765,8 @@ assets:
   source:
   - name: remastered/obj/W_EX010_M0.a.us/se/obj/se524
     type: internal
-#Keyblade Pictures
+
+# Keyblade Itempics
 - name: itempic/item-030.imd
   method: copy
   source:
