@@ -142,8 +142,8 @@
     SpawnType: 2
     SpawnArgument: 0
     Serial: 22
-    Argument1: 0
-    Argument2: 3
+    Argument1: 5
+    Argument2: 0
     ReactionCommand: 0
     SpawnDelay: 0
     Command: 0
