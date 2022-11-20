@@ -96,6 +96,24 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
+  - ObjectId: 2356 # Anti-Sora
+    PositionX: -150
+    PositionY: -1000
+    PositionZ: -800
+    RotationX: 0
+    RotationY: 0
+    RotationZ: 0
+    SpawnType: 2
+    SpawnArgument: 0
+    Serial: 20
+    Argument1: 5
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 200
+    Command: 0
+    SpawnRange: 0
+    Level: 1
+    Medal: 0
   - ObjectId: 3 # Rabid Dog
     PositionX: -800
     PositionY: -150
@@ -105,11 +123,11 @@
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
-    Serial: 20
+    Serial: 21
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 0
+    SpawnDelay: 200
     Command: 0
     SpawnRange: 0
     Level: 1
@@ -123,29 +141,11 @@
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
-    Serial: 21
+    Serial: 22
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 0
-    Command: 0
-    SpawnRange: 0
-    Level: 1
-    Medal: 0
-  - ObjectId: 2356 # Anti-Sora
-    PositionX: -150
-    PositionY: -1000
-    PositionZ: -800
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 2
-    SpawnArgument: 0
-    Serial: 22
-    Argument1: 5
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 0
+    SpawnDelay: 50
     Command: 0
     SpawnRange: 0
     Level: 1
@@ -163,7 +163,7 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 200
+    SpawnDelay: 50
     Command: 0
     SpawnRange: 0
     Level: 1
@@ -181,7 +181,7 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 200
+    SpawnDelay: 50
     Command: 0
     SpawnRange: 0
     Level: 1
@@ -217,7 +217,7 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 200
+    SpawnDelay: 50
     Command: 0
     SpawnRange: 0
     Level: 2
@@ -259,9 +259,9 @@
     Level: 3
     Medal: 0
   - ObjectId: 19 # Shaman
-    PositionX: -150
-    PositionY: -1000
-    PositionZ: -800
+    PositionX: 600
+    PositionY: -4000
+    PositionZ: -1300
     RotationX: 0
     RotationY: 0
     RotationZ: 0
@@ -271,7 +271,25 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 0
+    SpawnDelay: 200
+    Command: 0
+    SpawnRange: 0
+    Level: 100
+    Medal: 0
+  - ObjectId: 19 # Shaman
+    PositionX: -400
+    PositionY: -6000
+    PositionZ: -1300
+    RotationX: 0
+    RotationY: 0
+    RotationZ: 0
+    SpawnType: 2
+    SpawnArgument: 0
+    Serial: 51
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 200
     Command: 0
     SpawnRange: 0
     Level: 100
