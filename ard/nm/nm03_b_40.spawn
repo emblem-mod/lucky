@@ -52,8 +52,8 @@
     SpawnType: 0
     SpawnArgument: 0
     Serial: 10
-    Argument1: 0
-    Argument2: 2
+    Argument1: 2
+    Argument2: 0
     ReactionCommand: 0
     SpawnDelay: 0
     Command: 0
@@ -114,45 +114,9 @@
     SpawnRange: 0
     Level: 1
     Medal: 0
-  - ObjectId: 3 # Rabid Dog
-    PositionX: 1000
-    PositionY: -150
-    PositionZ: 1400
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 2
-    SpawnArgument: 0
-    Serial: 21
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 200
-    Command: 0
-    SpawnRange: 0
-    Level: 1
-    Medal: 0
-  - ObjectId: 3 # Rabid Dog
-    PositionX: -800
-    PositionY: -150
-    PositionZ: 1400
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 2
-    SpawnArgument: 0
-    Serial: 22
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 50
-    Command: 0
-    SpawnRange: 0
-    Level: 1
-    Medal: 0
   - ObjectId: 351 # Cerberus
     PositionX: -900
-    PositionY: -150
+    PositionY: -1000
     PositionZ: 1000
     RotationX: 0
     RotationY: 0.7853981852531433
@@ -206,7 +170,7 @@
     Medal: 0
   - ObjectId: 2411 # Necromancer
     PositionX: -400
-    PositionY: -40000
+    PositionY: -35000
     PositionZ: -1300
     RotationX: 0
     RotationY: 0
