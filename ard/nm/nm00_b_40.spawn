@@ -67,7 +67,10 @@
   WalkPath: []
   ReturnParameters: []
   Signals: []
-- Type: 2 # Staggered Spawn
+  
+  
+  
+- Type: 2
   Flag: 0
   Id: 41
   Teleport:
@@ -75,7 +78,7 @@
     Door: 0
     World: 0
     Unknown: 0
-  Unk20: 3276800
+  Unk20: 0
   Unk24: 0
   Entities:
   - ObjectId: 2410 # Aerial Champ
@@ -132,6 +135,13 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
+  
+  
+  
+  
+
+
+
   - ObjectId: 119 # Wight Knight
     PositionX: 900
     PositionY: -50
@@ -145,7 +155,7 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 40
+    SpawnDelay: 100
     Command: 0
     SpawnRange: 0
     Level: 1
@@ -163,10 +173,82 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 40
+    SpawnDelay: 100
     Command: 0
     SpawnRange: 0
     Level: 1
+    Medal: 0
+  - ObjectId: 119 # Wight Knight
+    PositionX: -675
+    PositionY: -30
+    PositionZ: 400
+    RotationX: 0
+    RotationY: 0
+    RotationZ: 0
+    SpawnType: 2
+    SpawnArgument: 0
+    Serial: 15
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 100
+    Command: 0
+    SpawnRange: 0
+    Level: 1
+    Medal: 0
+  - ObjectId: 20 # Aerial Knocker
+    PositionX: 1000
+    PositionY: -50
+    PositionZ: -950
+    RotationX: 0
+    RotationY: -2.1580245494842529
+    RotationZ: 0
+    SpawnType: 2
+    SpawnArgument: 0
+    Serial: 20
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 2
+    Medal: 0
+  - ObjectId: 20 # Aerial Knocker
+    PositionX: 700
+    PositionY: 0
+    PositionZ: -1300
+    RotationX: 0
+    RotationY: -2.7022147178649902
+    RotationZ: 0
+    SpawnType: 2
+    SpawnArgument: 0
+    Serial: 21
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 0
+    Command: 0
+    SpawnRange: 0
+    Level: 2
+    Medal: 0
+  - ObjectId: 2298 # Paradox Tifa
+    PositionX: 1000
+    PositionY: 0
+    PositionZ: -1250
+    RotationX: 0
+    RotationY: -2.256688117980957
+    RotationZ: 0
+    SpawnType: 2
+    SpawnArgument: 0
+    Serial: 22
+    Argument1: 3
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 200
+    Command: 0
+    SpawnRange: 0
+    Level: 2
     Medal: 0
   EventActivators:
   - Shape: 2
@@ -187,93 +269,3 @@
   WalkPath: []
   ReturnParameters: []
   Signals: []
-- Type: 2
-  Flag: 1
-  Id: 42
-  Teleport:
-    Place: 0
-    Door: 0
-    World: 0
-    Unknown: 0
-  Unk20: 0
-  Unk24: 0
-  Entities:
-  - ObjectId: 20 # Aerial Knocker
-    PositionX: 1000
-    PositionY: -50
-    PositionZ: -950
-    RotationX: 0
-    RotationY: -2.1580245494842529
-    RotationZ: 0
-    SpawnType: 2
-    SpawnArgument: 0
-    Serial: 21
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 0
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  - ObjectId: 2298 # Paradox Tifa
-    PositionX: 1000
-    PositionY: 0
-    PositionZ: -1250
-    RotationX: 0
-    RotationY: -2.256688117980957
-    RotationZ: 0
-    SpawnType: 2
-    SpawnArgument: 0
-    Serial: 20
-    Argument1: 3
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 200
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  - ObjectId: 20 # Aerial Knocker
-    PositionX: 700
-    PositionY: 0
-    PositionZ: -1300
-    RotationX: 0
-    RotationY: -2.7022147178649902
-    RotationZ: 0
-    SpawnType: 2
-    SpawnArgument: 0
-    Serial: 22
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 0
-    Command: 0
-    SpawnRange: 0
-    Level: 0
-    Medal: 0
-  EventActivators:
-  - Shape: 2
-    Option: 0
-    PositionX: 0
-    PositionY: 0
-    PositionZ: 0
-    ScaleX: 100
-    ScaleY: 100
-    ScaleZ: 100
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    Flags: 0
-    Type: 0
-    OnBgGroup: 0
-    OffBgGroup: 0
-  WalkPath: []
-  ReturnParameters: []
-  Signals:
-  - SignalId: 3
-    Argument: 41
-    Action: 0
-    Padding05: 0
-    Padding06: 0
-    Padding07: 0
