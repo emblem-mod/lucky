@@ -48,7 +48,7 @@
   - ObjectId: 568 # Party Member 2
     PositionX: 100
     PositionY: 0
-    PositionZ: 300
+    PositionZ: -300
     RotationX: 0
     RotationY: 3.1415927410125732
     RotationZ: 0
@@ -119,8 +119,8 @@
     Medal: 0
   - ObjectId: 1059 # Present Box
     PositionX: 0
-    PositionY: -350
-    PositionZ: 650
+    PositionY: -75
+    PositionZ: -600
     RotationX: 0
     RotationY: 0
     RotationZ: 0
