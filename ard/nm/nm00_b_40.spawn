@@ -204,42 +204,6 @@
     SpawnRange: 0
     Level: 1
     Medal: 0
-  - ObjectId: 119 # Wight Knight
-    PositionX: 800
-    PositionY: 0
-    PositionZ: -1100
-    RotationX: 0
-    RotationY: -2.4434609545312997
-    RotationZ: 0
-    SpawnType: 2
-    SpawnArgument: 0
-    Serial: 17
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 100
-    Command: 0
-    SpawnRange: 0
-    Level: 1
-    Medal: 0
-  - ObjectId: 1838 # Soldier HT
-    PositionX: -500
-    PositionY: 0
-    PositionZ: 1000
-    RotationX: 0
-    RotationY: 0
-    RotationZ: 0
-    SpawnType: 2
-    SpawnArgument: 0
-    Serial: 18
-    Argument1: 0
-    Argument2: 0
-    ReactionCommand: 0
-    SpawnDelay: 100
-    Command: 0
-    SpawnRange: 0
-    Level: 1
-    Medal: 0
   - ObjectId: 20 # Aerial Knocker
     PositionX: 1000
     PositionY: -50
