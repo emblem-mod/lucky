@@ -148,7 +148,7 @@
     SpawnDelay: 40
     Command: 0
     SpawnRange: 0
-    Level: 0
+    Level: 1
     Medal: 0
   - ObjectId: 119 # Wight Knight
     PositionX: 0
@@ -166,7 +166,7 @@
     SpawnDelay: 40
     Command: 0
     SpawnRange: 0
-    Level: 0
+    Level: 1
     Medal: 0
   EventActivators:
   - Shape: 2
@@ -229,7 +229,7 @@
     Argument1: 3
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 0
+    SpawnDelay: 200
     Command: 0
     SpawnRange: 0
     Level: 0
