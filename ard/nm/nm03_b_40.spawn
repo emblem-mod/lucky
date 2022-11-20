@@ -247,7 +247,7 @@
     RotationX: 0
     RotationY: -1.5707963705062866
     RotationZ: 0
-    SpawnType: 0
+    SpawnType: 2
     SpawnArgument: 0
     Serial: 40
     Argument1: 0
@@ -265,7 +265,7 @@
     RotationX: 0
     RotationY: -1.5707963705062866
     RotationZ: 0
-    SpawnType: 0
+    SpawnType: 2
     SpawnArgument: 0
     Serial: 41
     Argument1: 0
