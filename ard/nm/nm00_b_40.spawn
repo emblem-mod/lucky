@@ -67,9 +67,6 @@
   WalkPath: []
   ReturnParameters: []
   Signals: []
-  
-  
-  
 - Type: 2
   Flag: 0
   Id: 41
@@ -135,19 +132,12 @@
     SpawnRange: 0
     Level: 0
     Medal: 0
-  
-  
-  
-  
-
-
-
   - ObjectId: 119 # Wight Knight
     PositionX: 900
-    PositionY: -50
+    PositionY: 0
     PositionZ: -100
     RotationX: 0
-    RotationY: 0
+    RotationY: -1.5707963705062866
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
@@ -160,16 +150,52 @@
     SpawnRange: 0
     Level: 1
     Medal: 0
-  - ObjectId: 119 # Wight Knight
+  - ObjectId: 1838 # Soldier HT
     PositionX: 0
-    PositionY: -50
+    PositionY: 0
     PositionZ: -1000
+    RotationX: 0
+    RotationY: 3.1415927410125732
+    RotationZ: 0
+    SpawnType: 2
+    SpawnArgument: 0
+    Serial: 14
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 200
+    Command: 0
+    SpawnRange: 0
+    Level: 1
+    Medal: 0
+  - ObjectId: 1838 # Soldier HT
+    PositionX: -300
+    PositionY: 0
+    PositionZ: -1000
+    RotationX: 0
+    RotationY: 3.1415927410125732
+    RotationZ: 0
+    SpawnType: 2
+    SpawnArgument: 0
+    Serial: 15
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 50
+    Command: 0
+    SpawnRange: 0
+    Level: 1
+    Medal: 0
+  - ObjectId: 119 # Wight Knight
+    PositionX: -675
+    PositionY: 0
+    PositionZ: 400
     RotationX: 0
     RotationY: 0
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
-    Serial: 14
+    Serial: 16
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -179,15 +205,33 @@
     Level: 1
     Medal: 0
   - ObjectId: 119 # Wight Knight
-    PositionX: -675
-    PositionY: -30
-    PositionZ: 400
+    PositionX: 800
+    PositionY: 0
+    PositionZ: -1100
+    RotationX: 0
+    RotationY: -2.4434609545312997
+    RotationZ: 0
+    SpawnType: 2
+    SpawnArgument: 0
+    Serial: 17
+    Argument1: 0
+    Argument2: 0
+    ReactionCommand: 0
+    SpawnDelay: 100
+    Command: 0
+    SpawnRange: 0
+    Level: 1
+    Medal: 0
+  - ObjectId: 1838 # Soldier HT
+    PositionX: -500
+    PositionY: 0
+    PositionZ: 1000
     RotationX: 0
     RotationY: 0
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
-    Serial: 15
+    Serial: 18
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
@@ -201,7 +245,7 @@
     PositionY: -50
     PositionZ: -950
     RotationX: 0
-    RotationY: -2.1580245494842529
+    RotationY: -2.4434609545312997
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
@@ -219,7 +263,7 @@
     PositionY: 0
     PositionZ: -1300
     RotationX: 0
-    RotationY: -2.7022147178649902
+    RotationY: -2.4434609545312997
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
@@ -227,17 +271,17 @@
     Argument1: 0
     Argument2: 0
     ReactionCommand: 0
-    SpawnDelay: 0
+    SpawnDelay: 50
     Command: 0
     SpawnRange: 0
     Level: 2
     Medal: 0
   - ObjectId: 2298 # Paradox Tifa
-    PositionX: 1000
+    PositionX: 1400
     PositionY: 0
-    PositionZ: -1250
+    PositionZ: -1550
     RotationX: 0
-    RotationY: -2.256688117980957
+    RotationY: -2.4434609545312997
     RotationZ: 0
     SpawnType: 2
     SpawnArgument: 0
