@@ -66,7 +66,7 @@
   - ObjectId: 127 # Lock
     PositionX: 0
     PositionY: 0
-    PositionZ: 400
+    PositionZ: 350
     RotationX: 0
     RotationY: 0
     RotationZ: 0
@@ -84,7 +84,7 @@
   - ObjectId: 128 # Shock
     PositionX: 100
     PositionY: 0
-    PositionZ: 450
+    PositionZ: 400
     RotationX: 0
     RotationY: 0
     RotationZ: 0
@@ -102,7 +102,7 @@
   - ObjectId: 129 # Barrel
     PositionX: -100
     PositionY: 0
-    PositionZ: 450
+    PositionZ: 400
     RotationX: 0
     RotationY: 0
     RotationZ: 0
@@ -122,7 +122,7 @@
     PositionY: 0
     PositionZ: 250
     RotationX: 0
-    RotationY: 1.5707963705062866
+    RotationY: 0.7853981852531433
     RotationZ: 0
     SpawnType: 0
     SpawnArgument: 0
@@ -138,7 +138,7 @@
   - ObjectId: 1059 # Present Box
     PositionX: 575
     PositionY: 0
-    PositionZ: 0
+    PositionZ: -400
     RotationX: 0
     RotationY: 0
     RotationZ: 0
@@ -154,11 +154,11 @@
     Level: 0
     Medal: 0
   - ObjectId: 1059 # Present Box
-    PositionX: -600
+    PositionX: -575
     PositionY: 0
     PositionZ: -200
     RotationX: 0
-    RotationY: 0
+    RotationY: -1.5707963705062866
     RotationZ: 0
     SpawnType: 0
     SpawnArgument: 0
