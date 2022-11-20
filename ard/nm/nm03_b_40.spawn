@@ -157,7 +157,7 @@
     RotationX: 0
     RotationY: 0.7853981852531433
     RotationZ: 0
-    SpawnType: 0
+    SpawnType: 2
     SpawnArgument: 0
     Serial: 30
     Argument1: 0
