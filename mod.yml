@@ -2391,6 +2391,22 @@ assets:
   method: copy
   source:
   - name: obj/Keyblades/Leopagula.a.us
+- name: obj/NONAME.a.fm
+  multi:
+  - name: obj/Keyblades/NONAME_NM.a.fm
+  - name: obj/Keyblades/NONAME_TR.a.fm
+  platform: ps2
+  method: copy
+  source:
+  - name: obj/Keyblades/NoName.a.fm
+- name: obj/NONAME.a.us
+  multi:
+  - name: obj/Keyblades/NONAME_NM.a.us
+  - name: obj/Keyblades/NONAME_TR.a.us
+  platform: pc
+  method: copy
+  source:
+  - name: obj/Keyblades/NoName.a.us
 - name: obj/UNICOIRA.a.fm
   multi:
   - name: obj/Keyblades/UNICOIRA_NM.a.fm
@@ -2561,6 +2577,38 @@ assets:
   source:
   - name: remastered/obj/W_EX010_M0.a.us/se/obj/se524
     type: internal
+- name: remastered/obj/NONAME.a.us/-0.dds
+  multi:
+  - name: remastered/obj/NONAME_NM.a.us/-0.dds
+  - name: remastered/obj/NONAME_TR.a.us/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/NoName/-0.dds
+- name: remastered/obj/NONAME.a.us/-1.dds
+  multi:
+  - name: remastered/obj/NONAME_NM.a.us/-1.dds
+  - name: remastered/obj/NONAME_TR.a.us/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/NoName/-1.dds
+- name: remastered/obj/NONAME.a.us/-2.dds
+  multi:
+  - name: remastered/obj/NONAME_NM.a.us/-2.dds
+  - name: remastered/obj/NONAME_TR.a.us/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/NoName/-2.dds
+- name: remastered/obj/NONAME.a.us/se/obj/se519
+  multi:
+  - name: remastered/obj/NONAME_NM.a.us/se/obj/se519
+  - name: remastered/obj/NONAME_TR.a.us/se/obj/se519
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/NoName/se519
 - name: remastered/obj/UNICOIRA.a.us/-0.dds
   multi:
   - name: remastered/obj/UNICOIRA_NM.a.us/-0.dds
@@ -2604,8 +2652,7 @@ assets:
   platform: pc
   method: copy
   source:
-  - name: remastered/obj/W_EX010_80.a.us/-0.dds
-    type: internal
+  - name: remastered/obj/Ursaced/-0.dds
 - name: remastered/obj/URSACED.a.us/-1.dds
   multi:
   - name: remastered/obj/URSACED_NM.a.us/-1.dds
@@ -2613,8 +2660,7 @@ assets:
   platform: pc
   method: copy
   source:
-  - name: remastered/obj/W_EX010_80.a.us/-1.dds
-    type: internal
+  - name: remastered/obj/Ursaced/-1.dds
 - name: remastered/obj/URSACED.a.us/-2.dds
   multi:
   - name: remastered/obj/URSACED_NM.a.us/-2.dds
@@ -2622,8 +2668,7 @@ assets:
   platform: pc
   method: copy
   source:
-  - name: remastered/obj/W_EX010_80.a.us/-2.dds
-    type: internal
+  - name: remastered/obj/Ursaced/-2.dds
 - name: remastered/obj/URSACED.a.us/-3.dds
   multi:
   - name: remastered/obj/URSACED_NM.a.us/-3.dds
@@ -2631,17 +2676,15 @@ assets:
   platform: pc
   method: copy
   source:
-  - name: remastered/obj/W_EX010_80.a.us/-3.dds
-    type: internal
-- name: remastered/obj/URSACED.a.us/se/obj/se512
+  - name: remastered/obj/Ursaced/-3.dds
+- name: remastered/obj/URSACED.a.us/se/obj/se515
   multi:
-  - name: remastered/obj/URSACED_NM.a.us/se/obj/se512
-  - name: remastered/obj/URSACED_TR.a.us/se/obj/se512
+  - name: remastered/obj/URSACED_NM.a.us/se/obj/se515
+  - name: remastered/obj/URSACED_TR.a.us/se/obj/se515
   platform: pc
   method: copy
   source:
-  - name: remastered/obj/W_EX010_80.a.us/se/obj/se512
-    type: internal
+  - name: remastered/obj/Ursaced/se515
 - name: remastered/obj/VULPAVA.a.us/-0.dds
   multi:
   - name: remastered/obj/VULPAVA_NM.a.us/-0.dds
@@ -2694,7 +2737,7 @@ assets:
   platform: pc
   method: copy
   source:
-  - name: remastered/obj/W_EX010_50.a.us/-0.dds
+  - name: remastered/obj/Wooden Keyblade/-0.dds
 - name: remastered/obj/WOODEN.a.us/-1.dds
   multi:
   - name: remastered/obj/WOODEN_NM.a.us/-1.dds
@@ -2702,15 +2745,15 @@ assets:
   platform: pc
   method: copy
   source:
-  - name: remastered/obj/W_EX010_50.a.us/-1.dds
-- name: remastered/obj/WOODEN.a.us/se/obj/se509
+  - name: remastered/obj/Wooden Keyblade/-1.dds
+- name: remastered/obj/WOODEN.a.us/se/obj/se500
   multi:
-  - name: remastered/obj/WOODEN_NM.a.us/se/obj/se509
-  - name: remastered/obj/WOODEN_TR.a.us/se/obj/se509
+  - name: remastered/obj/WOODEN_NM.a.us/se/obj/se500
+  - name: remastered/obj/WOODEN_TR.a.us/se/obj/se500
   platform: pc
   method: copy
   source:
-  - name: remastered/obj/W_EX010_50.a.us/se/obj/se509
+  - name: remastered/obj/Wooden Keyblade/se500
 - name: remastered/obj/XBLADE.a.us/-0.dds
   multi:
   - name: remastered/obj/XBLADE_NM.a.us/-0.dds
@@ -2718,8 +2761,7 @@ assets:
   platform: pc
   method: copy
   source:
-  - name: remastered/obj/W_EX010_M0.a.us/-0.dds
-    type: internal
+  - name: remastered/obj/XBlade/-0.dds
 - name: remastered/obj/XBLADE.a.us/-1.dds
   multi:
   - name: remastered/obj/XBLADE_NM.a.us/-1.dds
@@ -2727,8 +2769,7 @@ assets:
   platform: pc
   method: copy
   source:
-  - name: remastered/obj/W_EX010_M0.a.us/-1.dds
-    type: internal
+  - name: remastered/obj/XBlade/-1.dds
 - name: remastered/obj/XBLADE.a.us/-2.dds
   multi:
   - name: remastered/obj/XBLADE_NM.a.us/-2.dds
@@ -2736,8 +2777,7 @@ assets:
   platform: pc
   method: copy
   source:
-  - name: remastered/obj/W_EX010_M0.a.us/-2.dds
-    type: internal
+  - name: remastered/obj/XBlade/-2.dds
 - name: remastered/obj/XBLADE.a.us/-3.dds
   multi:
   - name: remastered/obj/XBLADE_NM.a.us/-3.dds
@@ -2745,8 +2785,7 @@ assets:
   platform: pc
   method: copy
   source:
-  - name: remastered/obj/W_EX010_M0.a.us/-3.dds
-    type: internal
+  - name: remastered/obj/XBlade/-3.dds
 - name: remastered/obj/XBLADE.a.us/-4.dds
   multi:
   - name: remastered/obj/XBLADE_NM.a.us/-4.dds
@@ -2754,17 +2793,15 @@ assets:
   platform: pc
   method: copy
   source:
-  - name: remastered/obj/W_EX010_M0.a.us/-4.dds
-    type: internal
-- name: remastered/obj/XBLADE.a.us/se/obj/se524
+  - name: remastered/obj/XBlade/-4.dds
+- name: remastered/obj/XBLADE.a.us/se/obj/se525
   multi:
-  - name: remastered/obj/XBLADE_NM.a.us/se/obj/se524
-  - name: remastered/obj/XBLADE_TR.a.us/se/obj/se524
+  - name: remastered/obj/XBLADE_NM.a.us/se/obj/se525
+  - name: remastered/obj/XBLADE_TR.a.us/se/obj/se525
   platform: pc
   method: copy
   source:
-  - name: remastered/obj/W_EX010_M0.a.us/se/obj/se524
-    type: internal
+  - name: remastered/obj/XBlade/se525
 
 # Keyblade Itempics
 - name: itempic/item-030.imd
