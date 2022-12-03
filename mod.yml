@@ -2361,6 +2361,22 @@ assets:
   method: copy
   source:
   - name: obj/Keyblades/Anguinvi.a.us
+- name: obj/ENDSOFTHEEARTH.a.fm
+  multi:
+  - name: obj/Keyblades/ENDSOFTHEEARTH_NM.a.fm
+  - name: obj/Keyblades/ENDSOFTHEEARTH_TR.a.fm
+  platform: ps2
+  method: copy
+  source:
+  - name: obj/Keyblades/EndsoftheEarth.a.fm
+- name: obj/ENDSOFTHEEARTH.a.us
+  multi:
+  - name: obj/Keyblades/ENDSOFTHEEARTH_NM.a.us
+  - name: obj/Keyblades/ENDSOFTHEEARTH_TR.a.us
+  platform: pc
+  method: copy
+  source:
+  - name: obj/Keyblades/EndsoftheEarth.a.us
 - name: obj/LEOPAGULA.a.fm
   multi:
   - name: obj/Keyblades/LEOPAGULA_NM.a.fm
@@ -2480,8 +2496,7 @@ assets:
   platform: pc
   method: copy
   source:
-  - name: remastered/obj/W_EX010_B0.a.us/-0.dds
-    type: internal
+  - name: remastered/obj/Anguinvi/-0.dds
 - name: remastered/obj/ANGUINVI.a.us/-1.dds
   multi:
   - name: remastered/obj/ANGUINVI_NM.a.us/-1.dds
@@ -2489,8 +2504,7 @@ assets:
   platform: pc
   method: copy
   source:
-  - name: remastered/obj/W_EX010_B0.a.us/-1.dds
-    type: internal
+  - name: remastered/obj/Anguinvi/-1.dds
 - name: remastered/obj/ANGUINVI.a.us/-2.dds
   multi:
   - name: remastered/obj/ANGUINVI_NM.a.us/-2.dds
@@ -2498,17 +2512,63 @@ assets:
   platform: pc
   method: copy
   source:
-  - name: remastered/obj/W_EX010_B0.a.us/-2.dds
-    type: internal
+  - name: remastered/obj/Anguinvi/-2.dds
 - name: remastered/obj/ANGUINVI.a.us/se/obj/se515
   multi:
-  - name: remastered/obj/ANGUINVI_NM.a.us/se/obj/se515
-  - name: remastered/obj/ANGUINVI_TR.a.us/se/obj/se515
+  - name: remastered/obj/ANGUINVI_NM.a.us/se/obj/se522
+  - name: remastered/obj/ANGUINVI_TR.a.us/se/obj/se522
   platform: pc
   method: copy
   source:
-  - name: remastered/obj/W_EX010_B0.a.us/se/obj/se515
-    type: internal
+  - name: remastered/obj/Anguinvi/se522
+- name: remastered/obj/ENDSOFTHEEARTH.a.us/-0.dds
+  multi:
+  - name: remastered/obj/ENDSOFTHEEARTH_NM.a.us/-0.dds
+  - name: remastered/obj/ENDSOFTHEEARTH_TR.a.us/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/EndsoftheEarth/-0.dds
+- name: remastered/obj/ENDSOFTHEEARTH.a.us/-1.dds
+  multi:
+  - name: remastered/obj/ENDSOFTHEEARTH_NM.a.us/-1.dds
+  - name: remastered/obj/ENDSOFTHEEARTH_TR.a.us/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/EndsoftheEarth/-1.dds
+- name: remastered/obj/ENDSOFTHEEARTH.a.us/-2.dds
+  multi:
+  - name: remastered/obj/ENDSOFTHEEARTH_NM.a.us/-2.dds
+  - name: remastered/obj/ENDSOFTHEEARTH_TR.a.us/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/EndsoftheEarth/-2.dds
+- name: remastered/obj/ENDSOFTHEEARTH.a.us/-3.dds
+  multi:
+  - name: remastered/obj/ENDSOFTHEEARTH_NM.a.us/-3.dds
+  - name: remastered/obj/ENDSOFTHEEARTH_TR.a.us/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/EndsoftheEarth/-3.dds
+- name: remastered/obj/ENDSOFTHEEARTH.a.us/-4.dds
+  multi:
+  - name: remastered/obj/ENDSOFTHEEARTH_NM.a.us/-4.dds
+  - name: remastered/obj/ENDSOFTHEEARTH_TR.a.us/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/EndsoftheEarth/-4.dds
+- name: remastered/obj/ENDSOFTHEEARTH.a.us/se/obj/se394
+  multi:
+  - name: remastered/obj/ENDSOFTHEEARTH_NM.a.us/se/obj/se394
+  - name: remastered/obj/ENDSOFTHEEARTH_TR.a.us/se/obj/se394
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/EndsoftheEarth/se394
 - name: remastered/obj/LEOPAGULA.a.us/-0.dds
   multi:
   - name: remastered/obj/LEOPAGULA_NM.a.us/-0.dds
@@ -2516,8 +2576,7 @@ assets:
   platform: pc
   method: copy
   source:
-  - name: remastered/obj/W_EX010_M0.a.us/-0.dds
-    type: internal
+  - name: remastered/obj/Leopagula/-0.dds
 - name: remastered/obj/LEOPAGULA.a.us/-1.dds
   multi:
   - name: remastered/obj/LEOPAGULA_NM.a.us/-1.dds
@@ -2525,8 +2584,7 @@ assets:
   platform: pc
   method: copy
   source:
-  - name: remastered/obj/W_EX010_M0.a.us/-1.dds
-    type: internal
+  - name: remastered/obj/Leopagula/-1.dds
 - name: remastered/obj/LEOPAGULA.a.us/-2.dds
   multi:
   - name: remastered/obj/LEOPAGULA_NM.a.us/-2.dds
@@ -2534,8 +2592,7 @@ assets:
   platform: pc
   method: copy
   source:
-  - name: remastered/obj/W_EX010_M0.a.us/-2.dds
-    type: internal
+  - name: remastered/obj/Leopagula/-2.dds
 - name: remastered/obj/LEOPAGULA.a.us/-3.dds
   multi:
   - name: remastered/obj/LEOPAGULA_NM.a.us/-3.dds
@@ -2543,8 +2600,7 @@ assets:
   platform: pc
   method: copy
   source:
-  - name: remastered/obj/W_EX010_M0.a.us/-3.dds
-    type: internal
+  - name: remastered/obj/Leopagula/-3.dds
 - name: remastered/obj/LEOPAGULA.a.us/-4.dds
   multi:
   - name: remastered/obj/LEOPAGULA_NM.a.us/-4.dds
@@ -2552,8 +2608,7 @@ assets:
   platform: pc
   method: copy
   source:
-  - name: remastered/obj/W_EX010_M0.a.us/-4.dds
-    type: internal
+  - name: remastered/obj/Leopagula/-4.dds
 - name: remastered/obj/LEOPAGULA.a.us/se/obj/se524
   multi:
   - name: remastered/obj/LEOPAGULA_NM.a.us/se/obj/se524
@@ -2561,8 +2616,7 @@ assets:
   platform: pc
   method: copy
   source:
-  - name: remastered/obj/W_EX010_M0.a.us/se/obj/se524
-    type: internal
+  - name: remastered/obj/Leopagula/se524
 - name: remastered/obj/NONAME.a.us/-0.dds
   multi:
   - name: remastered/obj/NONAME_NM.a.us/-0.dds
@@ -2602,8 +2656,7 @@ assets:
   platform: pc
   method: copy
   source:
-  - name: remastered/obj/W_EX010_F0.a.us/-0.dds
-    type: internal
+  - name: remastered/obj/Unicoira/-0.dds
 - name: remastered/obj/UNICOIRA.a.us/-1.dds
   multi:
   - name: remastered/obj/UNICOIRA_NM.a.us/-1.dds
@@ -2611,8 +2664,7 @@ assets:
   platform: pc
   method: copy
   source:
-  - name: remastered/obj/W_EX010_F0.a.us/-1.dds
-    type: internal
+  - name: remastered/obj/Unicoira/-1.dds
 - name: remastered/obj/UNICOIRA.a.us/-2.dds
   multi:
   - name: remastered/obj/UNICOIRA_NM.a.us/-2.dds
@@ -2620,17 +2672,15 @@ assets:
   platform: pc
   method: copy
   source:
-  - name: remastered/obj/W_EX010_F0.a.us/-2.dds
-    type: internal
+  - name: remastered/obj/Unicoira/-2.dds
 - name: remastered/obj/UNICOIRA.a.us/se/obj/se519
   multi:
-  - name: remastered/obj/UNICOIRA_NM.a.us/se/obj/se519
-  - name: remastered/obj/UNICOIRA_TR.a.us/se/obj/se519
+  - name: remastered/obj/UNICOIRA_NM.a.us/se/obj/se523
+  - name: remastered/obj/UNICOIRA_TR.a.us/se/obj/se523
   platform: pc
   method: copy
   source:
-  - name: remastered/obj/W_EX010_F0.a.us/se/obj/se519
-    type: internal
+  - name: remastered/obj/Unicoira/se523
 - name: remastered/obj/URSACED.a.us/-0.dds
   multi:
   - name: remastered/obj/URSACED_NM.a.us/-0.dds
@@ -2678,8 +2728,7 @@ assets:
   platform: pc
   method: copy
   source:
-  - name: remastered/obj/W_EX010_D0.a.us/-0.dds
-    type: internal
+  - name: remastered/obj/Vulpava/-0.dds
 - name: remastered/obj/VULPAVA.a.us/-1.dds
   multi:
   - name: remastered/obj/VULPAVA_NM.a.us/-1.dds
@@ -2687,8 +2736,7 @@ assets:
   platform: pc
   method: copy
   source:
-  - name: remastered/obj/W_EX010_D0.a.us/-1.dds
-    type: internal
+  - name: remastered/obj/Vulpava/-1.dds
 - name: remastered/obj/VULPAVA.a.us/-2.dds
   multi:
   - name: remastered/obj/VULPAVA_NM.a.us/-2.dds
@@ -2696,8 +2744,7 @@ assets:
   platform: pc
   method: copy
   source:
-  - name: remastered/obj/W_EX010_D0.a.us/-2.dds
-    type: internal
+  - name: remastered/obj/Vulpava/-2.dds
 - name: remastered/obj/VULPAVA.a.us/-3.dds
   multi:
   - name: remastered/obj/VULPAVA_NM.a.us/-3.dds
@@ -2705,17 +2752,15 @@ assets:
   platform: pc
   method: copy
   source:
-  - name: remastered/obj/W_EX010_D0.a.us/-3.dds
-    type: internal
+  - name: remastered/obj/Vulpava/-3.dds
 - name: remastered/obj/VULPAVA.a.us/se/obj/se517
   multi:
-  - name: remastered/obj/VULPAVA_NM.a.us/se/obj/se517
-  - name: remastered/obj/VULPAVA_TR.a.us/se/obj/se517
+  - name: remastered/obj/VULPAVA_NM.a.us/se/obj/se514
+  - name: remastered/obj/VULPAVA_TR.a.us/se/obj/se514
   platform: pc
   method: copy
   source:
-  - name: remastered/obj/W_EX010_D0.a.us/se/obj/se517
-    type: internal
+  - name: remastered/obj/Vulpava/se514
 - name: remastered/obj/WOODEN.a.us/-0.dds
   multi:
   - name: remastered/obj/WOODEN_NM.a.us/-0.dds
