@@ -2407,6 +2407,22 @@ assets:
   method: copy
   source:
   - name: obj/Keyblades/Leopagula.a.us
+- name: obj/NACHTSTERN.a.fm
+  multi:
+  - name: obj/Keyblades/NACHTSTERN_NM.a.fm
+  - name: obj/Keyblades/NACHTSTERN_TR.a.fm
+  platform: ps2
+  method: copy
+  source:
+  - name: obj/Keyblades/Nachtstern.a.fm
+- name: obj/NACHTSTERN.a.us
+  multi:
+  - name: obj/Keyblades/NACHTSTERN_NM.a.us
+  - name: obj/Keyblades/NACHTSTERN_TR.a.us
+  platform: pc
+  method: copy
+  source:
+  - name: obj/Keyblades/Nachtstern.a.us
 - name: obj/NONAME.a.fm
   multi:
   - name: obj/Keyblades/NONAME_NM.a.fm
@@ -2631,6 +2647,62 @@ assets:
   method: copy
   source:
   - name: remastered/obj/Leopagula/se524
+- name: remastered/obj/NACHTSTERN.a.us/-0.dds
+  multi:
+  - name: remastered/obj/NACHTSTERN_NM.a.us/-0.dds
+  - name: remastered/obj/NACHTSTERN_TR.a.us/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/Nachtstern/-0.dds
+- name: remastered/obj/NACHTSTERN.a.us/-1.dds
+  multi:
+  - name: remastered/obj/NACHTSTERN_NM.a.us/-1.dds
+  - name: remastered/obj/NACHTSTERN_TR.a.us/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/Nachtstern/-1.dds
+- name: remastered/obj/NACHTSTERN.a.us/-2.dds
+  multi:
+  - name: remastered/obj/NACHTSTERN_NM.a.us/-2.dds
+  - name: remastered/obj/NACHTSTERN_TR.a.us/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/Nachtstern/-2.dds
+- name: remastered/obj/NACHTSTERN.a.us/-3.dds
+  multi:
+  - name: remastered/obj/NACHTSTERN_NM.a.us/-3.dds
+  - name: remastered/obj/NACHTSTERN_TR.a.us/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/Nachtstern/-3.dds
+- name: remastered/obj/NACHTSTERN.a.us/-4.dds
+  multi:
+  - name: remastered/obj/NACHTSTERN_NM.a.us/-4.dds
+  - name: remastered/obj/NACHTSTERN_TR.a.us/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/Nachtstern/-4.dds
+- name: remastered/obj/NACHTSTERN.a.us/-5.dds
+  multi:
+  - name: remastered/obj/NACHTSTERN_NM.a.us/-5.dds
+  - name: remastered/obj/NACHTSTERN_TR.a.us/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/Nachtstern/-5.dds
+- name: remastered/obj/NACHTSTERN.a.us/se/obj/se526
+  multi:
+  - name: remastered/obj/NACHTSTERN_NM.a.us/se/obj/se526
+  - name: remastered/obj/NACHTSTERN_TR.a.us/se/obj/se526
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/Nachtstern/se526
 - name: remastered/obj/NONAME.a.us/-0.dds
   multi:
   - name: remastered/obj/NONAME_NM.a.us/-0.dds
