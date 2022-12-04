@@ -2925,7 +2925,7 @@ assets:
   - name: remastered/obj/XBlade/se525
 
 # Keyblade Itempics
-- name: itempic/item-030.imd
+- name: itempic/item-093.imd
   method: copy
   source:
   - name: itempic/Anguinvi.imd
@@ -2933,31 +2933,31 @@ assets:
   method: copy
   source:
   - name: itempic/Ends of the Earth.imd
-- name: itempic/item-032.imd
-  method: copy
-  source:
-  - name: itempic/Leopagula.imd
-- name: itempic/item-092.imd
-  method: copy
-  source:
-  - name: itempic/Nachtstern.imd
-- name: itempic/item-093.imd
-  method: copy
-  source:
-  - name: itempic/No Name.imd
 - name: itempic/item-094.imd
   method: copy
   source:
-  - name: itempic/Unicoira.imd
-- name: itempic/item-098.imd
+  - name: itempic/Leopagula.imd
+- name: itempic/item-032.imd
   method: copy
   source:
-  - name: itempic/Ursaced.imd
+  - name: itempic/Nachtstern.imd
+- name: itempic/item-100.imd
+  method: copy
+  source:
+  - name: itempic/No Name.imd
+- name: itempic/item-092.imd
+  method: copy
+  source:
+  - name: itempic/Unicoira.imd
 - name: itempic/item-099.imd
   method: copy
   source:
+  - name: itempic/Ursaced.imd
+- name: itempic/item-098.imd
+  method: copy
+  source:
   - name: itempic/Vulpava.imd 
-- name: itempic/item-100.imd
+- name: itempic/item-030.imd
   method: copy
   source:
   - name: itempic/Wooden Keyblade.imd
@@ -2965,7 +2965,7 @@ assets:
   method: copy
   source:
   - name: itempic/X-Blade.imd
-- name: remastered/itempic/item-030.imd/-0.dds
+- name: remastered/itempic/item-093.imd/-0.dds
   method: copy
   source:
   - name: remastered/itempic/Anguinvi.dds
@@ -2973,31 +2973,31 @@ assets:
   method: copy
   source:
   - name: remastered/itempic/Ends of the Earth.dds
-- name: remastered/itempic/item-032.imd/-0.dds
-  method: copy
-  source:
-  - name: remastered/itempic/Leopagula.dds
-- name: remastered/itempic/item-092.imd/-0.dds
-  method: copy
-  source:
-  - name: remastered/itempic/Nachtstern.dds
-- name: remastered/itempic/item-093.imd/-0.dds
-  method: copy
-  source:
-  - name: remastered/itempic/No Name.dds
 - name: remastered/itempic/item-094.imd/-0.dds
   method: copy
   source:
-  - name: remastered/itempic/Unicoira.dds
-- name: remastered/itempic/item-098.imd/-0.dds
+  - name: remastered/itempic/Leopagula.dds
+- name: remastered/itempic/item-032.imd/-0.dds
   method: copy
   source:
-  - name: remastered/itempic/Ursaced.dds
+  - name: remastered/itempic/Nachtstern.dds
+- name: remastered/itempic/item-100.imd/-0.dds
+  method: copy
+  source:
+  - name: remastered/itempic/No Name.dds
+- name: remastered/itempic/item-092.imd/-0.dds
+  method: copy
+  source:
+  - name: remastered/itempic/Unicoira.dds
 - name: remastered/itempic/item-099.imd/-0.dds
   method: copy
   source:
+  - name: remastered/itempic/Ursaced.dds
+- name: remastered/itempic/item-098.imd/-0.dds
+  method: copy
+  source:
   - name: remastered/itempic/Vulpava.idds
-- name: remastered/itempic/item-100.imd/-0.dds
+- name: remastered/itempic/item-030.imd/-0.dds
   method: copy
   source:
   - name: remastered/itempic/Wooden Keyblade.dds

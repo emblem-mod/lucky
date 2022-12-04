@@ -1,5 +1,5 @@
 Items:
-- Id: 161 #Detection Staff
+- Id: 161 #Detection Staff -> Wooden Keyblade
   Type: Keyblade
   Flag0: 0
   Flag1: 33
@@ -14,7 +14,7 @@ Items:
   Picture: 30
   Icon1: 0
   Icon2: 4
-- Id: 50 #Detection Shield
+- Id: 50 #Detection Shield -> Ends of the Earth
   Type: Keyblade
   Flag0: 0
   Flag1: 34
@@ -29,7 +29,7 @@ Items:
   Picture: 31
   Icon1: 0
   Icon2: 4
-- Id: 51 #Test the King
+- Id: 51 #Test the King -> Nachtstern
   Type: Keyblade
   Flag0: 0
   Flag1: 35
@@ -44,7 +44,7 @@ Items:
   Picture: 32
   Icon1: 0
   Icon2: 4
-- Id: 72 #Scimitar
+- Id: 72 #Scimitar -> Unicoira
   Type: Keyblade
   Flag0: 0
   Flag1: 36
@@ -59,7 +59,7 @@ Items:
   Picture: 92
   Icon1: 0
   Icon2: 4
-- Id: 54 #Battlefields of War
+- Id: 54 #Battlefields of War -> Anguinvi
   Type: Keyblade
   Flag0: 0
   Flag1: 37
@@ -74,7 +74,7 @@ Items:
   Picture: 93
   Icon1: 0
   Icon2: 4
-- Id: 55 #Sword of the Ancestor
+- Id: 55 #Sword of the Ancestor -> Leopagula
   Type: Keyblade
   Flag0: 0
   Flag1: 38
@@ -89,7 +89,7 @@ Items:
   Picture: 94
   Icon1: 0
   Icon2: 4
-- Id: 59 #Beast's Claw
+- Id: 59 #Beast's Claw -> Vulpava
   Type: Keyblade
   Flag0: 0
   Flag1: 39
@@ -104,7 +104,7 @@ Items:
   Picture: 98
   Icon1: 0
   Icon2: 4
-- Id: 60 #Bone Fist
+- Id: 60 #Bone Fist -> Ursaced
   Type: Keyblade
   Flag0: 0
   Flag1: 40
@@ -119,7 +119,7 @@ Items:
   Picture: 99
   Icon1: 0
   Icon2: 4
-- Id: 61 #Proud Fang
+- Id: 61 #Proud Fang -> No Name
   Type: Keyblade
   Flag0: 0
   Flag1: 41
@@ -134,7 +134,7 @@ Items:
   Picture: 100
   Icon1: 0
   Icon2: 4
-- Id: 62 #Skill and Crossbones
+- Id: 62 #Skill and Crossbones -> X-Blade
   Type: Keyblade
   Flag0: 0
   Flag1: 42
