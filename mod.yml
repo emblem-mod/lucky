@@ -20,11 +20,15 @@ assets:
     type: Bdx
     method: copy
     source:
-    - name: ai/b_ca050.bdx
+    - name: obj/b_ca050.bdx
 - name: obj/F_CA690_BTL.mdlx # Grim Reaper II Chest to Origin
   method: copy
   source:
-  - name: obj/F_CA690_BTL.mdlx
+  - name: f_ca
+    type: Bdx
+    method: copy
+    source:
+    - name: obj/f_ca690_btl.bdx
 
 # =================================================================================================================== #
 # HIDDEN KINGS PLANDO #################################################################################################
