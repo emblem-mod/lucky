@@ -1,7 +1,10 @@
 ﻿- id: 1506
   en: Specialized Weapon
 - id: 1507
-  en: A weapon specialized for the user's fighting style.
+  en: >-
+    A weapon specialized for the user's
+    
+    unique fighting style.
 - id: 12083
   en: Wooden Keyblade
 - id: 12084
