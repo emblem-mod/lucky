@@ -2996,7 +2996,7 @@ assets:
 - name: remastered/itempic/item-098.imd/-0.dds
   method: copy
   source:
-  - name: remastered/itempic/Vulpava.idds
+  - name: remastered/itempic/Vulpava.dds
 - name: remastered/itempic/item-030.imd/-0.dds
   method: copy
   source:
