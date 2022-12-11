@@ -2924,6 +2924,23 @@ assets:
   source:
   - name: remastered/obj/XBlade/se525
 
+# Keyblade Effects (Models WIP, PS2 only)
+- name: obj/W_EX010_10.a.fm
+  multi:
+  - name: obj/W_EX010_10_NM.a.fm
+  - name: obj/W_EX010_10_TR.a.fm
+  platform: ps2
+  method: copy
+  source:
+  - name: obj/Keyblades/Emblem.a.fm
+- name: obj/W_EX010_20.a.fm
+  multi:
+  - name: obj/W_EX010_20_NM.a.fm
+  - name: obj/W_EX010_20_TR.a.fm
+  platform: ps2
+  method: copy
+  source:
+  - name: obj/Keyblades/Organization.a.fm
 # Keyblade Itempics
 - name: itempic/item-093.imd
   method: copy
