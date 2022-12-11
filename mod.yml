@@ -2365,160 +2365,160 @@ assets:
 # Keyblade Effects
 - name: obj/ANGUINVI.a.fm
   multi:
-  - name: obj/Keyblades/ANGUINVI_NM.a.fm
-  - name: obj/Keyblades/ANGUINVI_TR.a.fm
+  - name: obj/ANGUINVI_NM.a.fm
+  - name: obj/ANGUINVI_TR.a.fm
   platform: ps2
   method: copy
   source:
   - name: obj/Keyblades/Anguinvi.a.fm
 - name: obj/ANGUINVI.a.us
   multi:
-  - name: obj/Keyblades/ANGUINVI_NM.a.us
-  - name: obj/Keyblades/ANGUINVI_TR.a.us
+  - name: obj/ANGUINVI_NM.a.us
+  - name: obj/ANGUINVI_TR.a.us
   platform: pc
   method: copy
   source:
   - name: obj/Keyblades/Anguinvi.a.us
 - name: obj/ENDSOFTHEEARTH.a.fm
   multi:
-  - name: obj/Keyblades/ENDSOFTHEEARTH_NM.a.fm
-  - name: obj/Keyblades/ENDSOFTHEEARTH_TR.a.fm
+  - name: obj/ENDSOFTHEEARTH_NM.a.fm
+  - name: obj/ENDSOFTHEEARTH_TR.a.fm
   platform: ps2
   method: copy
   source:
   - name: obj/Keyblades/EndsoftheEarth.a.fm
 - name: obj/ENDSOFTHEEARTH.a.us
   multi:
-  - name: obj/Keyblades/ENDSOFTHEEARTH_NM.a.us
-  - name: obj/Keyblades/ENDSOFTHEEARTH_TR.a.us
+  - name: obj/ENDSOFTHEEARTH_NM.a.us
+  - name: obj/ENDSOFTHEEARTH_TR.a.us
   platform: pc
   method: copy
   source:
   - name: obj/Keyblades/EndsoftheEarth.a.us
 - name: obj/LEOPAGULA.a.fm
   multi:
-  - name: obj/Keyblades/LEOPAGULA_NM.a.fm
-  - name: obj/Keyblades/LEOPAGULA_TR.a.fm
+  - name: obj/LEOPAGULA_NM.a.fm
+  - name: obj/LEOPAGULA_TR.a.fm
   platform: ps2
   method: copy
   source:
   - name: obj/Keyblades/Leopagula.a.fm
 - name: obj/LEOPAGULA.a.us
   multi:
-  - name: obj/Keyblades/LEOPAGULA_NM.a.us
-  - name: obj/Keyblades/LEOPAGULA_TR.a.us
+  - name: obj/LEOPAGULA_NM.a.us
+  - name: obj/LEOPAGULA_TR.a.us
   platform: pc
   method: copy
   source:
   - name: obj/Keyblades/Leopagula.a.us
 - name: obj/NACHTSTERN.a.fm
   multi:
-  - name: obj/Keyblades/NACHTSTERN_NM.a.fm
-  - name: obj/Keyblades/NACHTSTERN_TR.a.fm
+  - name: obj/NACHTSTERN_NM.a.fm
+  - name: obj/NACHTSTERN_TR.a.fm
   platform: ps2
   method: copy
   source:
   - name: obj/Keyblades/Nachtstern.a.fm
 - name: obj/NACHTSTERN.a.us
   multi:
-  - name: obj/Keyblades/NACHTSTERN_NM.a.us
-  - name: obj/Keyblades/NACHTSTERN_TR.a.us
+  - name: obj/NACHTSTERN_NM.a.us
+  - name: obj/NACHTSTERN_TR.a.us
   platform: pc
   method: copy
   source:
   - name: obj/Keyblades/Nachtstern.a.us
 - name: obj/NONAME.a.fm
   multi:
-  - name: obj/Keyblades/NONAME_NM.a.fm
-  - name: obj/Keyblades/NONAME_TR.a.fm
+  - name: obj/NONAME_NM.a.fm
+  - name: obj/NONAME_TR.a.fm
   platform: ps2
   method: copy
   source:
   - name: obj/Keyblades/NoName.a.fm
 - name: obj/NONAME.a.us
   multi:
-  - name: obj/Keyblades/NONAME_NM.a.us
-  - name: obj/Keyblades/NONAME_TR.a.us
+  - name: obj/NONAME_NM.a.us
+  - name: obj/NONAME_TR.a.us
   platform: pc
   method: copy
   source:
   - name: obj/Keyblades/NoName.a.us
 - name: obj/UNICOIRA.a.fm
   multi:
-  - name: obj/Keyblades/UNICOIRA_NM.a.fm
-  - name: obj/Keyblades/UNICOIRA_TR.a.fm
+  - name: obj/UNICOIRA_NM.a.fm
+  - name: obj/UNICOIRA_TR.a.fm
   platform: ps2
   method: copy
   source:
   - name: obj/Keyblades/Unicoira.a.fm
 - name: obj/UNICOIRA.a.us
   multi:
-  - name: obj/Keyblades/UNICOIRA_NM.a.us
-  - name: obj/Keyblades/UNICOIRA_TR.a.us
+  - name: obj/UNICOIRA_NM.a.us
+  - name: obj/UNICOIRA_TR.a.us
   platform: pc
   method: copy
   source:
   - name: obj/Keyblades/Unicoira.a.us
 - name: obj/URSACED.a.fm
   multi:
-  - name: obj/Keyblades/URSACED_NM.a.fm
-  - name: obj/Keyblades/URSACED_TR.a.fm
+  - name: obj/URSACED_NM.a.fm
+  - name: obj/URSACED_TR.a.fm
   platform: ps2
   method: copy
   source:
   - name: obj/Keyblades/Ursaced.a.fm
 - name: obj/URSACED.a.us
   multi:
-  - name: obj/Keyblades/URSACED_NM.a.us
-  - name: obj/Keyblades/URSACED_TR.a.us
+  - name: obj/URSACED_NM.a.us
+  - name: obj/URSACED_TR.a.us
   platform: pc
   method: copy
   source:
   - name: obj/Keyblades/Ursaced.a.us
 - name: obj/VULPAVA.a.fm
   multi:
-  - name: obj/Keyblades/VULPAVA_NM.a.fm
-  - name: obj/Keyblades/VULPAVA_TR.a.fm
+  - name: obj/VULPAVA_NM.a.fm
+  - name: obj/VULPAVA_TR.a.fm
   platform: ps2
   method: copy
   source:
   - name: obj/Keyblades/Vulpava.a.fm
 - name: obj/VULPAVA.a.us
   multi:
-  - name: obj/Keyblades/VULPAVA_NM.a.us
-  - name: obj/Keyblades/VULPAVA_TR.a.us
+  - name: obj/VULPAVA_NM.a.us
+  - name: obj/VULPAVA_TR.a.us
   platform: pc
   method: copy
   source:
   - name: obj/Keyblades/Vulpava.a.us
 - name: obj/WOODEN.a.fm
   multi:
-  - name: obj/Keyblades/WOODEN_NM.a.fm
-  - name: obj/Keyblades/WOODEN_TR.a.fm
+  - name: obj/WOODEN_NM.a.fm
+  - name: obj/WOODEN_TR.a.fm
   platform: ps2
   method: copy
   source:
   - name: obj/Keyblades/Wooden Keyblade.a.fm
 - name: obj/WOODEN.a.us
   multi:
-  - name: obj/Keyblades/WOODEN_NM.a.us
-  - name: obj/Keyblades/WOODEN_TR.a.us
+  - name: obj/WOODEN_NM.a.us
+  - name: obj/WOODEN_TR.a.us
   platform: pc
   method: copy
   source:
   - name: obj/Keyblades/Wooden Keyblade.a.us
 - name: obj/XBLADE.a.fm
   multi:
-  - name: obj/Keyblades/XBLADE_NM.a.fm
-  - name: obj/Keyblades/XBLADE_TR.a.fm
+  - name: obj/XBLADE_NM.a.fm
+  - name: obj/XBLADE_TR.a.fm
   platform: ps2
   method: copy
   source:
   - name: obj/Keyblades/XBlade.a.fm
 - name: obj/XBLADE.a.us
   multi:
-  - name: obj/Keyblades/XBLADE_NM.a.us
-  - name: obj/Keyblades/XBLADE_TR.a.us
+  - name: obj/XBLADE_NM.a.us
+  - name: obj/XBLADE_TR.a.us
   platform: pc
   method: copy
   source:
